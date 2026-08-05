@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: peptide-encyclopedia-api
+    env: python
+    plan: starter
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: DATABASE_URL
+        value: sqlite:////var/data/peptides.db
+      - key: ADMIN_API_KEY
+        sync: false  # set manually in Render dashboard, don't commit the real value
+    disk:
+      name: peptide-data
+      mountPath: /var/data
+      sizeGB: 1
