@@ -1,0 +1,43 @@
+id: bpc-157
+name: BPC-157
+status: published
+
+category_ids:
+  - healing
+  - gut-health
+
+overview: >
+  A synthetic peptide derived from a protective protein found in gastric juice.
+
+mechanism_of_action: >
+  Promotes angiogenesis and modulates growth factor pathways.
+
+quick_start_guide:
+  typical_dose: "250\u2013500 mcg"
+  frequency: "1\u20132x daily"
+  injection_site_ids:
+    - abdomen-subq
+    - near-injury
+  best_timing: "On an empty stomach"
+  effects_timeline: "Initial effects in 1\u20132 weeks; full benefit over 4\u20136 weeks"
+  storage: "Refrigerate after reconstitution; use within 30 days"
+  cycle_length: "4\u20136 weeks"
+  break_between: "2\u20134 weeks"
+
+pharmacokinetics:
+  peak: "~1 hour"
+  half_life: "~4 hours (est., limited human data)"
+  cleared: "~24 hours"
+
+what_to_expect: >
+  Most users report no acute sensation; healing benefits are gradual over weeks, not days.
+
+safety_notes: >
+  Limited long-term human safety data exists. Consult a healthcare provider.
+
+research_protocols:
+  - goal: "Tendon/Ligament Recovery"
+    dose: "250 mcg 2x daily"
+    timing: "Morning and evening"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0

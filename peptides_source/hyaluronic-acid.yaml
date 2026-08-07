@@ -1,0 +1,14 @@
+# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
+# Only overview/key_benefits/reconstitution_steps are populated from that
+# source -- the richer fields (mechanism_of_action, quick_start_guide,
+# pharmacokinetics, etc.) don't exist there and are left for a future pass.
+id: hyaluronic-acid
+name: Hyaluronic Acid
+status: published
+category_ids:
+- skin
+overview: Hydrating glycosaminoglycan (not a peptide)
+key_benefits:
+- Used for hydration, plumpness, and joint cushioning
+reconstitution_steps:
+- Topical or injectable per product instructions.

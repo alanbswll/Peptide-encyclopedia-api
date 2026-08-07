@@ -1,0 +1,14 @@
+# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
+# Only overview/key_benefits/reconstitution_steps are populated from that
+# source -- the richer fields (mechanism_of_action, quick_start_guide,
+# pharmacokinetics, etc.) don't exist there and are left for a future pass.
+id: ghrp-2
+name: GHRP-2
+status: published
+category_ids:
+- growth-hormone
+overview: Growth hormone releasing peptide
+key_benefits:
+- Stimulates appetite and GH release
+reconstitution_steps:
+- Mix with bacteriostatic water; store cold.

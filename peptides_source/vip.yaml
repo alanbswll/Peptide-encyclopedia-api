@@ -1,0 +1,14 @@
+# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
+# Only overview/key_benefits/reconstitution_steps are populated from that
+# source -- the richer fields (mechanism_of_action, quick_start_guide,
+# pharmacokinetics, etc.) don't exist there and are left for a future pass.
+id: vip
+name: VIP
+status: published
+category_ids:
+- cognitive
+overview: Vasoactive Intestinal Peptide
+key_benefits:
+- Studied for neuroprotection and immune modulation
+reconstitution_steps:
+- Reconstitute with bacteriostatic water; refrigerate.

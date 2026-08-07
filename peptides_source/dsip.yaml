@@ -1,0 +1,14 @@
+# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
+# Only overview/key_benefits/reconstitution_steps are populated from that
+# source -- the richer fields (mechanism_of_action, quick_start_guide,
+# pharmacokinetics, etc.) don't exist there and are left for a future pass.
+id: dsip
+name: DSIP
+status: published
+category_ids:
+- sleep
+overview: Delta sleep-inducing peptide
+key_benefits:
+- Studied for sleep quality support
+reconstitution_steps:
+- Reconstitute with bacteriostatic water; refrigerate.

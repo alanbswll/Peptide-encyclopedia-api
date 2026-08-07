@@ -1,0 +1,14 @@
+# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
+# Only overview/key_benefits/reconstitution_steps are populated from that
+# source -- the richer fields (mechanism_of_action, quick_start_guide,
+# pharmacokinetics, etc.) don't exist there and are left for a future pass.
+id: epithalon
+name: Epithalon
+status: published
+category_ids:
+- longevity
+overview: Telomerase-activating tetrapeptide
+key_benefits:
+- Typically used in short cycles
+reconstitution_steps:
+- Reconstitute with bacteriostatic water; refrigerate.

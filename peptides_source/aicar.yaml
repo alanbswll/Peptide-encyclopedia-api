@@ -1,0 +1,14 @@
+# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
+# Only overview/key_benefits/reconstitution_steps are populated from that
+# source -- the richer fields (mechanism_of_action, quick_start_guide,
+# pharmacokinetics, etc.) don't exist there and are left for a future pass.
+id: aicar
+name: AICAR
+status: published
+category_ids:
+- fat-loss
+overview: AMPK-activating compound
+key_benefits:
+- Studied for endurance and insulin sensitivity
+reconstitution_steps:
+- Reconstitute per supplier instructions; refrigerate.

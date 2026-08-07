@@ -1,0 +1,14 @@
+# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
+# Only overview/key_benefits/reconstitution_steps are populated from that
+# source -- the richer fields (mechanism_of_action, quick_start_guide,
+# pharmacokinetics, etc.) don't exist there and are left for a future pass.
+id: cjc-1295-with-dac
+name: CJC-1295 (with DAC)
+status: published
+category_ids:
+- growth-hormone
+overview: Extended-release GHRH analog with Drug Affinity Complex
+key_benefits:
+- Longer half-life than no-DAC CJC-1295; less frequent dosing
+reconstitution_steps:
+- Reconstitute with bacteriostatic water; refrigerate.

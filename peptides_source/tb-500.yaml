@@ -1,0 +1,14 @@
+# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
+# Only overview/key_benefits/reconstitution_steps are populated from that
+# source -- the richer fields (mechanism_of_action, quick_start_guide,
+# pharmacokinetics, etc.) don't exist there and are left for a future pass.
+id: tb-500
+name: TB-500
+status: published
+category_ids:
+- healing
+overview: Recovery and flexibility
+key_benefits:
+- Popular for connective tissue support
+reconstitution_steps:
+- Reconstitute carefully and keep a consistent schedule.
