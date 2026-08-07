@@ -7,33 +7,59 @@ category_ids:
   - gut-health
 
 overview: >
-  A synthetic peptide derived from a protective protein found in gastric juice.
+  A synthetic peptide derived from a protective protein found in gastric juice. It is known for
+  its healing properties, particularly in the context of tissue repair and inflammation reduction.
+
+key_benefits:
+  - Accelerates healing of tendons, ligaments, and muscles
+  - Reduces inflammation and promotes tissue regeneration
+  - Explored for supporting gut lining integrity
 
 mechanism_of_action: >
-  Promotes angiogenesis and modulates growth factor pathways.
+  Promotes angiogenesis (formation of new blood vessels) and modulates growth factor pathways.
 
 quick_start_guide:
-  typical_dose: "250\u2013500 mcg"
-  frequency: "1\u20132x daily"
+  typical_dose: "250–500 mcg"
+  frequency: "1–2x daily"
   injection_site_ids:
     - abdomen-subq
+    - thigh-subq
     - near-injury
   best_timing: "On an empty stomach"
-  effects_timeline: "Initial effects in 1\u20132 weeks; full benefit over 4\u20136 weeks"
+  effects_timeline: "Initial effects in 1–2 weeks; full benefit over 4–6 weeks"
   storage: "Refrigerate after reconstitution; use within 30 days"
-  cycle_length: "4\u20136 weeks"
-  break_between: "2\u20134 weeks"
+  cycle_length: "4–6 weeks"
+  break_between: "2–4 weeks"
 
 pharmacokinetics:
   peak: "~1 hour"
   half_life: "~4 hours (est., limited human data)"
   cleared: "~24 hours"
 
+research_indications:
+  - Wound healing and tissue repair
+  - Tendon and ligament injuries
+  - Muscle recovery
+  - IBD models (preclinical)
+
+reconstitution_steps:
+  - Clean work area and hands thoroughly.
+  - Calculate the required amount of bacteriostatic water based on the desired concentration.
+  - Use a sterile syringe to draw the bacteriostatic water.
+  - Slowly inject the bacteriostatic water into the vial containing the lyophilized BPC-157 powder.
+  - Gently swirl the vial to mix; do not shake.
+
+quality_indicators:
+  - White, fluffy cake of lyophilized powder in a sealed vial.
+  - Clear, colorless solution after reconstitution with no particulate matter.
+  - Slight clumping of the powder is normal; do not use if there is discoloration or contamination.
+
 what_to_expect: >
   Most users report no acute sensation; healing benefits are gradual over weeks, not days.
 
 safety_notes: >
-  Limited long-term human safety data exists. Consult a healthcare provider.
+  Limited long-term human safety data exists; most evidence comes from animal studies. This is a
+  research compound, not an approved treatment for any condition. Consult a healthcare provider.
 
 research_protocols:
   - goal: "Tendon/Ligament Recovery"
@@ -41,3 +67,13 @@ research_protocols:
     timing: "Morning and evening"
     disclaimer: "For research purposes only. Not evaluated by the FDA."
     sort_order: 0
+  - goal: "Gut Health Support"
+    dose: "500 mcg 1x daily"
+    timing: "Morning, empty stomach"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 1
+
+references:
+  - citation: "Sikiric P, Hahm KB, Blagaic AB, et al. Stable Gastric Pentadecapeptide BPC 157, Robert's Stomach Cytoprotection/Adaptive Cytoprotection/Organoprotection, and Selye's Stress Coping Response: Progress, Achievements, and the Future. Gut Liver. 2020;14(2):153-167."
+    url: "https://www.gutnliver.org/journal/view.html?doi=10.5009/gnl18490"
+
