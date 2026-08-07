@@ -1,6 +1,7 @@
+from datetime import datetime
 from typing import List, Optional
 
-from fastapi import APIRouter, Depends, HTTPException, Response
+from fastapi import APIRouter, Depends, Header, HTTPException, Response
 from sqlalchemy.orm import Session
 
 from .. import crud, models, schemas
@@ -11,25 +12,39 @@ router = APIRouter(prefix="/peptides", tags=["peptides"])
 
 
 # --- Public reads ------------------------------------------------------------
+# Both endpoints below are public and only ever return `status: published`
+# entries — the app should never see drafts. They support two complementary
+# incremental-sync mechanisms: an ETag/If-None-Match pair for a cheap "has
+# anything changed" check, and an `updated_since` query param (list endpoint
+# only) for pulling just the rows that changed instead of the full list.
+
+def _naive(dt: Optional[datetime]) -> Optional[datetime]:
+    return dt.replace(tzinfo=None) if dt and dt.tzinfo else dt
+
 
 @router.get("", response_model=List[schemas.PeptideListItem])
 def list_peptides(
-    status: Optional[str] = "published",
+    updated_since: Optional[datetime] = None,
     response: Response = None,
+    if_none_match: Optional[str] = Header(default=None),
     db: Session = Depends(get_db),
 ):
-    """
-    Public sync endpoint. Defaults to only published entries — the app should
-    never see drafts. Pass status=all only from the admin tooling.
-    """
-    q = db.query(models.Peptide)
-    if status and status != "all":
-        q = q.filter(models.Peptide.status == status)
-    peptides = q.all()
+    peptides = db.query(models.Peptide).filter(models.Peptide.status == "published").all()
+
+    if updated_since is not None:
+        cutoff = _naive(updated_since)
+        peptides = [p for p in peptides if p.updated_at and _naive(p.updated_at) > cutoff]
 
     latest = max((p.updated_at for p in peptides), default=None)
-    if response is not None and latest:
-        response.headers["Last-Modified"] = str(latest)
+    etag = f'W/"{len(peptides)}-{latest.isoformat() if latest else "empty"}"'
+
+    if response is not None:
+        response.headers["ETag"] = etag
+        if latest:
+            response.headers["Last-Modified"] = str(latest)
+
+    if if_none_match == etag:
+        return Response(status_code=304, headers={"ETag": etag})
 
     return [
         schemas.PeptideListItem(
@@ -44,10 +59,23 @@ def list_peptides(
 
 
 @router.get("/{peptide_id}", response_model=schemas.PeptideOut)
-def get_peptide(peptide_id: str, db: Session = Depends(get_db)):
+def get_peptide(
+    peptide_id: str,
+    response: Response = None,
+    if_none_match: Optional[str] = Header(default=None),
+    db: Session = Depends(get_db),
+):
     p = db.get(models.Peptide, peptide_id)
-    if not p:
+    if not p or p.status != "published":
         raise HTTPException(404, "Peptide not found")
+
+    etag = f'W/"{p.updated_at.isoformat() if p.updated_at else "unknown"}"'
+    if response is not None:
+        response.headers["ETag"] = etag
+
+    if if_none_match == etag:
+        return Response(status_code=304, headers={"ETag": etag})
+
     return crud.build_peptide_out(db, p)
 
 
