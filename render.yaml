@@ -6,6 +6,8 @@ services:
     buildCommand: "pip install -r requirements.txt"
     startCommand: "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
     envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7  # pydantic-core has no prebuilt wheel for 3.14 yet; pin to avoid a source build
       - key: DATABASE_URL
         value: sqlite:////var/data/peptides.db
       - key: ADMIN_API_KEY
