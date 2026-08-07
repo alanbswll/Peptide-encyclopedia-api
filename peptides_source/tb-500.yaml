@@ -1,14 +1,97 @@
-# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
 id: tb-500
 name: TB-500
 status: published
+
 category_ids:
-- healing
-overview: Recovery and flexibility
+  - healing
+
+overview: >
+  A synthetic peptide modeled on the actin-binding region of Thymosin Beta-4 (Tβ4), a
+  naturally occurring protein involved in cell migration, angiogenesis, and tissue repair.
+  Often researched alongside BPC-157 for recovery support.
+
 key_benefits:
-- Popular for connective tissue support
+  - Supports cell migration to injury sites, a key step in tissue repair
+  - Promotes angiogenesis (new blood vessel formation) in injured tissue
+  - Explored for tendon, ligament, and muscle recovery support
+  - May contribute to flexibility and reduced post-injury stiffness
+
+mechanism_of_action: >
+  Thymosin Beta-4 binds and sequesters monomeric G-actin, regulating the pool of actin
+  available for polymerization into filaments. This actin regulation drives cell migration
+  and tissue remodeling — critical for closing wound gaps and recruiting repair cells to an
+  injury site. Downstream of this core mechanism, Tβ4 also promotes angiogenesis (endothelial
+  cell migration and tubule formation) and has been shown to modulate inflammatory signaling
+  pathways (e.g. NF-κB) in preclinical models.
+
+quick_start_guide:
+  typical_dose: "2–2.5 mg"
+  frequency: "2x weekly during a loading phase; often reduced to 1x weekly for maintenance"
+  injection_site_ids:
+    - abdomen-subq
+    - near-injury
+  best_timing: "No specific timing requirement; consistency matters more than time of day"
+  effects_timeline: "Some report subtle changes in stiffness/flexibility within 1–2 weeks; fuller effect is described over the 4–6 week loading phase"
+  storage: "Refrigerate after reconstitution; use within 20–30 days"
+  cycle_length: "4–6 week loading phase, then a lower-dose maintenance period"
+  break_between: "4–6 weeks off before repeating a loading phase"
+
+pharmacokinetics:
+  peak: "Not established for the synthetic fragment; the studied parent molecule (recombinant Tβ4) peaks quickly after IV dosing"
+  half_life: "~1–2 hours for full-length Tβ4 in Phase I IV trials (dose-dependent, 42–1260 mg range); no formal human PK data exists for the shorter fragment sold as \"TB-500\""
+  cleared: "Rapid plasma clearance via conversion to an active metabolite (Ac-SDKP); reported tissue-level effects are said to outlast plasma presence considerably"
+
+research_indications:
+  - Tendon and ligament injury recovery
+  - Muscle strain and soft-tissue repair
+  - Wound healing acceleration (preclinical)
+  - Cardioprotection after ischemic injury (animal studies)
+
 reconstitution_steps:
-- Reconstitute carefully and keep a consistent schedule.
+  - "Wipe vial top with an alcohol swab"
+  - "Draw bacteriostatic water into the syringe"
+  - "Inject slowly down the side of the vial — do not spray directly onto the powder"
+  - "Gently swirl, do not shake, until fully dissolved"
+
+quality_indicators:
+  - "Powder is white and fully dissolves into a clear, colorless solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate after reconstitution"
+
+what_to_expect: >
+  Most users report no acute sensation at the injection site. Reported changes — reduced
+  stiffness, improved flexibility, faster perceived recovery — tend to build gradually over
+  the loading phase rather than appearing immediately.
+
+side_effects_common:
+  - "Mild fatigue"
+  - "Mild headache"
+  - "Injection site redness or soreness"
+  - "Rare lightheadedness"
+
+safety_notes: >
+  Human clinical safety/PK data exists only for the full-length recombinant Tβ4 molecule
+  studied by its manufacturer in Phase I trials — not for the shorter synthetic fragment
+  typically sold as "TB-500," so that data doesn't directly transfer to research-chemical
+  vendor products. Independent human research on the fragment itself is very limited.
+  Because Tβ4 promotes angiogenesis, some reviewers raise a theoretical caution around use
+  in people with active cancer or a history of cancer. Thymosin Beta-4 and its analogs are
+  on prohibited-substance lists in competitive sports. Consult a healthcare provider.
+
+references:
+  - citation: "Goldstein AL, Hannappel E, Kleinman HK. Thymosin β4: actin-sequestering protein moonlights to repair injured tissues. Trends Mol Med. 2005;11(9):421-429."
+    url: "https://pubmed.ncbi.nlm.nih.gov/16099219/"
+  - citation: "RegeneRx Biopharmaceuticals. A Phase 1 Safety Study of the Intravenous Administration of Thymosin Beta 4 in Healthy Volunteers."
+    url: "https://clinicaltrials.gov/study/NCT00743769"
+
+research_protocols:
+  - goal: "Tendon/Ligament Recovery"
+    dose: "2–2.5 mg 2x weekly"
+    timing: "Any time of day; keep the schedule consistent"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0
+  - goal: "Maintenance / General Recovery Support"
+    dose: "2–2.5 mg 1x weekly"
+    timing: "Any time of day; keep the schedule consistent"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 1

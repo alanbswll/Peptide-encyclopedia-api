@@ -33,7 +33,7 @@ field rather than guessing):
 
 ### Healing & Recovery
 - [x] **BPC-157** — [`bpc-157.yaml`](./bpc-157.yaml) — reference example, already done
-- [ ] **TB-500** — [`tb-500.yaml`](./tb-500.yaml) — _Recovery and flexibility_
+- [x] **TB-500** — [`tb-500.yaml`](./tb-500.yaml) — drafted, review before publishing
 - [ ] **KPV** — [`kpv.yaml`](./kpv.yaml) — _Anti-inflammatory tripeptide_
 - [ ] **ARA-290** — [`ara-290.yaml`](./ara-290.yaml) — _Tissue-protective erythropoietin fragment (Cibinetide)_
 - [ ] **TB-500 (Frag)** — [`tb-500-frag.yaml`](./tb-500-frag.yaml) — _Active fragment of Thymosin Beta-4_
@@ -128,4 +128,4 @@ field rather than guessing):
 
 ---
 
-**Progress: 1 / 75 done.**
+**Progress: 2 / 75 done.**
