@@ -5,10 +5,101 @@
 id: glutathione
 name: Glutathione
 status: published
+
 category_ids:
-- longevity
-overview: Tripeptide master antioxidant
+  - longevity
+
+overview: >
+  A tripeptide (glutamate-cysteine-glycine) synthesized in nearly every human cell, glutathione
+  is the body's most abundant low-molecular-weight antioxidant and a central player in
+  detoxification, immune function, and redox regulation. It is one of the most well-established,
+  mainstream-studied biomolecules referenced in this encyclopedia.
+
 key_benefits:
-- Studied for detoxification, immune function, and skin brightening
+  - Studied for detoxification, immune function, and skin brightening
+  - Functions as the body's primary intracellular antioxidant, neutralizing free radicals and reactive oxygen species
+  - Central to Phase II liver detoxification, conjugating and helping clear toxins and drug metabolites
+  - Oral and topical forms studied in a systematic review for a modest skin-brightening effect
+
+mechanism_of_action: >
+  Glutathione's antioxidant activity comes from the reactive thiol (-SH) group on its cysteine
+  residue, which is oxidized as it neutralizes free radicals and reactive oxygen/nitrogen species;
+  the enzyme glutathione reductase then regenerates the active, reduced form (GSH) using NADPH.
+  Glutathione peroxidase enzymes use GSH to detoxify hydrogen peroxide and lipid peroxides. In the
+  liver, glutathione S-transferases conjugate GSH to toxins, drugs, and heavy metals, tagging them
+  for excretion (Phase II detoxification). Because melanin synthesis can be shifted by intracellular
+  redox state, glutathione has also been studied for skin-lightening effects, plausibly through
+  inhibition of tyrosinase and a shift from darker eumelanin toward lighter pheomelanin production,
+  though the underlying mechanism is not fully settled. Endogenous glutathione synthesis and
+  tissue levels decline with age and oxidative stress, which is proposed to contribute to
+  age-related disease.
+
+quick_start_guide:
+  typical_dose: "200–600 mg (subcutaneous/IM); oral doses studied for skin effects were around 500 mg/day"
+  frequency: "1x daily to a few times weekly"
+  injection_site_ids:
+    - abdomen-subq
+    - glute-im
+    - deltoid-im
+  best_timing: "No specific timing requirement established"
+  effects_timeline: "Skin-brightening studies measured effects over 4–12+ weeks of continued use; antioxidant/detox effects are not tied to a specific subjective timeline"
+  storage: "Refrigerate after reconstitution; protect from light; use promptly as glutathione oxidizes over time"
+  cycle_length: "Often used continuously rather than in defined cycles"
+  break_between: "Not standardized"
+
+pharmacokinetics:
+  peak: "Rapidly absorbed when injected; oral glutathione has historically been considered poorly bioavailable due to gut breakdown, though some formulations aim to improve this"
+  half_life: "Short; glutathione is rapidly metabolized and recycled intracellularly"
+  cleared: "Not well characterized for exogenous glutathione specifically"
+
+research_indications:
+  - Oxidative stress and general antioxidant support
+  - Liver detoxification (Phase II conjugation)
+  - Immune function support
+  - Skin brightening / hyperpigmentation (modest evidence, inconclusive per systematic review)
+
 reconstitution_steps:
-- Reconstitute per supplier instructions; refrigerate.
+  - Reconstitute per supplier instructions; refrigerate.
+
+quality_indicators:
+  - "Clear, colorless to very pale solution after reconstitution; discoloration (yellow/brown) can indicate oxidation and reduced potency"
+  - "Third-party COA available confirming identity and purity"
+  - "No visible particulate matter after reconstitution"
+
+what_to_expect: >
+  Effects are generally subtle and cumulative rather than acute. The clinical evidence for
+  skin-brightening is real but modest — a systematic review of four clinical studies found a
+  trend toward brighter skin color with both oral (500 mg/day) and topical glutathione, but
+  called the overall evidence "inconclusive" given study quality and inconsistent findings.
+  Detoxification and antioxidant benefits are well-supported mechanistically but are not
+  something most users will consciously feel.
+
+side_effects_common:
+  - "Mild gastrointestinal upset (oral use)"
+  - "Injection site irritation"
+  - "Rare allergic-type reactions"
+
+safety_notes: >
+  Glutathione is a naturally occurring, endogenously produced molecule with a strong general
+  safety profile, but the clinical evidence for cosmetic claims (especially skin whitening) is
+  weaker and less consistent than commonly marketed, per systematic review. High-dose or
+  frequent IV glutathione for cosmetic use has been associated with rare adverse events in
+  case reports, and unregulated/high-dose IV use is discouraged. Consult a healthcare provider.
+
+references:
+  - citation: "Wu G, Fang YZ, Yang S, Lupton JR, Turner ND. Glutathione metabolism and its implications for health. J Nutr. 2004;134(3):489-492."
+    url: "https://pubmed.ncbi.nlm.nih.gov/14988435/"
+  - citation: "Dilokthornsakul W, Dhippayom T, Dilokthornsakul P. The clinical effect of glutathione on skin color and other related skin conditions: A systematic review. J Cosmet Dermatol. 2019;18(3):728-737."
+    url: "https://pubmed.ncbi.nlm.nih.gov/30895708/"
+
+research_protocols:
+  - goal: "Antioxidant / Detoxification Support"
+    dose: "200–400 mg daily"
+    timing: "Any time of day"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0
+  - goal: "Skin Brightening (research interest)"
+    dose: "500 mg daily (oral) or 300–600 mg (injectable), per studied ranges"
+    timing: "Any time of day; consistency over weeks matters more than time of day"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Evidence for cosmetic skin effects is limited and inconsistent."
+    sort_order: 1

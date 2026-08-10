@@ -5,10 +5,74 @@
 id: ll-37
 name: LL-37
 status: published
+
 category_ids:
-- immune
-overview: Antimicrobial host-defense peptide
+  - immune
+
+overview: >
+  The only cathelicidin-family antimicrobial peptide produced by humans, released from
+  neutrophils, macrophages, and epithelial cells as part of the innate immune system. It is
+  extensively studied in academic research for its antimicrobial, immune-modulating, and
+  wound-healing roles, but it is not an FDA-approved drug.
+
 key_benefits:
-- Studied for antimicrobial and wound support
+  - Studied for antimicrobial and wound support
+  - Direct antimicrobial activity against a broad range of gram-positive and gram-negative
+    bacteria, and some viruses
+  - Documented role in stimulating wound vascularization and re-epithelialization
+
+mechanism_of_action: >
+  LL-37 acts through multiple, overlapping mechanisms. It has direct membrane-disrupting
+  antimicrobial activity against bacteria and some viruses, and it binds and neutralizes
+  bacterial endotoxin (LPS). Beyond direct killing, it functions as an immune signaling
+  molecule: it is chemotactic for neutrophils, monocytes, mast cells, and T cells — recruiting
+  immune cells to sites of infection or injury — and it alters macrophage gene expression and
+  transcriptional responses. In skin, it stimulates wound vascularization (angiogenesis) and
+  re-epithelialization, and its local concentration rises sharply at sites of inflammation (for
+  example, very high levels are found in psoriatic skin lesions).
+
+pharmacokinetics:
+  peak: "Not established as a systemic pharmacokinetic profile for exogenous dosing; endogenous
+    LL-37 is released locally by immune and epithelial cells rather than following classic
+    systemic PK"
+  half_life: "Not well characterized for exogenous administration in humans"
+  cleared: "Not established for exogenous administration in humans"
+
+research_indications:
+  - Innate antimicrobial defense against bacterial pathogens (including some antibiotic-resistant
+    strains, in preclinical research)
+  - Wound healing — vascularization and re-epithelialization of skin
+  - Biofilm-associated infection research
+  - Immune signaling/chemotaxis research (neutrophils, monocytes, mast cells, T cells)
+
 reconstitution_steps:
-- Reconstitute with bacteriostatic water; refrigerate.
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White lyophilized powder in a sealed vial"
+  - "Clear, colorless solution after reconstitution with no visible particulate"
+  - "Third-party COA available confirming peptide identity and purity"
+
+what_to_expect: >
+  Essentially all of what's known about LL-37 comes from laboratory and preclinical research
+  (cell culture, animal models, and analysis of naturally occurring human LL-37 in tissue/fluid
+  samples) rather than from trials of an injectable or topical LL-37 product in people. There is
+  no established subjective effect profile for self-administration.
+
+safety_notes: >
+  LL-37 is a naturally occurring human peptide studied extensively in academic immunology and
+  dermatology research, but it is not an FDA-approved drug product, and there is no standardized
+  human dosing, safety, or pharmacokinetic data for self-administered use. Research shows LL-37
+  can be cytotoxic to human cells at higher concentrations (in the low micromolar range) and has
+  both pro- and anti-inflammatory effects depending on context and concentration, which is part
+  of why it hasn't translated directly into an approved injectable therapeutic. Consult a
+  healthcare provider; treat this as a research-stage compound, not a proven treatment.
+
+references:
+  - citation: "Zanetti M. Cathelicidins, multifunctional peptides of the innate immunity. J Leukoc
+      Biol. 2004;75(1):39-48."
+    url: "https://pubmed.ncbi.nlm.nih.gov/12960280/"
+  - citation: "Svensson D, Nilsson BO. Human antimicrobial/host defense peptide LL-37 may prevent
+      the spread of a local infection through multiple mechanisms: an update. Inflamm Res.
+      2025;74(1):36."
+    url: "https://pubmed.ncbi.nlm.nih.gov/40063262/"

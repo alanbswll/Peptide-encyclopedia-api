@@ -5,10 +5,105 @@
 id: hcg
 name: HCG
 status: published
+
 category_ids:
-- sexual-health
-overview: Human Chorionic Gonadotropin (not a peptide)
+  - sexual-health
+
+overview: >
+  Human Chorionic Gonadotropin is a naturally occurring glycoprotein hormone (not a peptide)
+  produced during pregnancy, and an FDA-approved drug used in fertility treatment and male
+  hypogonadism. It acts as an LH substitute, and it is the only FDA-approved therapy for
+  hypogonadism in men who want to preserve fertility.
+
 key_benefits:
-- Studied for fertility and testosterone support
+  - Studied for fertility and testosterone support
+  - FDA-approved for male hypogonadotropic hypogonadism and female fertility induction
+  - Stimulates testicular testosterone production without suppressing sperm production the way
+    exogenous testosterone does
+
+mechanism_of_action: >
+  hCG is structurally similar to LH and binds the same receptor (LHCGR) on Leydig cells in the
+  testes (and, in women, on ovarian/corpus luteum cells). Because it activates the same receptor
+  as pituitary LH but has a much longer circulating half-life, it functions as a long-acting LH
+  substitute — stimulating testicular testosterone production and maintaining intratesticular
+  testosterone (needed for sperm production) in a way that exogenous testosterone therapy alone
+  does not.
+
+quick_start_guide:
+  typical_dose: "500–1,500 IU per dose is a commonly used range in off-label TRT-adjunct
+    protocols; fertility-focused protocols vary by indication and are individualized by a
+    prescriber"
+  frequency: "2–3x weekly is typical for TRT-adjunct testicular support; every-other-day dosing
+    has been used in fertility-preservation protocols"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "No specific time-of-day requirement"
+  effects_timeline: "Testosterone response can be seen within days; effects on sperm parameters
+    and testicular size are assessed over months"
+  storage: "Refrigerate after reconstitution; follow supplier-specific stability guidance"
+  cycle_length: "Often used continuously alongside testosterone therapy rather than in
+    on/off cycles"
+  break_between: "Not applicable in typical TRT-adjunct use"
+
+pharmacokinetics:
+  peak: "Hours after subcutaneous or intramuscular injection"
+  half_life: "Several hours (substantially longer than pituitary LH's ~90-minute half-life),
+    due to heavier glycosylation of the hCG molecule"
+  cleared: "Cleared over roughly 1–2 days, though detectable at low levels for longer given its
+    long half-life relative to LH"
+
+research_indications:
+  - Male hypogonadotropic hypogonadism (FDA-approved use)
+  - Female ovulation induction as part of fertility treatment (FDA-approved use)
+  - Off-label adjunct to testosterone replacement therapy to preserve testicular size and fertility
+  - Cryptorchidism evaluation/management in boys (historical pediatric use)
+
 reconstitution_steps:
-- Reconstitute per supplier instructions; refrigerate.
+  - Reconstitute per supplier instructions; refrigerate.
+
+quality_indicators:
+  - "FDA-approved pharmaceutical hCG (e.g. Novarel, Pregnyl) comes with manufacturer labeling
+    and a certificate of analysis"
+  - "White lyophilized powder or pellet in a sealed vial before reconstitution"
+  - "Clear, colorless solution after reconstitution with no visible particulate"
+
+what_to_expect: >
+  In men, subjective effects such as improved libido and erectile function have been reported in
+  clinical studies of hCG monotherapy, though the primary purpose in TRT-adjunct use is
+  maintaining testicular size and sperm-supportive intratesticular testosterone rather than an
+  acute subjective effect.
+
+side_effects_common:
+  - "Injection site pain or irritation"
+  - "Headache"
+  - "Mood changes/irritability"
+  - "Fluid retention"
+  - "Gynecomastia (via aromatization of the increased testosterone)"
+
+safety_notes: >
+  hCG is an FDA-approved medication for specific indications (male hypogonadotropic hypogonadism,
+  female ovulation induction), and pharmaceutical products (e.g. Novarel, Pregnyl) should be
+  sourced through a pharmacy with a prescription; off-label TRT-adjunct use is common in practice
+  but is still off-label and should be supervised by a clinician monitoring hormone levels.
+  Because it raises testosterone (and downstream estradiol via aromatization), it carries similar
+  cautions to testosterone therapy around erythrocytosis, mood effects, and gynecomastia. It is
+  contraindicated in hormone-sensitive cancers such as prostate cancer. Consult a healthcare
+  provider.
+
+references:
+  - citation: "Hsieh TC, Pastuszak AW, Hwang K, Lipshultz LI. Concomitant intramuscular human
+      chorionic gonadotropin preserves spermatogenesis in men undergoing testosterone replacement
+      therapy. J Urol. 2013;189(2):647-650."
+    url: "https://pubmed.ncbi.nlm.nih.gov/23260550/"
+  - citation: "Casarini L, Santi D, Brigante G, Simoni M. Two Hormones for One Receptor: Evolution,
+      Biochemistry, Actions, and Pathophysiology of LH and hCG. Endocr Rev. 2018;39(5):549-592."
+    url: "https://academic.oup.com/edrv/article/39/5/549/5036715"
+
+research_protocols:
+  - goal: "TRT-Adjunct Testicular/Fertility Support"
+    dose: "500–1,000 IU"
+    timing: "2–3x weekly"
+    disclaimer: "For research purposes only. Off-label use should be supervised by a physician.
+      Not evaluated by the FDA for this specific use."
+    sort_order: 0

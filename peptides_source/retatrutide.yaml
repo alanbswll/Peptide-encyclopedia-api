@@ -1,14 +1,85 @@
-# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
 id: retatrutide
 name: Retatrutide
 status: published
+
 category_ids:
-- fat-loss
-overview: Triple GIP/GLP-1/glucagon receptor agonist
+  - fat-loss
+
+overview: >
+  A triple GIP/GLP-1/glucagon receptor agonist developed by Eli Lilly. It is an investigational,
+  newer-generation metabolic peptide — not yet FDA-approved — that produced the largest average
+  weight loss reported for an incretin-based therapy in a published Phase 2 trial.
+
 key_benefits:
-- Newer-generation metabolic peptide
+  - Newer-generation metabolic peptide
+  - Adds glucagon receptor agonism on top of the GIP/GLP-1 activity seen in tirzepatide, targeting energy expenditure as well as appetite
+  - Phase 2 trial reported up to ~24% average body weight loss at 48 weeks at the highest dose
+  - Still in active Phase 3 development, not yet an approved medication
+
+mechanism_of_action: >
+  Retatrutide activates three receptors in one molecule: GIP and GLP-1 (shared with tirzepatide),
+  plus the glucagon receptor. Glucagon receptor activity increases hepatic glucose output and
+  energy expenditure, which is hypothesized to add a metabolic-rate component to the appetite
+  suppression and slowed gastric emptying driven by GIP/GLP-1 signaling. Like other long-acting
+  incretin peptides, it is fatty-acid modified for albumin binding to support weekly dosing.
+
+quick_start_guide:
+  typical_dose: "2 mg starting dose in published trials, titrated up to 4–12 mg maintenance doses studied"
+  frequency: "1x weekly"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+    - deltoid-im
+  best_timing: "Same day each week, any time of day"
+  effects_timeline: "Trial data show progressive weight loss through at least 48 weeks, with higher doses producing greater and still-accumulating effect at that timepoint"
+  storage: "Refrigerate; not yet available as an approved commercial product with a finalized storage label"
+  cycle_length: "Studied as a continuous long-term therapy in trials to date"
+  break_between: "Not established; this is investigational, unapproved therapy"
+
+pharmacokinetics:
+  peak: "~12–72 hours post-dose (dose- and population-dependent, per published trial data)"
+  half_life: "~6 days"
+  cleared: "Dose-proportional pharmacokinetics; steady state expected after ~4–5 weeks of once-weekly dosing based on its half-life"
+
+research_indications:
+  - Investigational treatment for obesity/overweight (Phase 3 trials ongoing as of publication)
+  - Studied for metabolic dysfunction-associated steatotic liver disease and related cardiometabolic outcomes
+
 reconstitution_steps:
-- Reconstitute per manufacturer instructions; refrigerate.
+  - Reconstitute per manufacturer instructions; refrigerate.
+
+quality_indicators:
+  - "Not an FDA-approved commercial product; no legitimate retail/pharmacy supply chain exists yet"
+  - "Research-chemical vendor material should include a third-party COA confirming identity and purity"
+  - "Clear, colorless solution with no particulate matter after reconstitution"
+
+what_to_expect: >
+  In the published Phase 2 trial, weight loss was dose-dependent and had not clearly plateaued by
+  48 weeks, suggesting further loss with continued treatment. GI side effects were common,
+  particularly during dose escalation, similar to other incretin-based agents.
+
+side_effects_common:
+  - "Nausea, vomiting, and diarrhea (most common, especially during dose escalation)"
+  - "Constipation"
+  - "Decreased appetite"
+  - "Injection site reactions"
+
+safety_notes: >
+  Retatrutide is investigational and not FDA-approved as of this writing; long-term safety data
+  beyond the published Phase 2 trial (48 weeks) is not yet available in the peer-reviewed
+  literature, and Phase 3 outcomes have not been fully reported. As with other incretin-based
+  agents, a rodent-model thyroid C-cell tumor signal and related class-wide cautions (pancreatitis,
+  gallbladder disease, dehydration/kidney injury) are relevant considerations pending its own
+  full safety record. Any use outside of a clinical trial is off-label and unsupervised by
+  regulatory review. Consult a healthcare provider.
+
+references:
+  - citation: "Jastreboff AM, Kaplan LM, Frías JP, et al. Triple-Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial. N Engl J Med. 2023;389(6):514-526."
+    url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972"
+
+research_protocols:
+  - goal: "Weight Management (Investigational)"
+    dose: "2 mg weekly, titrated per published Phase 2 dose levels (4/8/12 mg)"
+    timing: "Same day each week"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Investigational compound, not an approved medication."
+    sort_order: 0

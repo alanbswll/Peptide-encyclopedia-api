@@ -5,10 +5,59 @@
 id: dihexa
 name: Dihexa
 status: published
+
 category_ids:
-- cognitive
-overview: Neurogenic compound studied for synaptic health
+  - cognitive
+
+overview: >
+  A hexanoic-acid-modified analog of angiotensin IV, developed at Washington State
+  University as an orally bioavailable activator of the HGF/c-Met signaling pathway
+  involved in synapse formation. All published evidence comes from rodent and cell-culture
+  studies — there are no human trials — and, as detailed in Safety Notes below, two of the
+  foundational papers behind dihexa's reputation were later retracted for data fabrication.
+
 key_benefits:
-- Long half-life relative to other nootropic peptides
+  - Long half-life relative to other nootropic peptides (as a stabilized angiotensin IV analog, in animal studies)
+  - Reported in animal studies to promote synaptogenesis at very low concentrations
+
+mechanism_of_action: >
+  Dihexa was designed to resist the rapid enzymatic degradation that limits angiotensin
+  IV's usefulness as a research tool. In animal and cell-culture studies, it was reported to
+  potentiate hepatocyte growth factor (HGF) / c-Met receptor signaling — a pathway involved
+  in synaptogenesis and dendritic spine formation — at extremely low concentrations. It is
+  important to note that two of the key papers describing this HGF/c-Met mechanism from the
+  original Washington State University lab were retracted in 2025 after a university
+  investigation found falsified and/or fabricated data (see Safety Notes), so the
+  mechanistic picture is considerably less certain than earlier marketing claims suggest.
+
+research_indications:
+  - Synaptogenesis and dendritic spine formation (rodent and cell-culture studies)
+  - Spatial learning/memory in aged and cognitively-impaired rodents (preclinical only; underlying papers later retracted — see Safety Notes)
+  - No human clinical indications have been studied
+
 reconstitution_steps:
 - Follow supplier handling instructions.
+
+quality_indicators:
+  - "No independent clinical or manufacturing standard exists for dihexa; purity and identity rely entirely on vendor-provided third-party testing"
+
+what_to_expect: >
+  Because there are no human trials of dihexa, there is no clinically validated basis for
+  what a person could expect from using it. Anecdotal reports circulating in
+  research-chemical communities describe subjective cognitive effects, but these are
+  unverified and cannot be attributed to the compound with any confidence.
+
+safety_notes: >
+  Dihexa has never been studied in humans — all available data comes from rodent and
+  cell-culture experiments. Critically, two of the primary papers establishing dihexa's
+  HGF/c-Met mechanism and procognitive effects (a 2014 paper in the Journal of Pharmacology
+  and Experimental Therapeutics and a related 2012 paper, both from the compound's
+  originating lab) were retracted in 2025 after a Washington State University investigation
+  found that figures and data had been falsified and/or fabricated, identifying the
+  compound's co-developers as solely responsible. A separate 2013 paper characterizing
+  stabilized angiotensin IV analogs (including dihexa) received a formal Notice of Concern
+  in 2021. This history of research misconduct materially undermines the evidence base
+  that dihexa's reputation as a potent nootropic was built on, and should be weighed heavily
+  by anyone considering it. Given the total absence of human safety data and the compromised
+  state of the founding animal literature, dihexa should be treated as a highly speculative,
+  unverified research compound. Consult a healthcare provider.

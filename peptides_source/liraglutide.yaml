@@ -1,14 +1,85 @@
-# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
 id: liraglutide
 name: Liraglutide
 status: published
+
 category_ids:
-- fat-loss
-overview: GLP-1 receptor agonist
+  - fat-loss
+
+overview: >
+  A GLP-1 receptor agonist approved for type 2 diabetes (Victoza) and chronic weight management
+  (Saxenda). It was the first once-daily GLP-1 agonist widely used for weight loss and remains an
+  important reference point against newer, longer-acting agents like semaglutide and tirzepatide.
+
 key_benefits:
-- Daily dosing typical; shorter-acting than newer GLP-1 agonists
+  - Daily dosing typical; shorter-acting than newer GLP-1 agonists
+  - FDA-approved for chronic weight management (Saxenda) and type 2 diabetes (Victoza)
+  - Large, long-running real-world and clinical safety database (approved for weight management since 2014)
+  - Established head-to-head comparator in trials of newer incretin therapies
+
+mechanism_of_action: >
+  Liraglutide mimics GLP-1, activating GLP-1 receptors to enhance glucose-dependent insulin
+  secretion, suppress glucagon, slow gastric emptying, and reduce appetite via hypothalamic
+  signaling. Its fatty-acid acylation binds albumin and resists enzymatic degradation, extending
+  its half-life to about 13 hours — long enough for once-daily dosing but much shorter than the
+  weekly agents that followed it.
+
+quick_start_guide:
+  typical_dose: "0.6 mg starting dose, titrated weekly up to a 3 mg maintenance dose for weight management (1.8 mg max for diabetes)"
+  frequency: "1x daily"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+    - deltoid-im
+  best_timing: "Same time each day, with or without food; consistency matters more than time of day"
+  effects_timeline: "Appetite effects often noticeable within days to 1–2 weeks of a given dose; full weight-loss effect builds over the ~5-month titration and maintenance period studied in trials (56 weeks in SCALE)"
+  storage: "Refrigerate pens; may be kept at room temperature for a limited period per manufacturer labeling"
+  cycle_length: "Studied and used as a long-term, continuous therapy rather than a short cycle"
+  break_between: "Not applicable in approved use; discontinuation is typically associated with weight regain"
+
+pharmacokinetics:
+  peak: "~8–13 hours post-dose"
+  half_life: "~13 hours"
+  cleared: "Requires daily dosing due to its shorter half-life relative to newer weekly GLP-1 agonists; degraded via general proteolysis rather than a single clearance organ"
+
+research_indications:
+  - Chronic weight management (FDA-approved, Saxenda)
+  - Type 2 diabetes glycemic control (FDA-approved, Victoza)
+  - Adolescent obesity (FDA-approved indication for Saxenda in patients 12+)
+
 reconstitution_steps:
-- Reconstitute per manufacturer instructions; refrigerate.
+  - Reconstitute per manufacturer instructions; refrigerate.
+
+quality_indicators:
+  - "Pre-filled pens sourced from a licensed pharmacy, not compounded from research-chemical powder"
+  - "Clear, colorless solution with no visible particles"
+  - "Intact tamper-evident packaging and legible lot/expiration information"
+
+what_to_expect: >
+  GI side effects are common during the multi-week dose titration and tend to ease at a stable
+  dose. Because dosing is daily rather than weekly, day-to-day appetite suppression can feel more
+  variable than with longer-acting agents; weight loss builds gradually over months.
+
+side_effects_common:
+  - "Nausea, vomiting, and diarrhea (most common, especially during dose escalation)"
+  - "Constipation"
+  - "Headache"
+  - "Injection site reactions"
+
+safety_notes: >
+  Carries an FDA boxed warning for thyroid C-cell tumors observed in rodent studies (relevance to
+  humans unknown); contraindicated in people with a personal or family history of medullary
+  thyroid carcinoma or Multiple Endocrine Neoplasia syndrome type 2. Associated with rare but
+  serious risks including pancreatitis, gallbladder disease, and acute kidney injury (typically
+  secondary to dehydration from GI side effects). Should be used under medical supervision with
+  appropriate monitoring, particularly during dose titration. Consult a healthcare provider.
+
+references:
+  - citation: "Pi-Sunyer X, Astrup A, Fujioka K, et al. A Randomized, Controlled Trial of 3.0 mg of Liraglutide in Weight Management (SCALE Obesity and Prediabetes). N Engl J Med. 2015;373(1):11-22."
+    url: "https://www.nejm.org/doi/full/10.1056/NEJMoa1411892"
+
+research_protocols:
+  - goal: "Weight Management"
+    dose: "0.6 mg daily, titrated weekly to 3 mg per standard escalation schedule"
+    timing: "Same time each day"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0

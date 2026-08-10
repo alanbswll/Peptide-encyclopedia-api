@@ -1,14 +1,76 @@
-# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
 id: 5-amino-1mq
 name: 5-Amino-1MQ
 status: published
+
 category_ids:
-- fat-loss
-overview: NNMT enzyme inhibitor
+  - fat-loss
+
+overview: >
+  A small molecule (not a peptide, despite being sold alongside peptides) that inhibits
+  nicotinamide N-methyltransferase (NNMT), an enzyme highly expressed in fat tissue. It is
+  explored for fat metabolism and NAD+/SAM support based entirely on preclinical (mouse) research
+  — no published human trials exist as of this writing.
+
 key_benefits:
-- Explored for fat metabolism and NAD+ support
+  - Explored for fat metabolism and NAD+ support
+  - Targets NNMT, an enzyme linked to adipocyte energy metabolism in mouse studies
+  - Orally active in the research literature, unlike most injectable fat-loss peptides
+
+mechanism_of_action: >
+  NNMT methylates nicotinamide using S-adenosylmethionine (SAM) as the methyl donor, consuming
+  both NAD+ precursor and SAM pools in adipose tissue. Elevated NNMT activity has been associated
+  with obesity in preclinical models. 5-Amino-1MQ selectively and reversibly inhibits NNMT,
+  which in diet-induced-obese mice raised intracellular SAM and NAD+, reduced adipocyte
+  lipogenesis, and lowered body weight and fat mass without significantly changing food intake or
+  lean mass.
+
+quick_start_guide:
+  typical_dose: "Not established from human data; research-chemical vendor products commonly suggest 50 mg daily, based on rodent dosing extrapolation rather than human trials"
+  frequency: "1x daily"
+  best_timing: "With or without food; often taken in the morning by research users, per vendor convention rather than clinical data"
+  effects_timeline: "Not established in humans; mouse studies showed body-composition changes over several weeks of continuous dosing"
+  storage: "Store the oral capsule/powder in a cool, dry place away from light, per typical supplier instructions"
+  cycle_length: "Not established from human data"
+  break_between: "Not established from human data"
+
+pharmacokinetics:
+  peak: "Not established; no published human pharmacokinetic study exists"
+  half_life: "Not established in humans; only preclinical (rodent) data has been published"
+  cleared: "Not established in humans"
+
+research_indications:
+  - NNMT inhibition and adipocyte fat metabolism (preclinical, mouse models)
+  - Body weight and fat mass reduction in diet-induced-obese mice (preclinical)
+  - NAD+/SAM cellular metabolism support (preclinical rationale; not confirmed in humans)
+
 reconstitution_steps:
-- Often supplied oral; follow supplier instructions.
+  - Often supplied oral; follow supplier instructions.
+
+quality_indicators:
+  - "Third-party COA available confirming compound identity and purity, since this is sold as an unregulated research chemical"
+  - "Capsule or raw powder should be free of unusual odor, discoloration, or clumping"
+
+what_to_expect: >
+  There is no published human data describing what to expect — every efficacy claim traces back
+  to diet-induced-obese mouse studies. Any reported effects in humans are anecdotal. This is a
+  meaningfully earlier-stage compound than the injectable GLP-1-class peptides in this category.
+
+safety_notes: >
+  5-Amino-1MQ has zero published human safety or efficacy data; it is not FDA-approved and has no
+  history of human clinical trials. All available evidence comes from diet-induced-obese mouse
+  models. It is sold as an unregulated research chemical, and typical "research dose" suggestions
+  circulating online are extrapolated from rodent dosing rather than derived from any human study.
+  Given the complete absence of human data, this compound should be treated as substantially more
+  speculative than the GLP-1-class or growth-hormone-fragment peptides in this category. Consult
+  a healthcare provider.
+
+references:
+  - citation: "Neelakantan H, Vance V, Wetzel MD, Wang HL, McHardy SF, Finnerty CC, Hommel JD, Watowich SJ. Selective and membrane-permeable small molecule inhibitors of nicotinamide N-methyltransferase reverse high fat diet-induced obesity in mice. Biochem Pharmacol. 2018;147:141-152."
+    url: "https://pubmed.ncbi.nlm.nih.gov/29155147/"
+
+research_protocols:
+  - goal: "Fat Metabolism Support (Preclinical rationale only)"
+    dose: "As supplied by manufacturer; no established human protocol"
+    timing: "Typically once daily, with or without food"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. No human trial data exists for this compound."
+    sort_order: 0

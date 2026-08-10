@@ -1,14 +1,88 @@
-# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
 id: semaglutide
 name: Semaglutide
 status: published
+
 category_ids:
-- fat-loss
-overview: GLP-1 receptor agonist
+  - fat-loss
+
+overview: >
+  A GLP-1 receptor agonist originally developed for type 2 diabetes (Ozempic, oral Rybelsus) and
+  later approved specifically for chronic weight management (Wegovy). One of the most extensively
+  studied peptide drugs, with a large pivotal trial program (the STEP trials) supporting its
+  FDA-approved obesity indication.
+
 key_benefits:
-- Weekly dosing schedule typical
+  - Weekly dosing schedule typical
+  - FDA-approved for chronic weight management at the 2.4 mg dose (Wegovy) and for type 2 diabetes (Ozempic)
+  - Produces substantial, well-documented average weight loss in pivotal trials (~15% of body weight at 68 weeks)
+  - Extensive real-world and clinical trial safety database relative to newer GLP-1 agonists
+
+mechanism_of_action: >
+  Semaglutide mimics the incretin hormone GLP-1, activating GLP-1 receptors in the pancreas,
+  brain, and gut. This stimulates glucose-dependent insulin secretion, suppresses glucagon
+  release, slows gastric emptying, and acts on appetite-regulating centers in the hypothalamus to
+  reduce hunger and food intake. A fatty-acid side chain allows it to bind circulating albumin,
+  which slows its clearance and enables once-weekly dosing.
+
+quick_start_guide:
+  typical_dose: "0.25 mg starting dose, titrated up to a 1–2.4 mg maintenance dose depending on indication"
+  frequency: "1x weekly"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+    - deltoid-im
+  best_timing: "Same day each week, any time of day, with or without food"
+  effects_timeline: "Appetite suppression often noticeable within the first 1–2 weeks; meaningful weight loss builds over months, with pivotal trials measuring outcomes at 68 weeks"
+  storage: "Refrigerate pens/vials; some formulations tolerate limited time at room temperature — follow manufacturer labeling"
+  cycle_length: "Studied and used as a long-term, continuous therapy rather than a short cycle"
+  break_between: "Not applicable in approved use; discontinuation is typically associated with weight regain"
+
+pharmacokinetics:
+  peak: "~1–3 days post-dose at steady state (subcutaneous)"
+  half_life: "~7 days"
+  cleared: "Steady state reached after 4–5 weeks of once-weekly dosing; eliminated primarily via proteolytic degradation, not renal/hepatic clearance of intact peptide"
+
+research_indications:
+  - Chronic weight management (FDA-approved, Wegovy)
+  - Type 2 diabetes glycemic control (FDA-approved, Ozempic/Rybelsus)
+  - Cardiovascular risk reduction in adults with obesity and established cardiovascular disease (FDA-approved indication added for Wegovy)
+
 reconstitution_steps:
-- Reconstitute per manufacturer instructions; refrigerate.
+  - Reconstitute per manufacturer instructions; refrigerate.
+
+quality_indicators:
+  - "Pre-filled pens or vials sourced from a licensed pharmacy, not compounded from research-chemical powder"
+  - "Clear, colorless to slightly yellow solution with no visible particles"
+  - "Intact tamper-evident packaging and legible lot/expiration information"
+
+what_to_expect: >
+  Early doses commonly cause transient nausea and appetite reduction as the dose is titrated
+  upward over weeks. Meaningful weight loss is gradual, accumulating over months rather than
+  weeks, and pivotal trial data show highly variable individual responses.
+
+side_effects_common:
+  - "Nausea, vomiting, and diarrhea (most common, especially during dose escalation)"
+  - "Constipation"
+  - "Fatigue"
+  - "Injection site reactions"
+
+safety_notes: >
+  Carries an FDA boxed warning for thyroid C-cell tumors observed in rodent studies (relevance to
+  humans unknown); contraindicated in people with a personal or family history of medullary
+  thyroid carcinoma or Multiple Endocrine Neoplasia syndrome type 2. Associated with rare but
+  serious risks including pancreatitis, gallbladder disease, and acute kidney injury (typically
+  secondary to dehydration from GI side effects). Should be used under medical supervision with
+  appropriate monitoring, particularly during dose titration. Consult a healthcare provider.
+
+references:
+  - citation: "Wilding JPH, Batterham RL, Calanna S, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity (STEP 1). N Engl J Med. 2021;384(11):989-1002."
+    url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2032183"
+  - citation: "Overview of Wegovy (semaglutide) injection, FDA prescribing information and approval."
+    url: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/215256s000lbl.pdf"
+
+research_protocols:
+  - goal: "Weight Management"
+    dose: "0.25 mg weekly, titrated to 2.4 mg per standard escalation schedule"
+    timing: "Same day each week"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0

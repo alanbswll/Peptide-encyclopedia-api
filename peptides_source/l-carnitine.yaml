@@ -1,14 +1,94 @@
-# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
 id: l-carnitine
 name: L-Carnitine
 status: published
+
 category_ids:
-- fat-loss
-overview: Amino-acid derivative supporting fat transport
+  - fat-loss
+
+overview: >
+  L-Carnitine is an amino-acid derivative supporting fat transport: it is required to shuttle long-chain
+  fatty acids into mitochondria for energy production. Unlike most compounds in this category, it is a
+  well-established, mainstream nutrient/supplement with extensive human research behind it, not an
+  experimental research chemical — the body makes some itself and gets the rest from diet (chiefly red
+  meat), and it is commonly paired with fat-loss protocols for energy support.
+
 key_benefits:
-- Commonly paired with fat-loss protocols for energy support
+  - Commonly paired with fat-loss protocols for energy support
+  - Required for transporting fatty acids into mitochondria for oxidation
+
+mechanism_of_action: >
+  Carnitine shuttles long-chain fatty acids across the inner mitochondrial membrane via the carnitine
+  palmitoyltransferase (CPT-I/CPT-II) system — the rate-limiting step for mitochondrial fatty-acid
+  oxidation (beta-oxidation). This is established, mainstream biochemistry rather than an emerging
+  research claim: without adequate carnitine, fatty acids cannot be efficiently burned for energy inside
+  the mitochondria. The body synthesizes some carnitine endogenously from the amino acids lysine and
+  methionine (a synthesis pathway that itself requires vitamin C as a cofactor), and obtains the rest from
+  the diet. Supplementation is intended to raise circulating and tissue carnitine levels beyond typical
+  dietary intake, though supplemental carnitine is absorbed far less efficiently than dietary carnitine.
+
+quick_start_guide:
+  typical_dose: "500 mg–1 g (injectable); 500 mg–2 g/day (oral)"
+  frequency: "1–3x weekly (injectable); 1–3x daily in divided doses (oral)"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+    - glute-im
+  best_timing: "30–60 minutes before exercise, when paired with a workout"
+  effects_timeline: "Body-composition studies show measurable effects building over 8–12+ weeks of consistent use, not acutely"
+  storage: "Refrigerate pre-mixed/injectable solution"
+  cycle_length: "Typically used continuously rather than cycled"
+  break_between: "Not typically cycled off"
+
+pharmacokinetics:
+  peak: "Oral: variable and limited by low (~14–18%) bioavailability at supplemental doses; injectable forms bypass this absorption limit"
+  half_life: "Whole-body carnitine turnover is slow (est. 38–119 hours), reflecting distinct fast- and slow-turnover tissue compartments (liver/kidney vs. muscle)"
+  cleared: "Primarily renal, with active tubular reabsorption that conserves body carnitine stores"
+
+research_indications:
+  - Fat oxidation support in body-composition and weight-management research
+  - Exercise recovery and reduced markers of exercise-induced muscle damage
+  - Insulin sensitivity and glucose metabolism in metabolic syndrome and type 2 diabetes research
+  - Established medical use (as levocarnitine) for primary/secondary carnitine deficiency and valproate-induced hyperammonemia — a separate use case from fat-loss protocols
+
 reconstitution_steps:
-- Often supplied pre-mixed; refrigerate.
+  - Often supplied pre-mixed; refrigerate.
+
+quality_indicators:
+  - "Pre-mixed injectable solution should be clear and colorless with no particulate matter"
+  - "Oral products should specify L-carnitine (not D- or DL-carnitine, which can be harmful) and ideally carry third-party testing"
+
+what_to_expect: >
+  As an established supplement rather than an experimental compound, L-Carnitine's real-world effect size
+  is modest: meta-analyses show measurable but small reductions in body weight and fat mass over months of
+  consistent use, on top of diet and exercise rather than in place of them. It is not a stimulant, and most
+  users do not notice an acute effect from a single dose.
+
+side_effects_common:
+  - "Nausea, stomach upset, or diarrhea, mainly at oral doses around 3 g/day or higher"
+  - "Fishy body odor in some users, from gut-bacterial conversion of carnitine to trimethylamine"
+  - "Injection site soreness or redness (injectable form)"
+
+safety_notes: >
+  L-Carnitine is FDA-approved (as levocarnitine) for carnitine deficiency and has a well-characterized
+  safety profile at normal supplemental doses. Two caveats are worth flagging: gut bacteria convert
+  carnitine into trimethylamine, which the liver oxidizes into TMAO, a metabolite linked in some
+  cardiovascular research to increased atherosclerosis risk with sustained high intake; and anticonvulsant
+  medications (valproic acid, phenobarbital, phenytoin, carbamazepine) lower blood carnitine levels, so
+  supplementation in that context should be discussed with a physician. People with seizure disorders or
+  uremia/dialysis dependence should also use it under medical guidance. As with any pre-mixed injectable
+  product, confirm the exact contents and concentration with your supplier. Consult a healthcare provider.
+
+references:
+  - citation: "Talenezhad N, Mohammadi M, Ramezani-Jolfaie N, Mozaffari-Khosravi H, Salehi-Abargouei A. Effects of l-carnitine supplementation on weight loss and body composition: A systematic review and meta-analysis of 37 randomized controlled clinical trials with dose-response analysis. Clin Nutr ESPEN. 2020;37:9-23."
+    url: "https://pubmed.ncbi.nlm.nih.gov/32359762/"
+  - citation: "Koeth RA, Wang Z, Levison BS, et al. Intestinal microbiota metabolism of L-carnitine, a nutrient in red meat, promotes atherosclerosis. Nat Med. 2013;19(5):576-585."
+    url: "https://pubmed.ncbi.nlm.nih.gov/23563705/"
+  - citation: "National Institutes of Health, Office of Dietary Supplements. Carnitine — Health Professional Fact Sheet."
+    url: "https://ods.od.nih.gov/factsheets/Carnitine-HealthProfessional/"
+
+research_protocols:
+  - goal: "Fat-Loss Support Alongside Diet/Exercise"
+    dose: "500 mg–1 g, 2–3x weekly (injectable)"
+    timing: "30–60 minutes before exercise"
+    disclaimer: "For research purposes only. Not evaluated by the FDA for weight-loss use. Consult a healthcare provider before use, especially if taking anticonvulsant medications."
+    sort_order: 0

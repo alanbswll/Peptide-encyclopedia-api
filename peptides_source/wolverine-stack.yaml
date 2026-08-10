@@ -1,14 +1,76 @@
-# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
 id: wolverine-stack
 name: Wolverine Stack
 status: published
+
 category_ids:
-- healing
-overview: BPC-157 and TB-500 combination blend
+  - healing
+
+overview: >
+  A commercial blend combining BPC-157 and TB-500 — two of the most widely researched healing
+  peptides — into a single vial, marketed under the nickname "Wolverine Stack" for combined
+  joint and tissue recovery support.
+
 key_benefits:
-- Popular combined stack for joint and tissue recovery
+  - Popular combined stack for joint and tissue recovery
+  - Combines BPC-157's localized healing/angiogenic effects with TB-500's cell-migration and systemic recovery effects
+
+mechanism_of_action: >
+  This is a commercial combination of two separately researched peptides, not a single studied
+  compound. BPC-157 is believed to promote angiogenesis and modulate growth factor pathways
+  involved in local tissue and gut-lining repair. TB-500 (a synthetic analog of Thymosin
+  Beta-4) binds and sequesters monomeric G-actin, a mechanism that drives cell migration to
+  injury sites and supports angiogenesis. The rationale for combining them is that BPC-157's
+  localized repair signaling and TB-500's cell-migration/systemic recovery effects may be
+  complementary — but this specific combination has not itself been studied.
+
+quick_start_guide:
+  typical_dose: "250–500 mcg BPC-157 component + 2–2.5 mg TB-500 component per dose (ratios vary by vendor vial)"
+  frequency: "Loading phase: BPC-157 component 2x daily, TB-500 component 2x weekly; maintenance: reduce TB-500 component to 1x weekly"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+    - near-injury
+  best_timing: "BPC-157 component on an empty stomach; TB-500 component has no specific timing requirement"
+  effects_timeline: "Follows the individual components' documented timelines: initial changes reported in 1–2 weeks, fuller effect described over a 4–6 week loading phase"
+  storage: "Refrigerate after reconstitution; use within 20–30 days"
+  cycle_length: "4–6 week loading phase, then a lower-dose maintenance period"
+  break_between: "4–6 weeks off before repeating a loading phase"
+
+research_indications:
+  - Tendon, ligament, and muscle injury recovery (based on individual-peptide research)
+  - Joint and soft-tissue recovery
+  - No trials have evaluated the combined blend itself
+
 reconstitution_steps:
-- Reconstitute with bacteriostatic water; refrigerate.
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White, lyophilized powder that fully dissolves into a clear, colorless solution"
+  - "Third-party COA confirming the identity and quantity of both BPC-157 and TB-500 in the vial"
+  - "No discoloration, clumping, or particulate matter after reconstitution"
+
+what_to_expect: >
+  As with the individual peptides, most users report no acute sensation at the injection site;
+  any healing or recovery benefit is described as gradual, building over the multi-week loading
+  phase rather than appearing immediately.
+
+side_effects_common:
+  - "Mild injection site redness or soreness"
+  - "Mild fatigue or headache (reported with the TB-500 component)"
+
+safety_notes: >
+  "Wolverine Stack" is a commercial combination product, not a peptide that has been
+  independently studied as a unit — no clinical or preclinical trials have evaluated the
+  combined formulation. All available research applies to BPC-157 and TB-500 individually, and
+  it is not established whether combining them changes efficacy, dosing needs, or side-effect
+  risk relative to using either alone. Because TB-500 promotes angiogenesis, some reviewers
+  raise a theoretical caution around use in people with active cancer or a history of cancer.
+  This is a research compound, not an approved treatment for any condition. Consult a
+  healthcare provider.
+
+research_protocols:
+  - goal: "Joint / Soft Tissue Recovery"
+    dose: "250 mcg BPC-157 component 2x daily + 2.5 mg TB-500 component 2x weekly"
+    timing: "BPC-157 component morning and evening; TB-500 component any consistent time"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0

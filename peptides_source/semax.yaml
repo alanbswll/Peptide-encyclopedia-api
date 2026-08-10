@@ -5,10 +5,93 @@
 id: semax
 name: Semax
 status: published
+
 category_ids:
-- cognitive
-overview: Nootropic peptide derived from ACTH
+  - cognitive
+
+overview: >
+  A synthetic heptapeptide (Met-Glu-His-Phe-Pro-Gly-Pro) derived from a fragment of
+  adrenocorticotropic hormone, ACTH(4-10). Developed in Russia in the 1980s, where it is
+  registered as a nootropic/neuroprotective medicine for conditions like ischemic stroke —
+  though it is not FDA-approved and most rigorous clinical literature is Russian-language.
+
 key_benefits:
-- Studied for focus and cognitive support
+  - Studied for focus and cognitive support
+  - Explored for upregulating BDNF/TrkB signaling in the hippocampus
+  - Used in Russia as a registered treatment for post-stroke cognitive recovery (not FDA-evaluated)
+
+mechanism_of_action: >
+  Semax is believed to act primarily by upregulating brain-derived neurotrophic factor
+  (BDNF) and its receptor TrkB in the hippocampus, and by modulating dopaminergic and
+  serotonergic signaling — animal studies show increased striatal dopamine turnover and
+  extracellular serotonin metabolite (5-HIAA) levels following administration. As an
+  ACTH-derived fragment, it retains some of the parent hormone's neuro-regulatory activity
+  without triggering the adrenal/cortisol-stimulating effects of full-length ACTH.
+
+quick_start_guide:
+  typical_dose: "200–600 mcg per dose (as a 0.1% intranasal solution)"
+  frequency: "1–3x daily"
+  best_timing: "Morning and early afternoon; avoid late-day dosing due to stimulating effects"
+  effects_timeline: "Subjective focus/alertness effects reported within 20–60 minutes; research protocols typically run 10–14 days"
+  storage: "Refrigerate; use opened intranasal solution within the vendor's stated window (typically 30 days)"
+  cycle_length: "10–14 days on"
+  break_between: "2–4 weeks off to limit tolerance"
+
+pharmacokinetics:
+  peak: "~20–30 minutes after intranasal dosing, based on Russian pharmacokinetic studies of the intact peptide and its Pro-Gly-Pro metabolite"
+  half_life: "Very short — plasma peptidases degrade the parent heptapeptide within minutes; its C-terminal Pro-Gly-Pro fragment is thought to retain activity longer"
+  cleared: "Not well characterized in humans; animal data suggest rapid proteolytic clearance"
+
+research_indications:
+  - Focus, attention, and working memory support
+  - Post-stroke cognitive recovery (registered use in Russia; not FDA-evaluated)
+  - Resistance to hypoxia/ischemia in animal models
+
 reconstitution_steps:
 - Often used intranasally; keep refrigerated.
+
+quality_indicators:
+  - "Sold as a pre-made intranasal solution (not a lyophilized powder) by most vendors; should be clear and colorless"
+  - "Third-party COA confirming peptide identity and purity is standard for reputable vendors"
+  - "No cloudiness, discoloration, or particulate matter in solution"
+
+what_to_expect: >
+  Users commonly report a rapid-onset (within an hour) subjective increase in mental
+  clarity, focus, and motivation, sometimes compared to a mild stimulant effect but without
+  the jitteriness of classic stimulants. Effects are often described as most noticeable
+  early in a cycle, which is why many users cycle on and off rather than dosing continuously.
+
+side_effects_common:
+  - "Nasal irritation at the application site"
+  - "Mild headache"
+  - "Overstimulation or difficulty sleeping if dosed late in the day"
+  - "Irritability at higher doses in some users"
+
+safety_notes: >
+  Semax has decades of use and study in Russia, including as a registered pharmaceutical
+  product, but it has not been evaluated or approved by the FDA, and most of the supporting
+  clinical literature is Russian-language and has not been independently replicated in
+  Western trials. Long-term safety data for research-chemical-grade material in healthy,
+  non-clinical populations is limited. As an ACTH-derived peptide, there is a theoretical
+  concern about interaction with the hypothalamic-pituitary-adrenal axis, though Semax is
+  not believed to stimulate cortisol release the way full-length ACTH does. Consult a
+  healthcare provider, especially with a history of anxiety, sleep disorders, or
+  cardiovascular conditions.
+
+references:
+  - citation: "Dolotov OV, Karpenko EA, Inozemtseva LS, et al. Semax, an analog of ACTH(4-10) with cognitive effects, regulates BDNF and trkB expression in the rat hippocampus. Brain Res. 2006;1117(1):54-60."
+    url: "https://pubmed.ncbi.nlm.nih.gov/16996037/"
+  - citation: "Eremin KO, Kudrin VS, Saransaari P, Oja SS, Grivennikov IA, Myasoedov NF, Rayevsky KS. Semax, an ACTH(4-10) analogue with nootropic properties, activates dopaminergic and serotoninergic brain systems in rodents. Neurochem Res. 2005;30(12):1493-1500."
+    url: "https://pubmed.ncbi.nlm.nih.gov/16362768/"
+
+research_protocols:
+  - goal: "Focus / Cognitive Performance"
+    dose: "300 mcg 1–2x daily, intranasal"
+    timing: "Morning and early afternoon"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0
+  - goal: "Short Cognitive-Support Cycle"
+    dose: "200–400 mcg daily, intranasal, for 10–14 days"
+    timing: "Morning"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 1

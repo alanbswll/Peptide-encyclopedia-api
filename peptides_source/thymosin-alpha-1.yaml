@@ -5,10 +5,95 @@
 id: thymosin-alpha-1
 name: Thymosin Alpha-1
 status: published
+
 category_ids:
-- immune
-overview: Immune-modulating peptide
+  - immune
+
+overview: >
+  A synthetic version of a naturally occurring thymic peptide involved in T-cell maturation and
+  immune regulation. It is approved in a number of countries outside the U.S. (as Zadaxin) as an
+  immune adjuvant for chronic hepatitis B/C and as a vaccine co-adjuvant, but it is not FDA-approved
+  in the United States, where it is available only as a research compound.
+
 key_benefits:
-- Studied for immune system support
+  - Studied for immune system support
+  - Approved outside the U.S. (as Zadaxin) as an immune-modulating adjuvant for chronic hepatitis
+    B and C
+  - Explored as a vaccine co-adjuvant and in combination with cancer therapies
+
+mechanism_of_action: >
+  Thymosin alpha-1 modulates immune function primarily by augmenting T-cell differentiation and
+  activity, mimicking part of the thymus's natural role in immune education. It acts through
+  Toll-like receptors on myeloid and plasmacytoid dendritic cells, triggering downstream signaling
+  and cytokine production, and has been described as having a pleiotropic mechanism affecting
+  multiple immune cell subsets rather than a single narrow target — which is the basis for its
+  use as a broad immune-modulating adjuvant in chronic infection, vaccination, and some cancer
+  treatment contexts.
+
+quick_start_guide:
+  typical_dose: "1.6 mg is the dose used in approved international (Zadaxin) protocols"
+  frequency: "2x weekly, per approved international dosing protocols"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "No specific time-of-day requirement"
+  effects_timeline: "Immune parameter changes in clinical trials were assessed over months (e.g.
+    HBV DNA clearance assessed at 6 months); no rapid subjective effect is established"
+  storage: "Refrigerate after reconstitution"
+  cycle_length: "Clinical protocols for chronic hepatitis have used courses of 6 months or longer"
+  break_between: "Not well established outside of monitored clinical protocols"
+
+pharmacokinetics:
+  peak: "~2 hours after subcutaneous injection"
+  half_life: "~2 hours"
+  cleared: "Serum levels return to baseline within about 24 hours"
+
+research_indications:
+  - Chronic hepatitis B and C (approved adjuvant use outside the U.S., as Zadaxin)
+  - Vaccine co-adjuvant, including studied use with influenza vaccination
+  - Adjunct to chemotherapy/immunotherapy in some cancers (research setting)
+  - General immune support in immunocompromised states (research interest)
+
 reconstitution_steps:
-- Reconstitute with bacteriostatic water; refrigerate.
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White lyophilized powder in a sealed vial"
+  - "Clear, colorless solution after reconstitution with no visible particulate"
+  - "Third-party COA available confirming peptide identity and purity, for research-vendor
+    (non-pharmaceutical) sources"
+
+what_to_expect: >
+  In clinical trials, thymosin alpha-1's benefits (e.g. viral clearance rates in hepatitis) were
+  measured through lab markers over months of use, not an acute subjective effect. It has
+  generally been well tolerated in studies, with injection site irritation being the most
+  commonly reported issue.
+
+side_effects_common:
+  - "Injection site irritation or redness"
+  - "Mild, generally well-tolerated in clinical trials"
+
+safety_notes: >
+  Thymosin alpha-1 (Zadaxin) is approved in numerous countries for chronic hepatitis B/C and as
+  an immune adjuvant, but it has not received FDA approval in the United States, so U.S. supply
+  is limited to compounding or research-chemical sources without that regulatory oversight.
+  Because it is an immune stimulant, caution is warranted in people with autoimmune disease or
+  those on immunosuppressive therapy (e.g. organ transplant recipients), where stimulating immune
+  activity could be counterproductive or harmful. Consult a healthcare provider, particularly
+  before use alongside any immune-related condition or medication.
+
+references:
+  - citation: "Ancell CD, Phipps J, Young L. Thymosin alpha-1. Am J Health Syst Pharm.
+      2001;58(10):879-885."
+    url: "https://pubmed.ncbi.nlm.nih.gov/11381492/"
+  - citation: "King R, Tuthill C. Immune Modulation with Thymosin Alpha 1 Treatment. Vitam Horm.
+      2016;102:151-178."
+    url: "https://pubmed.ncbi.nlm.nih.gov/27450734/"
+
+research_protocols:
+  - goal: "Immune Support (per approved international protocol)"
+    dose: "1.6 mg"
+    timing: "2x weekly"
+    disclaimer: "For research purposes only. Not evaluated or approved by the FDA in the United
+      States."
+    sort_order: 0

@@ -5,10 +5,101 @@
 id: vip
 name: VIP
 status: published
+
 category_ids:
-- cognitive
-overview: Vasoactive Intestinal Peptide
+  - cognitive
+
+overview: >
+  A naturally occurring 28-amino-acid neuropeptide hormone, produced throughout the central
+  and peripheral nervous system, gut, lungs, and immune system. It acts as a
+  neurotransmitter, vasodilator, and potent immunomodulator, and — in intranasal form — is
+  used as the capstone step in the Shoemaker protocol for chronic inflammatory response
+  syndrome (CIRS) associated with water-damaged-building/biotoxin exposure.
+
 key_benefits:
-- Studied for neuroprotection and immune modulation
+  - Studied for neuroprotection and immune modulation
+  - Used as the final step in the Shoemaker CIRS protocol for mold/biotoxin-related illness
+  - Endogenous roles include vasodilation and regulation of endocrine and inflammatory signaling
+
+mechanism_of_action: >
+  VIP binds two G-protein-coupled receptors, VPAC1 and VPAC2, which are widely expressed on
+  neurons, glia, and immune cells. Neurologically, VIP receptor activation is associated
+  with neuroprotection — supporting neuronal survival, promoting neurite outgrowth, and
+  reducing glutamate excitotoxicity and activated-microglia-driven neurodegeneration.
+  Immunologically, VIP suppresses pro-inflammatory cytokine production (TNF-alpha, IL-6,
+  IL-12), inhibits NF-kB activation, promotes regulatory T-cell differentiation, and shifts
+  macrophages toward an anti-inflammatory (M2) phenotype — the rationale for its use as the
+  final step in biotoxin-illness (CIRS) protocols that address chronic innate-immune
+  activation.
+
+quick_start_guide:
+  typical_dose: "50 mcg per spray, intranasal, per the published open-label CIRS protocol (subcutaneous 50 mcg dosing is also used in some compounding-pharmacy protocols)"
+  frequency: "4x daily (1 spray per nostril, alternating), per the Shoemaker CIRS protocol; some versions escalate to more sprays per day over a multi-month course"
+  best_timing: "Spaced through the day (e.g., morning, midday, afternoon, evening)"
+  effects_timeline: "The published open-label CIRS study used courses of at least several weeks to months before assessing outcomes; VIP is not associated with an acute/immediate subjective effect"
+  storage: "Refrigerate; reconstitute with bacteriostatic water per supplier instructions"
+  cycle_length: "Multi-month course, per the published CIRS protocol"
+  break_between: "Not standardized; typically guided by symptom and lab-marker changes in the CIRS protocol literature"
+
+pharmacokinetics:
+  peak: "Rapid; when given IV, effects appear within minutes, though the CIRS protocol relies on local intranasal delivery rather than systemic dosing"
+  half_life: "Very short in systemic circulation (often cited around 1–2 minutes) due to rapid degradation by circulating peptidases — part of the rationale for local (intranasal) rather than systemic administration"
+  cleared: "Rapid enzymatic degradation in plasma; intranasal dosing is intended to act locally/regionally rather than relying on sustained systemic levels"
+
+research_indications:
+  - Chronic inflammatory response syndrome (CIRS) / biotoxin-illness protocols (open-label trial data)
+  - Neuroprotection in models of neuroinflammation and microglial activation
+  - Immune modulation (cytokine suppression, regulatory T-cell support) — a broad research base, not a disease-specific approval
+  - Pulmonary and vasodilatory research (a related VIP-class drug, aviptadil, has been studied for pulmonary hypertension and ARDS)
+
 reconstitution_steps:
 - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "Supplied as a lyophilized powder or pre-mixed nasal spray; solution should be clear and colorless"
+  - "Third-party COA confirming peptide identity and purity from any vendor or compounding pharmacy"
+  - "No cloudiness, discoloration, or particulate matter after reconstitution"
+
+what_to_expect: >
+  VIP is not associated with an acute subjective effect. In the CIRS protocol literature, it
+  is used as a final step after other interventions (binders, addressing biofilm-forming
+  organisms, correcting other lab markers) have already addressed upstream drivers of
+  inflammation, with outcomes assessed via symptom scores and lab/imaging markers over a
+  multi-month course rather than day-to-day sensation.
+
+side_effects_common:
+  - "Facial flushing"
+  - "Transient headache"
+  - "Mild dizziness"
+  - "Lightheadedness or a drop in blood pressure (VIP is a vasodilator)"
+
+safety_notes: >
+  VIP has a well-established endogenous physiological role and a substantial research
+  literature, but the intranasal-VIP CIRS protocol itself is supported mainly by one
+  open-label case series (not a randomized controlled trial) from the physician who
+  developed the protocol. Because VIP is a vasodilator, it can cause flushing, headache, or
+  blood-pressure effects, and should be used cautiously by people with hypotension or
+  cardiovascular disease. It is not FDA-approved for CIRS or any other indication in the
+  compounded/peptide form discussed here (a related VIP-class drug, aviptadil, has a
+  separate FDA-review history for other indications). Consult a healthcare provider,
+  particularly given VIP's broad hormonal and cardiovascular effects.
+
+references:
+  - citation: "Delgado M, Pozo D, Ganea D. The significance of vasoactive intestinal peptide in immunomodulation. Pharmacol Rev. 2004;56(2):249-290."
+    url: "https://pubmed.ncbi.nlm.nih.gov/15169929/"
+  - citation: "Delgado M, Ganea D. Vasoactive intestinal peptide prevents activated microglia-induced neurodegeneration under inflammatory conditions: potential therapeutic role in brain trauma. FASEB J. 2003;17(13):1922-1924."
+    url: "https://pubmed.ncbi.nlm.nih.gov/12923064/"
+  - citation: "Shoemaker RC, House D, Ryan JC. Vasoactive intestinal polypeptide (VIP) corrects chronic inflammatory response syndrome (CIRS) acquired following exposure to water-damaged buildings. Health. 2013;5(3):396-401."
+    url: "https://www.scirp.org/html/6-8202013_28586.htm"
+
+research_protocols:
+  - goal: "CIRS / Biotoxin-Illness Protocol Support (as published)"
+    dose: "50 mcg per spray, 1 spray per nostril"
+    timing: "4x daily, spaced through the day"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Reflects a single open-label study design, not a randomized controlled trial; typically used as the final step after other CIRS-protocol interventions."
+    sort_order: 0
+  - goal: "General Neuroimmune Research Use"
+    dose: "50 mcg 1–2x daily"
+    timing: "Any time of day"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 1

@@ -1,14 +1,76 @@
-# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
 id: lipo-c
 name: Lipo-C
 status: published
+
 category_ids:
-- fat-loss
-overview: Injectable lipotropic blend with vitamin C
+  - fat-loss
+
+overview: >
+  Lipo-C is an injectable lipotropic blend with vitamin C: a compounded vendor/clinic product built on the
+  same methionine-inositol-choline ("MIC") lipotropic base as Lipo-B, marketed for fat metabolism, liver,
+  and energy support together. Vendors are not consistent about what the "C" adds — some formulations pair
+  the MIC base with vitamin C (ascorbic acid), others with L-carnitine, and some include both — so exact
+  contents should always be confirmed with the specific supplier.
+
 key_benefits:
-- Marketed for fat metabolism, liver, and energy support together
+  - Marketed for fat metabolism, liver, and energy support together
+
+mechanism_of_action: >
+  Like Lipo-B, Lipo-C is a compounded blend rather than a single studied molecule, so its rationale rests
+  on the individually studied roles of its ingredients. The MIC core — methionine, inositol, and choline —
+  is intended to support hepatic fat export and phospholipid formation, usually combined with vitamin B12
+  for energy metabolism. Depending on the vendor, the added "C" may be vitamin C (ascorbic acid), which is
+  a required cofactor for the body's own enzymatic synthesis of carnitine from lysine and methionine (an
+  established biochemical fact), and/or L-carnitine itself, which directly shuttles fatty acids into
+  mitochondria for oxidation. These ingredient-level mechanisms are individually legitimate, but there is
+  no independent clinical trial evidence that the "Lipo-C" blend as marketed produces weight loss beyond
+  what diet and exercise achieve alone.
+
+quick_start_guide:
+  typical_dose: "1 mL (composition and concentration vary significantly between compounding pharmacies)"
+  frequency: "1x weekly (some clinics use 2x weekly)"
+  injection_site_ids:
+    - glute-im
+    - deltoid-im
+  best_timing: "No specific timing required"
+  effects_timeline: "Marketed as an ongoing weekly-maintenance product; no independent trial data establishes a reliable timeline"
+  storage: "Typically supplied pre-mixed; refrigerate"
+  cycle_length: "Ongoing weekly use in most clinic protocols rather than a defined cycle"
+  break_between: "Not typically specified"
+
+research_indications:
+  - No independent randomized controlled trials exist on the "Lipo-C" blend as marketed
+  - Individual ingredients (methionine, choline, inositol, B12, and — depending on formulation — vitamin C or L-carnitine) each have separate literature on liver fat metabolism, antioxidant function, or fatty-acid transport
+
 reconstitution_steps:
-- Typically supplied pre-mixed; refrigerate.
+  - Typically supplied pre-mixed; refrigerate.
+
+quality_indicators:
+  - "Solution should be clear with no particulate matter"
+  - "'Lipo-C' is not a standardized formula — confirm with the compounding pharmacy or vendor whether the added 'C' is vitamin C, L-carnitine, or both, and at what dose"
+
+what_to_expect: >
+  As with Lipo-B, this is a compounded nutrient blend rather than a single studied drug, so expectations
+  should be modest and tied to the ingredients' established individual roles rather than to blend-specific
+  weight-loss claims. Any reported fat-loss benefit sits on top of diet and exercise, not in place of them.
+
+side_effects_common:
+  - "Injection site pain, redness, or swelling"
+  - "Mild nausea or gastrointestinal upset"
+  - "Transient dizziness or lightheadedness"
+
+safety_notes: >
+  "Lipo-C" is a marketing and compounding-pharmacy category name, not a standardized or independently
+  studied drug — what the "C" refers to, and the ratios of every ingredient, vary by vendor. There are no
+  randomized controlled trials demonstrating that the blend itself produces clinically meaningful weight
+  loss independent of diet and exercise. The individual ingredients are generally well tolerated at typical
+  doses; people with severe liver disease, metabolic acidosis, Leber's hereditary optic neuropathy, or who
+  are pregnant or breastfeeding are commonly advised to avoid MIC/B12-based blends. Confirm exact contents
+  and concentration with your specific supplier before use, and consult a healthcare provider.
+
+research_protocols:
+  - goal: "Weekly Metabolic/Liver/Energy Support"
+    dose: "1 mL weekly, IM"
+    timing: "Any time"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Formulation and dose vary by supplier — confirm exact contents before use."
+    sort_order: 0

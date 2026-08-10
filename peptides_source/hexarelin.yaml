@@ -5,10 +5,86 @@
 id: hexarelin
 name: Hexarelin
 status: published
+
 category_ids:
-- growth-hormone
-overview: Potent GH secretagogue
+  - growth-hormone
+
+overview: >
+  Potent GH secretagogue. A synthetic hexapeptide considered the most potent GH-releasing peptide
+  in its class, also studied in small clinical settings for acute effects on cardiac performance.
+
 key_benefits:
-- Can desensitize with prolonged use
+  - Can desensitize with prolonged use
+
+mechanism_of_action: >
+  Acts as a high-affinity agonist at the growth hormone secretagogue receptor (GHS-R1a),
+  producing a stronger acute GH pulse than other GHRP-class peptides. It also binds CD36, a
+  receptor expressed on cardiac tissue, which is thought to underlie the acute inotropic
+  (contractility-boosting) effects seen in small clinical studies — including one in coronary
+  artery disease patients undergoing bypass surgery, where IV hexarelin increased left
+  ventricular ejection fraction and cardiac output, an effect not replicated by GH or GHRH itself.
+  Its high receptor affinity also causes it to desensitize the GHS-R1a receptor faster than
+  lower-affinity secretagogues, which is why continuous daily use tends to blunt its GH-releasing
+  effect over time.
+
+quick_start_guide:
+  typical_dose: "100–200 mcg"
+  frequency: "1–3x daily"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "Empty stomach; commonly dosed pre-workout and/or before bed"
+  effects_timeline: "Acute GH pulse within 15–30 minutes of dosing; diminished response commonly reported after continuous daily use beyond a few weeks (desensitization)"
+  storage: "Refrigerate after reconstitution; use within 20–30 days"
+  cycle_length: "4–6 weeks — shorter than other GHRP-class peptides due to faster receptor desensitization"
+  break_between: "4–8 weeks"
+
+pharmacokinetics:
+  peak: "GH response peaks within roughly 15–30 minutes of subcutaneous dosing, consistent with other GHRP-class peptides"
+  half_life: "Not well characterized for subcutaneous research-chemical dosing; small clinical studies used acute IV administration rather than establishing standard SC pharmacokinetics"
+  cleared: "Within a few hours"
+
+research_indications:
+  - GH secretion stimulation (highest potency among GHRP-class peptides)
+  - Acute cardiac performance research (small clinical studies, distinct from typical self-administered use)
+  - Receptor desensitization research
+
 reconstitution_steps:
-- Mix with bacteriostatic water; store cold.
+  - Mix with bacteriostatic water; store cold.
+
+quality_indicators:
+  - "White, lyophilized powder that fully dissolves into a clear, colorless solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate matter after reconstitution"
+
+what_to_expect: >
+  Users typically report the strongest acute GH-related response among GHRP-class peptides, but
+  also the fastest fade in that response with daily continuous use, which is why cycling is
+  shorter and more strictly observed than with GHRP-2 or GHRP-6.
+
+side_effects_common:
+  - "Cortisol and prolactin elevation (more pronounced than other GHRPs)"
+  - "Water retention"
+  - "Flushing"
+  - "Tingling in the extremities"
+  - "Increased appetite"
+
+safety_notes: >
+  Hexarelin has the strongest GH-releasing potency of the GHRP-class peptides but also the most
+  pronounced cortisol and prolactin elevation and the fastest receptor desensitization, which is
+  why research cycles are typically shorter than for GHRP-2 or GHRP-6. The clinical studies
+  showing acute cardiac effects used intravenous administration in monitored settings (including
+  cardiac surgery patients) — a very different context from self-administered subcutaneous use,
+  so that data does not establish general safety for typical research use. This is a research
+  compound, not an approved treatment for any condition. Consult a healthcare provider.
+
+references:
+  - citation: "Broglio F, Guarracino F, Benso A, Gottero C, Prodam F, Granata R, Avogadri E, Muccioli G, Deghenghi R, Ghigo E. Effects of acute hexarelin administration on cardiac performance in patients with coronary artery disease during by-pass surgery. Eur J Pharmacol. 2002;448(2-3):193-200."
+    url: "https://pubmed.ncbi.nlm.nih.gov/12144941/"
+
+research_protocols:
+  - goal: "GH Pulse / Short-Cycle Research"
+    dose: "100–200 mcg 1–2x daily"
+    timing: "Before bed and/or pre-workout, empty stomach"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0

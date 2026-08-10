@@ -5,10 +5,91 @@
 id: teriparatide
 name: Teriparatide
 status: published
+
 category_ids:
-- bone
-overview: PTH-derived peptide
+  - bone
+
+overview: >
+  A recombinant form of the first 34 amino acids of human parathyroid hormone (PTH 1-34).
+  FDA-approved under the brand name Forteo (and later generic/biosimilar versions such as
+  Bonsity), it is used to increase bone density and reduce fracture risk in people at high risk of
+  osteoporotic fracture. Unlike most peptides in this app, it is a well-established prescription
+  drug with extensive clinical trial data.
+
 key_benefits:
-- FDA-approved for osteoporosis and bone density support
+  - FDA-approved for osteoporosis and bone density support
+  - Reduces the risk of vertebral and nonvertebral fractures in postmenopausal women with osteoporosis
+  - One of the few widely used "anabolic" (bone-building) osteoporosis treatments, versus the more common anti-resorptive drugs
+
+mechanism_of_action: >
+  Teriparatide is identical to the biologically active N-terminal 1-34 fragment of human
+  parathyroid hormone. Continuous, high PTH exposure (as occurs in disease states like
+  hyperparathyroidism) breaks down bone, but intermittent, once-daily dosing of teriparatide has
+  the opposite, "anabolic" effect: it preferentially stimulates osteoblast (bone-building) activity
+  over osteoclast (bone-resorbing) activity, increasing bone formation, bone mineral density, and
+  bone strength.
+
+quick_start_guide:
+  typical_dose: "20 mcg once daily (approved dose for Forteo/teriparatide)"
+  frequency: "1x daily"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "Same time each day; can be taken with or without food"
+  effects_timeline: "Bone mineral density increases are typically assessed over months; the pivotal trial dosed patients for a median of ~19 months to demonstrate fracture reduction"
+  storage: "Refrigerate the pen at all times (including during use); discard after 28 days from first use even if solution remains"
+  cycle_length: "FDA labeling limits total lifetime use to 2 years, based on the original approved indication"
+  break_between: "Not intended to be re-cycled after the maximum treatment duration; a bone-strengthening (anti-resorptive) therapy is often used afterward to help maintain gains, per physician guidance"
+
+pharmacokinetics:
+  peak: "~30 minutes after a 20 mcg subcutaneous dose"
+  half_life: "~1 hour (subcutaneous)"
+  cleared: "Declines to non-quantifiable plasma concentrations within about 3 hours of dosing; absolute bioavailability is approximately 95%"
+
+research_indications:
+  - Postmenopausal osteoporosis at high fracture risk (FDA-approved)
+  - Osteoporosis in men at high fracture risk (FDA-approved)
+  - Glucocorticoid-induced osteoporosis in patients at high fracture risk (FDA-approved)
+
 reconstitution_steps:
-- Reconstitute per manufacturer instructions; refrigerate.
+  - "Reconstitute per manufacturer instructions; refrigerate."
+
+quality_indicators:
+  - "Supplied as a prefilled pen (e.g. 600 mcg/2.4 mL) intended for single-patient use"
+  - "Solution is clear and colorless; do not use if cloudy, discolored, or containing particles"
+  - "Pen has been continuously refrigerated; do not use if it has been frozen or left unrefrigerated for an extended period"
+
+what_to_expect: >
+  Teriparatide does not produce noticeable acute effects — its benefit (increased bone density and
+  reduced fracture risk) is measured over months to years via bone density scans and clinical
+  outcomes, not something a person feels day to day. Mild transient symptoms like leg cramps or
+  dizziness shortly after dosing are sometimes reported early in treatment.
+
+side_effects_common:
+  - "Nausea"
+  - "Leg cramps"
+  - "Dizziness (sometimes with orthostatic hypotension shortly after dosing)"
+  - "Injection site pain or redness"
+  - "Transient hypercalcemia"
+
+safety_notes: >
+  Teriparatide carries an FDA boxed warning about osteosarcoma (a type of bone cancer), based on
+  findings in a rat carcinogenicity study at doses and durations exceeding typical human use; this
+  risk has not been confirmed in humans, but the drug is not recommended for patients with an
+  elevated baseline risk of osteosarcoma (e.g. Paget's disease of bone, unexplained elevated
+  alkaline phosphatase, open epiphyses, prior radiation therapy involving the skeleton, or bone
+  metastases/skeletal malignancies). It is also not recommended in patients with hypercalcemia or
+  certain metabolic bone diseases. Total lifetime treatment is limited to 2 years under the
+  original FDA approval. This is a prescription medication requiring physician supervision and
+  monitoring — not a self-directed research compound.
+
+references:
+  - citation: "Neer RM, Arnaud CD, Zanchetta JR, et al. Effect of parathyroid hormone (1-34) on fractures and bone mineral density in postmenopausal women with osteoporosis. N Engl J Med. 2001;344(19):1434-1441."
+    url: "https://www.nejm.org/doi/full/10.1056/NEJM200105103441904"
+
+research_protocols:
+  - goal: "Osteoporosis / Fracture Risk Reduction"
+    dose: "20 mcg once daily via subcutaneous injection"
+    timing: "Same time each day"
+    disclaimer: "Prescription medication requiring physician diagnosis, prescription, and monitoring. Not evaluated for use outside its approved indications."
+    sort_order: 0

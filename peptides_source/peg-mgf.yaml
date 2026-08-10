@@ -1,14 +1,82 @@
 # Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
+# Only overview/key_benefits/reconstitution_steps were populated from that
+# source; richer fields below were added in a later research pass.
 id: peg-mgf
 name: PEG-MGF
 status: published
+
 category_ids:
-- growth-hormone
-overview: PEGylated Mechano Growth Factor
+  - growth-hormone
+
+overview: >
+  PEGylated Mechano Growth Factor — the same IGF-1 splice variant E-peptide as MGF, with a
+  polyethylene glycol (PEG) molecule attached to slow its breakdown and clearance, intended to
+  extend its activity from minutes to a much longer window.
+
 key_benefits:
-- Longer-acting alternative to standard MGF
+  - Longer-acting alternative to standard MGF
+
+mechanism_of_action: >
+  Shares its proposed mechanism with unmodified MGF: the E-peptide domain of the IGF-1Ec splice
+  variant is believed to activate quiescent muscle satellite cells, promoting their proliferation
+  at sites of mechanical loading or damage. PEGylation — attaching a polyethylene glycol chain to
+  the peptide — is a well-established technique (used in several approved biologic drugs) for
+  reducing renal clearance and proteolytic breakdown of a peptide, which is the rationale for
+  pairing it with MGF given how quickly the unmodified peptide degrades in serum.
+
+quick_start_guide:
+  typical_dose: "200–400 mcg"
+  frequency: "2x weekly, less often than unmodified MGF given its longer claimed half-life"
+  injection_site_ids:
+    - abdomen-subq
+    - near-injury
+  best_timing: "No specific timing requirement established; often split across training days"
+  effects_timeline: "No formal human timeline exists; anecdotal reports describe gradual changes over several weeks"
+  storage: "Refrigerate after reconstitution; reported to be more stable in solution than unmodified MGF, but still recommended for use within the supplier's stated window"
+  cycle_length: "4–6 weeks"
+  break_between: "4+ weeks"
+
+pharmacokinetics:
+  peak: "Not established in humans"
+  half_life: "Manufacturer/vendor materials describe a half-life extended to hours or days versus the ~5–7 minute half-life of unmodified MGF; no peer-reviewed human pharmacokinetic study of the PEGylated construct itself was found"
+  cleared: "Not established"
+
+research_indications:
+  - Satellite cell activation after mechanical muscle damage (preclinical, based on the parent MGF E-peptide)
+  - Localized and systemic muscle repair signaling (preclinical)
+
 reconstitution_steps:
-- Mix immediately before use; unstable in solution.
+  - Mix immediately before use; unstable in solution.
+
+quality_indicators:
+  - "White, lyophilized powder that fully dissolves into a clear, colorless solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate matter after reconstitution"
+
+what_to_expect: >
+  Marketed as a more convenient, less frequently dosed alternative to unmodified MGF. As with
+  MGF, there is no formal human timeline for effects, and reports of benefit from the research
+  and bodybuilding community are gradual rather than acute.
+
+side_effects_common:
+  - "Injection site redness or irritation"
+
+safety_notes: >
+  The mechanistic research behind MGF's E-peptide (cell proliferation, satellite cell activation)
+  comes from studies of the unmodified peptide — no dedicated human or animal studies of the
+  PEGylated construct sold by research-chemical vendors were found, so its pharmacokinetics,
+  effective dose, and safety profile are not independently verified and rely on
+  manufacturer/vendor claims. As with any growth-factor-pathway compound, some reviewers raise a
+  theoretical caution around use in people with active cancer or a history of cancer. This is a
+  research compound, not an approved treatment for any condition. Consult a healthcare provider.
+
+references:
+  - citation: "Yang SY, Goldspink G. Different roles of the IGF-I Ec peptide (MGF) and mature IGF-I in myoblast proliferation and differentiation. FEBS Lett. 2002;522(1-3):156-160."
+    url: "https://pubmed.ncbi.nlm.nih.gov/12095637/"
+
+research_protocols:
+  - goal: "Extended-Interval Muscle Repair Support"
+    dose: "200–400 mcg, 2x weekly"
+    timing: "Any time of day; often paired with training days"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0

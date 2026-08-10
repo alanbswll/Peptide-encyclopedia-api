@@ -5,10 +5,83 @@
 id: ghrp-2
 name: GHRP-2
 status: published
+
 category_ids:
-- growth-hormone
-overview: Growth hormone releasing peptide
+  - growth-hormone
+
+overview: >
+  Growth hormone releasing peptide. A synthetic ghrelin-mimetic (also known as pralmorelin) that
+  is approved in Japan as a diagnostic agent for evaluating growth hormone deficiency.
+
 key_benefits:
-- Stimulates appetite and GH release
+  - Stimulates appetite and GH release
+
+mechanism_of_action: >
+  Acts as an agonist at the growth hormone secretagogue receptor (GHS-R1a), the same receptor
+  activated by ghrelin, triggering GH release from the anterior pituitary. Because it engages the
+  ghrelin receptor system directly, it also stimulates appetite — a human study found subjects ate
+  roughly 36% more food during a GHRP-2 infusion compared to saline. It produces a moderate rise
+  in cortisol and a mild rise in prolactin at higher doses, less pronounced than older peptides
+  like GHRP-6.
+
+quick_start_guide:
+  typical_dose: "100–300 mcg"
+  frequency: "1–3x daily"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "Empty stomach; 20–30 minutes before a meal if appetite stimulation is a goal, or before bed otherwise"
+  effects_timeline: "Appetite increase within 15–30 minutes of dosing; GH-linked body composition changes described over 8–12 weeks"
+  storage: "Refrigerate after reconstitution; use within 20–30 days"
+  cycle_length: "8–12 weeks"
+  break_between: "4–6 weeks"
+
+pharmacokinetics:
+  peak: "GH response peaks roughly 15–30 minutes after subcutaneous dosing"
+  half_life: "~0.55 hours (~33 minutes) reported in a pediatric pharmacokinetic study; biexponential clearance"
+  cleared: "Within a few hours"
+
+research_indications:
+  - GH secretion stimulation; used diagnostically for GH deficiency testing (as pralmorelin, in Japan)
+  - Appetite/food intake stimulation via the ghrelin receptor pathway
+  - Body composition research
+
 reconstitution_steps:
-- Mix with bacteriostatic water; store cold.
+  - Mix with bacteriostatic water; store cold.
+
+quality_indicators:
+  - "White, lyophilized powder that fully dissolves into a clear, colorless solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate matter after reconstitution"
+
+what_to_expect: >
+  The most immediately noticeable effect is a marked increase in appetite within minutes of
+  dosing. GH-related changes to sleep, recovery, or body composition build more gradually over
+  the following weeks.
+
+side_effects_common:
+  - "Increased appetite"
+  - "Flushing"
+  - "Mild water retention"
+  - "Mild, transient elevation in cortisol and prolactin at higher doses"
+
+safety_notes: >
+  GHRP-2 (pralmorelin) is approved in Japan as a diagnostic agent for single-dose evaluation of
+  GH deficiency, not for ongoing self-administered use — the available human pharmacokinetic data
+  largely comes from a small diagnostic-dose study in children, not chronic adult dosing. Its
+  appetite-stimulating and cortisol/prolactin-raising effects are more pronounced than newer,
+  more selective secretagogues like ipamorelin. This is a research compound outside its approved
+  diagnostic context; consult a healthcare provider.
+
+references:
+  - citation: "Pihoker C, Kearns GL, French D, Bowers CY. Pharmacokinetics and pharmacodynamics of growth hormone-releasing peptide-2: a phase I study in children. J Clin Endocrinol Metab. 1998;83(4):1168-1172."
+    url: "https://pubmed.ncbi.nlm.nih.gov/9543135/"
+  - citation: "Laferrère B, Abraham C, Russell CD, Bowers CY. Growth hormone releasing peptide-2 (GHRP-2), like ghrelin, increases food intake in healthy men. J Clin Endocrinol Metab. 2005;90(2):611-614."
+    url: "https://pubmed.ncbi.nlm.nih.gov/15699539/"
+
+research_protocols:
+  - goal: "GH Secretion / Appetite Research"
+    dose: "150 mcg 2x daily"
+    timing: "Before meals"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0

@@ -1,14 +1,90 @@
-# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
 id: cagrilintide
 name: Cagrilintide
 status: published
+
 category_ids:
-- fat-loss
-overview: Long-acting amylin analog
+  - fat-loss
+
+overview: >
+  A long-acting amylin analog developed by Novo Nordisk, most prominently studied combined with
+  semaglutide as "CagriSema." It is investigational — not yet FDA-approved — and works through a
+  distinct hormonal pathway (amylin) that is often paired with GLP-1 agonists for additive weight
+  loss.
+
 key_benefits:
-- Often studied alongside GLP-1 agonists
+  - Often studied alongside GLP-1 agonists
+  - Amylin-pathway mechanism is complementary to, not redundant with, GLP-1 receptor agonism
+  - Monotherapy Phase 2 data showed cagrilintide outperformed liraglutide head-to-head at 26 weeks
+  - Combined with semaglutide (CagriSema), Phase 3 data show roughly 20% average weight loss at 68 weeks
+
+mechanism_of_action: >
+  Cagrilintide is a long-acting analog of amylin, a pancreatic hormone co-secreted with insulin
+  that slows gastric emptying, promotes satiety via the area postrema/hypothalamus, and
+  suppresses glucagon secretion. Because amylin and GLP-1 act on overlapping but distinct
+  appetite-regulation circuits, combining cagrilintide with a GLP-1 agonist like semaglutide
+  (CagriSema) has produced greater weight loss than either agent alone in trials. A fatty-acid
+  modification binds albumin, extending its half-life to support once-weekly dosing.
+
+quick_start_guide:
+  typical_dose: "0.25–0.5 mg starting dose in published trials, titrated up to 2.4–4.5 mg studied maintenance doses"
+  frequency: "1x weekly"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+    - deltoid-im
+  best_timing: "Same day each week, any time of day"
+  effects_timeline: "GI tolerability effects appear early in titration; weight loss accumulates over months, with trial endpoints measured at 26–68 weeks depending on the study"
+  storage: "Refrigerate; not yet available as an approved commercial product with a finalized storage label"
+  cycle_length: "Studied as a continuous long-term therapy in trials to date"
+  break_between: "Not established; this is investigational, unapproved therapy"
+
+pharmacokinetics:
+  peak: "Consistent with once-weekly amylin-analog dosing; detailed human Tmax not widely published"
+  half_life: "~159–195 hours (roughly 7–8 days)"
+  cleared: "Long-acting, once-weekly elimination profile similar to other albumin-binding peptide therapeutics"
+
+research_indications:
+  - Investigational treatment for obesity/overweight, alone or combined with semaglutide (CagriSema)
+  - Studied in adults with overweight/obesity and type 2 diabetes
+
 reconstitution_steps:
-- Reconstitute per manufacturer instructions; refrigerate.
+  - Reconstitute per manufacturer instructions; refrigerate.
+
+quality_indicators:
+  - "Not an FDA-approved commercial product; no legitimate retail/pharmacy supply chain exists yet"
+  - "Research-chemical vendor material should include a third-party COA confirming identity and purity"
+  - "Clear, colorless solution with no particulate matter after reconstitution"
+
+what_to_expect: >
+  Gastrointestinal side effects (nausea, constipation) are the dominant early experience reported
+  in trials, occurring in a substantial minority of participants versus placebo. Weight loss
+  builds gradually and was still progressing at the latest reported trial timepoints when combined
+  with semaglutide.
+
+side_effects_common:
+  - "Nausea"
+  - "Constipation"
+  - "Injection site reactions"
+  - "Decreased appetite"
+
+safety_notes: >
+  Cagrilintide is investigational and not FDA-approved as of this writing, whether alone or as
+  CagriSema; long-term safety data beyond published trial periods is not yet available. Trials
+  reported gastrointestinal adverse events (nausea, constipation) more frequently than placebo.
+  As an amylin-pathway agent studied primarily alongside GLP-1 agonists, its safety profile in
+  monotherapy at research-chemical doses outside a supervised trial is not well characterized.
+  Any use outside of a clinical trial is off-label and unsupervised by regulatory review. Consult
+  a healthcare provider.
+
+references:
+  - citation: "Lau DCW, Erichsen L, Francisco AM, et al. Once-weekly cagrilintide for weight management in people with overweight and obesity: a multicentre, randomised, double-blind, placebo-controlled and active-controlled, dose-finding phase 2 trial. Lancet. 2021;398(10317):2160-2172."
+    url: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)01751-7/abstract"
+  - citation: "Garvey WT, et al. Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity (REDEFINE 1). N Engl J Med. 2025."
+    url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2502081"
+
+research_protocols:
+  - goal: "Weight Management (Investigational, monotherapy)"
+    dose: "0.25 mg weekly, titrated per published Phase 2 dose levels up to 4.5 mg"
+    timing: "Same day each week"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Investigational compound, not an approved medication."
+    sort_order: 0

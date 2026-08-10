@@ -1,14 +1,77 @@
-# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
 id: lipo-b
 name: Lipo-B
 status: published
+
 category_ids:
-- fat-loss
-overview: Injectable lipotropic B-vitamin blend
+  - fat-loss
+
+overview: >
+  Lipo-B is an injectable lipotropic B-vitamin blend: a compounded vendor/clinic product rather than a
+  single studied compound. Formulations typically combine methionine, inositol, and choline (together
+  often called "MIC") with vitamin B12 (cyanocobalamin), and it is marketed for fat metabolism and energy
+  support.
+
 key_benefits:
-- Marketed for fat metabolism and energy support
+  - Marketed for fat metabolism and energy support
+
+mechanism_of_action: >
+  Lipo-B is a compounded blend rather than a single molecule, so its rationale rests on the individually
+  studied roles of its ingredients rather than a mechanism established for the blend itself. A typical
+  formulation combines methionine (a methyl-donor amino acid involved in fat and homocysteine
+  metabolism), inositol (supports phospholipid/lecithin formation involved in exporting fat from the
+  liver), and choline (an essential nutrient for hepatic fat export and cell-membrane synthesis) — the
+  "MIC" core — plus vitamin B12, which supports red blood cell production and energy metabolism. These are
+  legitimate, individually studied nutrients, but there is no independent clinical trial evidence that the
+  "Lipo-B" blend itself produces weight loss beyond what diet and exercise achieve alone, and exact
+  ingredient ratios are not standardized across vendors.
+
+quick_start_guide:
+  typical_dose: "1 mL (formulations vary by compounding pharmacy; a common mix is roughly 25 mg methionine, 50 mg choline, 1 mg B12 per mL)"
+  frequency: "1x weekly (some clinics use 2x weekly or every 2 weeks)"
+  injection_site_ids:
+    - glute-im
+    - deltoid-im
+  best_timing: "No specific timing required"
+  effects_timeline: "Marketed as an ongoing weekly-maintenance product; no independent trial data establishes a reliable timeline"
+  storage: "Typically supplied pre-mixed; refrigerate"
+  cycle_length: "Ongoing weekly use in most clinic protocols rather than a defined cycle"
+  break_between: "Not typically specified"
+
+research_indications:
+  - No independent randomized controlled trials exist on the "Lipo-B" blend as marketed
+  - Individual ingredients (methionine, choline, inositol, B12) have separate literature on liver fat metabolism, homocysteine handling, and B12-related energy/red-blood-cell support
+
 reconstitution_steps:
-- Typically supplied pre-mixed; refrigerate.
+  - Typically supplied pre-mixed; refrigerate.
+
+quality_indicators:
+  - "Solution should be clear, with a light yellow/pink tint from B12 being normal, and no particulate matter"
+  - "'Lipo-B' is not a standardized formula — ask the compounding pharmacy or vendor for the exact per-mL ingredient breakdown before use"
+
+what_to_expect: >
+  Because this is a compounded nutrient blend rather than a single studied drug, expectations should be
+  modest and tied to the individual ingredients' established roles (liver fat metabolism, B12-related
+  energy support) rather than to blend-specific weight-loss claims. Any reported fat-loss benefit sits on
+  top of diet and exercise, not in place of them.
+
+side_effects_common:
+  - "Injection site pain, redness, or swelling"
+  - "Mild nausea or gastrointestinal upset"
+  - "Transient dizziness or lightheadedness"
+  - "Rare allergic reaction to a blend component"
+
+safety_notes: >
+  "Lipo-B" is a marketing and compounding-pharmacy category name, not a standardized or independently
+  studied drug — ingredient ratios vary by vendor, and there are no randomized controlled trials
+  demonstrating that the blend itself produces clinically meaningful weight loss independent of diet and
+  exercise. The individual ingredients are generally well tolerated at typical doses, but people with
+  severe liver disease, metabolic acidosis, Leber's hereditary optic neuropathy, a B12 allergy, or who are
+  pregnant or breastfeeding are commonly advised to avoid it. Confirm exact contents and concentration with
+  your specific supplier before use, and consult a healthcare provider.
+
+research_protocols:
+  - goal: "Weekly Metabolic/Energy Support"
+    dose: "1 mL weekly, IM"
+    timing: "Any time"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Formulation and dose vary by supplier — confirm exact contents before use."
+    sort_order: 0

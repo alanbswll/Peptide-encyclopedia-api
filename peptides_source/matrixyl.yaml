@@ -5,10 +5,72 @@
 id: matrixyl
 name: Matrixyl
 status: published
+
 category_ids:
-- skin
-overview: Palmitoyl pentapeptide-4
+  - skin
+
+overview: >
+  Palmitoyl pentapeptide-4 (pal-KTTKS), a lipidated fragment of type I procollagen introduced by
+  Sederma in 2000. It is one of the most widely used peptides in cosmetic anti-aging formulations
+  and is applied topically — it is not an injectable product.
+
 key_benefits:
-- Marketed for collagen production and firmness
+  - Marketed for collagen production and firmness
+  - Studied for reducing the appearance of fine lines and wrinkles in photoaged skin
+
+mechanism_of_action: >
+  Palmitoyl pentapeptide-4 is a "matrikine" — a small peptide fragment that mimics the signal
+  released when collagen breaks down during normal tissue turnover. This signal is believed to
+  prompt dermal fibroblasts to respond as though repairing damage, increasing synthesis of collagen
+  types I and III, fibronectin, and glycosaminoglycans. The attached palmitic acid (fatty acid) tail
+  is intended to improve penetration through the skin's lipid barrier.
+
+quick_start_guide:
+  typical_dose: "Commercial serums/creams commonly range from ~2–5% (standard) up to ~8–10% (higher-strength) of a diluted Matrixyl solution; the original clinical trial tested a moisturizer with 3 ppm of the pure pal-KTTKS peptide"
+  frequency: "1–2x daily"
+  best_timing: "Applied to clean, dry skin, morning and/or evening"
+  effects_timeline: "The primary published trial showed measurable improvement in fine lines/wrinkles over a 12-week period of twice-daily use"
+  storage: "Store per product label, typically at room temperature away from direct light and heat"
+  cycle_length: "Typically used continuously as part of a skincare routine"
+  break_between: "Not established"
+
+research_indications:
+  - Fine line and wrinkle appearance (topical, photoaged skin)
+  - Skin firmness / collagen-synthesis support (topical)
+
 reconstitution_steps:
-- Typically supplied as a topical formulation.
+  - "Typically supplied as a topical formulation."
+
+quality_indicators:
+  - "Ingredient list specifies palmitoyl pentapeptide-4 / Matrixyl concentration"
+  - "Supplied in opaque or airless packaging to limit oxidation of the lipid-conjugated peptide"
+  - "Smooth, uniform texture with no separation of the oil and water phases"
+
+what_to_expect: >
+  As with most topical cosmetic actives, effects are gradual — the published clinical trial
+  measured improvement over a 12-week course of twice-daily use, not days. Results are typically
+  framed as a softening of fine lines and improved skin texture/firmness rather than a dramatic
+  transformation.
+
+side_effects_common:
+  - "Mild skin irritation at the application site"
+  - "Rare allergic contact dermatitis"
+
+safety_notes: >
+  Matrixyl has one of the better-documented efficacy records among cosmetic peptides, including a
+  published, controlled 12-week facial trial, though it is worth noting industry funding is common
+  across this ingredient's supporting studies and independent academic replication is limited.
+  It is formulated and sold strictly as a topical cosmetic ingredient, not an injectable, and is not
+  an FDA-evaluated drug. Consult a dermatologist about incorporating new topical actives into an
+  existing skincare routine, particularly alongside retinoids or acid exfoliants.
+
+references:
+  - citation: "Robinson LR, Fitzgerald NC, Doughty DG, Dawes NC, Berge CA, Bissett DL. Topical palmitoyl pentapeptide provides improvement in photoaged human facial skin. Int J Cosmet Sci. 2005;27(3):155-160."
+    url: "https://pubmed.ncbi.nlm.nih.gov/18492182/"
+
+research_protocols:
+  - goal: "Fine Line / Firmness Support (topical)"
+    dose: "2–5% Matrixyl serum or cream, per product instructions"
+    timing: "Applied to clean skin once or twice daily"
+    disclaimer: "For cosmetic/topical use only, per product labeling. Not evaluated by the FDA to diagnose, treat, cure, or prevent any disease. Not intended for injection."
+    sort_order: 0

@@ -1,14 +1,88 @@
-# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
 id: ara-290
 name: ARA-290
 status: published
+
 category_ids:
-- healing
-overview: Tissue-protective erythropoietin fragment (Cibinetide)
+  - healing
+
+overview: >
+  A synthetic 11-amino-acid peptide engineered from the tertiary structure of erythropoietin
+  (EPO), also known as cibinetide. It selectively activates the "innate repair receptor"
+  without stimulating red blood cell production, and has been studied in placebo-controlled
+  clinical trials for nerve pain and tissue protection.
+
 key_benefits:
-- Studied for nerve pain and tissue protection
+  - Studied for nerve pain and tissue protection
+  - Investigated in randomized, placebo-controlled phase 2 trials for small-fiber neuropathy in sarcoidosis and type 2 diabetes
+  - Selectively activates the innate repair receptor without stimulating red blood cell production, avoiding the cardiovascular risks associated with erythropoiesis-stimulating agents
+
+mechanism_of_action: >
+  ARA-290 is engineered from a region of erythropoietin's tertiary structure that does not
+  activate the classical homodimeric EPO receptor responsible for red blood cell production.
+  Instead, it selectively activates the "innate repair receptor" (IRR) — a heterodimeric
+  complex of the EPO receptor and the beta-common receptor (CD131) expressed on injured
+  tissue, neurons, and immune cells. IRR activation is believed to suppress local inflammation
+  and apoptosis and support nerve/tissue repair, without the erythropoietic or thrombotic
+  effects of native EPO.
+
+quick_start_guide:
+  typical_dose: "2–4 mg"
+  frequency: "1x daily"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "Any time of day; consistency matters more than timing"
+  effects_timeline: "Published trials dosed for 28 consecutive days, with improvements in neuropathic symptom scores and nerve fiber density reported by the end of that course"
+  storage: "Reconstitute with bacteriostatic water; refrigerate and protect from light"
+  cycle_length: "28-day course (as used in published clinical trials)"
+  break_between: "Not established outside clinical trial protocols; published trials did not repeat dosing after the 28-day course"
+
+pharmacokinetics:
+  peak: "Not established in published literature"
+  half_life: "Not established in published literature"
+  cleared: "Not established in published literature"
+
+research_indications:
+  - Small-fiber neuropathy associated with sarcoidosis
+  - Neuropathic symptoms and metabolic markers in type 2 diabetes
+  - Tissue protection after ischemic or inflammatory injury (preclinical)
+
 reconstitution_steps:
-- Reconstitute with bacteriostatic water; keep cold.
+  - Reconstitute with bacteriostatic water; keep cold.
+
+quality_indicators:
+  - "White, lyophilized powder in a sealed vial that dissolves into a clear, colorless solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible particulate matter or discoloration after reconstitution"
+
+what_to_expect: >
+  ARA-290 has undergone more formal human testing than most research peptides — two published
+  randomized, placebo-controlled trials (in sarcoidosis-associated neuropathy and type 2
+  diabetes) used a 28-day daily dosing course and reported improvements in neuropathic symptom
+  scores, corneal nerve fiber density, and (in the diabetes trial) metabolic markers. Effects
+  were measured at the end of the 28-day course rather than acutely.
+
+side_effects_common:
+  - "No significant adverse events reported versus placebo in published trials"
+  - "Mild injection site reactions"
+
+safety_notes: >
+  ARA-290 (cibinetide) is an investigational drug that has completed only phase 2 clinical
+  trials and has not received regulatory approval for any indication. Because it does not
+  activate the classical EPO receptor, published trials found no increase in red blood cell
+  counts or the cardiovascular/thrombotic risks associated with erythropoiesis-stimulating
+  agents, but safety data beyond short 28-day trial courses does not exist. This is a research
+  compound, not an approved treatment for any condition. Consult a healthcare provider.
+
+references:
+  - citation: "Heij L, Niesters M, Swartjes M, et al. Safety and efficacy of ARA 290 in sarcoidosis patients with symptoms of small fiber neuropathy: a randomized, double-blind pilot study. Mol Med. 2012;18(1):1430-1436."
+    url: "https://pubmed.ncbi.nlm.nih.gov/23168581/"
+  - citation: "Brines M, Dunne AN, van Velzen M, et al. ARA 290, a nonerythropoietic peptide engineered from erythropoietin, improves metabolic control and neuropathic symptoms in patients with type 2 diabetes. Mol Med. 2015;20(1):658-666."
+    url: "https://pubmed.ncbi.nlm.nih.gov/25387363/"
+
+research_protocols:
+  - goal: "Neuropathic Symptom Support"
+    dose: "4 mg 1x daily for 28 days"
+    timing: "Any time of day; consistent daily dosing"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0

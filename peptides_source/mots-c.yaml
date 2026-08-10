@@ -5,10 +5,83 @@
 id: mots-c
 name: MOTS-c
 status: published
+
 category_ids:
-- longevity
-overview: Mitochondrial-derived peptide
+  - longevity
+
+overview: >
+  A 16-amino-acid peptide encoded within mitochondrial DNA (in the 12S rRNA region), identified
+  in 2015 by Pinchas Cohen's group at USC. MOTS-c is one of the first well-characterized
+  "mitochondrial-derived peptides" (MDPs) and is studied as a mitokine that signals between
+  mitochondria and the nucleus to regulate metabolism.
+
 key_benefits:
-- Studied for metabolic and exercise adaptation
+  - Studied for metabolic and exercise adaptation
+  - Explored for insulin sensitivity and prevention of diet/age-related metabolic dysfunction (animal studies)
+  - Endogenous levels rise with exercise, linking it to exercise-mimetic research interest
+
+mechanism_of_action: >
+  MOTS-c is encoded in mitochondrial DNA but translocates to the nucleus under metabolic stress,
+  where it regulates adaptive nuclear gene expression (including antioxidant response genes via
+  NRF2). It also activates AMPK (AMP-activated protein kinase), a central cellular energy sensor,
+  which in turn promotes glucose uptake and fatty acid oxidation. In mouse studies this AMPK
+  activation prevented age-dependent and high-fat-diet-induced insulin resistance and diet-induced
+  obesity. Endogenous MOTS-c expression rises in skeletal muscle and circulation in response to
+  exercise, and exogenous administration has been shown to increase physical capacity in young,
+  middle-aged, and old mice.
+
+quick_start_guide:
+  typical_dose: "5–10 mg"
+  frequency: "2–3x weekly"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "Often dosed pre-workout by users pairing it with exercise, though no formal human timing studies exist"
+  effects_timeline: "Not established in humans; animal studies show metabolic and physical-capacity effects over weeks of repeated dosing"
+  storage: "Refrigerate after reconstitution; use within 2–4 weeks"
+  cycle_length: "4–8 weeks"
+  break_between: "4 weeks"
+
+pharmacokinetics:
+  peak: "Not established in humans"
+  half_life: "Not established in humans"
+  cleared: "Not established in humans"
+
+research_indications:
+  - Insulin sensitivity and glucose metabolism (preclinical)
+  - Diet-induced obesity (animal models)
+  - Exercise capacity and age-related physical decline (animal models)
+  - Mitochondrial signaling / mitokine research
+
 reconstitution_steps:
-- Reconstitute with bacteriostatic water; refrigerate.
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White lyophilized powder that fully dissolves into a clear, colorless solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate after reconstitution"
+
+what_to_expect: >
+  Human data on subjective or clinical effects of exogenous MOTS-c administration is essentially
+  absent — nearly all efficacy data (insulin sensitivity, obesity prevention, physical capacity)
+  comes from mouse studies. Any reported changes in energy or exercise performance in humans are
+  anecdotal rather than clinically demonstrated.
+
+safety_notes: >
+  MOTS-c has not been studied in human clinical trials for safety or efficacy; the supporting
+  evidence base is preclinical (cell culture and mouse studies) plus observational human data on
+  endogenous (not injected) MOTS-c levels rising with exercise. This is a research compound, not
+  an approved treatment for any condition. Consult a healthcare provider.
+
+references:
+  - citation: "Lee C, Zeng J, Drew BG, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis and reduces obesity and insulin resistance. Cell Metab. 2015;21(3):443-454."
+    url: "https://www.cell.com/cell-metabolism/fulltext/S1550-4131(15)00061-3"
+  - citation: "Reynolds JC, Lai RW, Woodhead JST, et al. MOTS-c is an exercise-induced mitochondrial-encoded regulator of age-dependent physical decline and muscle homeostasis. Nat Commun. 2021;12(1):470."
+    url: "https://www.nature.com/articles/s41467-020-20790-0"
+
+research_protocols:
+  - goal: "Metabolic / Exercise Adaptation Support (research interest)"
+    dose: "5–10 mg 2–3x weekly"
+    timing: "Pre-workout, per common informal use patterns"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0

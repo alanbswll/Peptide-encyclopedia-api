@@ -1,14 +1,98 @@
 # Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
+# Only overview/key_benefits/reconstitution_steps were populated from that
+# source; richer fields below were added in a later research pass.
 id: hgh
 name: HGH
 status: published
+
 category_ids:
-- growth-hormone
-overview: Recombinant human growth hormone
+  - growth-hormone
+
+overview: >
+  Recombinant human growth hormone (somatropin) — a biosynthetic, structurally identical copy of
+  the 191-amino-acid hormone naturally produced by the pituitary gland. It is an FDA-approved
+  prescription drug class for specific diagnosed medical conditions, and is also researched and
+  used off-label for body composition, recovery, and anti-aging purposes.
+
 key_benefits:
-- Requires professional guidance and monitoring
+  - Requires professional guidance and monitoring
+
+mechanism_of_action: >
+  Recombinant HGH binds the growth hormone receptor on cells throughout the body, most notably
+  in the liver, where it stimulates production of IGF-1 — the mediator of many of GH's
+  growth-promoting effects on bone, muscle, and connective tissue. GH also has direct metabolic
+  effects independent of IGF-1, including stimulating lipolysis (fat breakdown) and acting as a
+  counter-regulatory hormone to insulin, which raises blood glucose and can reduce insulin
+  sensitivity at supraphysiologic doses.
+
+quick_start_guide:
+  typical_dose: "Highly dependent on indication and body weight; approved adult GHD dosing typically starts low (e.g. ~0.1–0.2 mg/day) and is titrated to IGF-1 levels and response under physician supervision"
+  frequency: "1x daily (subcutaneous), per approved dosing regimens"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "Evening dosing is common in clinical use to better approximate the body's natural nocturnal GH pulse"
+  effects_timeline: "IGF-1 levels typically rise within days to weeks of consistent dosing; changes in body composition, energy, and recovery are generally reported over months, and require lab monitoring to titrate safely"
+  storage: "Reconstitute per supplier instructions; refrigerate"
+  cycle_length: "Approved medical use is continuous/long-term under monitoring, not cycled; off-label protocols vary widely and are not standardized"
+  break_between: "Not applicable to approved medical use; not standardized for off-label use"
+
+pharmacokinetics:
+  peak: "~2–6 hours after subcutaneous injection"
+  half_life: "~2–4 hours in circulation (though downstream IGF-1 effects last considerably longer)"
+  cleared: "Largely cleared within ~24 hours, but its effect on IGF-1 production persists beyond that window with consistent daily dosing"
+
+research_indications:
+  - "Adult growth hormone deficiency (FDA-approved)"
+  - "Pediatric growth hormone deficiency and related pediatric growth disorders, e.g. Turner syndrome, chronic kidney disease-associated growth failure, Prader-Willi syndrome, small-for-gestational-age, idiopathic short stature (FDA-approved, per current clinical guidelines)"
+  - "Off-label research interest in body composition, recovery, and aging (not an approved use)"
+
 reconstitution_steps:
-- Reconstitute per supplier instructions; refrigerate.
+  - Reconstitute per supplier instructions; refrigerate.
+
+quality_indicators:
+  - "Legitimate pharmaceutical HGH is prescription-only and dispensed with manufacturer packaging, a pen/cartridge device or single-use vials, and a pharmacy label — not sold as an unlabeled research-chemical vial"
+  - "White, lyophilized powder that fully dissolves into a clear, colorless solution upon reconstitution"
+  - "Vials or pens obtained outside a legitimate pharmacy supply chain (common in the off-label/research-chemical market) carry substantial risk of being underdosed, contaminated, or mislabeled"
+
+what_to_expect: >
+  In its approved medical use for diagnosed GH deficiency, effects (normalized IGF-1, improved
+  body composition, bone density, and quality of life) are well documented but emerge gradually
+  over months and require regular lab monitoring (IGF-1 levels, glucose, thyroid function) to
+  dose safely. Off-label use for body composition or anti-aging purposes is not FDA-approved, is
+  not supported by the same level of evidence, and still carries the same physiologic risks
+  (fluid retention, joint pain, insulin resistance) without the benefit of medical supervision.
+
+side_effects_common:
+  - "Joint pain and stiffness (arthralgia)"
+  - "Fluid retention / peripheral edema"
+  - "Carpal tunnel syndrome symptoms (numbness/tingling in the hands)"
+  - "Reduced insulin sensitivity / elevated blood glucose"
+  - "Injection site reactions"
+
+safety_notes: >
+  Recombinant HGH is one of the most thoroughly studied compounds in this encyclopedia — it has
+  been FDA-approved since 1985 (initially for pediatric GH deficiency, later expanded to adult
+  GH deficiency and several other diagnosed conditions) and is supported by decades of clinical
+  trials, long-term safety surveillance, and professional society guidelines. That evidence base
+  applies to its approved medical uses under physician monitoring with confirmed lab-based
+  diagnosis of deficiency — it does not extend to unsupervised off-label or performance use in
+  people without a diagnosed deficiency, where the same drug can cause insulin resistance, fluid
+  retention, joint problems, and (per some observational data) theoretical concerns about
+  promoting growth of existing tumors given its role in cell proliferation. HGH is also a
+  prohibited substance in competitive sports. Genuine pharmaceutical HGH requires a prescription;
+  product obtained outside that channel cannot be assumed to be genuine, correctly dosed, or
+  sterile. Use only under the guidance of a healthcare provider with appropriate lab monitoring.
+
+references:
+  - citation: "Yuen KCJ, Biller BMK, Radovick S, et al. American Association of Clinical Endocrinologists and American College of Endocrinology Guidelines for Management of Growth Hormone Deficiency in Adults and Patients Transitioning from Pediatric to Adult Care. Endocr Pract. 2019;25(11):1191-1232."
+    url: "https://pubmed.ncbi.nlm.nih.gov/31760824/"
+  - citation: "Grimberg A, DiVall SA, Polychronakos C, et al. Guidelines for Growth Hormone and Insulin-Like Growth Factor-I Treatment in Children and Adolescents: Growth Hormone Deficiency, Idiopathic Short Stature, and Primary Insulin-Like Growth Factor-I Deficiency. Horm Res Paediatr. 2016;86(6):361-397."
+    url: "https://pubmed.ncbi.nlm.nih.gov/27884013/"
+
+research_protocols:
+  - goal: "Diagnosed Adult GH Deficiency (physician-supervised)"
+    dose: "Individualized, low starting dose titrated to IGF-1 levels (e.g. ~0.1–0.2 mg/day)"
+    timing: "Evening, per common clinical practice"
+    disclaimer: "This is a prescription medication for a diagnosed medical condition. Use only under the supervision of a licensed healthcare provider with laboratory monitoring — not for unsupervised or performance use."
+    sort_order: 0

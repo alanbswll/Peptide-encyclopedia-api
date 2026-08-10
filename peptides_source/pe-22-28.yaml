@@ -5,10 +5,78 @@
 id: pe-22-28
 name: PE 22-28
 status: published
+
 category_ids:
-- cognitive
-overview: BDNF-pathway peptide
+  - cognitive
+
+overview: >
+  A synthetic 7-residue optimized fragment of spadin, a naturally occurring peptide cleaved
+  from the propeptide of sortilin. Spadin and PE 22-28 were identified by a French academic
+  group (Mazella and colleagues) as selective blockers of the TREK-1 potassium channel with
+  fast-acting antidepressant-like effects in mice, with downstream links to hippocampal
+  neurogenesis and BDNF-associated pathways. All published evidence is preclinical
+  (rodent); there are no human trials.
+
 key_benefits:
-- Explored for mood and emotional balance
+  - Explored for mood and emotional balance
+  - Studied in mice for TREK-1 channel blockade linked to fast-acting antidepressant-like effects
+  - Explored for hippocampal neurogenesis and synaptogenesis (preclinical)
+
+mechanism_of_action: >
+  PE 22-28 is an optimized fragment of spadin that selectively blocks the TREK-1
+  two-pore-domain potassium channel, which is highly expressed in brain regions tied to
+  mood — the hippocampus, raphe nuclei, and prefrontal cortex. Blocking TREK-1 increases
+  serotonergic neuron firing and, in mouse models, produces antidepressant-like behavioral
+  effects that emerge within days rather than the weeks typical of classic SSRIs. PE 22-28
+  was engineered for roughly 300-fold greater TREK-1 potency (IC50 ~0.12 nM vs. 40–60 nM
+  for spadin) and improved in vivo stability compared to spadin. Downstream, TREK-1
+  blockade has also been linked to increased hippocampal neurogenesis and synaptic markers
+  (e.g., PSD-95), the basis for its "BDNF-pathway"/neurotrophic reputation.
+
+quick_start_guide:
+  typical_dose: "Vendor/community protocols commonly cite 100–500 mcg per dose; there is no human dose-response data to validate any specific amount"
+  frequency: "1x daily (community convention)"
+  injection_site_ids:
+    - abdomen-subq
+  best_timing: "Not established; some protocols suggest morning dosing"
+  effects_timeline: "Not established in humans; mouse studies showed behavioral and neurogenic effects within about 4 days of sub-chronic dosing"
+  storage: "Reconstitute with bacteriostatic water; refrigerate and use within the vendor's stated window"
+  cycle_length: "Not established"
+  break_between: "Not established"
+
+pharmacokinetics:
+  peak: "Not established in humans"
+  half_life: "Not established in humans; PE 22-28 was specifically engineered for greater in vivo stability than its parent peptide, spadin"
+  cleared: "Not established in humans"
+
+research_indications:
+  - Antidepressant-like effects in animal models (forced swim test, novelty-suppressed feeding)
+  - Hippocampal neurogenesis and synaptogenesis (preclinical)
+  - No human clinical indications have been studied
+
 reconstitution_steps:
 - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "Supplied as a lyophilized powder; should form a clear, colorless solution with no particulate matter after reconstitution"
+  - "Third-party COA confirming peptide identity and purity"
+
+what_to_expect: >
+  There is no human data on PE 22-28, so there is no clinically validated basis for what a
+  person could expect. Animal studies describe faster-onset antidepressant-like behavioral
+  changes than classic antidepressants, but this has not been tested in people, and any
+  anecdotal human reports circulating in research-chemical communities are unverified.
+
+safety_notes: >
+  PE 22-28 has been studied only in rodents and in vitro systems; there are no published
+  human trials, pharmacokinetic studies, or safety data. Its parent peptide, spadin, and the
+  TREK-1 channel it targets also play roles in other physiological systems (including
+  cardiovascular regulation) that have not been fully characterized for this synthetic
+  analog. Treat any dosing guidance from vendors as unverified community convention, not
+  clinical dosing. Consult a healthcare provider.
+
+references:
+  - citation: "Mazella J, Pétrault O, Lucas G, et al. Spadin, a Sortilin-Derived Peptide, Targeting Rodent TREK-1 Channels: A New Concept in the Antidepressant Drug Design. PLoS Biol. 2010;8(4):e1000355."
+    url: "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1000355"
+  - citation: "Djillani A, Pietri M, Moreno S, Heurteaux C, Mazella J, Borsotto M. Shortened Spadin Analogs Display Better TREK-1 Inhibition, In Vivo Stability and Antidepressant Activity. Front Pharmacol. 2017;8:643."
+    url: "https://pubmed.ncbi.nlm.nih.gov/28955242/"

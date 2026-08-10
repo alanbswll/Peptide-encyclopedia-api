@@ -5,10 +5,79 @@
 id: ahk-cu
 name: AHK-Cu
 status: published
+
 category_ids:
-- skin
-overview: Copper peptide variant of GHK-Cu
+  - skin
+
+overview: >
+  A copper tripeptide (Ala-His-Lys) structurally related to GHK-Cu, explored primarily for hair
+  growth and scalp research. It is far less studied than GHK-Cu — the evidence base is small and
+  largely limited to in-vitro/ex-vivo hair follicle work plus cosmetic-industry formulation studies.
+
 key_benefits:
-- Explored for hair growth and scalp repair
+  - Explored for hair growth and scalp repair
+  - Studied in vitro for stimulating dermal papilla cell proliferation
+
+mechanism_of_action: >
+  Like GHK-Cu, AHK-Cu is a copper-binding tripeptide. In cultured human dermal papilla cells (the
+  cells that regulate hair follicle growth), AHK-Cu has been reported to increase proliferation,
+  raise vascular endothelial growth factor (VEGF) production, and lower transforming growth
+  factor-beta1 (TGF-β1), a signal associated with follicle regression — a combination proposed to
+  favor hair follicle growth and survival over the follicle's resting/shedding phase. Ex vivo, it
+  has also been reported to prolong elongation of cultured human hair follicles.
+
+quick_start_guide:
+  typical_dose: "Scalp serums/formulations: percentage varies by product; no standardized clinical dose has been established"
+  frequency: "1–2x daily, applied to the scalp"
+  best_timing: "Applied to clean, dry scalp"
+  effects_timeline: "Not established by controlled human trials; any effect would be expected to build over months, consistent with normal hair-cycle timescales"
+  storage: "Store cold and shielded from light — copper-peptide complexes are light- and oxidation-sensitive"
+  cycle_length: "Not established"
+  break_between: "Not established"
+
+pharmacokinetics:
+  peak: "Not established in humans"
+  half_life: "Not established in humans"
+  cleared: "Not established in humans"
+
+research_indications:
+  - Hair follicle growth / scalp research (in vitro and ex vivo)
+  - Dermal papilla cell proliferation studies
+
 reconstitution_steps:
-- Sensitive to light; store cold and shielded.
+  - "Sensitive to light; store cold and shielded."
+
+quality_indicators:
+  - "Ingredient label specifies AHK-Cu concentration rather than an unspecified 'copper peptide complex'"
+  - "Packaged to limit light and air exposure (opaque or dark-glass container)"
+  - "Pale blue color characteristic of the copper-peptide complex; browning or precipitation suggests degradation"
+
+what_to_expect: >
+  Because the human evidence base for AHK-Cu is very limited (small in-vitro and ex-vivo studies
+  rather than controlled human trials), realistic expectations should be modest and any perceived
+  effects on hair should be evaluated over a period of months, consistent with normal hair growth
+  cycles, not weeks.
+
+side_effects_common:
+  - "Mild scalp irritation"
+  - "Rare allergic contact dermatitis"
+
+safety_notes: >
+  AHK-Cu is the less-studied sibling of GHK-Cu; much of what is claimed about it — especially
+  regarding skin benefits — is extrapolated from GHK-Cu's larger literature by structural analogy
+  rather than from AHK-Cu-specific human data. The primary AHK-Cu evidence is a single frequently
+  cited in-vitro/ex-vivo study; independent replication and human clinical trials are lacking. It
+  is sold and regulated as a cosmetic ingredient, not an FDA-evaluated drug for hair loss. Consult a
+  dermatologist before starting a new topical regimen, especially alongside other active hair-loss
+  treatments.
+
+references:
+  - citation: "Pyo HK, Yoo HG, Won CH, et al. The effect of tripeptide-copper complex on human hair growth in vitro. Arch Pharm Res. 2007;30(7):834-839."
+    url: "https://pubmed.ncbi.nlm.nih.gov/17703734/"
+
+research_protocols:
+  - goal: "Scalp / Hair Growth Research"
+    dose: "Per product formulation; no standardized concentration established in the literature"
+    timing: "Applied to clean, dry scalp, once or twice daily"
+    disclaimer: "For research/cosmetic purposes only. Not evaluated by the FDA to diagnose, treat, cure, or prevent any disease. Evidence for this specific peptide is limited to small in-vitro/ex-vivo studies."
+    sort_order: 0

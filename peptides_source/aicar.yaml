@@ -1,14 +1,93 @@
-# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
 id: aicar
 name: AICAR
 status: published
+
 category_ids:
-- fat-loss
-overview: AMPK-activating compound
+  - fat-loss
+
+overview: >
+  AICAR (5-aminoimidazole-4-carboxamide ribonucleotide, also known as acadesine) is an AMPK-activating
+  compound: a nucleoside that directly switches on AMP-activated protein kinase, the cellular
+  energy-sensing enzyme also engaged by exercise. It has been studied for endurance and insulin
+  sensitivity, most notably as an "exercise mimetic" in animal research, and separately investigated in
+  human trials for unrelated cardiac and oncology indications under the name acadesine.
+
 key_benefits:
-- Studied for endurance and insulin sensitivity
+  - Studied for endurance and insulin sensitivity
+  - Activates AMPK, the same cellular energy-sensing pathway engaged by exercise
+
+mechanism_of_action: >
+  AICAR is taken up by cells and phosphorylated into ZMP, a molecule that mimics AMP and directly
+  activates AMP-activated protein kinase (AMPK) — the master fuel-sensing enzyme normally switched on by
+  low cellular energy states such as exercise. AMPK activation shifts metabolism toward fatty-acid
+  oxidation and glucose uptake and promotes mitochondrial biogenesis. In a widely cited 2008 mouse study,
+  chronic AICAR dosing reproduced part of the muscle gene-expression profile and endurance improvements
+  of exercise training even in sedentary animals, which is the basis for its "exercise mimetic"
+  reputation in fat-loss and performance research.
+
+quick_start_guide:
+  typical_dose: "1–3 mg"
+  frequency: "1x daily, subQ"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "No specific timing established; some research protocols dose around exercise given its AMPK/endurance angle"
+  effects_timeline: "Not established in humans; animal endurance studies used weeks of chronic dosing before measuring performance changes"
+  storage: "Refrigerate after reconstitution"
+  cycle_length: "8–12 weeks in vendor/community protocols"
+  break_between: "Not established"
+
+pharmacokinetics:
+  peak: "Not established for subcutaneous research-chemical dosing"
+  half_life: "Not well characterized for subQ dosing; human PK data exists only for IV acadesine at unrelated cardiac-surgery and oncology doses"
+  cleared: "Not established for subcutaneous/research dosing"
+
+research_indications:
+  - AMPK activation and cellular energy-sensing research
+  - Endurance and exercise-performance research ("exercise mimetic") in animal models
+  - Insulin sensitivity and glucose-uptake research
+  - Investigated (as acadesine, IV) for cardioprotection during cardiac bypass surgery and, separately, in a small oncology trial for chronic lymphocytic leukemia — unrelated indications, at doses and routes unrelated to research-chemical dosing
+
 reconstitution_steps:
-- Reconstitute per supplier instructions; refrigerate.
+  - Reconstitute per supplier instructions; refrigerate.
+
+quality_indicators:
+  - "White lyophilized powder that fully dissolves into a clear, colorless solution"
+  - "Third-party COA confirming identity/purity, since AICAR is easily confused with other AMPK-related research chemicals"
+
+what_to_expect: >
+  There is no reliable human track record for subcutaneous AICAR at research-chemical doses. The animal
+  literature describes gradual endurance and metabolic gene-expression changes building over weeks of
+  continuous dosing rather than an acute effect, and there is no comparable controlled human data to set
+  expectations against.
+
+side_effects_common:
+  - "Not well documented in humans at research-chemical doses; IV acadesine trials for cardiac surgery reported transient increases in uric acid as the main dose-related lab change, with an otherwise similar adverse-event rate to placebo"
+
+safety_notes: >
+  AICAR/acadesine does have real human clinical trial history, but not for the fat-loss or endurance use
+  case sold by research-chemical vendors. It was tested intravenously as a cardioprotective agent during
+  cardiac bypass surgery — including a roughly 3,000-patient Phase 3 trial (RED-CABG) that was stopped
+  early for futility, showing no benefit over placebo — and, separately, in a small oral/IV oncology trial
+  for chronic lymphocytic leukemia. Neither established a safe or effective protocol for the chronic
+  subcutaneous AMPK-activation use pattern sold as a research chemical, and human efficacy for endurance
+  or fat loss has not been established. AMPK activation is a systemic, cross-tissue pathway, and animal
+  work has raised theoretical concerns about broadly activating it pharmacologically rather than through
+  exercise-triggered, tissue-localized activation. AICAR has been prohibited by WADA at all times since
+  2009 as a metabolic modulator and is not approved by the FDA or any regulator for any indication.
+  Consult a healthcare provider.
+
+references:
+  - citation: "Narkar VA, Downes M, Yu RT, et al. AMPK and PPARδ agonists are exercise mimetics. Cell. 2008;134(3):405-415."
+    url: "https://pubmed.ncbi.nlm.nih.gov/18674809/"
+  - citation: "Newman MF, Ferguson TB, White JA, et al. Effect of adenosine-regulating agent acadesine on morbidity and mortality associated with coronary artery bypass grafting: the RED-CABG randomized controlled trial. JAMA. 2012;308(2):157-164."
+    url: "https://jamanetwork.com/journals/jama/fullarticle/1216478"
+  - citation: "USADA. What Athletes Should Know About AICAR and Other Prohibited AMP-Activated Protein Kinase Activators."
+    url: "https://www.usada.org/spirit-of-sport/aicar-and-other-prohibited-amp-activated-protein-kinase-activators/"
+
+research_protocols:
+  - goal: "AMPK Activation / Endurance Research"
+    dose: "1–3 mg daily, subQ"
+    timing: "Any consistent time, sometimes paired with exercise"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Prohibited in competitive sport by WADA. Human efficacy and safety for this use case are not established."
+    sort_order: 0

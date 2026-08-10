@@ -5,10 +5,102 @@
 id: hyaluronic-acid
 name: Hyaluronic Acid
 status: published
+
 category_ids:
-- skin
-overview: Hydrating glycosaminoglycan (not a peptide)
+  - skin
+
+overview: >
+  A naturally occurring glycosaminoglycan (not a peptide, despite appearing alongside peptides in
+  this app) found throughout the body's connective tissue, skin, and joint fluid, prized for its
+  exceptional water-binding capacity. It is used in three distinct ways: as a topical cosmetic
+  ingredient for hydration, as an injectable dermal filler for volume/plumpness, and as an
+  intra-articular injection for joint cushioning in osteoarthritis.
+
 key_benefits:
-- Used for hydration, plumpness, and joint cushioning
+  - Used for hydration, plumpness, and joint cushioning
+  - Topical formulations support skin surface hydration
+  - Injectable dermal fillers restore facial volume
+  - Intra-articular injections are used for knee osteoarthritis symptom relief
+
+mechanism_of_action: >
+  Hyaluronic acid (HA) is a very large, highly hydrophilic polysaccharide that can bind many times
+  its weight in water. In skin, endogenous HA fills the space between collagen and elastin fibers,
+  contributing to hydration, volume, and turgor; topical HA sits mainly on the skin surface and
+  binds water there. Injectable, cross-linked HA dermal fillers add physical volume directly under
+  the skin and gradually break down over months. In joints, HA is a key component of synovial
+  fluid; injected intra-articular HA is thought to temporarily restore some of the fluid's
+  viscoelastic (lubricating/shock-absorbing) properties, which decline in osteoarthritic joints.
+
+quick_start_guide:
+  typical_dose: "Topical: HA serums typically list 0.1–2% concentration. Dermal filler: volume per treatment area is determined by the injector. Knee joint injection: commonly 3 weekly injections of ~2 mL, or a single higher-volume injection, depending on the product"
+  frequency: "Topical: 1–2x daily. Dermal filler: per treatment plan, repeated roughly every 6–18 months as it resorbs. Joint injection: a course of weekly injections (often 3–5) or a single injection, per product"
+  best_timing: "Topical: applied to clean, slightly damp skin. Filler and joint injections: scheduled clinical appointments"
+  effects_timeline: "Topical hydration effects are noticeable within hours to days. Dermal filler volume is visible immediately, with final results settling over ~2 weeks. Joint injections may take 1–4 weeks to reach full symptom benefit"
+  storage: "Topical products stored per label at room temperature. Injectable products stored and handled per manufacturer instructions in a clinical setting"
+  cycle_length: "Topical: continuous use. Filler: effects typically last 6–18 months depending on product and area. Joint injection: benefit commonly reported to last up to about 26 weeks"
+  break_between: "Filler and joint injections are typically repeated once prior effects fade, per provider guidance"
+
+pharmacokinetics:
+  peak: "Topical HA acts locally at the skin surface, not systemically. Injected joint HA is largely retained and metabolized locally within the joint space over weeks"
+  half_life: "Native hyaluronic acid in the body normally turns over quickly (on the order of hours to a few days, depending on tissue); cross-linked fillers and modified joint-injection formulations are engineered to persist much longer, from months up to roughly a year"
+  cleared: "Metabolized locally via hyaluronidase enzymes and lymphatic clearance; cross-linked injectable forms are broken down more slowly than native hyaluronic acid"
+
+research_indications:
+  - Skin surface hydration (topical, cosmetic)
+  - Facial volume restoration (injectable dermal filler)
+  - Knee (and other joint) osteoarthritis symptom relief (intra-articular viscosupplementation)
+
 reconstitution_steps:
-- Topical or injectable per product instructions.
+  - "Topical or injectable per product instructions."
+
+quality_indicators:
+  - "Topical: ingredient label specifies hyaluronic acid or sodium hyaluronate, sometimes with molecular weight noted"
+  - "Injectable filler/joint products are single-use, sterile, prefilled syringes from an FDA-cleared/approved product line"
+  - "Injectable products administered only by a licensed provider in a clinical setting"
+
+what_to_expect: >
+  Topical hyaluronic acid produces a fairly quick, surface-level hydration and plumping effect that
+  fades within a day if not reapplied. Injectable dermal filler produces immediate visible volume
+  that settles into a more natural look over about two weeks and gradually resorbs over many
+  months. Joint injections tend to work more gradually, with pain/function benefits building over
+  the first few weeks and providing modest, temporary relief rather than a structural cure for
+  osteoarthritis.
+
+side_effects_common:
+  - "Topical: rare irritation, mainly in very low-humidity environments where it can pull moisture from deeper skin layers"
+  - "Filler: injection site swelling, bruising, redness, or lumps/nodules"
+  - "Joint injection: temporary injection site pain, swelling, or joint effusion"
+
+safety_notes: >
+  Hyaluronic acid is naturally present in the body and is generally well tolerated across all three
+  use cases, with a long track record of use. Dermal fillers, while generally safe in experienced
+  hands, carry rare but serious risks including vascular occlusion (which can cause tissue damage or,
+  very rarely, vision loss if filler is inadvertently injected into or near a blood vessel),
+  infection, and delayed inflammatory nodules; they should only be administered by an experienced,
+  licensed injector. Joint injections provide modest, temporary benefit per systematic reviews and
+  are not effective for everyone; some professional guidelines have downgraded their recommendation
+  for knee osteoarthritis due to inconsistent efficacy data. Consult a healthcare provider or
+  dermatologist to determine the appropriate form and product for your goals.
+
+references:
+  - citation: "Papakonstantinou E, Roth M, Karakiulakis G. Hyaluronic acid: A key molecule in skin aging. Dermatoendocrinol. 2012;4(3):253-258."
+    url: "https://pubmed.ncbi.nlm.nih.gov/23467280/"
+  - citation: "Evanich JD, Evanich CJ, Wright MB, Rydlewicz JA. Efficacy of intraarticular hyaluronic acid injections in knee osteoarthritis. Clin Orthop Relat Res. 2001;(390):173-181."
+    url: "https://pubmed.ncbi.nlm.nih.gov/11550864/"
+
+research_protocols:
+  - goal: "Skin Hydration (topical)"
+    dose: "0.1–2% hyaluronic acid serum, per product instructions"
+    timing: "Applied to clean, damp skin once or twice daily"
+    disclaimer: "For cosmetic/topical use only. Not evaluated by the FDA to diagnose, treat, cure, or prevent any disease."
+    sort_order: 0
+  - goal: "Facial Volume Restoration (dermal filler, in-office)"
+    dose: "Per treatment plan, determined by a licensed injector"
+    timing: "In-clinic procedure; repeated roughly every 6–18 months as filler resorbs"
+    disclaimer: "Prescription medical procedure performed only by a licensed, experienced injector."
+    sort_order: 1
+  - goal: "Knee Osteoarthritis Symptom Relief (intra-articular, in-office)"
+    dose: "Product-specific; commonly ~2 mL weekly for 3 weeks, or a single higher-volume injection"
+    timing: "In-clinic procedure, administered by a healthcare provider"
+    disclaimer: "Prescription medical procedure. Benefit is modest and not universal; discuss appropriateness with an orthopedic provider."
+    sort_order: 2

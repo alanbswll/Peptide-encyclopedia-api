@@ -5,10 +5,68 @@
 id: snap-8
 name: SNAP-8
 status: published
+
 category_ids:
-- skin
-overview: Topical octapeptide
+  - skin
+
+overview: >
+  A synthetic topical octapeptide (acetyl octapeptide-3), developed as an extension of the earlier
+  cosmetic peptide Argireline (acetyl hexapeptide-3). It is marketed for reducing the appearance of
+  expression lines and is applied to the skin — it is not an injectable product.
+
 key_benefits:
-- Marketed for reducing expression lines
+  - Marketed for reducing expression lines
+  - Designed to work similarly to how botulinum toxin relaxes muscles, but topically and reversibly
+
+mechanism_of_action: >
+  SNAP-8's sequence mimics the N-terminal portion of SNAP-25, a protein component of the SNARE
+  complex that mediates vesicle docking and neurotransmitter release at the neuromuscular junction.
+  It is designed to interfere with this SNARE-mediated release, conceptually similar to (but far
+  milder and topical rather than injected like) botulinum toxin, with the intent of modestly
+  reducing the muscle micro-contractions that contribute to expression lines over repeated use.
+
+quick_start_guide:
+  typical_dose: "Commercial formulations commonly range from ~3% (lighter/maintenance formulas) to ~10% SNAP-8 solution (higher-strength formulas)"
+  frequency: "1–2x daily"
+  best_timing: "Applied to clean, dry skin, targeting expression-line areas (forehead, crow's feet, frown lines)"
+  effects_timeline: "Manufacturer-reported topical trial data describes wrinkle-depth reduction emerging within about 7 days and continuing to improve through 28 days of twice-daily use"
+  storage: "Store per product label, typically at room temperature away from direct light and heat"
+  cycle_length: "Typically used continuously as part of a skincare routine"
+  break_between: "Not established"
+
+research_indications:
+  - Expression-line / wrinkle-depth reduction (topical, cosmetic-industry research)
+
 reconstitution_steps:
-- Typically supplied as a topical formulation.
+  - "Typically supplied as a topical formulation."
+
+quality_indicators:
+  - "Ingredient list specifies SNAP-8 / acetyl octapeptide-3 concentration"
+  - "Supplied in an opaque, airless, or dark container to protect the peptide from degradation"
+  - "Clear to lightly straw-colored solution with no cloudiness or separation"
+
+what_to_expect: >
+  As a topical cosmetic ingredient rather than an injectable, effects are subtle and gradual —
+  a softening of the appearance of fine expression lines with consistent daily use over several
+  weeks, not the more dramatic and longer-lasting muscle relaxation produced by injected botulinum
+  toxin.
+
+side_effects_common:
+  - "Mild skin irritation at the application site"
+  - "Rare allergic contact dermatitis"
+
+safety_notes: >
+  The main efficacy data for SNAP-8 comes from a manufacturer (Lipotec)-sponsored topical
+  formulation study rather than independent, large-scale, peer-reviewed human trials, so it should
+  be viewed as promising cosmetic-industry evidence rather than rigorously established clinical
+  fact. It is formulated and sold strictly as a topical cosmetic ingredient — it is not intended for
+  injection, and injecting a topical cosmetic peptide formulation carries risks (sterility,
+  formulation excipients not intended for subdermal use) that have not been studied. Consult a
+  dermatologist about incorporating new topical actives into an existing skincare routine.
+
+research_protocols:
+  - goal: "Expression Line / Wrinkle Softening (topical)"
+    dose: "3–10% SNAP-8 serum or solution, per product instructions"
+    timing: "Applied to targeted areas once or twice daily on clean, dry skin"
+    disclaimer: "For cosmetic/topical use only, per product labeling. Not evaluated by the FDA to diagnose, treat, cure, or prevent any disease. Not intended for injection."
+    sort_order: 0

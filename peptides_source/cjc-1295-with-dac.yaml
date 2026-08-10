@@ -1,14 +1,91 @@
 # Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
+# Only overview/key_benefits/reconstitution_steps were populated from that
+# source; richer fields below were added in a later research pass.
 id: cjc-1295-with-dac
 name: CJC-1295 (with DAC)
 status: published
+
 category_ids:
-- growth-hormone
-overview: Extended-release GHRH analog with Drug Affinity Complex
+  - growth-hormone
+
+overview: >
+  Extended-release GHRH analog with Drug Affinity Complex (DAC) — a modified analog of
+  growth-hormone-releasing hormone (GHRH 1-29) chemically linked to a group that binds covalently
+  to circulating albumin, dramatically extending its time in the body compared to native GHRH or
+  the no-DAC version of CJC-1295.
+
 key_benefits:
-- Longer half-life than no-DAC CJC-1295; less frequent dosing
+  - Longer half-life than no-DAC CJC-1295; less frequent dosing
+
+mechanism_of_action: >
+  CJC-1295 is a synthetic analog of the first 29 amino acids of human GHRH, modified for
+  resistance to enzymatic breakdown. It binds the GHRH receptor on pituitary somatotrophs,
+  stimulating them to synthesize and release growth hormone. The "DAC" (Drug Affinity Complex)
+  is a maleimide group added to the molecule that reacts with and covalently binds circulating
+  albumin, effectively piggybacking on albumin's long natural half-life. This is what separates
+  it from no-DAC CJC-1295 (also called Mod GRF 1-29), which clears within about 30 minutes: the
+  DAC version instead produces a sustained, days-long elevation in GH and IGF-1 rather than a
+  single short pulse.
+
+quick_start_guide:
+  typical_dose: "1–2 mg"
+  frequency: "1x weekly (some protocols split into 2 smaller weekly doses)"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "Time of day is less critical than with short-acting GHRH analogs, given its sustained release profile; many dose before bed"
+  effects_timeline: "In the published human trial, a single dose raised GH for 6+ days and IGF-1 for 9–11 days; repeated weekly/biweekly dosing kept IGF-1 elevated above baseline for up to 28 days"
+  storage: "Reconstitute with bacteriostatic water; refrigerate"
+  cycle_length: "8–12 weeks"
+  break_between: "4 weeks"
+
+pharmacokinetics:
+  peak: "Dose-dependent GH rise within the first day after injection; IGF-1 rises more gradually and peaks later, per the published human PK study"
+  half_life: "5.8–8.1 days (published human data)"
+  cleared: "IGF-1 elevation persisted for up to 28 days with repeated weekly/biweekly dosing in the published trial"
+
+research_indications:
+  - Sustained GH/IGF-1 axis stimulation (human clinical trial data)
+  - Body composition and recovery research, often paired with a ghrelin-mimetic secretagogue
+
 reconstitution_steps:
-- Reconstitute with bacteriostatic water; refrigerate.
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White, lyophilized powder that fully dissolves into a clear, colorless solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate matter after reconstitution"
+
+what_to_expect: >
+  Because DAC binding produces a sustained rather than pulsatile rise in GH and IGF-1, effects
+  build gradually over the dosing interval rather than appearing as a sharp spike after each
+  injection. In the published human trial, effects on GH/IGF-1 were dose-dependent and
+  well-tolerated over dosing periods of several weeks.
+
+side_effects_common:
+  - "Injection site redness or irritation"
+  - "Water retention (anecdotal, consistent with elevated GH/IGF-1)"
+  - "Flushing or mild tingling sensation (anecdotal)"
+
+safety_notes: >
+  CJC-1295 with DAC has real published human pharmacokinetic and safety data from
+  placebo-controlled dose-escalation trials in healthy adults, which is more than exists for most
+  peptides on this list — but that trial material was manufactured and dosed under
+  pharmaceutical-grade clinical trial conditions, which doesn't guarantee identity or purity of
+  research-chemical vendor products sold under the same name. Because DAC produces a sustained,
+  non-pulsatile elevation in GH and IGF-1 (unlike the body's natural pulsatile GH release), some
+  reviewers raise a theoretical concern about longer-term effects on insulin sensitivity or
+  pituitary sensitization with continuous use, though this wasn't the focus of the published
+  trial. This compound was never brought to market as an approved drug. Consult a healthcare
+  provider.
+
+references:
+  - citation: "Teichman SL, Neale A, Lawrence B, Gagnon C, Castaigne JP, Frohman LA. Prolonged stimulation of growth hormone (GH) and insulin-like growth factor I secretion by CJC-1295, a long-acting analog of GH-releasing hormone, in healthy adults. J Clin Endocrinol Metab. 2006;91(3):799-805."
+    url: "https://pubmed.ncbi.nlm.nih.gov/16352683/"
+
+research_protocols:
+  - goal: "Sustained GH/IGF-1 Support"
+    dose: "1–2 mg, 1x weekly"
+    timing: "Any time of day; before bed is common"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0

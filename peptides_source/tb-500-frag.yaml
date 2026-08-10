@@ -1,14 +1,85 @@
-# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
 id: tb-500-frag
 name: TB-500 (Frag)
 status: published
+
 category_ids:
-- healing
-overview: Active fragment of Thymosin Beta-4
+  - healing
+
+overview: >
+  A short synthetic peptide (Ac-LKKTETQ) corresponding to the seven-amino-acid actin-binding
+  domain (residues 17–23) of Thymosin Beta-4 (Tβ4) — the specific region research identified as
+  necessary and sufficient for Tβ4's pro-angiogenic activity. Marketed as a smaller, lower-cost
+  alternative to full synthetic Tβ4/TB-500 that isolates this single active domain.
+
 key_benefits:
-- Explored for angiogenesis and localized tissue repair
+  - Explored for angiogenesis and localized tissue repair
+  - Isolates the specific actin-binding motif shown to reproduce Tβ4's angiogenic activity in research models
+
+mechanism_of_action: >
+  TB-500 (Frag) corresponds to the seven-amino-acid actin-binding motif (Ac-LKKTETQ) of
+  Thymosin Beta-4. Research identified this sequence as the site responsible for Tβ4's ability
+  to sequester monomeric G-actin, and found that the isolated motif reproduces Tβ4's core
+  pro-angiogenic activity in vitro and in animal models. It lacks the additional functional
+  domains present in the larger Tβ4 molecule (such as the N-terminal Ac-SDKP sequence), so it
+  is a narrower, single-mechanism analog rather than a full substitute for the parent peptide.
+
+quick_start_guide:
+  typical_dose: "2–2.5 mg"
+  frequency: "2x weekly during a loading phase; often reduced to 1x weekly for maintenance"
+  injection_site_ids:
+    - abdomen-subq
+    - near-injury
+  best_timing: "No specific timing requirement; consistency matters more than time of day"
+  effects_timeline: "Not established for the isolated fragment in humans; anecdotal reports mirror the multi-week timelines described for full-length TB-500"
+  storage: "Refrigerate after reconstitution; use within 20–30 days"
+  cycle_length: "4–6 week loading phase, then a lower-dose maintenance period"
+  break_between: "4–6 weeks off before repeating a loading phase"
+
+pharmacokinetics:
+  peak: "Not established; no published human PK data exists for this fragment"
+  half_life: "Not established for this specific fragment; expected to be short given its small size (7 amino acids) and rapid peptidase degradation"
+  cleared: "Not established"
+
+research_indications:
+  - Angiogenesis research (endothelial cell migration and tubule formation)
+  - Localized tissue repair and wound healing (preclinical)
+  - Cell migration studies
+
 reconstitution_steps:
-- Reconstitute with bacteriostatic water; refrigerate.
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White powder that fully dissolves into a clear, colorless solution"
+  - "Third-party COA confirming the peptide is the 7-amino-acid actin-binding sequence, not full-length Tβ4"
+  - "No discoloration, clumping, or particulate matter after reconstitution"
+
+what_to_expect: >
+  Because this product isolates a single structural domain of Thymosin Beta-4, essentially all
+  supporting evidence comes from in vitro assays and animal wound/angiogenesis models rather
+  than human trials — even more limited than the already-thin human data for full-length
+  TB-500. Any reported effects should be expected to build gradually, if at all, and are not
+  well documented from independent human sources.
+
+side_effects_common:
+  - "Mild injection site redness or soreness"
+  - "Full human side-effect profile not established"
+
+safety_notes: >
+  No human clinical safety or pharmacokinetic data exists specifically for this isolated
+  actin-binding fragment; available evidence is limited to in vitro and animal studies of the
+  peptide sequence. It is chemically distinct from — and has even less independent human
+  research than — the already sparsely studied full-length "TB-500" product. Because it
+  reproduces Tβ4's pro-angiogenic activity, some reviewers raise a theoretical caution around
+  use in people with active cancer or a history of cancer. This is a research compound, not an
+  approved treatment for any condition. Consult a healthcare provider.
+
+references:
+  - citation: "Philp D, Huff T, Gho YS, Hannappel E, Kleinman HK. The actin binding site on thymosin beta4 promotes angiogenesis. FASEB J. 2003;17(14):2103-2105."
+    url: "https://pubmed.ncbi.nlm.nih.gov/14500546/"
+
+research_protocols:
+  - goal: "Localized Tissue Repair / Angiogenesis Support"
+    dose: "2–2.5 mg 2x weekly"
+    timing: "Any time of day; keep the schedule consistent"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0

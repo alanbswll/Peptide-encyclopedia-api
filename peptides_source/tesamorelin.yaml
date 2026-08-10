@@ -5,10 +5,84 @@
 id: tesamorelin
 name: Tesamorelin
 status: published
+
 category_ids:
-- growth-hormone
-overview: GHRH analog studied for visceral fat reduction
+  - growth-hormone
+
+overview: >
+  GHRH analog studied for visceral fat reduction. A synthetic 44-amino-acid analog of growth
+  hormone-releasing hormone that is FDA-approved under the brand names Egrifta and Egrifta SV for
+  reducing excess abdominal (visceral) fat in HIV-infected adults with lipodystrophy.
+
 key_benefits:
-- Requires consistent daily timing
+  - Requires consistent daily timing
+
+mechanism_of_action: >
+  A GHRH(1-44) analog carrying a trans-3-hexenoic acid modification at the N-terminus that
+  protects it from dipeptidyl peptidase-IV (DPP-4) degradation, extending its usable action
+  compared to unmodified GHRH. It binds the GHRH receptor on pituitary somatotrophs, stimulating
+  GH release and downstream IGF-1 production. Its clinical effect is relatively selective for
+  visceral adipose tissue reduction rather than general fat loss.
+
+quick_start_guide:
+  typical_dose: "2 mg (original Egrifta) or 1.4 mg (Egrifta SV, a more concentrated formulation delivered in a smaller injection volume)"
+  frequency: "1x daily"
+  injection_site_ids:
+    - abdomen-subq
+  best_timing: "Same time each day; label directs subcutaneous injection into the abdomen, rotating sites and avoiding scar tissue, bruises, or the navel"
+  effects_timeline: "Pivotal trials measured visceral fat reduction at 26 weeks (~15–18% relative reduction vs. placebo); effects are not immediate"
+  storage: "Refrigerate unreconstituted vials; reconstitute with the diluent supplied in the kit immediately before use per the product label"
+  cycle_length: "Studied and used continuously — pivotal trials ran 26 weeks with extension studies beyond a year"
+  break_between: "Not established; the label does not specify mandatory treatment breaks"
+
+pharmacokinetics:
+  peak: "Median Tmax ~0.15 hours (about 9 minutes) after subcutaneous dosing"
+  half_life: "~18.6 minutes after a single dose; ~37.8 minutes at steady state with repeated daily dosing"
+  cleared: "Rapidly cleared from plasma within a few hours; daily dosing is required to sustain the IGF-1 elevation that drives the clinical effect"
+
+research_indications:
+  - "FDA-approved: reduction of excess abdominal fat in HIV-infected adults with lipodystrophy"
+  - Investigated for reducing liver fat in HIV patients with nonalcoholic fatty liver disease (NAFLD)
+  - Investigated for cognitive outcomes in older adults with mild cognitive impairment (separate research program, not an approved use)
+
 reconstitution_steps:
-- Reconstitute with supplied diluent; refrigerate.
+  - Reconstitute with supplied diluent; refrigerate.
+
+quality_indicators:
+  - "Supplied as a manufacturer kit with vial and pre-filled diluent syringe — not typically sourced from generic research-chemical vendors"
+  - "Reconstituted solution should be clear and colorless to slightly yellow, without particulate matter"
+  - "Use only the diluent supplied with the specific kit; do not substitute bacteriostatic water"
+
+what_to_expect: >
+  As an FDA-approved therapy, tesamorelin's effects are documented in controlled trials: visceral
+  fat reduction becomes measurable over the 26-week pivotal trial period, not days or weeks.
+  Patients are typically monitored with IGF-1 levels and imaging rather than relying on subjective
+  effects. It is not indicated or studied for general fat loss in people without HIV-associated
+  lipodystrophy.
+
+side_effects_common:
+  - "Injection site erythema, pain, or pruritus"
+  - "Arthralgia (joint pain)"
+  - "Peripheral edema"
+  - "Myalgia"
+  - "Paresthesia (tingling/numbness)"
+
+safety_notes: >
+  Tesamorelin is FDA-approved specifically for reducing excess abdominal fat in HIV-infected
+  adults with lipodystrophy — it is not approved or studied for general fat loss in people without
+  this condition. Per its label, it is contraindicated in disruption of the hypothalamic-pituitary
+  axis (e.g. from pituitary surgery, radiation, or tumor), pregnancy, and known hypersensitivity to
+  tesamorelin or mannitol. It should not be used in patients with active malignancy, given its
+  effect on IGF-1. This is a prescription medication requiring a doctor's supervision, not a
+  self-directed research compound.
+
+references:
+  - citation: "Falutz J, Allas S, Blot K, Potvin D, Kotler D, Somero M, Berger D, Brown S, Richmond G, Fessel J, Turner R, Grinspoon S. Metabolic effects of a growth hormone-releasing factor in patients with HIV. N Engl J Med. 2007;357(23):2359-2370."
+    url: "https://pubmed.ncbi.nlm.nih.gov/18057338/"
+
+research_protocols:
+  - goal: "Visceral Fat Reduction (HIV-Associated Lipodystrophy)"
+    dose: "2 mg (Egrifta) or 1.4 mg (Egrifta SV) once daily"
+    timing: "Same time daily, subcutaneous injection into the abdomen"
+    disclaimer: "Reflects FDA-approved dosing for HIV-associated lipodystrophy. Use only under medical supervision; not evaluated for other uses."
+    sort_order: 0

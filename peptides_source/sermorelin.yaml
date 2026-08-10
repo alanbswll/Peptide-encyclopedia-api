@@ -5,10 +5,84 @@
 id: sermorelin
 name: Sermorelin
 status: published
+
 category_ids:
-- growth-hormone
-overview: GHRH analog
+  - growth-hormone
+
+overview: >
+  GHRH analog. A synthetic 29-amino-acid fragment (GRF 1-29) of human growth hormone-releasing
+  hormone that retains the full biological activity of the natural 44-amino-acid hormone. It was
+  FDA-approved in 1997 under the brand name Geref for pediatric growth hormone deficiency, though
+  that branded product was later discontinued and it is now used mainly via compounding pharmacies.
+
 key_benefits:
-- Supports natural GH pulse pattern
+  - Supports natural GH pulse pattern
+
+mechanism_of_action: >
+  Binds the GHRH receptor on pituitary somatotrophs, prompting a pulse of natural growth hormone
+  release. Because it stimulates the pituitary rather than supplying GH directly, the body's own
+  feedback loops (via somatostatin and IGF-1) remain intact, which is why sermorelin-driven GH
+  release tends to preserve a more physiologic, pulsatile pattern compared to injecting GH itself.
+
+quick_start_guide:
+  typical_dose: "0.2–0.3 mg (200–300 mcg)"
+  frequency: "1x daily, at bedtime"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "Bedtime, on an empty stomach (2+ hours after the last meal), to align with the body's natural nocturnal GH pulse"
+  effects_timeline: "Sleep quality changes sometimes reported within 1–2 weeks; IGF-1 and body composition changes described over 8–12 weeks in pediatric GHD studies"
+  storage: "Refrigerate after reconstitution; avoid shaking, gently swirl to mix"
+  cycle_length: "Pediatric GHD protocols used it continuously over months; off-label adult use is often run in 3–6 month blocks"
+  break_between: "Not well established for off-label adult use"
+
+pharmacokinetics:
+  peak: "Peak plasma concentration in 5–20 minutes after subcutaneous dosing"
+  half_life: "~11–12 minutes after IV or subcutaneous administration"
+  cleared: "Rapidly cleared from circulation despite this, its GH-stimulating effect on the pituitary is reported to last roughly 3 hours"
+
+research_indications:
+  - "FDA-approved (as Geref, historically) for diagnosis and treatment of idiopathic growth hormone deficiency in children"
+  - Adult GH axis support research (off-label, via compounding pharmacies)
+  - Sleep quality research (GH's role in slow-wave sleep)
+
 reconstitution_steps:
-- Reconstitute gently; avoid shaking.
+  - Reconstitute gently; avoid shaking.
+
+quality_indicators:
+  - "White, lyophilized powder that fully dissolves into a clear, colorless solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate matter after reconstitution"
+
+what_to_expect: >
+  Most users report no acute sensation beyond mild injection-site irritation. Its approved
+  pediatric use is aimed at restoring a normal growth trajectory over months of treatment; adult
+  off-label use targets gradual improvements in sleep and body composition over a similar
+  timescale, not immediate effects.
+
+side_effects_common:
+  - "Injection site redness, swelling, or itching"
+  - "Flushing"
+  - "Headache"
+  - "Transient lightheadedness"
+
+safety_notes: >
+  Sermorelin has a genuine FDA-approval history: it was approved in 1997 as Geref for the
+  diagnosis and treatment of idiopathic growth hormone deficiency in children, though the branded
+  product was discontinued and it is now available primarily through compounding pharmacies
+  rather than as an FDA-approved manufactured product. Because it stimulates the body's own GH
+  pulse rather than replacing GH directly, it's generally considered to carry a different risk
+  profile than exogenous rHGH, but it still carries a theoretical caution around stimulating
+  hormone-sensitive tissue growth, and should not be used by anyone with active or suspected
+  pituitary tumors or malignancy. Consult a healthcare provider.
+
+references:
+  - citation: "Prakash A, Goa KL. Sermorelin: a review of its use in the diagnosis and treatment of children with idiopathic growth hormone deficiency. BioDrugs. 1999;12(2):139-157."
+    url: "https://pubmed.ncbi.nlm.nih.gov/18031173/"
+
+research_protocols:
+  - goal: "Adult GH Axis Support (off-label)"
+    dose: "0.2–0.3 mg at bedtime"
+    timing: "Bedtime, empty stomach"
+    disclaimer: "For research purposes only. Not evaluated by the FDA for this use; approved historically only for pediatric growth hormone deficiency."
+    sort_order: 0

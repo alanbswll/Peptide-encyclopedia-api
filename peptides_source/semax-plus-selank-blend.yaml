@@ -5,10 +5,80 @@
 id: semax-plus-selank-blend
 name: Semax + Selank Blend
 status: published
+
 category_ids:
-- cognitive
-overview: Combined Semax and Selank blend (10mg + 10mg)
+  - cognitive
+
+overview: >
+  A combination intranasal blend pairing Semax (an ACTH(4-10)-derived nootropic peptide)
+  with Selank (a tuftsin-derived anxiolytic peptide) in a single solution, typically
+  formulated at 10 mg Semax + 10 mg Selank per vial.
+
 key_benefits:
-- Paired dosing for focus and stress support together
+  - Paired dosing for focus and stress support together
+  - Combines Semax's BDNF/dopaminergic nootropic activity with Selank's GABAergic/anxiolytic activity in one intranasal dose
+
+mechanism_of_action: >
+  This blend combines the proposed mechanisms of its two component peptides: Semax's
+  modulation of BDNF/TrkB signaling and dopaminergic/serotonergic tone (associated with
+  focus and cognitive effects), and Selank's modulation of GABAergic tone, serotonin
+  metabolism, and enkephalin-degrading enzymes (associated with anxiolytic effects). There
+  is no dedicated pharmacological study of the combined blend itself — the rationale for
+  combining them rests on the separate literatures for each peptide, not on any trial of the
+  mixture. See the standalone Semax and Selank entries for the evidence behind each
+  component.
+
+quick_start_guide:
+  typical_dose: "A single spray/dose delivers a proportional share of the 10 mg + 10 mg vial (vendor-dependent concentration and spray volume)"
+  frequency: "1–3x daily"
+  best_timing: "Morning and early afternoon, mirroring standalone Semax timing to avoid late-day overstimulation"
+  effects_timeline: "Subjective effects reported within 30–60 minutes; typical use follows the same 10–14 day cycling pattern used for Semax and Selank individually"
+  storage: "Refrigerate; use opened solution within the vendor's stated window (typically 30 days)"
+  cycle_length: "10–14 days"
+  break_between: "2–4 weeks off"
+
+pharmacokinetics:
+  peak: "Not established for the combined product specifically; component peptides are believed to have onset within 20–60 minutes intranasally"
+  half_life: "Not established for the combined product; both component peptides are believed to be short-lived in plasma (see the individual Semax and Selank entries)"
+  cleared: "Not established for the combined blend specifically"
+
+research_indications:
+  - Combined focus and stress-support use cases (inferred from the separate Semax and Selank literatures)
+  - No indications have been studied for the blend itself in any clinical or preclinical trial
+
 reconstitution_steps:
 - Often used intranasally; keep refrigerated.
+
+quality_indicators:
+  - "Sold as a pre-made intranasal solution; should be clear and colorless"
+  - "Reputable vendors provide a COA confirming both peptides' identity and concentration (10 mg + 10 mg, or as labeled)"
+  - "No cloudiness, discoloration, or particulate matter"
+
+what_to_expect: >
+  Users report an experience combining the subjective focus/alertness effects associated
+  with Semax and the calming/anti-anxiety effects associated with Selank, though this
+  combined effect profile is anecdotal — the blend itself has not been studied in trials. As
+  with the individual peptides, effects are commonly described as most noticeable early in a
+  cycle.
+
+side_effects_common:
+  - "Nasal irritation at the application site"
+  - "Mild headache"
+  - "Overstimulation if dosed late in the day (attributed to the Semax component)"
+  - "Mild drowsiness in some users (attributed to the Selank component)"
+
+safety_notes: >
+  This blend has not been studied as a combined product in any clinical or preclinical
+  trial — all safety and efficacy information is inferred from the separate Semax and
+  Selank literatures, both of which are dominated by Russian-language sources and lack
+  independent Western replication. Neither component peptide, nor this combination, is
+  FDA-approved. Combining two centrally-active peptides may also compound side effects
+  (e.g., stimulation from Semax plus drowsiness from Selank) in ways that haven't been
+  formally characterized. Consult a healthcare provider.
+
+research_protocols:
+  - goal: "Combined Focus + Stress Support"
+    dose: "1 spray (or vendor-labeled dose) 1–2x daily, intranasal"
+    timing: "Morning and early afternoon"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. This combination has not been studied in trials; see the individual Semax and Selank entries for component-level evidence."
+    sort_order: 0

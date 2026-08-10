@@ -1,14 +1,91 @@
-# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
 id: survodutide
 name: Survodutide
 status: published
+
 category_ids:
-- fat-loss
-overview: Dual GLP-1/glucagon receptor agonist
+  - fat-loss
+
+overview: >
+  A dual GLP-1/glucagon receptor agonist being developed jointly by Boehringer Ingelheim and
+  Zealand Pharma. It is investigational — not yet FDA-approved — and is being studied for weight
+  loss as well as for liver disease, including metabolic dysfunction-associated steatohepatitis
+  (MASH).
+
 key_benefits:
-- Studied for weight loss and liver health
+  - Studied for weight loss and liver health
+  - Adds glucagon receptor agonism to GLP-1 activity, targeting energy expenditure alongside appetite
+  - Phase 2 obesity trial reported up to ~18.7% average weight loss in participants who reached and maintained the highest dose
+  - Phase 2 MASH trial showed a majority of participants achieving disease improvement and liver fat reduction at 48 weeks
+
+mechanism_of_action: >
+  Survodutide activates both the glucagon receptor and the GLP-1 receptor. GLP-1 agonism slows
+  gastric emptying, promotes satiety, and enhances glucose-dependent insulin secretion; glucagon
+  receptor agonism increases hepatic fat oxidation and energy expenditure, which is thought to
+  contribute to its effects on liver fat in addition to its GLP-1-driven weight loss. A
+  fatty-acid-modified backbone binds serum albumin (>99% protein bound), extending its half-life
+  to support once-weekly dosing.
+
+quick_start_guide:
+  typical_dose: "0.6 mg starting dose in published trials, titrated up to 2.4–4.8 mg maintenance doses studied"
+  frequency: "1x weekly"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+    - deltoid-im
+  best_timing: "Same day each week, any time of day"
+  effects_timeline: "Trial dose-escalation ran over roughly 16–20 weeks to reach the highest studied doses; weight-loss and liver-fat endpoints were measured at 46–48 weeks"
+  storage: "Refrigerate; not yet available as an approved commercial product with a finalized storage label"
+  cycle_length: "Studied as a continuous therapy over 46–48 week trial periods to date"
+  break_between: "Not established; this is investigational, unapproved therapy"
+
+pharmacokinetics:
+  peak: "Consistent with once-weekly dosing; detailed human Tmax not widely published"
+  half_life: "~6 days (roughly 7 days accounting for albumin binding)"
+  cleared: "Steady state expected after ~5 weeks of once-weekly dosing at a given dose level based on its half-life; linear pharmacokinetics reported"
+
+research_indications:
+  - Investigational treatment for obesity/overweight (Phase 3 SYNCHRONIZE program ongoing)
+  - Investigational treatment for MASH (metabolic dysfunction-associated steatohepatitis) with liver fibrosis
+
 reconstitution_steps:
-- Reconstitute per manufacturer instructions; refrigerate.
+  - Reconstitute per manufacturer instructions; refrigerate.
+
+quality_indicators:
+  - "Not an FDA-approved commercial product; no legitimate retail/pharmacy supply chain exists yet"
+  - "Research-chemical vendor material should include a third-party COA confirming identity and purity"
+  - "Clear, colorless solution with no particulate matter after reconstitution"
+
+what_to_expect: >
+  Trials used a gradual, multi-step dose escalation specifically to manage GI tolerability, since
+  the glucagon/GLP-1 combination can cause more pronounced early nausea than GLP-1-only agents at
+  comparable doses. Weight loss and liver-fat improvements build progressively over months in
+  published trial data.
+
+side_effects_common:
+  - "Nausea, vomiting, and diarrhea (common, especially during dose escalation)"
+  - "Decreased appetite"
+  - "Injection site reactions"
+  - "Adverse events overall were reported more frequently than placebo in the Phase 2 obesity trial (~91% vs ~75%)"
+
+safety_notes: >
+  Survodutide is investigational and not FDA-approved as of this writing; long-term safety data
+  beyond the published Phase 2 trial periods (46–48 weeks) is not yet available. Most trial
+  discontinuations occurred during the rapid dose-escalation phase, suggesting tolerability is
+  sensitive to titration speed. As a dual glucagon/GLP-1 agent, class-wide incretin cautions
+  (pancreatitis, gallbladder disease, dehydration/kidney injury, and a rodent-model thyroid
+  C-cell signal seen with other GLP-1 agents) are relevant considerations pending its own full
+  safety record. Any use outside of a clinical trial is off-label and unsupervised by regulatory
+  review. Consult a healthcare provider.
+
+references:
+  - citation: "le Roux CW, Zhang S, Aronne LJ, et al. Glucagon and GLP-1 receptor dual agonist survodutide for obesity: a randomised, double-blind, placebo-controlled, dose-finding phase 2 trial. Lancet Diabetes Endocrinol. 2024;12(3):162-173."
+    url: "https://pubmed.ncbi.nlm.nih.gov/38330987/"
+  - citation: "Sanyal AJ, Bedossa P, Fraessdorf M, et al. A Phase 2 Randomized Trial of Survodutide in MASH and Fibrosis. N Engl J Med. 2024;391(4):311-319."
+    url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2401755"
+
+research_protocols:
+  - goal: "Weight Management (Investigational)"
+    dose: "0.6 mg weekly, titrated per published Phase 2 dose levels up to 4.8 mg"
+    timing: "Same day each week"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Investigational compound, not an approved medication."
+    sort_order: 0

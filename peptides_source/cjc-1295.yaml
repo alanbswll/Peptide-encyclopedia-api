@@ -5,10 +5,87 @@
 id: cjc-1295
 name: CJC-1295
 status: published
+
 category_ids:
-- growth-hormone
-overview: Growth hormone support
+  - growth-hormone
+
+overview: >
+  Growth hormone support. A growth hormone-releasing hormone (GHRH) analog sold in two distinct
+  forms — with and without a Drug Affinity Complex (DAC) that extends its duration of action.
+
 key_benefits:
-- Complex dosing and timing
+  - "Complex dosing and timing: the DAC and no-DAC forms differ substantially in half-life and injection frequency"
+
+mechanism_of_action: >
+  Binds the GHRH receptor on pituitary somatotrophs, prompting them to secrete growth hormone.
+  The DAC-conjugated version covalently attaches to circulating albumin after injection, which
+  protects it from rapid degradation and stretches its duration of action from minutes (typical
+  of GHRH peptides) to days. The non-DAC fragment lacks this albumin-binding modification and
+  behaves closer to endogenous GHRH, producing a single, short-lived GH pulse per dose.
+
+quick_start_guide:
+  typical_dose: "No-DAC: 100 mcg per injection. DAC: 1–2 mg per injection"
+  frequency: "No-DAC: 1–3x daily. DAC: 1–2x weekly"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "No-DAC form: empty stomach, typically pre-workout and/or before bed to align with natural GH pulses. DAC form: timing is less critical given its sustained release"
+  effects_timeline: "Sleep quality changes sometimes noted within 1–2 weeks; body composition changes described over 8–12 weeks"
+  storage: "Refrigerate after reconstitution; use within 30 days"
+  cycle_length: "No-DAC: 8–12 weeks, often paired with a GHRP. DAC: sometimes run longer given its sustained receptor occupancy"
+  break_between: "4–8 weeks"
+
+pharmacokinetics:
+  peak: "No-DAC: GH peak ~30 minutes post-injection. DAC: GH/IGF-1 elevation builds and is sustained over several days"
+  half_life: "No-DAC fragment: ~30 minutes (estimated, limited independent human data). DAC-conjugated form: 5.8–8.1 days (Teichman et al. 2006, human PK study)"
+  cleared: "No-DAC: within a few hours. DAC: IGF-I elevation persisted 9–11 days after a single dose in the Teichman et al. trial"
+
+research_indications:
+  - GH/IGF-1 axis stimulation
+  - Body composition research (lean mass, fat loss)
+  - Sleep quality research (GH's role in slow-wave sleep)
+  - Often studied/used alongside GHRP-class peptides (e.g. ipamorelin) for combined GH pulses
+
 reconstitution_steps:
-- Use only under professional guidance.
+  - Use only under professional guidance.
+
+quality_indicators:
+  - "White, lyophilized powder that fully dissolves into a clear, colorless solution"
+  - "Third-party COA available confirming which form (DAC vs no-DAC) and purity"
+  - "No visible discoloration, clumping, or particulate after reconstitution"
+
+what_to_expect: >
+  Most users report no acute sensation beyond occasional facial flushing shortly after injection.
+  Reported changes to sleep quality, recovery, and body composition build gradually over weeks
+  rather than appearing immediately, and differ in pattern between the DAC and no-DAC forms.
+
+side_effects_common:
+  - "Facial flushing or warmth after injection"
+  - "Mild water retention"
+  - "Injection site redness"
+  - "Occasional headache"
+
+safety_notes: >
+  Controlled human pharmacokinetic and short-term safety data exists only for the DAC-conjugated
+  molecule, studied by its originator (ConjuChem) in ascending-dose trials. The shorter no-DAC
+  fragment widely sold by research-chemical vendors has not been independently characterized in
+  comparable human studies, so DAC-derived safety data should not be assumed to transfer directly.
+  As a GHRH analog, it carries a theoretical concern around stimulating growth in hormone-sensitive
+  tissue; it should not be used by anyone with active or suspected malignancy. This is a research
+  compound, not an approved treatment for any condition. Consult a healthcare provider.
+
+references:
+  - citation: "Teichman SL, Neale A, Lawrence B, Gagnon C, Castaigne JP, Frohman LA. Prolonged stimulation of growth hormone (GH) and insulin-like growth factor I secretion by CJC-1295, a long-acting analog of GH-releasing hormone, in healthy adults. J Clin Endocrinol Metab. 2006;91(3):799-805."
+    url: "https://pubmed.ncbi.nlm.nih.gov/16352683/"
+
+research_protocols:
+  - goal: "GH/IGF-1 Axis Support (no-DAC form)"
+    dose: "100 mcg 1–2x daily"
+    timing: "Pre-workout and/or before bed, empty stomach"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0
+  - goal: "Extended-Release GH Support (DAC form)"
+    dose: "1–2 mg 1x weekly"
+    timing: "Any time of day; keep the schedule consistent"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 1

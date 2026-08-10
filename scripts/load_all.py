@@ -48,7 +48,7 @@ def main():
 
     ok, failed = 0, 0
     for path in files:
-        with open(path) as f:
+        with open(path, encoding="utf-8") as f:
             data = yaml.safe_load(f)
 
         pid = data.get("id")

@@ -5,10 +5,68 @@
 id: dsip
 name: DSIP
 status: published
+
 category_ids:
-- sleep
-overview: Delta sleep-inducing peptide
+  - sleep
+
+overview: >
+  A short neuropeptide first isolated from rabbit cerebral venous blood in 1977 during a search
+  for a natural sleep-promoting substance. It generated decades of research interest, but later
+  reviews have described its status as a genuine sleep factor as unresolved — no DSIP gene,
+  precursor protein, or dedicated receptor has ever been identified, and evidence for a reliable
+  sleep-inducing effect has remained weak.
+
 key_benefits:
-- Studied for sleep quality support
+  - Studied for sleep quality support
+  - One of the earliest identified peptides proposed as an endogenous sleep-promoting factor
+  - Long research history spanning proposed roles in sleep, stress, and pain modulation
+
+mechanism_of_action: >
+  Despite its name, DSIP's mechanism has never been firmly established: no gene, precursor
+  protein, or specific receptor for it has been identified, decades after its isolation. Early
+  work proposed a link to slow-wave ("delta") sleep and possible modulation of adrenergic
+  transmission, but a 2006 review characterized the evidence for DSIP itself as a sleep factor as
+  weak and poorly documented, and proposed that a related "DSIP-like" peptide — rather than DSIP
+  as originally characterized — may be responsible for the sleep-promoting effects seen in some
+  studies. In short, DSIP remains scientifically described as "a still unresolved riddle" rather
+  than a peptide with a settled mechanism.
+
+pharmacokinetics:
+  peak: "Not well established in the literature"
+  half_life: "Not well established in the literature"
+  cleared: "Not well established in the literature"
+
+research_indications:
+  - Sleep quality / slow-wave sleep research (original, contested rationale)
+  - Stress response modulation (studied historically)
+  - Pain modulation and substance-withdrawal symptoms (explored in older literature)
+
 reconstitution_steps:
-- Reconstitute with bacteriostatic water; refrigerate.
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White lyophilized powder in a sealed vial"
+  - "Clear, colorless solution after reconstitution with no visible particulate"
+  - "Third-party COA available confirming peptide identity and purity"
+
+what_to_expect: >
+  Because DSIP's own sleep-promoting effect has never been reliably established in the
+  scientific literature, there is no well-documented, reproducible subjective effect profile to
+  point to. Any anecdotal reports of improved sleep should be weighed against a research history
+  that has repeatedly failed to pin down a clear mechanism or consistent effect.
+
+safety_notes: >
+  DSIP is not an FDA-approved product, and unlike many other research peptides, its very premise
+  — that it functions as a natural sleep-inducing factor — has been directly challenged in the
+  scientific literature; a 2006 review found the supporting evidence "extremely poorly
+  documented and still weak" after decades of study. Human dosing, pharmacokinetic, and
+  long-term safety data are not well established. Consult a healthcare provider, and treat
+  marketing claims about DSIP's sleep benefits with real skepticism given this research history.
+
+references:
+  - citation: "Graf MV, Kastin AJ. Delta-sleep-inducing peptide (DSIP): an update. Peptides.
+      1986;7(6):1165-1187."
+    url: "https://pubmed.ncbi.nlm.nih.gov/3550726/"
+  - citation: "Kovalzon VM, Strekalova TV. Delta sleep-inducing peptide (DSIP): a still unresolved
+      riddle. J Neurochem. 2006;97(2):303-309."
+    url: "https://pubmed.ncbi.nlm.nih.gov/16539679/"

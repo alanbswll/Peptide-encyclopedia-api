@@ -1,14 +1,102 @@
 # Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
+# Only overview/key_benefits/reconstitution_steps were populated from that
+# source; richer fields below were added in a later research pass.
 id: cjc-1295-plus-ipamorelin
 name: CJC-1295 + Ipamorelin
 status: published
+
 category_ids:
-- growth-hormone
-overview: Combined GHRH/ghrelin-mimetic secretagogue stack
+  - growth-hormone
+
+overview: >
+  Combined GHRH/ghrelin-mimetic secretagogue stack — a commercial pairing of two individually
+  well-studied peptides, CJC-1295 and ipamorelin, sold and dosed together rather than as a
+  single studied compound in its own right.
+
 key_benefits:
-- Common paired stack for GH pulse support
+  - Common paired stack for GH pulse support
+
+mechanism_of_action: >
+  This is a combination product, and its rationale rests on the two components acting on
+  different receptors. CJC-1295 is a GHRH analog that binds the GHRH receptor on pituitary
+  somatotrophs, stimulating GH synthesis and release. Ipamorelin is a selective ghrelin receptor
+  (GHS-R) agonist — a "ghrelin mimetic" — that stimulates GH release through a separate pathway,
+  and was specifically identified as the first growth hormone secretagogue that releases GH
+  without significantly raising cortisol, ACTH, prolactin, or gonadotropins the way older GHRPs
+  do. Combining a GHRH analog with a ghrelin-receptor agonist is a long-standing endocrinology
+  strategy for producing a larger GH pulse than either class produces alone, because the two
+  pathways converge on GH release through distinct receptors and signaling cascades. Note that
+  this stack most commonly pairs ipamorelin with the short-acting, no-DAC form of CJC-1295 (Mod
+  GRF 1-29, cleared in ~30 minutes) dosed multiple times a day to mimic natural GH pulses, rather
+  than the long-acting DAC version — though some vendors sell the DAC version paired with
+  ipamorelin instead, which would be dosed far less frequently.
+
+quick_start_guide:
+  typical_dose: "100 mcg ipamorelin + 100 mcg CJC-1295 (no-DAC), per injection"
+  frequency: "1–3x daily (with no-DAC CJC-1295) — typically pre-bed and/or around training, to mimic natural GH pulses; weekly if paired with the DAC version instead"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "Fasted, before bed and/or pre-workout, to align with the body's natural GH pulse pattern"
+  effects_timeline: "No dedicated human trial exists for the combination; individually, both components have shown measurable GH/IGF-1 elevation within days to weeks in their own human studies"
+  storage: "Reconstitute with bacteriostatic water; refrigerate"
+  cycle_length: "8–12 weeks"
+  break_between: "4 weeks"
+
+pharmacokinetics:
+  peak: "Ipamorelin: GH peak ~30–40 minutes post-injection. No-DAC CJC-1295: GH pulse within 15–30 minutes post-injection"
+  half_life: "Ipamorelin: ~2 hours (published human PK study). No-DAC CJC-1295: ~30 minutes"
+  cleared: "Both components clear within hours, consistent with a pulsatile (rather than sustained) dosing strategy — unlike DAC-bound CJC-1295"
+
+research_indications:
+  - GH pulse amplitude support (based on individual-compound human data, not a combination trial)
+  - Body composition and recovery research
+
 reconstitution_steps:
-- Reconstitute with bacteriostatic water; refrigerate.
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White, lyophilized powder that fully dissolves into a clear, colorless solution"
+  - "Third-party COA available for both peptides confirming identity and purity"
+  - "No visible discoloration, clumping, or particulate matter after reconstitution"
+
+what_to_expect: >
+  As a stack, effects are typically framed as building gradually over weeks of consistent dosing
+  timed around sleep and training. No dedicated clinical trial has tested the combination itself;
+  what's known comes from human studies of each peptide individually.
+
+side_effects_common:
+  - "Injection site redness or irritation"
+  - "Flushing or mild tingling sensation (anecdotal)"
+  - "Water retention (anecdotal, consistent with elevated GH/IGF-1)"
+
+safety_notes: >
+  This is a commercial combination product, not a single molecule that has been studied as a
+  unit — no dedicated human trial of CJC-1295 plus ipamorelin together was found. That said, both
+  individual components are among the better-studied peptides in this category: ipamorelin's
+  selective GH-releasing pharmacology and human pharmacokinetics were characterized in the late
+  1990s, and CJC-1295's GH/IGF-1 effects in healthy adults were characterized in a published
+  Phase 1/2 trial. Combining two GH secretagogues is generally considered additive/synergistic in
+  principle (they act on different receptors), but the magnitude and safety of that combination
+  specifically have not been formally studied in humans. Neither peptide is an approved drug for
+  performance or anti-aging use. Consult a healthcare provider.
+
+references:
+  - citation: "Teichman SL, Neale A, Lawrence B, Gagnon C, Castaigne JP, Frohman LA. Prolonged stimulation of growth hormone (GH) and insulin-like growth factor I secretion by CJC-1295, a long-acting analog of GH-releasing hormone, in healthy adults. J Clin Endocrinol Metab. 2006;91(3):799-805."
+    url: "https://pubmed.ncbi.nlm.nih.gov/16352683/"
+  - citation: "Raun K, Hansen BS, Johansen NL, et al. Ipamorelin, the first selective growth hormone secretagogue. Eur J Endocrinol. 1998;139(5):552-561."
+    url: "https://pubmed.ncbi.nlm.nih.gov/9849822/"
+  - citation: "Gobburu JV, Agersø H, Jusko WJ, Ynddal L. Pharmacokinetic-pharmacodynamic modeling of ipamorelin, a growth hormone releasing peptide, in human volunteers. Pharm Res. 1999;16(9):1412-1416."
+    url: "https://pubmed.ncbi.nlm.nih.gov/10496658/"
+
+research_protocols:
+  - goal: "GH Pulse Support (pre-sleep)"
+    dose: "100 mcg ipamorelin + 100 mcg CJC-1295 (no-DAC)"
+    timing: "Before bed, fasted"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0
+  - goal: "GH Pulse Support (peri-workout)"
+    dose: "100 mcg ipamorelin + 100 mcg CJC-1295 (no-DAC)"
+    timing: "Pre- or post-workout, fasted"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 1

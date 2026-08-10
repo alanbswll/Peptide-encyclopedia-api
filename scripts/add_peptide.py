@@ -37,7 +37,7 @@ def main():
     if not admin_key:
         sys.exit("ADMIN_API_KEY not set. Put it in your .env or export it before running this script.")
 
-    with open(args.yaml_file) as f:
+    with open(args.yaml_file, encoding="utf-8") as f:
         data = yaml.safe_load(f)
 
     headers = {"X-Admin-Key": admin_key, "Content-Type": "application/json"}

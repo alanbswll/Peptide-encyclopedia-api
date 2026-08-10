@@ -1,14 +1,93 @@
 # Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
+# Only overview/key_benefits/reconstitution_steps were populated from that
+# source; richer fields below were added in a later research pass.
 id: hgh-frag-176-191
 name: HGH Frag 176-191
 status: published
+
 category_ids:
-- growth-hormone
-overview: Fat-burning fragment of human growth hormone
+  - growth-hormone
+
+overview: >
+  Fat-burning fragment of human growth hormone — a short synthetic peptide corresponding to
+  amino acids 176-191 of the C-terminal region of the GH molecule, the region identified as
+  responsible for GH's fat-metabolizing (lipolytic) activity without its growth-promoting or
+  blood-sugar-raising (diabetogenic) effects.
+
 key_benefits:
-- Studied specifically for subcutaneous fat reduction
+  - Studied specifically for subcutaneous fat reduction
+
+mechanism_of_action: >
+  Full-length GH's biological effects were mapped to different regions of the molecule: the
+  region responsible for anti-lipolytic/diabetogenic activity is separate from the region
+  responsible for fat breakdown. Researchers identified amino acids 176-191 as retaining GH's
+  lipolytic activity — stimulating the breakdown of stored fat and inhibiting fat re-accumulation
+  — while lacking the growth-promoting and insulin-antagonizing effects of the full hormone. This
+  effect appears to act independently of the classic GH receptor pathway, instead engaging beta-3
+  adrenergic receptor-mediated fat mobilization in adipose tissue. Note that most of the
+  published research on this fragment used AOD9604, a modified/stabilized analog (an added
+  N-terminal tyrosine plus a cyclized structure) developed for a pharmaceutical program — not
+  necessarily identical to the unmodified 176-191 fragment sold by research-chemical vendors.
+
+quick_start_guide:
+  typical_dose: "250–500 mcg"
+  frequency: "1x daily"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "On an empty stomach, commonly before bed or before fasted morning exercise"
+  effects_timeline: "No formal human timeline for the unmodified fragment; the related AOD9604 analog showed measurable weight/fat effects over a 12-week dosing period in a company-sponsored human trial"
+  storage: "Reconstitute with bacteriostatic water; refrigerate"
+  cycle_length: "6–8 weeks"
+  break_between: "4 weeks"
+
+pharmacokinetics:
+  peak: "Not established for the unmodified fragment in humans"
+  half_life: "Not established for the unmodified fragment; described as short, consistent with its status as a small unmodified peptide fragment"
+  cleared: "Not established"
+
+research_indications:
+  - Lipolysis / fat breakdown without GH's diabetogenic effects (preclinical, animal studies)
+  - Localized and general fat reduction (explored in a related pharmaceutical analog's human trials)
+
 reconstitution_steps:
-- Reconstitute with bacteriostatic water; refrigerate.
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White, lyophilized powder that fully dissolves into a clear, colorless solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate matter after reconstitution"
+
+what_to_expect: >
+  Proposed as a way to get GH's fat-metabolizing effect without its blood-sugar or growth-related
+  effects. Most of the human evidence for this concept comes from AOD9604, a modified,
+  pharmaceutically developed analog of this same region, rather than the unmodified fragment sold
+  by research-chemical vendors, so how well that evidence transfers is uncertain. Any fat-loss
+  effect would be expected to build gradually with consistent use rather than appear acutely.
+
+side_effects_common:
+  - "Injection site redness or irritation"
+  - "Headache (anecdotal)"
+
+safety_notes: >
+  The foundational research on this region of the GH molecule (identifying it as a lipolytic
+  domain distinct from GH's growth-promoting and diabetogenic regions) was conducted in animal
+  models using AOD9604, a stabilized analog developed and later tested in human obesity trials by
+  its manufacturer — not the unmodified "176-191" fragment typically sold by research-chemical
+  vendors, so that data does not directly transfer to those products in dose or effect.
+  Independent, peer-reviewed human data on the unmodified fragment itself is very limited. As
+  with other GH-pathway compounds, use is not medically supervised when sourced outside a
+  legitimate pharmaceutical supply chain, and product identity/purity from research-chemical
+  vendors is not independently verified. This is a research compound, not an approved treatment
+  for any condition. Consult a healthcare provider.
+
+references:
+  - citation: "Heffernan MA, Thorburn AW, Fam B, et al. Increase of fat oxidation and weight loss in obese mice caused by chronic treatment with human growth hormone or a modified C-terminal fragment. Int J Obes Relat Metab Disord. 2001;25(10):1442-1449."
+    url: "https://pubmed.ncbi.nlm.nih.gov/11673763/"
+
+research_protocols:
+  - goal: "Fat Loss Support"
+    dose: "250–500 mcg 1x daily"
+    timing: "Fasted, before bed or before morning exercise"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0

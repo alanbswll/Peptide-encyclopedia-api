@@ -5,10 +5,100 @@
 id: ss-31
 name: SS-31
 status: published
+
 category_ids:
-- longevity
-overview: Mitochondria-targeted peptide (Elamipretide)
+  - longevity
+
+overview: >
+  A synthetic aromatic-cationic tetrapeptide, developed by Hazel Szeto and colleagues and
+  commercialized by Stealth BioTherapeutics under the name Elamipretide. SS-31 is one of the
+  most clinically advanced mitochondria-targeted peptides: under the brand name Forzinity, it
+  received FDA accelerated approval in September 2025 to improve muscle strength in Barth
+  syndrome patients — the first approved drug for a primary mitochondrial disease.
+
 key_benefits:
-- Studied for mitochondrial function support
+  - Studied for mitochondrial function support
+  - FDA-approved (as elamipretide/Forzinity) to improve muscle strength in Barth syndrome
+  - Explored in aged-mouse studies for rapid restoration of skeletal muscle mitochondrial energetics
+
+mechanism_of_action: >
+  SS-31 concentrates in the inner mitochondrial membrane, where it binds cardiolipin — a
+  phospholipid essential to electron transport chain organization and cristae structure — via
+  electrostatic and hydrophobic interactions. By stabilizing cardiolipin, it helps preserve
+  cristae architecture, improves coupling of oxidative phosphorylation, reduces electron leak
+  and reactive oxygen species production, and limits cytochrome c release. In aged mice, a
+  single dose rapidly (within an hour) restored resting and maximal mitochondrial ATP
+  production and cell energy state toward youthful levels, with no observable effect in young
+  muscle — consistent with a mechanism that corrects age- or disease-related mitochondrial
+  dysfunction rather than boosting normal function.
+
+quick_start_guide:
+  typical_dose: "40 mg/day is the dose used in Barth syndrome and mitochondrial myopathy clinical trials; research users often reference lower ranges (e.g. 4–10 mg)"
+  frequency: "1x daily"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "No specific timing requirement in trial protocols"
+  effects_timeline: "In aged-mouse studies, mitochondrial energetics improved within 1 hour of a single dose; human trials assessed functional outcomes (e.g. 6-minute walk distance) after 12+ weeks of daily dosing"
+  storage: "Refrigerate after reconstitution"
+  cycle_length: "Clinical trials and the approved Barth syndrome indication use continuous daily dosing rather than defined on/off cycles"
+  break_between: "Not established for cyclical research use"
+
+pharmacokinetics:
+  peak: "Rapidly absorbed subcutaneously; exact human Tmax not published in searched sources"
+  half_life: "Short; requires daily subcutaneous dosing in clinical trials"
+  cleared: "Not established in detail in publicly available sources"
+
+research_indications:
+  - "Barth syndrome (FDA-approved indication for elamipretide/Forzinity, muscle strength improvement)"
+  - Primary mitochondrial myopathy (mixed clinical trial results — see safety notes)
+  - Skeletal muscle mitochondrial energetics in aging (animal studies)
+  - Cardiac and renal ischemia-reperfusion injury (preclinical)
+
 reconstitution_steps:
-- Reconstitute with bacteriostatic water; refrigerate.
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White lyophilized powder that fully dissolves into a clear, colorless solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate after reconstitution"
+
+what_to_expect: >
+  SS-31/elamipretide is unusual among longevity peptides in having real Phase 2/3 human trial
+  data. In Barth syndrome patients, daily dosing was associated with improved 6-minute walk
+  distance and other functional measures over 12+ weeks, supporting its 2025 FDA approval for
+  that indication. However, in the larger MMPOWER-3 trial in primary mitochondrial myopathy
+  (a broader, more genetically heterogeneous population), elamipretide did not separate from
+  placebo on its primary endpoints, though a subgroup with nuclear DNA-related disease showed a
+  signal of benefit. This means real-world effects are likely to vary substantially by
+  underlying condition rather than being a general-purpose benefit.
+
+side_effects_common:
+  - "Injection site reactions (redness, itching, discoloration) — the most commonly reported adverse event in trials"
+  - "Mild gastrointestinal symptoms"
+  - "Headache"
+
+safety_notes: >
+  SS-31 (elamipretide) has one of the strongest human clinical safety records among the peptides
+  in this encyclopedia, with multiple completed Phase 2/3 trials and an FDA-approved indication
+  (Forzinity, for Barth syndrome muscle strength, in patients ≥30 kg). That said, its efficacy is
+  indication-specific: it succeeded in Barth syndrome trials but failed to meet primary endpoints
+  in the broader MMPOWER-3 primary mitochondrial myopathy trial. Injection site reactions were
+  the most common adverse event across trials. Off-label or non-clinical use has not been
+  evaluated for safety or efficacy outside these studied populations. Consult a healthcare
+  provider.
+
+references:
+  - citation: "Siegel MP, Kruse SE, Percival JM, et al. Mitochondrial-targeted peptide rapidly improves mitochondrial energetics and skeletal muscle performance in aged mice. Aging Cell. 2013;12(5):763-771."
+    url: "https://pubmed.ncbi.nlm.nih.gov/23692570/"
+  - citation: "Thompson WR, Hornby B, Manuel R, et al. A phase 2/3 randomized clinical trial followed by an open-label extension to evaluate the effectiveness of elamipretide in Barth syndrome, a genetic disorder of mitochondrial cardiolipin metabolism. Genet Med. 2021;23(3):471-478."
+    url: "https://www.nature.com/articles/s41436-020-01006-8"
+  - citation: "Karaa A, Bertini E, Carelli V, et al. Efficacy and Safety of Elamipretide in Individuals With Primary Mitochondrial Myopathy: The MMPOWER-3 Randomized Clinical Trial. Neurology. 2023;101(3):e238-e252."
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10382259/"
+
+research_protocols:
+  - goal: "Mitochondrial Function Support (research interest, modeled on trial dosing)"
+    dose: "40 mg once daily"
+    timing: "Any time of day; keep the schedule consistent"
+    disclaimer: "For research purposes only. Not evaluated by the FDA for uses outside the approved Barth syndrome indication."
+    sort_order: 0

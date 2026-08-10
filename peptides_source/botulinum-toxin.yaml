@@ -5,10 +5,84 @@
 id: botulinum-toxin
 name: Botulinum Toxin
 status: published
+
 category_ids:
-- skin
-overview: Muscle-relaxing neurotoxin (not a peptide)
+  - skin
+
+overview: >
+  A neurotoxin produced by the bacterium Clostridium botulinum (not a peptide, despite appearing
+  alongside peptides in this app). Type A botulinum toxin formulations — including Botox, Dysport,
+  and Xeomin — are FDA-approved prescription products for both cosmetic use (e.g. glabellar lines)
+  and a range of medical conditions. It is administered by a licensed provider in-office; it is not
+  a self-administered research compound.
+
 key_benefits:
-- Used for expression lines and wrinkle reduction
+  - Used for expression lines and wrinkle reduction
+  - FDA-approved for cosmetic use (glabellar lines) and numerous medical indications (e.g. migraine, cervical dystonia, hyperhidrosis, spasticity)
+
+mechanism_of_action: >
+  Botulinum toxin cleaves SNARE-complex proteins (e.g. SNAP-25) required for the docking and
+  release of acetylcholine-containing vesicles at the neuromuscular junction. By blocking
+  acetylcholine release, it produces temporary, localized chemical denervation — the injected
+  muscle can no longer contract, which softens the dynamic wrinkles caused by repeated muscle
+  movement (e.g. frowning).
+
+quick_start_guide:
+  typical_dose: "For glabellar lines, a common approved regimen is 20 Units (onabotulinumtoxinA/Botox Cosmetic) split across 5 injection sites; exact dosing and unit conversion differ by brand and treatment area and are determined by the injector"
+  frequency: "Single in-office treatment session, repeated roughly every 3–4 months as effects wear off"
+  best_timing: "Scheduled clinical appointment; not self-timed"
+  effects_timeline: "Onset typically begins 1–2 days after injection, with full effect developing over about 1 week; effects last approximately 3–4 months for cosmetic use"
+  storage: "Stored and reconstituted by the clinic per the manufacturer's cold-chain and handling requirements — not applicable to home use"
+  cycle_length: "Not applicable in the self-administered sense; re-treatment is typically spaced every 3–4 months as effect wanes"
+  break_between: "Determined by the treating provider; effects naturally diminish over months, at which point re-treatment may be considered"
+
+pharmacokinetics:
+  peak: "Local (intramuscular) chemical denervation effect builds over the first week after injection"
+  half_life: "Not clinically meaningful as a systemic pharmacokinetic value at cosmetic doses — the toxin acts locally at the injection site and its effect, not its plasma level, determines duration"
+  cleared: "Muscle function gradually returns as new nerve terminals sprout and neuromuscular transmission is restored, typically over 3–4 months"
+
+research_indications:
+  - Glabellar lines and other dynamic facial wrinkles (FDA-approved, cosmetic)
+  - Chronic migraine, cervical dystonia, blepharospasm, hyperhidrosis, and spasticity (FDA-approved, medical, separate formulations/dosing)
+
 reconstitution_steps:
-- Administered by a licensed provider; not self-mixed.
+  - "Administered by a licensed provider; not self-mixed."
+
+quality_indicators:
+  - "Administered only by a licensed medical provider using an FDA-approved product (e.g. Botox, Dysport, Xeomin)"
+  - "Product reconstituted and handled per manufacturer cold-chain instructions in a clinical setting"
+  - "Provider discusses expected units, injection sites, and realistic outcomes before treatment"
+
+what_to_expect: >
+  Effects are not immediate — visible softening of treated lines typically develops over the first
+  week after injection, peaks, and then gradually fades over roughly 3–4 months as the effect wears
+  off, at which point the treated muscle regains normal function. Mild bruising or tenderness at
+  injection sites is common in the first day or two.
+
+side_effects_common:
+  - "Injection site pain, bruising, or swelling"
+  - "Headache"
+  - "Eyelid or brow drooping (ptosis) if the toxin diffuses beyond the intended muscle"
+  - "Temporary flu-like symptoms (uncommon)"
+
+safety_notes: >
+  Botulinum toxin has one of the largest and longest-running clinical safety records of any
+  cosmetic or therapeutic injectable, but it is a prescription medical product administered only by
+  trained, licensed providers — never a self-injected research chemical. Products carry an FDA
+  boxed warning about the rare but serious risk of toxin spreading beyond the injection site,
+  which can cause symptoms resembling botulism (swallowing/breathing difficulty). It should be
+  avoided in pregnancy/breastfeeding, in people with certain neuromuscular disorders (e.g.
+  myasthenia gravis), and used cautiously alongside medications that affect neuromuscular
+  transmission (e.g. aminoglycoside antibiotics). Discuss full medical history with the injecting
+  provider.
+
+references:
+  - citation: "Nigam PK, Nigam A. Botulinum toxin. Indian J Dermatol. 2010;55(1):8-14."
+    url: "https://journals.lww.com/ijd/fulltext/2010/55010/botulinum_toxin.3.aspx"
+
+research_protocols:
+  - goal: "Glabellar Line Treatment (in-office, cosmetic)"
+    dose: "~20 Units onabotulinumtoxinA (Botox Cosmetic), split across 5 sites; brand/dose determined by injector"
+    timing: "Single in-office session; re-treatment roughly every 3–4 months"
+    disclaimer: "Prescription medical treatment administered only by a licensed provider. Not a self-injected or research-chemical product."
+    sort_order: 0

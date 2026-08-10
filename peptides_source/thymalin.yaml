@@ -5,10 +5,84 @@
 id: thymalin
 name: Thymalin
 status: published
+
 category_ids:
-- longevity
-overview: Thymus-derived peptide bioregulator
+  - longevity
+
+overview: >
+  A polypeptide complex extracted from calf thymus tissue, developed by Vladimir Khavinson's
+  group at the St. Petersburg Institute of Bioregulation and Gerontology. Thymalin is one of the
+  original Khavinson-school "bioregulator" preparations, studied mainly in Russian clinical
+  practice for immune modulation and as part of long-running Russian aging/longevity research.
+
 key_benefits:
-- Studied for immune regulation and longevity
+  - Studied for immune regulation and longevity
+  - Explored for activating differentiation of human hematopoietic stem cells
+  - Investigated (with epithalamin) in a long-term Russian cohort study for effects on mortality and age-related disease
+
+mechanism_of_action: >
+  Thymalin is described as a mixture of low-molecular-weight polypeptides derived from thymus
+  tissue. Laboratory work by the Khavinson group reports that it promotes differentiation of
+  human hematopoietic stem cells and influences expression of immune-related surface markers
+  (e.g. CD28), consistent with a general immune-system-regulating role attributed to natural
+  thymic peptide extracts. The precise molecular mechanism and specific active peptide
+  components are not as well characterized in independent, non-Khavinson-affiliated literature.
+
+quick_start_guide:
+  typical_dose: "5–10 mg"
+  frequency: "1x daily"
+  injection_site_ids:
+    - glute-im
+    - deltoid-im
+  best_timing: "Morning, per traditional Russian clinical bioregulator protocols"
+  effects_timeline: "Not established outside the Khavinson-affiliated literature"
+  storage: "Refrigerate after reconstitution"
+  cycle_length: "10 days, per traditional Khavinson-protocol course dosing"
+  break_between: "Several months, with courses sometimes repeated 1-2x per year"
+
+pharmacokinetics:
+  peak: "Not established in independently replicated literature"
+  half_life: "Not established in independently replicated literature"
+  cleared: "Not established in independently replicated literature"
+
+research_indications:
+  - Immune system regulation (Khavinson-group studies)
+  - Hematopoietic stem cell differentiation (in vitro)
+  - General aging/longevity research (Russian cohort studies)
+
 reconstitution_steps:
-- Reconstitute with bacteriostatic water; refrigerate.
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White to off-white lyophilized powder that fully dissolves into a clear solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate after reconstitution"
+
+what_to_expect: >
+  There is no well-characterized subjective effect profile outside of the Khavinson-affiliated
+  research program. Available data centers on immune-marker and stem-cell effects in laboratory
+  studies and on a long-term Russian cohort report linking thymalin/epithalamin use to lower
+  mortality; these findings have not been independently replicated by research groups outside
+  that program.
+
+safety_notes: >
+  Nearly all research on Thymalin originates from Vladimir Khavinson's laboratory and affiliated
+  Russian institutions, published mainly in Russian-language or lower-circulation journals with
+  limited independent replication outside that group. The most-cited human longevity data (a
+  cohort report on lower mortality) comes from the same research program rather than an
+  independent randomized trial reviewed by other labs. Long-term safety data by independent
+  researchers is essentially absent. This is a research compound, not an approved treatment for
+  any condition. Consult a healthcare provider.
+
+references:
+  - citation: "Khavinson VKh, Morozov VG. Peptides of pineal gland and thymus prolong human life. Neuro Endocrinol Lett. 2003;24(3-4):233-240."
+    url: "https://pubmed.ncbi.nlm.nih.gov/14523363/"
+  - citation: "Khavinson VK, Linkova NS, Kvetnoy IM, et al. Thymalin: Activation of Differentiation of Human Hematopoietic Stem Cells. Bull Exp Biol Med. 2020;170(1):118-122."
+    url: "https://pubmed.ncbi.nlm.nih.gov/33237528/"
+
+research_protocols:
+  - goal: "Immune Regulation / Longevity Support (research interest)"
+    dose: "5–10 mg once daily"
+    timing: "Morning"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Supporting evidence is concentrated in one research group's publications."
+    sort_order: 0

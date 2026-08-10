@@ -5,10 +5,100 @@
 id: cerebrolysin
 name: Cerebrolysin
 status: published
+
 category_ids:
-- cognitive
-overview: Neuropeptide preparation studied for cognitive recovery
+  - cognitive
+
+overview: >
+  A porcine-brain-derived preparation of low-molecular-weight peptides and free amino acids,
+  produced by enzymatic breakdown of purified brain proteins (manufactured by EVER Neuro
+  Pharma / EVER Pharma). It is an approved prescription drug in parts of Europe, Asia, and
+  Latin America for indications like stroke recovery, dementia, and traumatic brain injury,
+  but it is not FDA-approved or legally marketed as a drug in the United States.
+
 key_benefits:
-- Usually administered in cycles
+  - Usually administered in cycles
+  - Studied in multiple randomized trials for post-stroke neurological recovery
+  - Explored for cognitive/global function in vascular and Alzheimer's-type dementia
+
+mechanism_of_action: >
+  Cerebrolysin is a mixture of neurotrophic peptide fragments and free amino acids rather
+  than a single defined molecule. It is proposed to mimic the activity of endogenous
+  neurotrophic factors (such as BDNF, GDNF, and NGF), with reported effects in animal
+  models on neuronal survival, synaptic plasticity, and reduction of excitotoxicity and
+  neuroinflammation. Because it is a complex biological mixture, its exact mechanism is
+  less precisely defined than that of single-peptide compounds.
+
+quick_start_guide:
+  typical_dose: "5–30 mL per administration (published trials have used doses across this range depending on indication and severity)"
+  frequency: "Once daily on treatment days"
+  injection_site_ids:
+    - glute-im
+    - deltoid-im
+  best_timing: "Morning; higher doses are given as a slow IV infusion in clinical settings, while lower-volume doses are given IM"
+  effects_timeline: "Trials assess neurological/cognitive outcomes over weeks to months; changes are not expected acutely"
+  storage: "Supplied as a ready-to-use sterile solution in ampoules; store below 25°C (77°F), protected from light, and do not freeze; do not use if discolored or containing particulates"
+  cycle_length: "10–20 daily administrations per course, as used in published trials"
+  break_between: "Courses are often repeated 2–3x per year in the clinical literature"
+
+pharmacokinetics:
+  peak: "Not applicable in the conventional sense — Cerebrolysin is a peptide/amino-acid mixture, not a single compound with defined receptor-binding kinetics"
+  half_life: "Not formally established for the mixture as a whole; individual peptide fragments are presumed to be cleared like other circulating peptides"
+  cleared: "Not formally characterized"
+
+research_indications:
+  - Neurological recovery after acute ischemic stroke (multiple randomized controlled trials)
+  - Vascular dementia and Alzheimer's-type dementia (Cochrane-reviewed)
+  - Traumatic brain injury recovery (studied, more limited evidence)
+
 reconstitution_steps:
 - Typically supplied pre-mixed; refrigerate.
+
+quality_indicators:
+  - "Supplied as a sterile, ready-to-use ampouled solution — not a lyophilized powder requiring reconstitution"
+  - "Genuine EVER Neuro Pharma / EVER Pharma ampoules are marked with batch numbers and manufacturer verification features; counterfeit or gray-market vials are a known issue outside its approved markets"
+  - "Solution should be clear; do not use if cloudy or discolored"
+
+what_to_expect: >
+  In clinical trials, Cerebrolysin's benefits — modest improvements in neurological
+  recovery scores or cognitive/global function scores — emerge gradually over a multi-week
+  treatment course, not immediately after a dose. Because it is administered by injection or
+  infusion in a clinical or self-administered course, most reported effects come from
+  structured trial or clinic protocols rather than casual use.
+
+side_effects_common:
+  - "Injection or infusion site discomfort"
+  - "Dizziness"
+  - "Agitation or restlessness"
+  - "Gastrointestinal upset"
+  - "Rare allergic-type reactions (fever, chills)"
+
+safety_notes: >
+  Cerebrolysin is an approved prescription drug in Russia and parts of Europe, Asia, and
+  Latin America for stroke, dementia, and TBI indications, but it is not FDA-approved and is
+  not legally marketed as a drug in the United States. A 2019 Cochrane review of the
+  vascular dementia evidence found modest benefits but noted many trials were
+  manufacturer-sponsored and carried risk of bias; some European guidance advises against
+  routine use given overall evidence quality. Most trials report a favorable short-term
+  safety profile, but independent, non-manufacturer-funded long-term data is limited. As
+  with any injected biological product sourced outside a regulated pharmacy supply chain,
+  product authenticity and sterility cannot be assumed from gray-market sources. Consult a
+  healthcare provider.
+
+references:
+  - citation: "Patel PN, Mangal D, Patel K. Safety and Efficacy of Cerebrolysin for Neurorecovery After Acute Ischemic Stroke: A Systematic Review and Meta-Analysis of 14 Randomized Controlled Trials. Cureus. 2025;17(8):e91054."
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12465088/"
+  - citation: "Cui S, Chen N, Yang M, et al. Cerebrolysin for vascular dementia. Cochrane Database Syst Rev. 2019;11:CD008900."
+    url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD008900.pub3/full"
+
+research_protocols:
+  - goal: "Post-Stroke Neurological Recovery Support (as studied in trials)"
+    dose: "10–30 mL IV infusion daily"
+    timing: "Morning, per published trial protocols"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Not a substitute for acute stroke care."
+    sort_order: 0
+  - goal: "Cognitive / Dementia Support Course (as studied in trials)"
+    dose: "5–10 mL IM daily or 10–20 mL IV daily"
+    timing: "Morning"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 1

@@ -5,10 +5,68 @@
 id: pinealon
 name: Pinealon
 status: published
+
 category_ids:
-- cognitive
-overview: Short peptide bioregulator
+  - cognitive
+
+overview: >
+  A synthetic tripeptide (Glu-Asp-Arg) from the Khavinson-school family of short
+  "bioregulator" peptides developed at the St. Petersburg Institute of Bioregulation and
+  Gerontology. It is marketed as a brain-focused bioregulator, though independent,
+  English-language, peer-reviewed clinical evidence is very limited.
+
 key_benefits:
-- Explored for brain aging support
+  - Explored for brain aging support
+  - Small enough (3 amino acids) that animal studies suggest it can cross the blood-brain barrier intact
+
+mechanism_of_action: >
+  Pinealon belongs to a class of short synthetic peptides ("bioregulators") that Khavinson
+  and colleagues propose act as gene-expression modulators — entering cell nuclei and
+  interacting with chromatin to influence transcription of genes tied to cell
+  differentiation and aging. Animal studies specific to Pinealon describe effects on
+  markers of oxidative stress and neuronal survival in aged brain tissue. This proposed
+  mechanism is mechanistically distinct from typical receptor-mediated peptide signaling and
+  is not as well characterized in mainstream Western pharmacology.
+
+quick_start_guide:
+  typical_dose: "Vendor/community protocols commonly cite 100–300 mcg per dose"
+  frequency: "1x daily"
+  injection_site_ids:
+    - abdomen-subq
+  best_timing: "Morning"
+  effects_timeline: "Not established in humans; bioregulator-peptide protocols in the literature typically use 10–20 day courses"
+  storage: "Reconstitute with bacteriostatic water; refrigerate and use within the vendor's stated window"
+  cycle_length: "10–20 days"
+  break_between: "1–3 months off, consistent with other Khavinson-school bioregulator protocols"
+
+research_indications:
+  - Brain aging and age-related cognitive decline (animal studies)
+  - Oxidative stress markers in aged neural tissue (preclinical)
+
 reconstitution_steps:
 - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "Supplied as a lyophilized powder; should form a clear, colorless solution with no particulate matter after reconstitution"
+  - "Third-party COA confirming peptide identity and purity"
+
+what_to_expect: >
+  Evidence for Pinealon comes almost entirely from animal studies and a body of
+  Russian-language literature from the Khavinson bioregulator-peptide research program that
+  has not been independently replicated in Western, peer-reviewed, English-language trials.
+  There is no clinically established timeline or effect profile for human use, and any
+  reported subjective effects are anecdotal.
+
+safety_notes: >
+  Pinealon's evidence base is dominated by preclinical (animal) studies and Russian-language
+  publications from the Khavinson bioregulator-peptide research program; independent,
+  English-language, peer-reviewed human trials are lacking. It has no marketing
+  authorization from the FDA, EMA, or other major regulators. Treat any specific dosing or
+  outcome claims from vendors as unverified. Consult a healthcare provider.
+
+research_protocols:
+  - goal: "Brain-Aging Support Course (community protocol, not clinically validated)"
+    dose: "100–300 mcg daily"
+    timing: "Morning"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Evidence is limited to animal studies and unreplicated Russian-language literature."
+    sort_order: 0

@@ -1,14 +1,37 @@
-# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
 id: lipo-c-fat-blaster
 name: Lipo-C Fat Blaster
 status: published
+
 category_ids:
-- fat-loss
-overview: Injectable lipotropic blend
+  - fat-loss
+
+overview: >
+  Lipo-C Fat Blaster is an injectable lipotropic blend: a marketed fat-burning blend combining lipotropic
+  agents, sold under a vendor-specific brand/marketing name rather than referring to one fixed, agreed-upon
+  formula. Products sold under this or very similar names vary by supplier, typically building on a
+  methionine-inositol-choline ("MIC") base with additions such as L-carnitine and extra B vitamins, but the
+  exact ingredient list and doses are not standardized across vendors.
+
 key_benefits:
-- Marketed fat-burning blend combining lipotropic agents
+  - Marketed fat-burning blend combining lipotropic agents
+
+mechanism_of_action: >
+  As a vendor-branded blend rather than a single studied compound, "Lipo-C Fat Blaster" has no
+  mechanism established for the product as a whole. Listed formulations generally build on the same
+  lipotropic logic as Lipo-B/Lipo-C — methionine, inositol, and choline supporting hepatic fat export,
+  often with added L-carnitine (fatty-acid transport into mitochondria) and B vitamins (energy
+  metabolism) — but because the name is used inconsistently between suppliers, no single ingredient list
+  or dose can be stated with confidence, and there is no independent research on this specific branded
+  combination.
+
+safety_notes: >
+  "Lipo-C Fat Blaster" is a vendor marketing name, not a standardized or independently studied product —
+  different suppliers sell different formulations under this or closely related names, so the specific
+  ingredients, doses, and concentrations must be confirmed directly with whatever supplier's product is in
+  hand before assuming anything about its contents or safety. There are no clinical trials on this branded
+  blend, and any individual-ingredient benefits (see Lipo-B/Lipo-C) do not automatically transfer to a
+  differently formulated product sold under this name. Consult a healthcare provider, and treat unverified
+  vendor-blend contents with more caution than a single, well-characterized ingredient.
+
 reconstitution_steps:
-- Typically supplied pre-mixed; refrigerate.
+  - Typically supplied pre-mixed; refrigerate.

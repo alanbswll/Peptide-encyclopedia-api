@@ -5,10 +5,110 @@
 id: gonadorelin
 name: Gonadorelin
 status: published
+
 category_ids:
-- sexual-health
-overview: GnRH analog
+  - sexual-health
+
+overview: >
+  A synthetic decapeptide identical in sequence to the body's own gonadotropin-releasing
+  hormone (GnRH). It was historically FDA-approved (as Factrel, and as Lutrepulse for pulsatile
+  pump therapy) for diagnostic and fertility use, and is commonly used off-label today in TRT
+  protocols to help maintain testicular function and fertility.
+
 key_benefits:
-- Studied for LH/FSH stimulation and fertility support
+  - Studied for LH/FSH stimulation and fertility support
+  - Historically FDA-approved for diagnostic pituitary-gonadal axis testing and pulsatile
+    fertility therapy
+  - Used off-label alongside testosterone therapy to help maintain testicular size and function
+
+mechanism_of_action: >
+  Gonadorelin binds GnRH receptors on pituitary gonadotrope cells, stimulating the synthesis and
+  pulsatile release of LH and FSH, which in turn drive testosterone production and
+  spermatogenesis in men (and follicular development in women). The response is highly dependent
+  on the pattern of exposure: pulsatile dosing (mimicking the body's natural ~60–120 minute GnRH
+  pulse) activates the axis, while continuous/constant exposure paradoxically desensitizes
+  pituitary receptors and suppresses LH/FSH — the basis for how longer-acting GnRH agonist drugs
+  achieve suppression in other contexts.
+
+quick_start_guide:
+  typical_dose: "100 mcg per dose is a commonly referenced starting point in off-label TRT-adjunct
+    protocols; historical pulsatile-pump fertility protocols used much smaller doses (e.g. ~10 mcg)
+    delivered every 90–120 minutes by pump"
+  frequency: "2–3x weekly is common in off-label TRT-adjunct use; true pulsatile pump therapy
+    delivers doses every 60–120 minutes around the clock"
+  injection_site_ids:
+    - abdomen-subq
+  best_timing: "No specific time-of-day requirement for intermittent SC dosing; pulsatile pump
+    therapy is continuous"
+  effects_timeline: "LH/FSH rise within minutes to hours of a dose given its short half-life;
+    downstream effects on testosterone/testicular size are typically assessed over weeks"
+  storage: "Refrigerate after reconstitution"
+  cycle_length: "Typically used continuously alongside testosterone therapy rather than in
+    on/off cycles"
+  break_between: "Not applicable in typical TRT-adjunct use; consult a prescriber for
+    fertility-focused pulsatile protocols"
+
+pharmacokinetics:
+  peak: "Minutes after subcutaneous or IV administration"
+  half_life: "~2–10 minutes (IV)"
+  cleared: "Rapidly cleared; its very short half-life is why physiologic use relies on frequent
+    pulsatile dosing rather than infrequent bolus dosing"
+
+research_indications:
+  - Diagnostic testing to differentiate pituitary vs. hypothalamic causes of hypogonadotropic
+    hypogonadism (historical FDA-approved use as Factrel)
+  - Pulsatile pump therapy for anovulatory infertility (historical FDA-approved use as Lutrepulse)
+  - Spermatogenesis induction in congenital hypogonadotropic hypogonadism
+  - Off-label adjunct to testosterone replacement therapy to help maintain testicular size/function
+
 reconstitution_steps:
-- Reconstitute with bacteriostatic water; refrigerate.
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White lyophilized powder in a sealed vial"
+  - "Clear, colorless solution after reconstitution with no visible particulate"
+  - "Third-party COA available confirming peptide identity and purity, for research-vendor
+    (non-pharmaceutical) sources"
+
+what_to_expect: >
+  Because gonadorelin's own half-life is measured in minutes, any single dose is short-acting;
+  people using it alongside TRT are generally monitoring for maintained testicular size and
+  fertility markers over weeks to months rather than an acute subjective effect.
+
+side_effects_common:
+  - "Injection site redness or irritation"
+  - "Headache"
+  - "Flushing"
+  - "Nausea (less common)"
+
+safety_notes: >
+  Gonadorelin's historical FDA-approved products (Factrel, Lutrepulse) are no longer marketed in
+  the US, so current supply is typically from compounding pharmacies or research-chemical vendors
+  rather than an FDA-approved manufacturer — sourcing and purity vary accordingly. Dosing pattern
+  matters mechanistically: pulsatile dosing stimulates the axis while frequent/continuous exposure
+  can desensitize it, so protocol design affects outcomes. Evidence specifically supporting
+  gonadorelin (rather than hCG) for fertility preservation during TRT is more limited than
+  commonly assumed. Consult a healthcare provider, particularly one experienced in reproductive
+  endocrinology, before using it for fertility purposes.
+
+references:
+  - citation: "Zhang L, Cai K, Wang Y, Ji W, Cheng Z, Chen G, Liao Z. The Pulsatile Gonadorelin
+      Pump Induces Earlier Spermatogenesis Than Cyclical Gonadotropin Therapy in Congenital
+      Hypogonadotropic Hypogonadism Men. Am J Mens Health. 2019;13(1):1557988318818280."
+    url: "https://journals.sagepub.com/doi/10.1177/1557988318818280"
+  - citation: "U.S. FDA / DailyMed. FACTREL (gonadorelin hydrochloride) Injection, Prescribing
+      Information."
+    url: "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1451663c-b85a-4b45-8b27-6d572d0032f9"
+
+research_protocols:
+  - goal: "TRT-Adjunct Testicular Function Support"
+    dose: "100 mcg"
+    timing: "2–3x weekly"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Historically FDA-approved
+      products are no longer marketed in the US."
+    sort_order: 0
+  - goal: "Diagnostic HPG Axis Testing"
+    dose: "Per clinical protocol only"
+    timing: "Single dose, monitored"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 1

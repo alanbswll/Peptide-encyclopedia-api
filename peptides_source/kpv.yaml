@@ -1,14 +1,89 @@
-# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
 id: kpv
 name: KPV
 status: published
+
 category_ids:
-- healing
-overview: Anti-inflammatory tripeptide
+  - healing
+
+overview: >
+  A synthetic tripeptide (Lysine-Proline-Valine) corresponding to the C-terminal fragment of
+  alpha-melanocyte-stimulating hormone (α-MSH). It retains α-MSH's anti-inflammatory activity
+  independent of melanocortin receptor binding, and has been explored for gut and skin
+  inflammation.
+
 key_benefits:
-- Explored for gut and skin inflammation
+  - Explored for gut and skin inflammation
+  - Studied for suppressing NF-κB-driven inflammatory signaling in preclinical colitis models
+
+mechanism_of_action: >
+  KPV is the C-terminal tripeptide fragment of α-MSH (residues 11–13). Unlike the parent
+  hormone, it does not require melanocortin receptor binding to act — it enters cells directly
+  and inhibits IκB kinase activity and NF-κB nuclear translocation, reducing downstream
+  production of pro-inflammatory cytokines such as TNF-α, IL-1β, IL-6, and IL-8. In the
+  intestine, uptake is facilitated by the PepT1 oligopeptide transporter, which is upregulated
+  on epithelial and immune cells during inflammation — a mechanism proposed to concentrate KPV
+  at sites of gut inflammation.
+
+quick_start_guide:
+  typical_dose: "200–500 mcg"
+  frequency: "1x daily"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "Morning; no specific food requirement"
+  effects_timeline: "No human timeline established; preclinical colitis models show reduced inflammatory markers within days to weeks of regular dosing"
+  storage: "Refrigerate after reconstitution; use within 20–30 days"
+  cycle_length: "4–8 weeks"
+  break_between: "2–4 weeks"
+
+pharmacokinetics:
+  peak: "Not established in humans"
+  half_life: "Not established in humans; small peptides like KPV are generally expected to be degraded rapidly"
+  cleared: "Not established in humans"
+
+research_indications:
+  - Inflammatory bowel disease and colitis (preclinical models)
+  - Skin inflammation (eczema, dermatitis — preclinical/in vitro)
+  - Colitis-associated cytokine suppression
+  - Wound healing and keratinocyte migration (preclinical)
+
 reconstitution_steps:
-- Stable in solution; refrigerate after mixing.
+  - Stable in solution; refrigerate after mixing.
+
+quality_indicators:
+  - "White, lyophilized powder that fully dissolves into a clear, colorless solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate matter after reconstitution"
+
+what_to_expect: >
+  Nearly all supporting evidence for KPV comes from cell culture and rodent colitis/inflammation
+  models rather than human trials, so anecdotal reports of gut or skin symptom relief should be
+  interpreted cautiously. Any anti-inflammatory effect is expected to build gradually with
+  consistent dosing rather than appear immediately.
+
+side_effects_common:
+  - "Mild injection site redness"
+  - "Full human side-effect profile not well characterized due to limited clinical data"
+
+safety_notes: >
+  No published human clinical trials have evaluated KPV's safety or efficacy; essentially all
+  available evidence comes from in vitro and rodent studies. Because it targets NF-κB, a
+  pathway broadly involved in immune signaling, effects of long-term or high-dose use on immune
+  function are not established. This is a research compound, not an approved treatment for any
+  condition. Consult a healthcare provider.
+
+references:
+  - citation: "Dalmasso G, Charrier-Hisamuddin L, Nguyen HT, Yan Y, Sitaraman S, Merlin D. PepT1-mediated tripeptide KPV uptake reduces intestinal inflammation. Gastroenterology. 2008;134(1):166-178."
+    url: "https://pubmed.ncbi.nlm.nih.gov/18061177/"
+
+research_protocols:
+  - goal: "Gut Inflammation Support"
+    dose: "300 mcg 1x daily"
+    timing: "Morning"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0
+  - goal: "Skin Inflammation Support"
+    dose: "250 mcg 1x daily"
+    timing: "Morning"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 1

@@ -1,14 +1,88 @@
-# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
 id: adipotide
 name: Adipotide
 status: published
+
 category_ids:
-- fat-loss
-overview: Fat-cell vasculature targeting compound
+  - fat-loss
+
+overview: >
+  Also known as FTPP (Fat-Targeted Proapoptotic Peptide) or Prohibitin-Targeting Peptide 1, a synthetic
+  peptidomimetic developed by researchers affiliated with MD Anderson Cancer Center. It is a fat-cell
+  vasculature-targeting compound: an early-stage research compound for visceral fat, studied almost
+  entirely in animal models, with only a single small, terminated human trial.
+
 key_benefits:
-- Early-stage research compound for visceral fat
+  - Early-stage research compound for visceral fat
+  - Produced rapid fat and weight reduction in a controlled non-human primate study
+
+mechanism_of_action: >
+  Adipotide is a chimeric peptidomimetic built from two linked parts: a targeting sequence that binds
+  prohibitin, a receptor expressed on the vascular endothelial cells that specifically supply white
+  adipose tissue, and a pro-apoptotic sequence that triggers programmed cell death once internalized by
+  those cells. By selectively killing the endothelial lining of fat-tissue blood vessels, it cuts off
+  blood supply to white fat depots, causing localized fat-tissue regression as the starved tissue is
+  cleared. This is a fundamentally different mechanism from appetite-suppressing or metabolism-boosting
+  fat-loss compounds — it targets fat indirectly, through its vasculature.
+
+quick_start_guide:
+  typical_dose: "250 mcg–1 mg"
+  frequency: "1x daily, subQ"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "No specific timing established; vendor/community protocols emphasize consistency"
+  effects_timeline: "Not established in humans; the primate study measured body-composition changes across a 28-day treatment period"
+  storage: "Refrigerate after reconstitution; use within 28 days"
+  cycle_length: "21–28 days, mirroring the treatment period used in the primate study"
+  break_between: "Not established in humans"
+
+pharmacokinetics:
+  peak: "Not established in humans"
+  half_life: "Not established in humans"
+  cleared: "Not established in humans; in the primate study, dose-dependent creatinine increases and mild kidney tubular changes reversed after treatment stopped"
+
+research_indications:
+  - Visceral and subcutaneous white fat reduction (non-human primate studies)
+  - Insulin resistance improvement in obese primates
+  - Explored, at very limited scale, in a terminated human trial in obese men with castration-resistant prostate cancer
+
 reconstitution_steps:
-- Reconstitute per supplier instructions; refrigerate.
+  - Reconstitute per supplier instructions; refrigerate.
+
+quality_indicators:
+  - "White lyophilized powder that fully dissolves into a clear, colorless solution with no particulate matter"
+  - "Third-party COA confirming identity and purity is especially important given how little independent human testing exists for this compound"
+
+what_to_expect: >
+  There is no reliable human "what to expect" timeline for this compound — the only human study enrolled
+  just a handful of participants before stopping early. The animal literature describes fat and weight
+  reduction unfolding over a roughly 4-week treatment window, with body-composition changes measured by
+  MRI/DEXA rather than something a user would feel directly.
+
+side_effects_common:
+  - "Signs of kidney stress (rising creatinine, changes in urination) — the dose-limiting effect identified in both the primate study and the human trial"
+  - "Dehydration or excessive thirst"
+
+safety_notes: >
+  Human safety data for Adipotide is not merely limited — it is actively concerning. The only human study
+  (NCT01262664, a first-in-man Phase 1 trial in obese men with castration-resistant prostate cancer)
+  enrolled just 4 participants before being terminated early at the investigator's request; independent
+  reporting on the trial attributes the early stop to dose-limiting kidney toxicity, consistent with the
+  dose-dependent (reversible) renal tubular changes and rising serum creatinine documented in the
+  preceding rhesus monkey study. This is not a "no data yet" research compound like many others — it is a
+  compound with a documented signal of organ toxicity in the small human sample tested, and no completed
+  study establishing a safe human dose or long-term safety profile. Treat the kidney-toxicity signal as a
+  real, demonstrated risk rather than a theoretical one. Consult a healthcare provider.
+
+references:
+  - citation: "Barnhart KF, Christianson DR, Hanley PW, et al. A peptidomimetic targeting white fat causes weight loss and improved insulin resistance in obese monkeys. Sci Transl Med. 2011;3(108):108ra112."
+    url: "https://pubmed.ncbi.nlm.nih.gov/22072637/"
+  - citation: "ClinicalTrials.gov. A First-in-Man, Phase I Evaluation of a Single Cycle of Prohibitin Targeting Peptide 1 in Patients With Metastatic Prostate Cancer and Obesity. NCT01262664."
+    url: "https://clinicaltrials.gov/study/NCT01262664"
+
+research_protocols:
+  - goal: "Visceral Fat Reduction (Preclinical-Model Reference Only)"
+    dose: "250 mcg–1 mg daily, subQ"
+    timing: "Any consistent time"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. The only human trial of this compound was terminated early with a kidney-toxicity signal — this is not a validated human protocol."
+    sort_order: 0

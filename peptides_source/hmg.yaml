@@ -5,10 +5,104 @@
 id: hmg
 name: HMG
 status: published
+
 category_ids:
-- sexual-health
-overview: Human Menopausal Gonadotropin (not a peptide)
+  - sexual-health
+
+overview: >
+  Human Menopausal Gonadotropin (not a peptide) is a purified preparation of FSH and LH activity,
+  historically extracted from the urine of postmenopausal women, standardized to roughly a 1:1
+  ratio of FSH to LH bioactivity. It is FDA-approved (e.g. as Menopur) for fertility treatment in
+  both women and men.
+
 key_benefits:
-- Studied for fertility hormone stimulation
+  - Studied for fertility hormone stimulation
+  - FDA-approved for controlled ovarian stimulation in assisted reproduction (e.g. IVF)
+  - Provides combined FSH and LH activity, unlike FSH-only preparations
+
+mechanism_of_action: >
+  HMG supplies both FSH and LH bioactivity. FSH acts on ovarian granulosa cells (or Sertoli cells
+  in men) to drive follicular development or spermatogenesis, while the LH-like activity — in
+  highly purified HMG, this is largely attributable to residual hCG from the urinary source
+  material, since hCG has a much longer half-life than pituitary LH and dominates the
+  LH-receptor-mediated signal — supports steroidogenesis (estradiol production in women,
+  testosterone production in men). In men with hypogonadotropic hypogonadism, HMG is typically
+  combined with hCG to support both FSH-dependent spermatogenesis and LH-dependent testosterone
+  production.
+
+quick_start_guide:
+  typical_dose: "Dosing is individualized and monitored by a fertility specialist (commonly
+    expressed in IU of combined FSH/LH activity); this is not a fixed self-directed dose"
+  frequency: "Typically daily during a controlled ovarian stimulation cycle, or several times
+    weekly in male fertility protocols alongside hCG"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "Per fertility-clinic protocol; often evening dosing for stimulation cycles"
+  effects_timeline: "Follicular/hormonal response in stimulation cycles is monitored via
+    ultrasound and bloodwork over roughly 8–12 days; male spermatogenesis protocols are
+    assessed over months"
+  storage: "Refrigerate after reconstitution; follow product-specific stability guidance"
+  cycle_length: "Defined by the fertility protocol — typically one ovarian stimulation cycle, or
+    a multi-month course for male spermatogenesis induction"
+  break_between: "Per fertility-clinic protocol"
+
+pharmacokinetics:
+  peak: "FSH component peaks roughly 16–19 hours after subcutaneous dosing; the hCG-derived
+    LH-like activity peaks earlier, around 4 hours"
+  half_life: "FSH terminal half-life roughly 52–54 hours after subcutaneous dosing; hCG
+    component terminal half-life roughly 12–15 hours (IV)"
+  cleared: "The FSH component's long half-life means it accumulates somewhat over a multi-day
+    stimulation course rather than clearing between daily doses"
+
+research_indications:
+  - Controlled ovarian stimulation for IVF/assisted reproduction (FDA-approved use)
+  - Ovulation induction in anovulatory infertility
+  - Male hypogonadotropic hypogonadism, typically combined with hCG, to stimulate spermatogenesis
+
 reconstitution_steps:
-- Reconstitute per supplier instructions; refrigerate.
+  - Reconstitute per supplier instructions; refrigerate.
+
+quality_indicators:
+  - "FDA-approved pharmaceutical HMG (e.g. Menopur) comes with manufacturer labeling and a
+    certificate of analysis"
+  - "White lyophilized powder in a sealed vial before reconstitution"
+  - "Clear, colorless to pale yellow solution after reconstitution with no visible particulate"
+
+what_to_expect: >
+  HMG is used within monitored fertility protocols rather than as a standalone self-directed
+  compound; expect bloodwork and (in ovarian stimulation) ultrasound monitoring to track response
+  and adjust dosing, rather than a predictable subjective effect.
+
+side_effects_common:
+  - "Injection site pain or irritation"
+  - "Headache"
+  - "Abdominal discomfort or bloating (in ovarian stimulation)"
+  - "Mood changes"
+
+safety_notes: >
+  HMG is an FDA-approved fertility medication that requires individualized, monitored dosing —
+  incorrect dosing in ovarian stimulation carries a real risk of ovarian hyperstimulation syndrome
+  (OHSS) and multiple pregnancy, which is why it is used under close clinical supervision with
+  ultrasound and hormone monitoring rather than self-directed. In men, it is generally used
+  alongside hCG rather than alone. Consult a fertility specialist; this is not a compound for
+  unsupervised use.
+
+references:
+  - citation: "Turkcapar AF, Seckin B, Onalan G, Ozdener T, Batioglu S. Human Menopausal
+      Gonadotropin versus Recombinant FSH in Polycystic Ovary Syndrome Patients Undergoing In
+      Vitro Fertilization. Int J Fertil Steril. 2013;6(4):238-243."
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3850313/"
+  - citation: "Jonker DM, Koch M, Larsson P, Ravi A, Rasmussen BB, Speer R, Mannaerts B. First
+      pre-filled pen device with highly purified human menopausal gonadotropin (HP-hMG, Menopur)
+      in liquid is shown to be bioequivalent to powder for reconstitution. Int J Clin Pharmacol
+      Ther. 2021;59(12):794-803."
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8594316/"
+
+research_protocols:
+  - goal: "Fertility / Ovarian Stimulation Support"
+    dose: "Per individualized fertility-specialist protocol"
+    timing: "Per clinic protocol, with monitoring"
+    disclaimer: "For research purposes only. Must be used under monitored clinical supervision;
+      not a self-directed protocol."
+    sort_order: 0

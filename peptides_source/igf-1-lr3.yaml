@@ -5,10 +5,84 @@
 id: igf-1-lr3
 name: IGF-1 LR3
 status: published
+
 category_ids:
-- growth-hormone
-overview: Long-acting insulin-like growth factor
+  - growth-hormone
+
+overview: >
+  Long-acting insulin-like growth factor. A synthetic 83-amino-acid analog of human IGF-1,
+  modified with an N-terminal extension and a substitution at position 3 that sharply reduces its
+  binding to IGF-binding proteins, increasing the freely active fraction compared to native IGF-1.
+
 key_benefits:
-- Short window of activity once mixed
+  - Short window of activity once mixed
+
+mechanism_of_action: >
+  Retains full agonist activity at the type 1 IGF receptor (IGF-1R) but, due to its N-terminal
+  extension and Glu3→Arg substitution, binds IGF-binding proteins far more weakly than native
+  IGF-1. Because IGFBPs normally sequester most circulating IGF-1 and limit its activity, this
+  reduced binding leaves more of the molecule freely active — foundational rat studies found it
+  roughly 1.5–2x more potent than native IGF-1 on a dose basis, with a much longer duration of
+  anabolic action.
+
+quick_start_guide:
+  typical_dose: "20–50 mcg"
+  frequency: "1x daily (or every other day in more conservative protocols)"
+  injection_site_ids:
+    - abdomen-subq
+    - near-injury
+  best_timing: "Post-workout, taken with food or a carbohydrate source to offset hypoglycemia risk"
+  effects_timeline: "Acute hypoglycemic-type effects can appear within an hour of dosing if not paired with food; any longer-term anabolic effects would take weeks and are not established in controlled human studies"
+  storage: "Refrigerate immediately after reconstitution; use within the recommended window — stability after mixing is limited compared to other peptides, so avoid extended storage"
+  cycle_length: "4–6 weeks — kept short given hypoglycemia risk and receptor downregulation concerns"
+  break_between: "4–6 weeks"
+
+pharmacokinetics:
+  peak: "Within roughly 1–2 hours of subcutaneous dosing"
+  half_life: "~20–30 hours — markedly longer than native IGF-1's half-life of minutes, due to its reduced IGFBP binding"
+  cleared: "Over multiple days, given the extended half-life"
+
+research_indications:
+  - Anabolic and nitrogen-retention research in animal models (foundational rat studies)
+  - Used as a tool compound for probing IGF-1 receptor signaling independent of IGFBP sequestration
+  - Localized muscle growth research (preclinical)
+
 reconstitution_steps:
-- Reconstitute carefully; use within the recommended window.
+  - Reconstitute carefully; use within the recommended window.
+
+quality_indicators:
+  - "White, lyophilized powder that fully dissolves into a clear, colorless solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "Precise, accurate dosing at reconstitution matters more than with less potent peptides given the narrow margin between research and hypoglycemia-inducing doses"
+
+what_to_expect: >
+  There is typically no acute local sensation at the injection site; the main acute concern is
+  systemic — a drop in blood sugar (hypoglycemia) within the first hour or so if not paired with
+  food. Any anabolic or muscle-growth effects are drawn from animal research rather than
+  established human trials, and would not be expected to appear quickly.
+
+side_effects_common:
+  - "Hypoglycemia (shakiness, sweating, confusion) — the most significant acute risk"
+  - "Injection site discomfort"
+  - "Fluid retention"
+  - "Headache"
+
+safety_notes: >
+  The foundational evidence for IGF-1 LR3's enhanced potency (Tomas et al. 1993) comes from
+  studies in growing female rats, not controlled human trials. It is not approved for human use
+  by any regulatory agency. Its long half-life combined with reduced IGFBP binding creates a
+  meaningful hypoglycemia risk, and its activation of the IGF-1 receptor raises a theoretical
+  concern about promoting proliferation of IGF-1-receptor-expressing tissue — including some
+  tumor types — with prolonged or repeated exposure. This is a research compound only. Consult a
+  healthcare provider.
+
+references:
+  - citation: "Tomas FM, Knowles SE, Chandler CS, Francis GL, Owens PC, Ballard FJ. Anabolic effects of insulin-like growth factor-I (IGF-I) and an IGF-I variant in normal female rats. J Endocrinol. 1993;137(3):413-421."
+    url: "https://pubmed.ncbi.nlm.nih.gov/8371075/"
+
+research_protocols:
+  - goal: "Localized Growth / Anabolic Signaling Research"
+    dose: "20–40 mcg 1x daily, post-workout with food"
+    timing: "Post-workout"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Evidence base is primarily animal research."
+    sort_order: 0

@@ -1,14 +1,90 @@
-# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
 id: aod-9604
 name: AOD-9604
 status: published
+
 category_ids:
-- fat-loss
-overview: Fat-loss support
+  - fat-loss
+
+overview: >
+  A modified 16-amino-acid fragment (Tyr-hGH 176–191/177–191) of human growth hormone,
+  engineered to isolate hGH's fat-metabolizing (lipolytic) region while leaving out the
+  growth-promoting, insulin-desensitizing part of the molecule. It was originally developed by an
+  Australian biotech as an anti-obesity drug candidate and today circulates mainly as a research
+  chemical.
+
 key_benefits:
-- Best tracked with body composition notes
+  - Best tracked with body composition notes
+  - Explored for stimulating fat breakdown (lipolysis) without the growth or blood-sugar effects of full hGH
+  - Studied in early-stage human trials with a favorable short-term safety/tolerability profile
+
+mechanism_of_action: >
+  AOD-9604 corresponds to the C-terminal region of human growth hormone believed to carry hGH's
+  fat-reducing activity. In animal and cell studies it stimulates lipolysis (fat breakdown) and
+  inhibits lipogenesis (fat formation), an effect linked to interaction with the beta-3 adrenergic
+  receptor pathway on fat cells. Because it excludes the receptor-binding domain hGH uses to drive
+  growth and insulin resistance, it was designed not to raise IGF-1 or blood glucose the way
+  full-length hGH does.
+
+quick_start_guide:
+  typical_dose: "300–500 mcg"
+  frequency: "1x daily"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "Morning, on an empty stomach"
+  effects_timeline: "Community reports describe gradual body-composition changes over 8–12 weeks; the underlying clinical trial evidence for a weight-loss effect is mixed (see safety_notes)"
+  storage: "Refrigerate after reconstitution; use within 30 days"
+  cycle_length: "8–12 weeks"
+  break_between: "4–6 weeks"
+
+pharmacokinetics:
+  peak: "Not formally characterized for subcutaneous dosing in humans"
+  half_life: "Very short — estimated at minutes (3 minutes IV, 30–45 minutes reported after subcutaneous injection in early studies); no published human PK study has formally characterized the subcutaneous route"
+  cleared: "Rapid; despite fast plasma clearance, reported metabolic effects in animal studies outlasted plasma presence considerably"
+
+research_indications:
+  - Body fat reduction / lipolysis support (preclinical and early clinical)
+  - Explored as an alternative to full-length hGH for fat metabolism without growth or glycemic effects
+
 reconstitution_steps:
-- Use with a clear titration plan.
+  - Use with a clear titration plan.
+
+quality_indicators:
+  - White, fluffy lyophilized powder that dissolves fully into a clear, colorless solution
+  - Third-party COA available confirming peptide identity and purity
+  - No visible discoloration, clumping, or particulate matter after reconstitution
+
+what_to_expect: >
+  No acute sensation is typically reported at the injection site. Any body-composition changes
+  described by users are gradual and modest, over weeks rather than days. Note that the largest
+  placebo-controlled human trial (using diet and exercise co-intervention) did not show a
+  clear weight-loss advantage over placebo, so expectations should be tempered accordingly.
+
+side_effects_common:
+  - "Mild injection site redness or irritation"
+  - "Headache (infrequent, reported in some trials)"
+
+safety_notes: >
+  Human evidence is mixed: early, smaller trials of oral AOD-9604 reported modest weight loss
+  versus placebo, but a larger placebo-controlled trial that added a structured diet and exercise
+  program did not show a significant benefit over placebo. Company-sponsored human studies
+  (~900 participants across six trials) reported a safety and tolerability profile similar to
+  placebo, with no anti-AOD-9604 antibodies detected and no drug-related serious adverse events.
+  However, no published human pharmacokinetic study has formally characterized the subcutaneous
+  route that research users typically use (the clinical program studied oral and IV dosing), so
+  the injectable research-chemical product hasn't itself been directly studied in humans. This is
+  a research compound, not an FDA-approved treatment for any condition. Consult a healthcare
+  provider.
+
+references:
+  - citation: "Heffernan M, Summers RJ, Thorburn A, Ogru E, Gianello R, Jiang WJ, Ng FM. The effects of human GH and its lipolytic fragment (AOD9604) on lipid metabolism following chronic treatment in obese mice and β3-AR knock-out mice. Endocrinology. 2001;142(12):5182-5189."
+    url: "https://doi.org/10.1210/endo.142.12.8522"
+  - citation: "Stier H, Vos E, Kenley D. Safety and Tolerability of the Hexadecapeptide AOD9604 in Humans. J Endocrinol Metab. 2013;3(1-2):7-15."
+    url: "https://www.jofem.org/index.php/jofem/article/view/157/194"
+
+research_protocols:
+  - goal: "Fat-Loss Support"
+    dose: "300–500 mcg 1x daily"
+    timing: "Morning, empty stomach"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0

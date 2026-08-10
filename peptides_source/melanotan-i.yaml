@@ -5,10 +5,100 @@
 id: melanotan-i
 name: Melanotan I
 status: published
+
 category_ids:
-- skin
-overview: Melanocortin agonist (Afamelanotide)
+  - skin
+
+overview: >
+  A synthetic analog of alpha-melanocyte-stimulating hormone (α-MSH) and melanocortin-1 receptor
+  (MC1R) agonist. Under the name afamelanotide, it is FDA-approved (brand name Scenesse) as a
+  subcutaneous implant that increases pain-free light exposure in adults with erythropoietic
+  protoporphyria (EPP), a rare disorder causing severe skin phototoxicity. Outside that approved
+  product, the same peptide is also sold and used off-label as an injectable powder, primarily for
+  photoprotection/tanning research — a use not evaluated or approved by the FDA.
+
 key_benefits:
-- Studied for photoprotection
+  - Studied for photoprotection
+  - FDA-approved (as afamelanotide/Scenesse) to increase pain-free light exposure in erythropoietic protoporphyria
+  - Increases eumelanin (photoprotective pigment) production independent of UV exposure
+
+mechanism_of_action: >
+  Melanotan I (afamelanotide) is a synthetic peptide analog of α-MSH that binds and activates the
+  melanocortin-1 receptor (MC1R) on melanocytes. MC1R activation raises intracellular cAMP and
+  upregulates tyrosinase activity, shifting melanin production toward eumelanin — the darker,
+  more UV/photoprotective pigment — rather than pheomelanin. Because this pathway is activated
+  directly at the receptor, pigmentation increases independently of actual UV exposure, unlike
+  ordinary sun-induced tanning.
+
+quick_start_guide:
+  typical_dose: "The FDA-approved product (afamelanotide/Scenesse) is a 16 mg implant inserted subcutaneously by a healthcare professional every 2 months. The injectable powder sold outside that product is commonly dosed by research users at roughly 0.5–1 mg during an initial loading period — a very different formulation and delivery method with no formal clinical dosing data of its own."
+  frequency: "Approved implant: once every 2 months, in-clinic. Injectable powder (unapproved use): commonly a short daily loading phase followed by less frequent maintenance dosing"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "Evening, to reduce nausea/flushing some report shortly after injection (applies to the unapproved injectable powder, not the clinician-placed implant)"
+  effects_timeline: "Visible pigmentation changes are typically reported within 1–2 weeks of consistent dosing"
+  storage: "Refrigerate after reconstitution and protect from light; use within the timeframe recommended by the supplier"
+  cycle_length: "Short loading phase (days to ~1–2 weeks), then reduced-frequency maintenance"
+  break_between: "Not well defined for the unapproved injectable product; the approved implant is redosed every 2 months under medical supervision"
+
+pharmacokinetics:
+  peak: "For the approved 16 mg implant: median Tmax ~36 hours post-insertion"
+  half_life: "For the approved 16 mg implant: apparent half-life ~15 hours"
+  cleared: "For the approved implant: plasma levels generally undetectable in most subjects by ~96 hours post-dose, though pigmentation effects outlast plasma presence; no comparable formal PK data exists for the unapproved injectable powder product"
+
+research_indications:
+  - Photoprotection / reduction of phototoxic reactions in erythropoietic protoporphyria (FDA-approved use, implant only)
+  - Skin pigmentation / tanning research (unapproved use)
+
 reconstitution_steps:
-- Reconstitute with bacteriostatic water; refrigerate.
+  - "Reconstitute with bacteriostatic water; refrigerate."
+
+quality_indicators:
+  - "Reconstituted solution is clear and colorless with no visible particulate"
+  - "Third-party COA available confirming peptide identity and purity, for research-chemical vendor product"
+  - "The only FDA-approved form of this peptide is the Scenesse subcutaneous implant, administered by a trained healthcare professional — not a self-injected powder"
+
+what_to_expect: >
+  With the approved implant, pigmentation darkens gradually over the treatment course and increased
+  pain-free light tolerance is the intended clinical endpoint, monitored by a physician. With the
+  unapproved injectable powder, users commonly report a darkening of skin tone over 1–2 weeks along
+  with transient nausea, flushing, or facial flushing shortly after early doses; appetite suppression
+  and spontaneous erections have also been reported anecdotally with melanocortin agonists in this
+  class.
+
+side_effects_common:
+  - "Nausea, especially with early or higher doses"
+  - "Flushing"
+  - "Implant site reaction (bruising, redness, swelling) with the approved implant"
+  - "Darkening of existing moles/freckles; new moles may appear"
+  - "Fatigue or dizziness"
+
+safety_notes: >
+  Afamelanotide (Scenesse) is FDA-approved only as a clinician-administered implant for
+  erythropoietic protoporphyria; that approval does not extend to self-administered injectable
+  "Melanotan I" powder sold outside the medical supply chain, which lacks the manufacturer's quality
+  control, dosing precision, and clinical oversight. The approved product's label lists implant site
+  reactions, nausea, fatigue, and skin/nevus darkening as common effects, and warns of rare serious
+  hypersensitivity reactions including anaphylaxis. Because MC1R agonists increase melanocyte
+  activity, patients with a personal or family history of melanoma or atypical nevi should discuss
+  risk with a healthcare provider, and regular skin exams are recommended for anyone using this
+  class of peptide. Consult a healthcare provider before use.
+
+references:
+  - citation: "Langendonk JG, Balwani M, Anderson KE, et al. Afamelanotide for Erythropoietic Protoporphyria. N Engl J Med. 2015;373(1):48-59."
+    url: "https://www.nejm.org/doi/full/10.1056/NEJMoa1411481"
+  - citation: "U.S. Food and Drug Administration. SCENESSE (afamelanotide) implant, for subcutaneous use — Prescribing Information."
+    url: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/210797s000lbl.pdf"
+
+research_protocols:
+  - goal: "Photoprotection Research (approved-use context)"
+    dose: "16 mg implant, administered by a healthcare professional"
+    timing: "Once every 2 months, in a clinical setting"
+    disclaimer: "The implant is a prescription medical product administered by a licensed provider for a specific FDA-approved indication. Not for self-administration."
+    sort_order: 0
+  - goal: "Photoprotection / Pigmentation Research (research-chemical use, unapproved)"
+    dose: "0.5–1 mg during an initial loading phase, per research-vendor guidance"
+    timing: "Evening dosing is commonly reported to reduce nausea"
+    disclaimer: "For research purposes only. Not evaluated by the FDA for this use. Not the same product, dose, or delivery method as the FDA-approved implant."
+    sort_order: 1

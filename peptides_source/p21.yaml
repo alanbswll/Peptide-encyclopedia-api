@@ -5,10 +5,54 @@
 id: p21
 name: P21
 status: published
+
 category_ids:
-- cognitive
-overview: Neurogenesis-promoting peptide
+  - cognitive
+
+overview: >
+  A synthetic hexapeptide (Ac-DGGLAG-NH2) corresponding to a small active region of
+  ciliary neurotrophic factor (CNTF), with an adamantane-modified glycine added for
+  stability and blood-brain-barrier penetration. It was developed in Khalid Iqbal's lab at
+  the New York State Institute for Basic Research. All published evidence comes from mouse
+  studies; there are no human trials.
+
 key_benefits:
-- Explored for memory and new neuron growth
+  - Explored for memory and new neuron growth
+  - Preclinically shown to promote hippocampal neurogenesis without the appetite-suppressing side effects of full-length CNTF
+
+mechanism_of_action: >
+  P21 corresponds to a short active region of ciliary neurotrophic factor (CNTF), modified
+  with an adamantylated glycine to improve stability and blood-brain-barrier penetration
+  compared to full-length CNTF. In mouse studies, it inhibited leukemia inhibitory factor
+  (LIF) signaling and increased BDNF transcription, which was associated with enhanced
+  neurogenesis in the hippocampal dentate gyrus and improved performance on
+  object-recognition and water-maze memory tasks — without the appetite suppression seen
+  with full-length CNTF.
+
+research_indications:
+  - Hippocampal neurogenesis (mouse studies)
+  - Short-term and spatial memory in normal adult mice (preclinical only)
+  - No human clinical indications have been studied
+
 reconstitution_steps:
 - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "Supplied as a lyophilized powder; should form a clear, colorless solution with no particulate matter after reconstitution"
+  - "Third-party COA confirming peptide identity and purity"
+
+what_to_expect: >
+  There is no human data on P21, so there is no clinically validated basis for what a
+  person could expect. The published mouse research measured objective outcomes (maze
+  performance, object recognition, histological markers of neurogenesis), not subjective
+  effects, and none of this has been tested in people.
+
+safety_notes: >
+  P21 has been studied only in mice and in vitro systems; there are no published human
+  trials, pharmacokinetic studies, or safety data. Dosing figures circulating among
+  vendors and research-chemical communities are not derived from any human study and should
+  be treated as unverified. Consult a healthcare provider.
+
+references:
+  - citation: "Li B, Wanka L, Blanchard J, Liu F, Chohan MO, Iqbal K, Grundke-Iqbal I. Neurotrophic peptides incorporating adamantane improve learning and memory, promote neurogenesis and synaptic plasticity in mice. FEBS Lett. 2010;584(15):3359-3365."
+    url: "https://pubmed.ncbi.nlm.nih.gov/20600002/"

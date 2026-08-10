@@ -5,10 +5,99 @@
 id: melanotan-ii
 name: Melanotan II
 status: published
+
 category_ids:
-- sexual-health
-overview: Melanocortin agonist
+  - sexual-health
+
+overview: >
+  A synthetic, non-selective melanocortin receptor agonist originally developed as a
+  UV-independent tanning agent. It is not FDA-approved for any use and is sold only as a
+  research chemical; a related but distinct agonist (bremelanotide/PT-141) was later isolated
+  from this research line and separately developed into an approved drug.
+
 key_benefits:
-- Explored for tanning and libido effects
+  - Explored for tanning and libido effects
+  - Studied as a non-selective agonist across MC1R, MC3R, MC4R, and MC5R receptors
+  - UV-independent skin pigmentation observed in early clinical pilot studies
+
+mechanism_of_action: >
+  Melanotan II is a non-selective pan-melanocortin agonist. Activation of MC1R on melanocytes
+  stimulates tyrosinase activity and eumelanin production, producing pigmentation without
+  requiring UV exposure. It also activates MC3R/MC4R in the central nervous system, which is
+  believed to underlie its reported effects on appetite suppression and sexual arousal — the
+  same receptor family later targeted more selectively by bremelanotide (PT-141).
+
+quick_start_guide:
+  typical_dose: "0.25–1 mg during an initial titration; often started as low as 0.1 mg to gauge
+    sensitivity to nausea and flushing"
+  frequency: "Daily during an initial loading/tanning phase, then reduced to 1–2x weekly for
+    maintenance"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "Evening dosing is commonly reported to reduce daytime nausea/flushing"
+  effects_timeline: "Some darkening reported within days to 1–2 weeks of regular dosing; effects
+    vary widely by baseline skin type"
+  storage: "Refrigerate after reconstitution; protect from light"
+  cycle_length: "Loading phase until desired pigmentation, then intermittent maintenance dosing"
+  break_between: "Not well established; no controlled long-term human safety data exists"
+
+pharmacokinetics:
+  peak: "Not formally characterized for the subcutaneous research-chemical product; the related
+    compound melanotan-I showed rapid subcutaneous absorption in a small human PK study"
+  half_life: "No well-established human half-life for melanotan-II specifically; the related
+    linear analog melanotan-I had a short beta-phase half-life of roughly 0.8–1.7 hours in a
+    small study"
+  cleared: "Not established in controlled human studies"
+
+research_indications:
+  - UV-independent skin pigmentation (studied in a small 1996 phase-I pilot study)
+  - Sexual arousal/libido (basis for the later, more selective compound bremelanotide/PT-141)
+  - Appetite suppression (preclinical melanocortin research)
+
 reconstitution_steps:
-- Reconstitute with bacteriostatic water; refrigerate.
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White to off-white lyophilized powder in a sealed vial"
+  - "Clear, colorless solution after reconstitution with no visible particulate"
+  - "Third-party COA available confirming peptide identity and purity"
+
+what_to_expect: >
+  Nausea, flushing, and spontaneous yawning/stretching are commonly reported after early doses
+  and tend to lessen with continued use for many people. Pigmentation changes, including
+  darkening of existing moles and freckles, build gradually with repeated dosing rather than
+  after a single injection.
+
+side_effects_common:
+  - "Nausea, especially with initial doses"
+  - "Flushing"
+  - "Spontaneous yawning and stretching"
+  - "Darkening of existing moles and freckles"
+  - "Appetite suppression"
+
+safety_notes: >
+  Melanotan II is not FDA-approved and is not regulated as a pharmaceutical; research-vendor
+  vials carry no guarantee of purity, sterility, or accurate labeling. Case reports document rare
+  but serious adverse events, including priapism (prolonged, painful erection requiring emergency
+  care), rhabdomyolysis, and acute kidney injury. Because it darkens moles and stimulates
+  melanocyte activity, dermatologists have raised concern about its use in people with a personal
+  or family history of melanoma or atypical nevi, and it should not be used as a substitute for
+  sun protection. It is banned by WADA for competitive athletes. Consult a healthcare provider,
+  and seek emergency care for any erection lasting more than a few hours.
+
+references:
+  - citation: "Dorr RT, Lines R, Levine N, Brooks C, Xiang L, Hruby VJ, Hadley ME. Evaluation of
+      melanotan-II, a superpotent cyclic melanotropic peptide in a pilot phase-I clinical study.
+      Life Sci. 1996;58(20):1777-1784."
+    url: "https://pubmed.ncbi.nlm.nih.gov/8637402/"
+  - citation: "Mallory CW, Lopategui DM, Cordon BH. Melanotan Tanning Injection: A Rare Cause of
+      Priapism. Sex Med. 2021;9(1):100298."
+    url: "https://academic.oup.com/smoa/article/9/1/100298/6956707"
+
+research_protocols:
+  - goal: "Pigmentation (loading phase)"
+    dose: "0.25–0.5 mg daily, titrated up from a lower starting dose"
+    timing: "Evening, to reduce daytime nausea/flushing"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Not an approved drug."
+    sort_order: 0

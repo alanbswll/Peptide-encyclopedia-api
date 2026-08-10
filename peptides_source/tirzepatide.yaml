@@ -1,14 +1,87 @@
-# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
 id: tirzepatide
 name: Tirzepatide
 status: published
+
 category_ids:
-- fat-loss
-overview: Dual GIP/GLP-1 receptor agonist
+  - fat-loss
+
+overview: >
+  A dual GIP/GLP-1 receptor agonist approved for type 2 diabetes (Mounjaro) and chronic weight
+  management (Zepbound). Its dual-incretin mechanism produced the largest average weight loss of
+  any FDA-approved weight-loss medication in pivotal trials to date.
+
 key_benefits:
-- Weekly dosing schedule typical
+  - Weekly dosing schedule typical
+  - FDA-approved for chronic weight management (Zepbound) and type 2 diabetes (Mounjaro)
+  - Pivotal trial (SURMOUNT-1) showed up to ~22.5% average body weight loss at the highest dose over 72 weeks
+  - Dual GIP/GLP-1 activity distinguishes it mechanistically from single-receptor GLP-1 agonists
+
+mechanism_of_action: >
+  Tirzepatide is a single molecule engineered to activate both the GIP (glucose-dependent
+  insulinotropic polypeptide) receptor and the GLP-1 receptor. Combined incretin activity
+  enhances glucose-dependent insulin secretion, suppresses glucagon, slows gastric emptying, and
+  reduces appetite via central GLP-1 and GIP receptor signaling. Like semaglutide, it carries a
+  fatty acid moiety that binds albumin, extending its half-life and allowing weekly dosing.
+
+quick_start_guide:
+  typical_dose: "2.5 mg starting dose, titrated up to a 5–15 mg maintenance dose"
+  frequency: "1x weekly"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+    - deltoid-im
+  best_timing: "Same day each week, any time of day, with or without food"
+  effects_timeline: "Appetite changes often noticeable within 1–2 weeks; substantial weight loss develops over months, with pivotal trial endpoints measured at 72 weeks"
+  storage: "Refrigerate pens/vials; some formulations tolerate limited room-temperature storage — follow manufacturer labeling"
+  cycle_length: "Studied and used as a long-term, continuous therapy rather than a short cycle"
+  break_between: "Not applicable in approved use; discontinuation is typically associated with weight regain"
+
+pharmacokinetics:
+  peak: "~8–72 hours post-dose"
+  half_life: "~5 days"
+  cleared: "Steady state reached after ~4 weeks of once-weekly dosing; ~99% plasma protein (albumin) bound, which slows clearance"
+
+research_indications:
+  - Chronic weight management (FDA-approved, Zepbound)
+  - Type 2 diabetes glycemic control (FDA-approved, Mounjaro)
+  - Obstructive sleep apnea in adults with obesity (FDA-approved indication for Zepbound)
+
 reconstitution_steps:
-- Reconstitute per manufacturer instructions; refrigerate.
+  - Reconstitute per manufacturer instructions; refrigerate.
+
+quality_indicators:
+  - "Pre-filled pens or vials sourced from a licensed pharmacy, not compounded from research-chemical powder"
+  - "Clear, colorless to slightly yellow solution with no visible particles"
+  - "Intact tamper-evident packaging and legible lot/expiration information"
+
+what_to_expect: >
+  GI side effects are common early on and tend to track with dose increases during titration.
+  Weight loss builds gradually over months; SURMOUNT-1 measured its primary endpoint at 72 weeks,
+  and higher doses were consistently associated with greater average weight loss.
+
+side_effects_common:
+  - "Nausea, vomiting, and diarrhea (most common, especially during dose escalation)"
+  - "Constipation"
+  - "Decreased appetite"
+  - "Injection site reactions"
+
+safety_notes: >
+  Carries an FDA boxed warning for thyroid C-cell tumors observed in rodent studies (relevance to
+  humans unknown); contraindicated in people with a personal or family history of medullary
+  thyroid carcinoma or Multiple Endocrine Neoplasia syndrome type 2. Associated with rare but
+  serious risks including pancreatitis, gallbladder disease, and acute kidney injury (typically
+  secondary to dehydration from GI side effects). Should be used under medical supervision with
+  appropriate monitoring, particularly during dose titration. Consult a healthcare provider.
+
+references:
+  - citation: "Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide Once Weekly for the Treatment of Obesity (SURMOUNT-1). N Engl J Med. 2022;387(3):205-216."
+    url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2206038"
+  - citation: "Zepbound (tirzepatide) injection, FDA prescribing information."
+    url: "https://pi.lilly.com/us/zepbound-uspi.pdf"
+
+research_protocols:
+  - goal: "Weight Management"
+    dose: "2.5 mg weekly, titrated to 5–15 mg per standard escalation schedule"
+    timing: "Same day each week"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0

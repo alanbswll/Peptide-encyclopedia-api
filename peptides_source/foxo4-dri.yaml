@@ -5,10 +5,85 @@
 id: foxo4-dri
 name: FOXO4-DRI
 status: published
+
 category_ids:
-- longevity
-overview: Senolytic peptide
+  - longevity
+
+overview: >
+  A synthetic "D-retro-inverso" (DRI) peptide designed by Peter de Keizer's lab (Erasmus MC) to
+  disrupt the interaction between FOXO4 and p53 inside senescent cells. Published in Cell in
+  2017, it is one of the best-known senolytic ("senescent cell-clearing") peptides in the
+  longevity research field, though it remains an experimental research compound with no human
+  trial data.
+
 key_benefits:
-- Early-stage cellular senescence research
+  - Early-stage cellular senescence research
+  - Explored in mouse studies for selectively inducing apoptosis in senescent cells
+  - Studied in vitro for restoring youthful tissue markers (e.g. fur density, renal function, activity levels in aged mice)
+
+mechanism_of_action: >
+  Senescent ("zombie") cells upregulate FOXO4, which binds and sequesters p53 in the nucleus,
+  preventing p53 from triggering apoptosis and allowing senescent cells to persist and secrete
+  inflammatory factors (the senescence-associated secretory phenotype, SASP). FOXO4-DRI is a
+  D-amino-acid, reverse-sequence mimic of the FOXO4 p53-binding domain — the D-retro-inverso
+  design makes it highly resistant to protease degradation while still competitively binding
+  p53. By displacing native FOXO4 from p53, it releases p53 to relocate to the mitochondria and
+  trigger selective apoptosis in senescent cells, largely sparing healthy, non-senescent cells.
+  In the original 2017 study, this restored fur density, renal function, and overall fitness in
+  naturally aged and chemotoxin-treated mice.
+
+quick_start_guide:
+  typical_dose: "Not established in humans; the original mouse study used 5–10 mg/kg intraperitoneal injections"
+  frequency: "Intermittent/short-course dosing pattern in animal studies rather than daily use"
+  injection_site_ids:
+    - abdomen-subq
+  best_timing: "Not established"
+  effects_timeline: "In mice, tissue-level improvements (fur, kidney function, activity) were observed over days to weeks of dosing"
+  storage: "Refrigerate after reconstitution"
+  cycle_length: "Not established in humans; animal protocols used short, intermittent dosing courses rather than continuous administration"
+  break_between: "Not established"
+
+pharmacokinetics:
+  peak: "Not established in humans"
+  half_life: "Not established in humans"
+  cleared: "Not established in humans"
+
+research_indications:
+  - Cellular senescence clearance (senolysis) — mouse and in vitro models
+  - Age-related tissue dysfunction (fur, kidney, activity level in aged mice)
+  - Chemotherapy-induced senescence and tissue damage (mouse models)
+  - Senescent chondrocyte clearance (in vitro, cartilage/osteoarthritis research)
+
 reconstitution_steps:
-- Reconstitute with bacteriostatic water; refrigerate.
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White lyophilized powder that fully dissolves into a clear, colorless solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate after reconstitution"
+
+what_to_expect: >
+  There is no published human data on subjective effects, dosing, or outcomes. All efficacy
+  evidence to date comes from mouse studies (aged mice, chemotoxicity models) and in vitro
+  cell-culture work (e.g. senescent human chondrocytes); any anecdotal human reports are
+  unverified and should not be treated as established outcomes.
+
+safety_notes: >
+  FOXO4-DRI has not been tested in human clinical trials for safety or efficacy. Because it works
+  by inducing apoptosis in senescent cells, there are open theoretical questions about off-target
+  effects on non-senescent tissue and long-term consequences of senescent-cell clearance in
+  humans that have not been studied. This is an experimental research compound, not an approved
+  treatment for any condition. Consult a healthcare provider.
+
+references:
+  - citation: "Baar MP, Brandt RMC, Putavet DA, et al. Targeted Apoptosis of Senescent Cells Restores Tissue Homeostasis in Response to Chemotoxicity and Aging. Cell. 2017;169(1):132-147.e16."
+    url: "https://pubmed.ncbi.nlm.nih.gov/28340339/"
+  - citation: "Huang Y, He Y, Makarcyzk MJ, Lin H. Senolytic Peptide FOXO4-DRI Selectively Removes Senescent Cells From in vitro Expanded Human Chondrocytes. Front Bioeng Biotechnol. 2021;9:677576."
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8116695/"
+
+research_protocols:
+  - goal: "Cellular Senescence Research (preclinical interest only)"
+    dose: "Not established in humans; referenced mouse dosing was 5–10 mg/kg intraperitoneal"
+    timing: "Short, intermittent courses in animal studies"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. No human safety or efficacy data exists."
+    sort_order: 0

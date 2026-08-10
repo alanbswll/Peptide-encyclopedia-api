@@ -5,10 +5,85 @@
 id: epithalon
 name: Epithalon
 status: published
+
 category_ids:
-- longevity
-overview: Telomerase-activating tetrapeptide
+  - longevity
+
+overview: >
+  A synthetic tetrapeptide (Ala-Glu-Asp-Gly, "AEDG") modeled on Epithalamin, a bovine pineal
+  gland extract. Developed by Vladimir Khavinson's group in Russia, it is the most-studied
+  member of the Khavinson "peptide bioregulator" family and is best known for laboratory
+  findings on telomerase activation in human cell cultures.
+
 key_benefits:
-- Typically used in short cycles
+  - Typically used in short cycles
+  - Explored in cell-culture studies for telomerase activation and telomere elongation
+  - Studied in animal models for normalizing age-related melatonin and cortisol rhythms
+
+mechanism_of_action: >
+  In telomerase-negative human fetal fibroblast cultures, Epithalon induced expression of the
+  telomerase catalytic subunit (hTERT) and increased telomerase enzymatic activity (measured by
+  TRAP assay), which was associated with telomere elongation and an extended number of population
+  doublings beyond the normal Hayflick limit. Separately, in aging animal studies Epithalon (and
+  the pineal extract it's modeled on, Epithalamin) has been reported to stimulate pineal
+  melatonin synthesis and normalize circadian cortisol secretion. The proposed epigenetic
+  mechanism involves the peptide binding chromatin and influencing gene expression during
+  differentiation, though the full molecular pathway in humans is not established.
+
+quick_start_guide:
+  typical_dose: "5–10 mg/day"
+  frequency: "1x daily"
+  injection_site_ids:
+    - abdomen-subq
+  best_timing: "No specific timing requirement reported in the literature"
+  effects_timeline: "Cell-culture telomerase effects were measured over weeks of continuous culture; no established human timeline exists"
+  storage: "Refrigerate after reconstitution; use within 2–4 weeks"
+  cycle_length: "10–20 days"
+  break_between: "Several months, per traditional Khavinson-protocol dosing schedules (2–3x per year)"
+
+pharmacokinetics:
+  peak: "Not established in humans"
+  half_life: "Not established; as a short unprotected tetrapeptide it is expected to be cleared rapidly by plasma peptidases"
+  cleared: "Not established"
+
+research_indications:
+  - Cellular senescence and telomere biology (in vitro)
+  - Circadian rhythm and melatonin regulation (animal models)
+  - General longevity/anti-aging research interest
+
 reconstitution_steps:
-- Reconstitute with bacteriostatic water; refrigerate.
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White lyophilized powder that fully dissolves into a clear, colorless solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate after reconstitution"
+
+what_to_expect: >
+  There is no well-characterized subjective effect profile in humans. Reported effects
+  (telomerase activation, melatonin normalization) come almost entirely from cell-culture and
+  animal studies; any user-reported effects on sleep or well-being are anecdotal, not
+  clinically established.
+
+safety_notes: >
+  Nearly all of the foundational research on Epithalon (the synthetic AEDG tetrapeptide) comes
+  from Vladimir Khavinson's laboratory in Russia and is largely published in Russian-language or
+  low-circulation journals; independent replication outside that group is limited. Note also
+  that the larger, longer human studies often cited for this class of compound (e.g. 15-year
+  mortality follow-ups) used Epithalamin, the original bovine pineal polypeptide extract — not
+  the synthetic 4-amino-acid Epithalon molecule sold today. Long-term human safety data on
+  synthetic Epithalon itself is essentially absent. This is a research compound, not an approved
+  treatment for any condition. Consult a healthcare provider.
+
+references:
+  - citation: "Khavinson VK, Bondarev IE, Butyugov AA. Epithalon peptide induces telomerase activity and telomere elongation in human somatic cells. Bull Exp Biol Med. 2003;135(6):590-592."
+    url: "https://pubmed.ncbi.nlm.nih.gov/12937682/"
+  - citation: "Araj SK, Brzezik J, Mądra-Gackowska K, Szeleszczuk Ł. Overview of Epitalon—Highly Bioactive Pineal Tetrapeptide with Promising Properties. Int J Mol Sci. 2025;26(6):2691."
+    url: "https://pubmed.ncbi.nlm.nih.gov/40141333/"
+
+research_protocols:
+  - goal: "General Longevity / Telomere Support (research interest)"
+    dose: "5–10 mg once daily"
+    timing: "Any time of day; keep the schedule consistent"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0

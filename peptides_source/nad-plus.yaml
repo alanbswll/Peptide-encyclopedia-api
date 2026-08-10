@@ -5,10 +5,102 @@
 id: nad-plus
 name: NAD+
 status: published
+
 category_ids:
-- longevity
-overview: Coenzyme central to cellular energy metabolism (not a peptide)
+  - longevity
+
+overview: >
+  Nicotinamide adenine dinucleotide (NAD+) is a coenzyme found in every living cell, central to
+  redox reactions in energy metabolism and serving as a required substrate for sirtuins, PARPs,
+  and CD38 — enzyme families involved in DNA repair, mitochondrial function, and cellular
+  signaling. Unlike most entries in this encyclopedia, NAD+ is not a peptide; it is one of the
+  most extensively and mainstream-studied molecules in aging biology.
+
 key_benefits:
-- Declines with age; explored for cellular energy and DNA repair
+  - Declines with age; explored for cellular energy and DNA repair
+  - Required cofactor for sirtuins (SIRT1-7), which regulate metabolism and stress resistance
+  - Substrate for PARP enzymes involved in DNA damage repair
+  - Precursor supplementation (e.g. NR) shown in a human trial to safely raise NAD+ levels
+
+mechanism_of_action: >
+  NAD+ shuttles electrons in core metabolic pathways (glycolysis, the TCA cycle, oxidative
+  phosphorylation) as it cycles between its oxidized (NAD+) and reduced (NADH) forms. Separate
+  from this redox role, NAD+ is consumed as a substrate by sirtuins (which deacetylate proteins
+  involved in metabolic and stress-response regulation), PARPs (which use NAD+ to repair damaged
+  DNA), and CD38 (an NAD+-consuming immune enzyme whose activity rises with age). Because PARP
+  and CD38 activity both increase with aging and inflammation, they progressively compete for and
+  deplete the same NAD+ pool that sirtuins depend on — a major proposed mechanism behind the
+  well-documented decline in tissue NAD+ levels with age. This has motivated research into
+  restoring NAD+ via precursors (nicotinamide riboside/NR, nicotinamide mononucleotide/NMN) or
+  direct IV/subcutaneous NAD+ administration.
+
+quick_start_guide:
+  typical_dose: "100–500 mg (subcutaneous); IV protocols used by clinics vary widely, often 250–1000+ mg per session"
+  frequency: "1x daily to a few times weekly, depending on route and protocol"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "Morning; some users report a stimulating effect that can disrupt sleep if dosed late"
+  effects_timeline: "Plasma NAD+ elevation from oral precursor supplementation has been measured within weeks in controlled human trials; direct injectable NAD+ users often report acute effects (alertness) within hours"
+  storage: "Refrigerate per supplier instructions; protect from light"
+  cycle_length: "Often used continuously rather than in defined cycles"
+  break_between: "Not standardized"
+
+pharmacokinetics:
+  peak: "Not well characterized for direct injectable NAD+ in humans; oral NR raises blood NAD+ metabolome over a dosing period of days to weeks"
+  half_life: "Not well established for exogenous/injectable NAD+ itself"
+  cleared: "Not well established for exogenous/injectable NAD+ itself"
+
+research_indications:
+  - Age-related decline in cellular NAD+ levels
+  - Mitochondrial function and cellular energy metabolism
+  - DNA damage repair (PARP-dependent)
+  - Metabolic health and sirtuin activity
+
 reconstitution_steps:
-- Reconstitute per supplier instructions; refrigerate.
+  - Reconstitute per supplier instructions; refrigerate.
+
+quality_indicators:
+  - "Solution should be clear to pale yellow; NAD+ is light- and heat-sensitive so packaging is often amber/opaque"
+  - "Third-party COA available confirming identity and purity"
+  - "No visible discoloration, clumping, or particulate"
+
+what_to_expect: >
+  Direct injectable/IV NAD+ users commonly report acute subjective effects (alertness, mental
+  clarity, sometimes flushing or nausea during infusion), though these acute effects are not the
+  same as the longer-term cellular benefits studied in the aging literature. The strongest human
+  clinical evidence is for oral NAD+ precursors (like nicotinamide riboside) safely raising blood
+  NAD+ metabolome levels over weeks; evidence that this translates into measurable functional or
+  longevity benefits in healthy humans is still developing.
+
+side_effects_common:
+  - "Flushing, nausea, or cramping (more common with rapid IV infusion)"
+  - "Headache"
+  - "Injection site irritation (subcutaneous route)"
+
+safety_notes: >
+  NAD+ precursor supplementation (NR) has been shown in a randomized controlled human trial to be
+  well-tolerated at doses used to raise blood NAD+ levels. Direct injectable/IV NAD+ is widely
+  used in wellness clinics but has less rigorous human trial data specifically for that
+  administration route, and rapid IV infusion is commonly associated with transient discomfort
+  (flushing, chest tightness, cramping) if infused too quickly. This is a research/wellness
+  compound; consult a healthcare provider, particularly if using IV administration or if you have
+  underlying health conditions.
+
+references:
+  - citation: "Covarrubias AJ, Perrone R, Grozio A, Verdin E. NAD+ metabolism and its roles in cellular processes during ageing. Nat Rev Mol Cell Biol. 2021;22(2):119-141."
+    url: "https://pubmed.ncbi.nlm.nih.gov/33353981/"
+  - citation: "Martens CR, Denman BA, Mazzo MR, et al. Chronic nicotinamide riboside supplementation is well-tolerated and elevates NAD+ in healthy middle-aged and older adults. Nat Commun. 2018;9(1):1286."
+    url: "https://pubmed.ncbi.nlm.nih.gov/29599478/"
+
+research_protocols:
+  - goal: "Cellular Energy / Healthy Aging Support"
+    dose: "100–250 mg subcutaneous"
+    timing: "Morning"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0
+  - goal: "IV Wellness Protocol (clinic-style dosing)"
+    dose: "250–1000 mg IV, infused slowly"
+    timing: "Any time of day; avoid rapid infusion"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 1

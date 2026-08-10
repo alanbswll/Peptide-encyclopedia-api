@@ -5,10 +5,88 @@
 id: ipamorelin
 name: Ipamorelin
 status: published
+
 category_ids:
-- growth-hormone
-overview: Selective growth hormone secretagogue
+  - growth-hormone
+
+overview: >
+  Selective growth hormone secretagogue. A synthetic pentapeptide that activates the same
+  receptor as ghrelin while producing minimal cortisol, prolactin, or appetite effects compared
+  with older secretagogues like GHRP-6.
+
 key_benefits:
-- Often paired with CJC-1295
+  - Often paired with CJC-1295
+
+mechanism_of_action: >
+  Acts as a selective agonist at the growth hormone secretagogue receptor (GHS-R1a) — the same
+  receptor activated by ghrelin — on somatotroph cells in the anterior pituitary. This triggers
+  intracellular calcium mobilization and a pulse of GH release. Receptor-binding studies found
+  ipamorelin stimulates GH via this GHRP-like receptor pathway without meaningfully activating
+  the release of FSH, LH, prolactin, TSH, ACTH, or cortisol — a selectivity profile that
+  distinguishes it from earlier hexapeptide secretagogues such as GHRP-2 and GHRP-6.
+
+quick_start_guide:
+  typical_dose: "200–300 mcg"
+  frequency: "1–3x daily"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "Empty stomach; commonly dosed before bed and/or post-workout"
+  effects_timeline: "Sleep quality changes sometimes reported within 1–2 weeks; body composition changes described over 8–12 weeks"
+  storage: "Refrigerate after reconstitution; use within 20–30 days"
+  cycle_length: "8–12 weeks"
+  break_between: "4 weeks"
+
+pharmacokinetics:
+  peak: "GH peak ~30–40 minutes after subcutaneous dosing"
+  half_life: "~2 hours (terminal elimination half-life)"
+  cleared: "GH levels return to baseline by ~3 hours post-injection; no accumulation with repeated dosing, so each injection produces an independent GH pulse"
+
+research_indications:
+  - GH/IGF-1 axis stimulation with minimal cortisol/prolactin impact
+  - Often studied/used alongside GHRH analogs (e.g. CJC-1295) for combined GH pulses
+  - Body composition and recovery research
+  - Sleep quality research (GH's role in slow-wave sleep)
+
 reconstitution_steps:
-- Reconstitute with bacteriostatic water and refrigerate.
+  - Reconstitute with bacteriostatic water and refrigerate.
+
+quality_indicators:
+  - "White, lyophilized powder that fully dissolves into a clear, colorless solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate matter after reconstitution"
+
+what_to_expect: >
+  Most users report no acute sensation at the injection site and none of the hunger spike
+  associated with older secretagogues. Reported changes to sleep and recovery build gradually
+  over the first couple of weeks rather than appearing immediately.
+
+side_effects_common:
+  - "Mild headache"
+  - "Mild facial flushing"
+  - "Injection site redness"
+  - "Rare nausea"
+
+safety_notes: >
+  Ipamorelin's receptor selectivity is well documented in the foundational pharmacology
+  literature (Raun et al. 1998), but that evidence is largely preclinical and mechanistic rather
+  than long-term human outcomes data — controlled long-term human safety studies are lacking.
+  Because it stimulates the GH/IGF-1 axis, there is a theoretical caution around use in people
+  with active or suspected hormone-sensitive cancers. This is a research compound, not an
+  approved treatment for any condition. Consult a healthcare provider.
+
+references:
+  - citation: "Raun K, Hansen BS, Johansen NL, Thøgersen H, Madsen K, Ankersen M, Andersen PH. Ipamorelin, the first selective growth hormone secretagogue. Eur J Endocrinol. 1998;139(5):552-561."
+    url: "https://pubmed.ncbi.nlm.nih.gov/9849822/"
+
+research_protocols:
+  - goal: "GH Pulse / Recovery Support"
+    dose: "200–300 mcg 1x daily"
+    timing: "Before bed, empty stomach"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0
+  - goal: "Combined with a GHRH Analog"
+    dose: "200 mcg 2x daily alongside CJC-1295"
+    timing: "Morning and before bed, empty stomach"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 1

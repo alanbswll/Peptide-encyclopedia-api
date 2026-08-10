@@ -5,10 +5,95 @@
 id: kisspeptin-10
 name: Kisspeptin-10
 status: published
+
 category_ids:
-- sexual-health
-overview: Reproductive hormone regulator
+  - sexual-health
+
+overview: >
+  The shortest bioactive fragment of the naturally occurring hypothalamic peptide kisspeptin,
+  a master upstream regulator of the reproductive (hypothalamic-pituitary-gonadal) axis. It is
+  a research tool used to study GnRH pulsatility, not an approved drug — its close relative,
+  the longer fragment kisspeptin-54, has been used experimentally in human fertility trials.
+
 key_benefits:
-- Studied for hormonal axis signaling
+  - Studied for hormonal axis signaling
+  - Directly triggers LH pulses in human dosing studies
+  - Central to research on the upstream control of GnRH release
+
+mechanism_of_action: >
+  Kisspeptin-10 is the minimal C-terminal fragment of kisspeptin needed for full activity at its
+  receptor, KISS1R (formerly GPR54), on GnRH neurons in the hypothalamus. Binding triggers GnRH
+  release, which in turn drives pituitary LH (and to a lesser extent FSH) secretion. Human dosing
+  studies show it increases both the amplitude and frequency of LH pulses, establishing kisspeptin
+  signaling as a key upstream gatekeeper of the reproductive axis, sitting above GnRH itself.
+
+quick_start_guide:
+  typical_dose: "Human research dosing has used intravenous doses around 1 mcg/kg for LH
+    stimulation studies; no standardized subcutaneous self-administration dose is established"
+  frequency: "Studied primarily as single bolus or short infusions in a research/clinical trial
+    setting rather than as a repeated daily self-injection"
+  injection_site_ids:
+    - abdomen-subq
+  best_timing: "Not established outside controlled research protocols"
+  effects_timeline: "LH rises rapidly (within 30 minutes) after a bolus dose in human studies,
+    despite the peptide itself clearing from plasma within minutes"
+  storage: "Refrigerate after reconstitution"
+  cycle_length: "Not established for repeated self-administration; human studies have used
+    single doses or short-term dosing protocols"
+  break_between: "Not established"
+
+pharmacokinetics:
+  peak: "LH response peaks roughly 30 minutes after an IV bolus, despite the peptide's own very
+    short plasma presence"
+  half_life: "~4 minutes in humans (terminal half-life); the longer fragment kisspeptin-54 has
+    a longer terminal half-life of roughly 28 minutes"
+  cleared: "Rapidly cleared from plasma within minutes; the downstream GnRH/LH/testosterone
+    cascade it triggers unfolds over 60–120 minutes, well after the peptide itself is gone"
+
+research_indications:
+  - Hypothalamic-pituitary-gonadal (HPG) axis signaling research
+  - LH pulsatility and GnRH pulse-generator studies
+  - Reproductive endocrinology research (e.g. hypothalamic amenorrhea, puberty studies)
+  - Basis for the related, longer-acting research compound kisspeptin-54 used in IVF oocyte
+    maturation trials
+
 reconstitution_steps:
-- Reconstitute with bacteriostatic water; refrigerate.
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White lyophilized powder in a sealed vial"
+  - "Clear, colorless solution after reconstitution with no visible particulate"
+  - "Third-party COA available confirming peptide identity and purity"
+
+what_to_expect: >
+  Kisspeptin-10's known effects come almost entirely from controlled clinical research settings
+  using IV or SC infusion with hormone-level monitoring (LH, FSH, testosterone/estradiol) — not
+  from a self-administration model. There is no established subjective "what it feels like"
+  profile for at-home use.
+
+safety_notes: >
+  Kisspeptin-10 is a research tool, not an approved therapeutic; essentially all human data comes
+  from short, closely monitored clinical pharmacology studies using IV or SC infusion with lab
+  monitoring, not from long-term self-administration. Its close relative kisspeptin-54 has been
+  studied in clinical fertility trials (e.g. as an IVF oocyte-maturation trigger) with a generally
+  favorable short-term safety profile, but that data does not automatically extend to unsupervised
+  use of kisspeptin-10. Consult a healthcare provider; this compound is not intended for
+  self-directed hormonal therapy.
+
+references:
+  - citation: "George JT, Veldhuis JD, Roseweir AK, Newton CL, Faccenda E, Millar RP, Anderson RA.
+      Kisspeptin-10 is a potent stimulator of LH and increases pulse frequency in men. J Clin
+      Endocrinol Metab. 2011;96(8):E1228-E1236."
+    url: "https://academic.oup.com/jcem/article/96/8/E1228/2833644"
+  - citation: "Jayasena CN, Abbara A, Veldhuis JD, et al. Increasing LH pulsatility in women with
+      hypothalamic amenorrhoea using intravenous infusion of kisspeptin-54. J Clin Endocrinol
+      Metab. 2014;99(6):E953-E961."
+    url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4207927/"
+
+research_protocols:
+  - goal: "HPG Axis / GnRH Pulsatility Research"
+    dose: "Per published clinical protocols only (e.g. ~1 mcg/kg IV bolus)"
+    timing: "Single bolus or short infusion under monitored research conditions"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Not intended for
+      self-directed hormonal therapy."
+    sort_order: 0

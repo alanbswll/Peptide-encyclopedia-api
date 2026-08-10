@@ -5,10 +5,52 @@
 id: adamax
 name: Adamax
 status: published
+
 category_ids:
-- cognitive
-overview: Adamantane-modified nootropic peptide
+  - cognitive
+
+overview: >
+  A vendor-marketed variant of Semax — N-acetylated and modified with a C-terminal
+  adamantane group — sold on the premise that these changes improve stability and
+  blood-brain-barrier penetration versus the parent compound. Unlike Semax, Adamax has no
+  PubMed-indexed publications, regulatory registration, or independent testing under its
+  own name; its rationale rests entirely on Semax's literature plus the general
+  pharmacology of adamantane and acetyl modifications, not on any study of Adamax itself.
+
 key_benefits:
-- Studied for memory and focus support
+  - Studied for memory and focus support (based on its parent compound Semax; Adamax itself is unstudied)
+
+mechanism_of_action: >
+  Adamax is theorized to work like Semax — via BDNF/TrkB modulation and dopaminergic/
+  serotonergic signaling — with acetylation and an adamantane group added to resist
+  enzymatic degradation and improve central penetration. This is a structural rationale
+  borrowed from general peptide-chemistry principles, not a mechanism demonstrated for
+  Adamax in any published study.
+
+quick_start_guide:
+  typical_dose: "Vendor and community figures commonly cite 100–300 mcg per dose from a reconstituted vial; these are self-reported, not trial-validated"
+  frequency: "1x daily (community convention)"
+  best_timing: "Morning, mirroring Semax dosing conventions"
+  effects_timeline: "Not established; anecdotal reports mirror the Semax timeline (effects within an hour)"
+  storage: "Reconstitute with bacteriostatic water; refrigerate and use within the vendor's stated window"
+  cycle_length: "Not established"
+  break_between: "Not established"
+
 reconstitution_steps:
 - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "No independent testing standard exists specifically for Adamax; structural identity and purity depend entirely on the individual vendor's third-party testing"
+
+what_to_expect: >
+  There is no peer-reviewed human or animal study of Adamax itself, so there is no
+  clinically validated basis for what a person could expect. Any reported effects in
+  research-chemical communities are anecdotal and cannot be distinguished from expectation
+  effects or from the properties of its parent compound, Semax.
+
+safety_notes: >
+  Adamax has no published pharmacology, toxicology, or clinical data under its own name —
+  every claim about its potency, dosing, or safety in circulation is inferred from Semax
+  research plus general assumptions about adamantane/acetyl modifications, not from any
+  study of Adamax itself. It has no regulatory status anywhere. Treat all dosing and safety
+  claims as unverified. Consult a healthcare provider.

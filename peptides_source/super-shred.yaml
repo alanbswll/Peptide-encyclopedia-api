@@ -1,14 +1,39 @@
-# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
 id: super-shred
 name: Super Shred
 status: published
+
 category_ids:
-- fat-loss
-overview: Advanced fat-burning injectable blend
+  - fat-loss
+
+overview: >
+  Super Shred is an advanced fat-burning injectable blend: a marketed combination blend for fat burning
+  and energy support, sold under a vendor-specific brand/marketing name rather than a single fixed,
+  agreed-upon formula. Listed ingredients vary by supplier and can go well beyond basic lipotropic
+  vitamins — some vendor formulations reportedly add compounds like ATP or the bronchodilator/stimulant
+  albuterol alongside a lipotropic (MIC) base and L-carnitine — so this product category carries more
+  formulation uncertainty than a standard lipotropic blend.
+
 key_benefits:
-- Marketed combination blend for fat burning and energy
+  - Marketed combination blend for fat burning and energy
+
+mechanism_of_action: >
+  As a vendor-branded blend, "Super Shred" has no mechanism established for the product as a whole, and
+  no independent research on this specific combination exists. Depending on the supplier, listed
+  ingredients may include a lipotropic (methionine/inositol/choline) base, L-carnitine, B12, and — in some
+  marketed versions — additional compounds such as ATP or albuterol, each of which has its own distinct
+  and unrelated pharmacology (albuterol, for example, is a beta-2 agonist bronchodilator with real
+  cardiovascular stimulant effects, not a lipotropic nutrient). Because formulations are not standardized,
+  no single mechanism can be stated for "Super Shred" as a category.
+
+safety_notes: >
+  "Super Shred" is a vendor marketing name, not a standardized or independently studied product, and the
+  formulation risk here is higher than for simpler lipotropic blends: some marketed versions reportedly
+  include pharmacologically active stimulant ingredients (e.g., albuterol) in addition to lipotropic
+  vitamins, which carry their own cardiovascular risks (elevated heart rate, tremor, and other stimulant
+  effects) distinct from anything a lipotropic blend implies. There are no clinical trials on this branded
+  blend or its variants. Do not assume contents based on the product name alone — confirm the exact
+  ingredient list and doses directly with the specific supplier, and consult a healthcare provider before
+  use, particularly given the possibility of undisclosed stimulant content.
+
 reconstitution_steps:
-- Typically supplied pre-mixed; refrigerate.
+  - Typically supplied pre-mixed; refrigerate.

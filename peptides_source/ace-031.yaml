@@ -1,14 +1,92 @@
 # Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
+# Only overview/key_benefits/reconstitution_steps were populated from that
+# source; richer fields below were added in a later research pass.
 id: ace-031
 name: ACE-031
 status: published
+
 category_ids:
-- growth-hormone
-overview: Myostatin-blocking fusion protein
+  - growth-hormone
+
+overview: >
+  Myostatin-blocking fusion protein — a soluble decoy receptor combining the extracellular
+  domain of human activin receptor type IIB (ActRIIB) with an IgG1 antibody fragment. It was
+  developed by Acceleron Pharma (with Shire) as a clinical drug candidate for Duchenne muscular
+  dystrophy and disuse muscle atrophy, but development was discontinued in 2013.
+
 key_benefits:
-- Explored for muscle preservation and strength
+  - Explored for muscle preservation and strength
+
+mechanism_of_action: >
+  ACE-031 acts as a soluble "decoy receptor." Myostatin (GDF-8) and related TGF-beta superfamily
+  ligands normally bind the ActRIIB receptor on muscle cells to trigger a signaling cascade that
+  suppresses muscle growth. Because ACE-031 consists of the ligand-binding portion of ActRIIB
+  fused to an antibody Fc region, it intercepts and sequesters myostatin (and other ActRIIB
+  ligands, such as activin A) in circulation before they can bind the native receptor, removing
+  this brake on muscle growth.
+
+quick_start_guide:
+  typical_dose: "Clinical trials dosed by body weight (0.02–3 mg/kg SC in a Phase 1 healthy-volunteer study); research-chemical vials sold outside that clinical program are not standardized to this dosing and their actual content/purity is not independently verified"
+  frequency: "Every 2–4 weeks in published trials, reflecting its long half-life"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "No specific timing requirement identified in the published trials"
+  effects_timeline: "In the Phase 1 study, measurable increases in lean body mass and thigh muscle volume were seen by day 29 at the highest dose tested"
+  storage: "Reconstitute per supplier instructions; refrigerate"
+  cycle_length: "Not established outside the clinical trial programs, which used defined dosing schedules over weeks to months"
+  break_between: "Not established"
+
+pharmacokinetics:
+  peak: "Dose-dependent; AUC and Cmax increased proportionally with dose in the Phase 1 study"
+  half_life: "~10–15 days (published human data)"
+  cleared: "Consistent with its long half-life, effects on lean mass were still measurable roughly a month after a single dose in the Phase 1 study"
+
+research_indications:
+  - Muscle mass and strength preservation (human clinical trial data)
+  - Duchenne muscular dystrophy (halted Phase 2 trial)
+  - Disuse/immobilization-related muscle atrophy (studied by the manufacturer)
+
 reconstitution_steps:
-- Reconstitute per supplier instructions; refrigerate.
+  - Reconstitute per supplier instructions; refrigerate.
+
+quality_indicators:
+  - "ACE-031 is a complex engineered fusion protein, not a simple synthesized peptide — production requires recombinant cell-culture manufacturing, which is far harder to verify at the research-chemical-vendor level than short peptide synthesis"
+  - "Third-party COA (including identity confirmation, not just purity) is especially important given how much harder this molecule is to legitimately produce than a standard peptide"
+  - "Because the branded clinical compound was never commercialized, there is no legitimate retail supply chain — treat any vendor claims of authentic ACE-031 with significant skepticism"
+
+what_to_expect: >
+  In the published Phase 1 trial in healthy postmenopausal women, a single high dose produced
+  statistically significant increases in total lean body mass (3.3%) and thigh muscle volume
+  (5.1%) by day 29, with injection site erythema as the main reported adverse event. Whether
+  research-chemical vendor products reproduce this profile at all is unverified, since the
+  clinical compound was never sold commercially.
+
+side_effects_common:
+  - "Injection site erythema (reported in the Phase 1 trial)"
+
+safety_notes: >
+  ACE-031 was studied in real human clinical trials, including a placebo-controlled Phase 1
+  dose-escalation study in healthy volunteers and a randomized, placebo-controlled Phase 2 trial
+  in ambulatory boys with Duchenne muscular dystrophy. The DMD program was halted in 2011 after
+  safety signals — epistaxis (nosebleeds) and telangiectasia (small dilated blood vessels in the
+  skin) — emerged, and Acceleron and Shire ended the ACE-031 program entirely in 2013 without
+  bringing it to market. Because it was never approved or commercialized, there is no legitimate
+  supply chain for it today; anything sold as "ACE-031" by a research-chemical vendor cannot be
+  assumed to match the clinical trial material in identity, purity, or dose. As a myostatin/TGF-
+  beta pathway inhibitor, it may also affect other ActRIIB-mediated processes (e.g., vascular and
+  reproductive tissue) beyond skeletal muscle. This is a discontinued clinical drug candidate,
+  not an approved treatment for any condition. Consult a healthcare provider.
+
+references:
+  - citation: "Attie KM, Borgstein NG, Yang Y, et al. A single ascending-dose study of muscle regulator ACE-031 in healthy volunteers. Muscle Nerve. 2013;47(3):416-423."
+    url: "https://pubmed.ncbi.nlm.nih.gov/23169607/"
+  - citation: "Campbell C, McMillan HJ, Mah JK, et al. Myostatin inhibitor ACE-031 treatment of ambulatory boys with Duchenne muscular dystrophy: Results of a randomized, placebo-controlled clinical trial. Muscle Nerve. 2017;55(4):458-464."
+    url: "https://pubmed.ncbi.nlm.nih.gov/27462804/"
+
+research_protocols:
+  - goal: "Muscle Mass / Strength Preservation Research"
+    dose: "Not standardized outside clinical trial dosing (body-weight based, e.g. 0.02–3 mg/kg SC)"
+    timing: "Every 2–4 weeks, reflecting its long half-life"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. This program was discontinued by its developer and is not commercially available as an approved product."
+    sort_order: 0

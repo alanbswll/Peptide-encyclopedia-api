@@ -5,10 +5,64 @@
 id: thymogen
 name: Thymogen
 status: published
+
 category_ids:
-- immune
-overview: Immune-modulating dipeptide
+  - immune
+
+overview: >
+  A synthetic dipeptide (L-glutamyl-L-tryptophan, Glu-Trp) originally isolated from a
+  calf-thymus extract preparation. It was developed and studied primarily in Russia as an
+  immunostimulant, and is the structural/functional counterpart to a related immunosuppressive
+  peptide, thymodepressin. It is not FDA-approved, and the bulk of the published research on it
+  comes from Russian-language clinical literature and more recent Russian-affiliated preclinical
+  studies rather than large Western clinical trials.
+
 key_benefits:
-- Studied for immune regulation
+  - Studied for immune regulation
+  - Described in the literature as an immunostimulant, restoring T-lymphocyte numbers and
+    supporting cellular and humoral immunity in experimental models
+  - Structural enantiomer counterpart to thymodepressin, an immunosuppressive peptide, illustrating
+    a chirality-based reciprocal regulation relationship between the two compounds
+
+mechanism_of_action: >
+  Thymogen is reported to act at the level of gene expression in lymphocytes, having been shown
+  in cell-culture work to bind DNA in a way that shifts chromatin from a transcriptionally silent
+  to an active state, and to restore T-lymphocyte numbers and support hematopoietic
+  stem/progenitor cell populations in experimental models. Its immune-stimulating activity is
+  described as the mirror image, mechanistically, of the D-amino-acid-containing immunosuppressive
+  peptide thymodepressin — the two are discussed in the literature as a reciprocal pair whose
+  opposing effects trace back to their differing chirality.
+
+research_indications:
+  - Immune regulation / restoration of T-lymphocyte populations (experimental models)
+  - Supporting leukocyte recovery after chemotherapy-induced neutropenia (studied in Russian
+    clinical literature)
+  - Hepatoprotective/antioxidant effects in an experimental liver-injury model (preclinical,
+    2023 study of Thymogen and newer analogues)
+
 reconstitution_steps:
-- Reconstitute with bacteriostatic water; refrigerate.
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White lyophilized powder in a sealed vial"
+  - "Clear, colorless solution after reconstitution with no visible particulate"
+  - "Third-party COA available confirming peptide identity and purity"
+
+safety_notes: >
+  Thymogen is not FDA-approved, and most of the available published research comes from
+  Russian-language clinical literature (much of it from the 1990s) and a smaller body of more
+  recent Russian-affiliated preclinical work, rather than from large, independently replicated
+  Western clinical trials — so treat specific efficacy claims with real caution, and be aware that
+  reliable human dosing, pharmacokinetic, and long-term safety data are not well established in
+  the literature available for this review. As an immune stimulant, caution is warranted in
+  anyone with autoimmune disease or on immunosuppressive therapy. Consult a healthcare provider.
+
+references:
+  - citation: "Deigin V, Linkova N, Vinogradova J, Vinogradov D, Polyakova V, Medvedev D,
+      Krasichkov A, Volpina O. The First Reciprocal Activities of Chiral Peptide Pharmaceuticals:
+      Thymogen and Thymodepressin, as Examples. Int J Mol Sci. 2024;25(9):5042."
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11084461/"
+  - citation: "Chulanova AA, Smakhtin MY, Bobyntsev II, Mishina ES, Artyushkova EB, Smakhtina AM.
+      Reparative and Antioxidant Effects of New Analogues of Immunomodulator Thymogen in
+      Experimental Model of Liver Damage. Bull Exp Biol Med. 2023;175(5):700-703."
+    url: "https://pubmed.ncbi.nlm.nih.gov/37861903/"

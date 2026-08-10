@@ -1,14 +1,85 @@
 # Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
+# Only overview/key_benefits/reconstitution_steps were populated from that
+# source; richer fields below were added in a later research pass.
 id: mgf
 name: MGF
 status: published
+
 category_ids:
-- growth-hormone
-overview: IGF-1 splice variant (Mechano Growth Factor)
+  - growth-hormone
+
+overview: >
+  IGF-1 splice variant (Mechano Growth Factor) — a short-lived isoform of IGF-1 produced locally
+  in skeletal muscle in response to mechanical loading or damage, distinct from the mature,
+  liver-derived IGF-1 that circulates systemically.
+
 key_benefits:
-- Explored for localized muscle repair
+  - Explored for localized muscle repair
+
+mechanism_of_action: >
+  MGF is the product of alternative splicing of the IGF-1 gene, retaining a unique C-terminal
+  "E domain" not present in mature IGF-1. In cell studies, this E-peptide activates quiescent
+  muscle satellite cells and drives their proliferation, while mature IGF-1 primarily promotes
+  the later step of myoblast differentiation and fusion — a proposed two-phase model of muscle
+  repair signaling. The unmodified peptide is degraded extremely quickly once it reaches
+  circulation, which is consistent with its proposed role as a local, autocrine/paracrine signal
+  released at the site of mechanical damage rather than a systemic hormone.
+
+quick_start_guide:
+  typical_dose: "200–400 mcg"
+  frequency: "Immediately post-workout, in the trained muscle group; not typically dosed daily"
+  injection_site_ids:
+    - near-injury
+    - thigh-subq
+  best_timing: "Immediately after resistance training, localized to the worked muscle"
+  effects_timeline: "No formal human timeline exists; anecdotal reports describe changes building over several weeks of repeated post-workout dosing"
+  storage: "Reconstitute immediately before each use — the peptide is highly unstable in solution and is not considered viable to store premixed"
+  cycle_length: "3–6 weeks of post-workout dosing"
+  break_between: "4+ weeks"
+
+pharmacokinetics:
+  peak: "Not established in humans"
+  half_life: "~5–7 minutes for the unmodified peptide in serum (estimated from preclinical/in vitro work, not a formal human PK study)"
+  cleared: "Very rapid; this instability is the stated reason PEGylated versions (PEG-MGF) were developed"
+
+research_indications:
+  - Satellite cell activation after mechanical muscle damage (preclinical)
+  - Localized muscle hypertrophy signaling (preclinical)
+  - Muscle regeneration in injury and aging models (preclinical)
+
 reconstitution_steps:
-- Mix immediately before use; unstable in solution.
+  - Mix immediately before use; unstable in solution.
+
+quality_indicators:
+  - "White, lyophilized powder that fully dissolves into a clear, colorless solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate matter after reconstitution"
+
+what_to_expect: >
+  Because the peptide is degraded within minutes in serum, effects are difficult to gauge
+  acutely and there is no established human dosing timeline. Reported changes in the research
+  and bodybuilding community are gradual and tied to repeated post-workout use rather than any
+  single dose.
+
+side_effects_common:
+  - "Injection site redness or irritation"
+
+safety_notes: >
+  Human clinical data on MGF/IGF-1Ec is essentially nonexistent; the available evidence is
+  almost entirely from cell culture and animal studies of the E-peptide domain. Because the
+  unmodified peptide is so rapidly degraded, the actual amount of intact peptide delivered by a
+  subcutaneous or intramuscular injection is highly uncertain, which is part of why PEGylated
+  versions were developed. As a growth-factor-pathway compound, some reviewers raise a
+  theoretical caution around use in people with active cancer or a history of cancer. This is a
+  research compound, not an approved treatment for any condition. Consult a healthcare provider.
+
+references:
+  - citation: "Yang SY, Goldspink G. Different roles of the IGF-I Ec peptide (MGF) and mature IGF-I in myoblast proliferation and differentiation. FEBS Lett. 2002;522(1-3):156-160."
+    url: "https://pubmed.ncbi.nlm.nih.gov/12095637/"
+
+research_protocols:
+  - goal: "Localized Post-Training Muscle Repair"
+    dose: "200–400 mcg post-workout, in the trained muscle group"
+    timing: "Immediately after resistance training"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0

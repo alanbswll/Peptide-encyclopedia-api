@@ -5,10 +5,86 @@
 id: humanin
 name: Humanin
 status: published
+
 category_ids:
-- longevity
-overview: Mitochondrial-derived peptide with cytoprotective effects
+  - longevity
+
+overview: >
+  A 24-amino-acid peptide encoded within mitochondrial DNA (in the 16S rRNA region), first
+  identified in 2001 by Hashimoto and colleagues in a screen for factors protecting neurons
+  against Alzheimer's-related toxicity. Humanin was the first mitochondrial-derived peptide
+  (MDP) discovered and is studied by groups including Pinchas Cohen's lab at USC for its
+  cytoprotective and longevity-related signaling roles.
+
 key_benefits:
-- Early-stage longevity research interest
+  - Early-stage longevity research interest
+  - Explored in cell-culture and animal models for cytoprotective, anti-apoptotic effects
+  - Endogenous levels associated with exceptional longevity in centenarian-offspring studies
+
+mechanism_of_action: >
+  Humanin acts as a cytoprotective signaling peptide, inhibiting apoptosis in part by blocking
+  the mitochondrial membrane association and oligomerization of pro-apoptotic proteins Bax and
+  Bid, which helps preserve mitochondrial membrane integrity under cellular stress. In the
+  original discovery work, Humanin and its analogs suppressed neuronal death induced by
+  familial Alzheimer's disease mutations (APP, PS1, PS2) and amyloid-beta. In C. elegans,
+  overexpressing the humanin gene extends lifespan in a daf-16/FOXO-dependent manner, and in
+  mice, twice-weekly dosing with the potent analog HNG improved metabolic healthspan markers and
+  reduced inflammatory markers. Endogenous humanin levels decline with age across several
+  species, and offspring of centenarians have been reported to carry higher circulating humanin
+  levels than age-matched controls.
+
+quick_start_guide:
+  typical_dose: "5–10 mg"
+  frequency: "2x weekly"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "No specific timing requirement established in the literature"
+  effects_timeline: "Not established in humans; mouse healthspan studies used twice-weekly dosing over weeks to months"
+  storage: "Refrigerate after reconstitution; use within 2–4 weeks"
+  cycle_length: "4–8 weeks"
+  break_between: "4 weeks"
+
+pharmacokinetics:
+  peak: "Not established in humans"
+  half_life: "Not established in humans"
+  cleared: "Not established in humans"
+
+research_indications:
+  - Neuroprotection against Alzheimer's-related toxicity (preclinical)
+  - Apoptosis / cell-survival signaling (in vitro)
+  - Metabolic healthspan and inflammation (animal models)
+  - Longevity biomarker research (human observational studies)
+
 reconstitution_steps:
-- Reconstitute with bacteriostatic water; refrigerate.
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White lyophilized powder that fully dissolves into a clear, colorless solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate after reconstitution"
+
+what_to_expect: >
+  There is no established subjective effect profile in humans. The evidence base is primarily
+  cell-culture, C. elegans, and mouse studies plus human observational data linking naturally
+  higher circulating humanin to longevity; direct human trials of injected Humanin are lacking.
+
+safety_notes: >
+  Humanin has not been evaluated in human clinical safety trials. Most efficacy findings
+  (neuroprotection, lifespan extension, metabolic improvement) come from cell culture, C. elegans,
+  and rodent/primate studies, with human data limited to observational associations between
+  endogenous levels and longevity. This is a research compound, not an approved treatment for
+  any condition. Consult a healthcare provider.
+
+references:
+  - citation: "Hashimoto Y, Niikura T, Tajima H, et al. A rescue factor abolishing neuronal cell death by a wide spectrum of familial Alzheimer's disease genes and Abeta. Proc Natl Acad Sci U S A. 2001;98(11):6336-6341."
+    url: "https://pubmed.ncbi.nlm.nih.gov/11371646/"
+  - citation: "Yen K, Mehta HH, Kim SJ, et al. The mitochondrial derived peptide humanin is a regulator of lifespan and healthspan. Aging (Albany NY). 2020;12(12):11185-11199."
+    url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7343442/"
+
+research_protocols:
+  - goal: "Cytoprotective / Longevity Support (research interest)"
+    dose: "5–10 mg 2x weekly"
+    timing: "Any time of day; keep the schedule consistent"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0

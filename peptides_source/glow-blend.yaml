@@ -1,14 +1,79 @@
-# Migrated from the Android app's hardcoded encyclopedia list (AppPreferences.kt defaultPeptides()).
-# Only overview/key_benefits/reconstitution_steps are populated from that
-# source -- the richer fields (mechanism_of_action, quick_start_guide,
-# pharmacokinetics, etc.) don't exist there and are left for a future pass.
 id: glow-blend
 name: GLOW Blend
 status: published
+
 category_ids:
-- healing
-overview: BPC-157, GHK-Cu, and TB-500 combination blend
+  - healing
+
+overview: >
+  A commercial blend combining BPC-157, GHK-Cu, and TB-500 into a single vial (commonly
+  formulated at roughly a 50/10/10 mg ratio), marketed as "GLOW" for combined skin, gut, and
+  tissue repair support.
+
 key_benefits:
-- Marketed for skin, gut, and tissue repair together
+  - Marketed for skin, gut, and tissue repair together
+  - Combines GHK-Cu's collagen/skin-remodeling effects with BPC-157's gut/tissue healing and TB-500's cell-migration effects
+
+mechanism_of_action: >
+  This is a commercial combination of three separately researched compounds, not a single
+  studied peptide. GHK-Cu is a naturally occurring copper-binding tripeptide that declines with
+  age; it modulates collagen and glycosaminoglycan turnover, attracts immune and endothelial
+  cells to injury sites, and is researched for skin remodeling and wound healing. BPC-157
+  promotes angiogenesis and growth factor signaling associated with gut lining and tissue
+  repair. TB-500 (a Thymosin Beta-4 analog) sequesters G-actin, a mechanism that drives cell
+  migration and angiogenesis at injury sites. The blend's rationale is that these three
+  complementary mechanisms — skin/collagen remodeling, gut/tissue repair, and cell migration —
+  combine to support recovery across tissue types, though the combination itself has not been
+  studied as a unit.
+
+quick_start_guide:
+  typical_dose: "Vials are commonly formulated as 50 mg GHK-Cu + 10 mg BPC-157 + 10 mg TB-500 per 2 mL; a typical dose draws ~10–20 units (0.1–0.2 mL)"
+  frequency: "Loading phase: 5x weekly; maintenance: 3x weekly"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+    - near-injury
+  best_timing: "No specific timing requirement; consistency matters more than time of day"
+  effects_timeline: "Follows individual-component timelines: initial changes reported within 1–2 weeks, fuller effect described over a 4–6 week loading phase"
+  storage: "Refrigerate after reconstitution; use within 20–30 days"
+  cycle_length: "4-week loading phase followed by an 8-week maintenance phase (commonly described as a 12-week cycle)"
+  break_between: "4–6 weeks off before repeating a cycle"
+
+research_indications:
+  - Skin appearance and collagen support (from the GHK-Cu component)
+  - Gut lining and general tissue repair (from the BPC-157 component)
+  - Cell migration and localized recovery (from the TB-500 component)
+  - No trials have evaluated the combined three-peptide blend itself
+
 reconstitution_steps:
-- Reconstitute with bacteriostatic water; refrigerate.
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "Powder may show a faint blue-green tint from the GHK-Cu component and dissolves into a clear solution"
+  - "Third-party COA confirming the identity and quantity of all three peptides in the vial"
+  - "No unexpected discoloration, clumping, or particulate matter after reconstitution"
+
+what_to_expect: >
+  As with the individual components, benefits are described as gradual and cumulative rather
+  than immediate. Skin-related changes (from the GHK-Cu component) are typically reported over
+  weeks of consistent use, in line with GHK-Cu research timelines.
+
+side_effects_common:
+  - "Mild injection site redness or soreness"
+  - "Skin flushing or mild irritation (reported with the GHK-Cu component)"
+  - "Mild fatigue or headache (reported with the TB-500 component)"
+
+safety_notes: >
+  "GLOW Blend" is a commercial combination product, not a peptide that has been independently
+  studied as a unit — no clinical or preclinical trials have evaluated this specific
+  three-peptide formulation or ratio. All available research applies to BPC-157, GHK-Cu, and
+  TB-500 individually. Because TB-500 promotes angiogenesis, some reviewers raise a theoretical
+  caution around use in people with active cancer or a history of cancer. This is a research
+  compound, not an approved treatment for any condition. Consult a healthcare provider.
+
+research_protocols:
+  - goal: "Combined Skin / Tissue Recovery Support"
+    dose: "10 units (~0.1 mL) 5x weekly during loading, then 3x weekly maintenance"
+    timing: "Any consistent time of day"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0

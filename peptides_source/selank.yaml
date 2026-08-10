@@ -5,10 +5,88 @@
 id: selank
 name: Selank
 status: published
+
 category_ids:
-- cognitive
-overview: Anxiolytic peptide related to tuftsin
+  - cognitive
+
+overview: >
+  A synthetic heptapeptide analog of tuftsin, developed in Russia in the 1990s at the
+  Institute of Molecular Genetics. It is studied there as a non-benzodiazepine anxiolytic,
+  though it is not FDA-approved and most of the supporting trial literature is
+  Russian-language.
+
 key_benefits:
-- Studied for stress and anxiety support
+  - Studied for stress and anxiety support
+  - Explored as a non-sedating alternative to benzodiazepines in Russian clinical trials
+  - Preclinically linked to increased hippocampal BDNF expression
+
+mechanism_of_action: >
+  Selank is thought to modulate GABAergic tone and serotonin metabolism in brain regions
+  tied to anxiety and stress. Animal studies show it inhibits enkephalin-degrading enzymes,
+  which may prolong the activity of endogenous opioid peptides (enkephalins). Preclinical
+  work also links Selank to increased hippocampal BDNF expression, a mechanism it shares
+  with the related compound Semax.
+
+quick_start_guide:
+  typical_dose: "250–500 mcg per dose (as an intranasal solution)"
+  frequency: "1–3x daily"
+  best_timing: "Any time of day; some users prefer dosing before stressful situations"
+  effects_timeline: "Subjective calming effects reported within 30–60 minutes; the published Russian clinical trial used a course of several weeks"
+  storage: "Refrigerate; use opened solution within the vendor's stated window (typically 30 days)"
+  cycle_length: "2–4 weeks"
+  break_between: "2–4 weeks off"
+
+pharmacokinetics:
+  peak: "~30–60 minutes after intranasal dosing, based on Russian pharmacokinetic studies"
+  half_life: "Short — the intact heptapeptide is rapidly degraded by plasma peptidases; formal half-life data has not been published in English-language literature"
+  cleared: "Not well characterized outside Russian-language sources"
+
+research_indications:
+  - Generalized anxiety disorder and neurasthenia (Russian clinical trial data)
+  - Adjustment-related and stress-related anxious mood
+  - Attenuation of opioid/morphine-withdrawal signs (animal models)
+
 reconstitution_steps:
 - Often used intranasally; keep refrigerated.
+
+quality_indicators:
+  - "Sold as a pre-made intranasal solution by most vendors; should be clear and colorless"
+  - "Third-party COA confirming peptide identity and purity"
+  - "No cloudiness, discoloration, or particulate matter in solution"
+
+what_to_expect: >
+  Users commonly report a subjective easing of tension and anxiety without the sedation,
+  motor impairment, or cognitive "fog" associated with benzodiazepines. The published
+  Russian trial describes anxiolytic benefit emerging within the first days of a multi-week
+  course, with continued improvement in stress and mood symptoms over subsequent weeks.
+
+side_effects_common:
+  - "Nasal irritation at the application site"
+  - "Mild drowsiness in some users"
+  - "Headache"
+
+safety_notes: >
+  Selank has been studied in a Russian clinical trial (a head-to-head comparison with the
+  benzodiazepine medazepam) for generalized anxiety disorder and neurasthenia, but it is not
+  FDA-approved, and the primary trial literature is Russian-language and has not been
+  independently replicated in Western studies. Long-term safety data for research-chemical
+  vendor material is limited. Consult a healthcare provider, particularly if taking other
+  psychoactive medications.
+
+references:
+  - citation: "Zozulya AA, Neznamov GG, Siniukova PS, et al. [Efficacy and possible mechanisms of action of a new peptide anxiolytic selank in the therapy of generalized anxiety disorders and neurasthenia]. Zh Nevrol Psikhiatr Im S S Korsakova. 2008;108(4):38-48."
+    url: "https://pubmed.ncbi.nlm.nih.gov/18454096/"
+  - citation: "Zozulya AA, Grivennikov IA, Andreeva LA, Kladova AY, Sazonova NM, Myasoedov NF. [The inhibitory effect of Selank on enkephalin-degrading enzymes as a possible mechanism of its anxiolytic activity]. Bull Exp Biol Med. 2001;131(4):315-317."
+    url: "https://pubmed.ncbi.nlm.nih.gov/11550013/"
+
+research_protocols:
+  - goal: "Stress / Situational Anxiety Support"
+    dose: "250–300 mcg 1–2x daily, intranasal"
+    timing: "As needed or before stressful situations"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0
+  - goal: "Multi-Week Anxiolytic Support Course"
+    dose: "300 mcg daily, intranasal, for 2–4 weeks"
+    timing: "Morning"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 1

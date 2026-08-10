@@ -5,10 +5,102 @@
 id: pt-141
 name: PT-141
 status: published
+
 category_ids:
-- sexual-health
-overview: Melanocortin receptor agonist (Bremelanotide)
+  - sexual-health
+
+overview: >
+  A synthetic cyclic peptide analog of alpha-melanocyte-stimulating hormone. Under the name
+  bremelanotide, it is FDA-approved (as Vyleesi) for acquired, generalized hypoactive sexual
+  desire disorder (HSDD) in premenopausal women, administered on-demand via a prefilled
+  subcutaneous auto-injector.
+
 key_benefits:
-- Studied for sexual desire support
+  - Studied for sexual desire support
+  - FDA-approved (as Vyleesi) for hypoactive sexual desire disorder in premenopausal women
+  - Acts centrally on melanocortin pathways rather than on blood flow
+
+mechanism_of_action: >
+  PT-141 is a high-affinity agonist at melanocortin receptors, primarily MC4R (and MC3R), in the
+  central nervous system. Unlike PDE5 inhibitors, it does not work by increasing genital blood
+  flow — it acts on brain pathways implicated in sexual desire and arousal. Functional imaging
+  work in women with HSDD has shown that MC4R agonism with bremelanotide alters activity in
+  brain regions involved in sexual response.
+
+quick_start_guide:
+  typical_dose: "1.75 mg (the FDA-approved Vyleesi dose); research-community protocols with
+    compounded vials commonly describe lower doses in the 0.5–1.5 mg range"
+  frequency: "On-demand, as needed; the approved label caps this at 1 dose per 24 hours and no
+    more than 8 doses per month"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "At least 45 minutes before anticipated activity, on an as-needed basis rather
+    than on a fixed daily schedule"
+  effects_timeline: "Plasma levels peak around 1 hour after injection; subjective effects are
+    generally reported within 45 minutes to a few hours"
+  storage: "Refrigerate after reconstitution; protect from light"
+  cycle_length: "Not a cycling compound in the FDA-approved use — dosed on-demand within the
+    monthly frequency cap rather than in blocks of consecutive days"
+  break_between: "Not applicable; frequency is limited by the per-24-hour and per-month caps
+    rather than by on/off cycling"
+
+pharmacokinetics:
+  peak: "~1 hour after subcutaneous injection"
+  half_life: "~2.7 hours"
+  cleared: "Metabolized via peptide bond hydrolysis; excreted mostly renally (~65%) with the
+    remainder in feces (~23%)"
+
+research_indications:
+  - Hypoactive sexual desire disorder (HSDD) in premenopausal women (FDA-approved use)
+  - Female sexual arousal and desire more broadly (studied off-label)
+  - Male erectile dysfunction and libido (studied, not an FDA-approved use)
+
 reconstitution_steps:
-- Reconstitute with bacteriostatic water; refrigerate.
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White to off-white lyophilized powder or cake in a sealed vial"
+  - "Clear, colorless solution after reconstitution with no visible particulate"
+  - "Third-party COA available confirming peptide identity and purity, for research-vendor
+    (non-pharmaceutical) sources"
+
+what_to_expect: >
+  In the FDA-approved on-demand use, effects on desire are reported within the same encounter
+  window rather than building over weeks. Nausea is common enough that many clinical-trial
+  participants noticed it, especially with the first few doses; it tends to lessen with repeat
+  use for many people.
+
+side_effects_common:
+  - "Nausea (the most common side effect, more pronounced on first use)"
+  - "Flushing"
+  - "Injection site reactions"
+  - "Headache"
+
+safety_notes: >
+  Bremelanotide (Vyleesi) is FDA-approved specifically for acquired, generalized HSDD in
+  premenopausal women, and its safety/efficacy data come from that population and the approved
+  1.75 mg on-demand dose. It transiently raises blood pressure and is contraindicated in people
+  with uncontrolled hypertension or known cardiovascular disease; it's also contraindicated with
+  concurrent use in people at risk of it lowering the effectiveness of other medications that
+  depend on gastric emptying, since it can delay gastric emptying. It carries a rare risk of focal
+  hyperpigmentation (skin/gum darkening) with frequent repeated use. Non-pharmaceutical
+  research-vendor vials are not the same regulated product as Vyleesi and lack that product's
+  quality controls. Consult a healthcare provider, especially given the cardiovascular
+  contraindications.
+
+references:
+  - citation: "Kingsberg SA, Clayton AH, Portman D, et al. Bremelanotide for the Treatment of
+      Hypoactive Sexual Desire Disorder: Two Randomized Phase 3 Trials. Obstet Gynecol.
+      2019;134(5):899-908."
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6819021/"
+  - citation: "U.S. FDA. VYLEESI (bremelanotide injection) Prescribing Information. 2019."
+    url: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/210557s000lbl.pdf"
+
+research_protocols:
+  - goal: "Sexual Desire Support (on-demand)"
+    dose: "1.75 mg"
+    timing: "At least 45 minutes before anticipated activity; no more than 1 dose per 24 hours"
+    disclaimer: "For research purposes only. Not evaluated by the FDA outside the approved
+      Vyleesi product and indication."
+    sort_order: 0
