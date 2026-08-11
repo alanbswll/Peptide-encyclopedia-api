@@ -1,0 +1,72 @@
+id: adalank
+name: Adalank (N-Acetyl Selank Amidate)
+status: draft
+
+category_ids:
+  - cognitive
+
+overview: >
+  A dual-modified analog of Selank, bearing an N-terminal acetyl group and a C-terminal amide,
+  designed to resist enzymatic degradation (aminopeptidases and carboxypeptidases) longer than
+  unmodified Selank. It is marketed under names including "Adalank" and "N-Acetyl Selank
+  Amidate." No studies of this specific modified molecule have been published — all available
+  pharmacology is extrapolated from research on its parent compound, Selank.
+
+key_benefits:
+  - Marketed as a longer-acting, more stable analog of Selank
+  - Intended pharmacology (anxiolytic support) is extrapolated entirely from Selank research, not from studies of this molecule itself
+
+mechanism_of_action: >
+  Adalank is structurally Selank with an added N-terminal acetyl group and C-terminal amide,
+  modifications intended to slow degradation by aminopeptidases and carboxypeptidases and
+  thereby extend the molecule's activity relative to unmodified Selank. Selank itself is
+  thought to modulate GABAergic tone and serotonin metabolism, and to inhibit enkephalin-
+  degrading enzymes, prolonging endogenous opioid peptide activity — see the Selank entry in
+  this encyclopedia for that underlying research. No published study has directly tested
+  whether Adalank retains the same mechanism, potency, or receptor engagement as Selank; this
+  is a structural rationale, not a demonstrated equivalence.
+
+quick_start_guide:
+  typical_dose: "Not established; no formal human or animal dosing study of this specific molecule has been published"
+  frequency: "Not established"
+  best_timing: "Not established"
+  effects_timeline: "Not established for this molecule; Selank's published human trial used a multi-week course, but that data does not directly apply to this analog"
+  storage: "Not established for a standardized product"
+  cycle_length: "Not established for human use"
+  break_between: "Not established for human use"
+
+pharmacokinetics:
+  peak: "Not established; no published pharmacokinetic study of this molecule exists"
+  half_life: "Proposed to be longer than Selank's based on its acetylation/amidation chemistry, but this has not been measured or published"
+  cleared: "Not established"
+
+research_indications:
+  - No published research indications specific to this molecule; interest is based entirely on extrapolation from Selank research
+
+reconstitution_steps:
+  - "No established reconstitution protocol backed by published data; vendor-supplied instructions are not independently verified"
+
+quality_indicators:
+  - "Not an FDA-approved product; not backed by any published clinical or preclinical study of this exact molecule"
+  - "Third-party COA confirming peptide identity and purity is the minimum indicator of a legitimate source, given the complete absence of independent safety data"
+
+what_to_expect: >
+  There is no published human or animal data for this specific molecule. Any expectations are
+  based entirely on extrapolation from Selank's published research and on anecdotal user
+  reports, neither of which confirms that this modified analog behaves the same way in the
+  body.
+
+safety_notes: >
+  This is an unstudied analog: no safety, efficacy, dosing, or pharmacokinetic data specific to
+  Adalank/N-Acetyl Selank Amidate has been published in any peer-reviewed source. Its
+  pharmacology is assumed, not demonstrated, based on structural similarity to Selank. It is not
+  FDA-approved, not evaluated for human use, and long-term safety is entirely unknown. This is
+  an experimental research compound, not an approved treatment for any condition. Consult a
+  healthcare provider.
+
+research_protocols:
+  - goal: "Cognitive / Stress-Support Research Interest (no established protocol)"
+    dose: "Not established"
+    timing: "Not established"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. No published studies exist for this specific molecule; all reasoning is extrapolated from Selank research."
+    sort_order: 0

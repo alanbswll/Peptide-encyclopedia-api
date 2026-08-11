@@ -1,0 +1,78 @@
+id: cyclic-glycine-proline
+name: Cyclic Glycine-Proline (cGP)
+status: draft
+
+category_ids:
+  - cognitive
+
+overview: >
+  A small, naturally-occurring cyclic dipeptide (a cyclized form of Gly-Pro) that is an
+  endogenous breakdown metabolite of IGF-1, found in brain tissue and identified as a
+  bioactive regulator of IGF-1 signaling. It is small and lipophilic enough to be orally
+  bioavailable and cross the blood-brain barrier, which distinguishes it from most injectable
+  peptides in this encyclopedia. Research interest centers on the aging brain and
+  age-related neurological conditions, and is concentrated in one New Zealand-based research
+  group (University of Auckland).
+
+key_benefits:
+  - Naturally-occurring, orally bioavailable, blood-brain-barrier-crossing dipeptide
+  - Proposed to normalize IGF-1 bioavailability in the brain via competition for IGFBP-3 binding
+  - Studied in rodent models for memory/task-learning support, including after stroke
+
+mechanism_of_action: >
+  cGP is generated in the body as a proteolytic breakdown product of IGF-1 and retains
+  affinity for IGF binding protein-3 (IGFBP-3). By competing with intact IGF-1 for IGFBP-3
+  binding, cGP is proposed to modulate how much free IGF-1 is available for signaling in
+  brain tissue — a regulatory role distinct from directly activating a receptor itself. In
+  rodent studies, oral cGP administration increased brain cGP concentration, improved memory
+  in models of scopolamine- or electroshock-induced deficits, and supported task learning in
+  a stroke model.
+
+quick_start_guide:
+  typical_dose: "Not established for human use outside the sponsor's own research; no standardized human dosing has been published"
+  frequency: "Not established"
+  best_timing: "Not established"
+  effects_timeline: "Rodent studies show measurable brain uptake and behavioral effects within the study's dosing period (days to weeks); no established human timeline"
+  storage: "Not established for a standardized human product"
+  cycle_length: "Not established for human use"
+  break_between: "Not established for human use"
+
+pharmacokinetics:
+  peak: "Not established in human data; rodent studies show oral absorption with central nervous system uptake"
+  half_life: "Not established in human data"
+  cleared: "Not established in human data"
+
+research_indications:
+  - Aging brain / age-related neurological conditions (proposed research use)
+  - Memory and task-learning support in rodent models, including a stroke model
+
+reconstitution_steps:
+  - "Not applicable — studied as an orally administered compound, not reconstituted or injected"
+
+quality_indicators:
+  - "Not an FDA-approved product; marketed mainly as a novel dietary-ingredient supplement (cGP-PRo) by one commercial source rather than as a research-chemical vial"
+  - "No established injectable/reconstitution product exists for this compound"
+
+what_to_expect: >
+  There is no established human effect profile. Available evidence is rodent behavioral studies
+  (memory tasks, stroke-model task learning) and mechanistic work on IGF-1/IGFBP-3 regulation,
+  concentrated in publications from one New Zealand research group. No human clinical trial data
+  was found.
+
+safety_notes: >
+  Cyclic glycine-proline's evidence base is almost entirely preclinical (rodent) and mechanistic,
+  from a small number of research groups, with essentially no independent human safety or
+  efficacy data. This is an experimental research compound with unverified relevance to humans at
+  any particular dose, not an approved treatment for any condition. Consult a healthcare
+  provider.
+
+references:
+  - citation: "Guan J, Li F, Kang D, et al. Cyclic Glycine-Proline (cGP) Normalises Insulin-Like Growth Factor-1 (IGF-1) Function: Clinical Significance in the Ageing Brain and in Age-Related Neurological Conditions. Molecules. 2023;28(3):1021."
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9919809/"
+
+research_protocols:
+  - goal: "Cognitive / Aging-Brain Research Interest (no established human protocol)"
+    dose: "Not established for human use"
+    timing: "Not established"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Human dosing has not been established; evidence is concentrated in preclinical studies from one research group."
+    sort_order: 0

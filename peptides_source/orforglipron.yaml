@@ -1,0 +1,84 @@
+id: orforglipron
+name: Orforglipron
+status: draft
+
+category_ids:
+  - fat-loss
+
+overview: >
+  An oral small-molecule GLP-1 receptor agonist developed by Eli Lilly. Unlike most entries in
+  this encyclopedia, it is not a peptide — it is a once-daily pill rather than an injectable.
+  It is FDA-approved (brand name Foundayo) for adults with obesity, or overweight with a
+  weight-related medical problem, and is also being studied for type 2 diabetes.
+
+key_benefits:
+  - The first oral GLP-1 receptor agonist tablet that can be taken any time of day without food or water restrictions
+  - Phase 3 obesity trial reported meaningful weight loss with a safety profile consistent with injectable GLP-1 medicines
+  - FDA-approved as of 2026, unlike most other entries in this category which remain investigational
+
+mechanism_of_action: >
+  Orforglipron is a non-peptide small molecule that activates the GLP-1 receptor, the same
+  target as injectable peptide GLP-1 agonists (semaglutide, liraglutide), slowing gastric
+  emptying and promoting satiety and reduced caloric intake through central and peripheral
+  GLP-1 signaling. Because it is a small molecule rather than a peptide, it survives oral
+  dosing without the absorption-enhancing formulation tricks (e.g. SNAC) that oral semaglutide
+  requires, and can be taken without the fasting/water restrictions that accompany that product.
+
+quick_start_guide:
+  typical_dose: "0.8 mg starting dose, titrated over time to a maintenance dose (tablets available in 0.8, 2.5, 5.5, 9, 14.5, and 17.2 mg strengths per the FDA label)"
+  frequency: "1x daily (oral tablet)"
+  best_timing: "Any time of day, with or without food or water restrictions, per the FDA label"
+  effects_timeline: "Phase 3 trial data show progressive weight loss over 72 weeks; type 2 diabetes trial data measured glycemic and weight endpoints over 40 weeks"
+  storage: "Store per pharmacy label; oral tablet, does not require refrigeration or reconstitution"
+  cycle_length: "Used continuously as an ongoing daily medication, not cycled"
+  break_between: "Not applicable — used continuously under medical supervision"
+
+pharmacokinetics:
+  peak: "Not established here; refer to the FDA label for detailed human pharmacokinetic data"
+  half_life: "Long enough to support once-daily oral dosing"
+  cleared: "Not established here; refer to the FDA label for detailed human pharmacokinetic data"
+
+research_indications:
+  - FDA-approved for obesity, or overweight with a weight-related medical problem
+  - Studied for glycemic control in early type 2 diabetes (ACHIEVE-1 trial)
+
+reconstitution_steps:
+  - "Not applicable — dosed as an oral tablet, not reconstituted or injected"
+
+quality_indicators:
+  - "FDA-approved product (Foundayo); obtain only through a licensed pharmacy with a valid prescription"
+  - "Not sold as a legitimate injectable/research-chemical vial — any product marketed that way should be treated with suspicion"
+
+what_to_expect: >
+  In the Phase 3 obesity trial, orforglipron produced statistically significant weight loss with
+  a tolerability profile similar to injectable GLP-1 medicines, chiefly gastrointestinal
+  symptoms during dose titration. An earlier Phase 2 trial reported mean body weight reductions
+  from about 9.4% to 14.7% at 36 weeks across dose cohorts, versus 2.3% with placebo. In the
+  ACHIEVE-1 type 2 diabetes trial, it improved glycemic control alongside weight loss.
+
+side_effects_common:
+  - "Nausea, vomiting, and diarrhea, especially during dose titration"
+  - "Constipation"
+  - "Decreased appetite"
+
+safety_notes: >
+  Orforglipron carries a boxed warning for thyroid C-cell tumor risk, consistent with other
+  GLP-1-pathway medicines, and is contraindicated in people with a personal or family history of
+  medullary thyroid carcinoma or Multiple Endocrine Neoplasia syndrome type 2. As with other
+  GLP-1 agents, it carries class-wide cautions around pancreatitis, gallbladder disease, and
+  dehydration/kidney injury from GI side effects. This is now an FDA-approved prescription
+  medication (not a research chemical), and should only be used under a prescriber's supervision.
+  Consult a healthcare provider.
+
+references:
+  - citation: "Wharton S, Blevins T, Connery L, Rosenstock J, et al; GZGI Investigators. Daily Oral GLP-1 Receptor Agonist Orforglipron for Adults with Obesity. N Engl J Med. 2023;389(10):878-891."
+    url: "https://pubmed.ncbi.nlm.nih.gov/37351564/"
+  - citation: "Rosenstock J, Hsia S, Nevarez Ruiz L, et al; ACHIEVE-1 Trial Investigators. Orforglipron, an Oral Small-Molecule GLP-1 Receptor Agonist, in Early Type 2 Diabetes. N Engl J Med. 2025;393(11):1065-1076."
+    url: "https://pubmed.ncbi.nlm.nih.gov/40544435/"
+
+research_protocols:
+  - goal: "Weight Management (FDA-approved use)"
+    dose: "0.8 mg daily starting dose, titrated per prescriber guidance up to a maintenance dose"
+    timing: "Any time of day"
+    disclaimer: "This is an FDA-approved prescription medication. Use only under a licensed prescriber's supervision — not a research-chemical protocol."
+    sort_order: 0

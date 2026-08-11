@@ -1,0 +1,88 @@
+id: mazdutide
+name: Mazdutide
+status: draft
+
+category_ids:
+  - fat-loss
+
+overview: >
+  An investigational, once-weekly GLP-1/glucagon receptor dual agonist (IBI362 / LY3305677)
+  developed by Innovent Biologics and Eli Lilly, structurally a modified oxyntomodulin analog
+  with a fatty-acid side chain for extended half-life. It has been studied primarily in Chinese
+  trial populations and is not FDA-approved.
+
+key_benefits:
+  - Investigational once-weekly dual GLP-1/glucagon receptor agonist
+  - Phase 2 trial reported clinically meaningful, dose-dependent weight loss over 24 weeks
+  - Later trial data (GLORY-2) reported up to ~20% weight loss at the 9 mg dose in Chinese adults with obesity
+
+mechanism_of_action: >
+  Mazdutide is a mammalian oxyntomodulin analog — it activates both the GLP-1 receptor
+  (appetite suppression, slowed gastric emptying) and the glucagon receptor (increased hepatic
+  glucose output and energy expenditure), similar in concept to retatrutide's added glucagon
+  component but without GIP receptor activity. A fatty-acid side chain binds albumin, extending
+  its half-life to support once-weekly subcutaneous dosing.
+
+quick_start_guide:
+  typical_dose: "3-9 mg per published trial dose arms, typically titrated upward over several weeks"
+  frequency: "1x weekly"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+    - deltoid-im
+  best_timing: "Same day each week, any time of day, per trial dosing"
+  effects_timeline: "Published Phase 1b/2 trials measured weight loss over 12-24 weeks with a dose-dependent, progressive pattern"
+  storage: "Not established; this is an investigational compound with no finalized commercial storage label"
+  cycle_length: "Studied as continuous therapy through the published trial periods to date"
+  break_between: "Not established; this is investigational, unapproved therapy"
+
+pharmacokinetics:
+  peak: "Consistent with once-weekly subcutaneous dosing; detailed human Tmax not widely published in English-language literature"
+  half_life: "Long enough to support once-weekly dosing, consistent with its albumin-binding fatty-acid modification"
+  cleared: "Not well characterized in independently published literature outside the sponsor's trial program"
+
+research_indications:
+  - Investigational treatment for obesity/overweight in Chinese adult trial populations
+  - Type 2 diabetes / glycemic control (studied alongside weight-loss endpoints)
+
+reconstitution_steps:
+  - Reconstitute per manufacturer/trial protocol instructions; refrigerate.
+
+quality_indicators:
+  - "Not an FDA-approved commercial product; no legitimate retail/pharmacy supply chain exists yet"
+  - "Research-chemical vendor material should include a third-party COA confirming identity and purity"
+  - "Clear, colorless solution with no particulate matter after reconstitution"
+
+what_to_expect: >
+  In a placebo-controlled Phase 1b multiple-ascending-dose trial, 12-week weight loss reached up
+  to 6.4% at doses up to 6 mg, with no serious adverse events reported. A larger Phase 2 trial
+  (248 participants, 24 weeks) reported significant, clinically meaningful weight loss versus
+  placebo across the 3-6 mg dose range and was well tolerated. Company-reported later-stage data
+  (GLORY-2) describes weight loss up to roughly 20% at the 9 mg dose, though that figure has not
+  yet appeared in an independently peer-reviewed publication at time of writing.
+
+side_effects_common:
+  - "Gastrointestinal adverse events (nausea, and related symptoms typical of incretin/glucagon-pathway agents)"
+  - "Injection site reactions"
+
+safety_notes: >
+  Mazdutide is investigational and not FDA-approved as of this writing. Published human data is
+  concentrated in Phase 1b and Phase 2 trials conducted primarily in Chinese populations; longer
+  trial data (GLORY-2 and later) has so far been reported mainly through company press releases
+  and conference presentations rather than a peer-reviewed journal article. As with other
+  GLP-1/glucagon-pathway agents, gastrointestinal tolerability during dose escalation is the most
+  consistently reported issue. Any use outside of a clinical trial is off-label and unsupervised
+  by regulatory review. Consult a healthcare provider.
+
+references:
+  - citation: "Ji L, Gao L, Jiang H, et al. Safety and efficacy of a GLP-1 and glucagon receptor dual agonist mazdutide (IBI362) 9 mg and 10 mg in Chinese adults with overweight or obesity: A randomised, placebo-controlled, multiple-ascending-dose phase 1b trial. eClinicalMedicine. 2022;54:101691."
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9561728/"
+  - citation: "Ji L, Jiang H, Cheng Z, et al. A phase 2 randomised controlled trial of mazdutide in Chinese overweight adults or adults with obesity. Nat Commun. 2023;14:8289."
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10719339/"
+
+research_protocols:
+  - goal: "Weight Management (Investigational)"
+    dose: "Not established for unsupervised use; published trial dose arms ranged 3-9 mg weekly"
+    timing: "Same day each week"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Investigational compound, not an approved medication."
+    sort_order: 0

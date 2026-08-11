@@ -1,0 +1,89 @@
+id: follistatin-344
+name: Follistatin 344
+status: draft
+
+category_ids:
+  - growth-hormone
+
+overview: >
+  A 344-amino-acid recombinant form of follistatin, a naturally-occurring glycoprotein that
+  neutralizes myostatin (GDF-8) and activin, the primary hormonal brakes on skeletal muscle
+  growth. The clinical evidence base for this specific isoform comes almost entirely from a
+  small gene-therapy trial (AAV1.CMV.FS344) in Becker muscular dystrophy, not from studies of
+  the injectable recombinant protein sold by research-chemical vendors — no injectable
+  follistatin product is legally marketed for human use.
+
+key_benefits:
+  - Explored as a potent myostatin/activin antagonist to remove a brake on muscle growth
+  - Gene-therapy delivery of this exact isoform (FS344) improved six-minute walk distance in a small Becker muscular dystrophy trial
+  - Reduced endomysial fibrosis and increased muscle fiber size in treated trial tissue
+
+mechanism_of_action: >
+  Follistatin binds and neutralizes members of the TGF-beta superfamily, chiefly myostatin
+  and activin A, preventing them from engaging the activin type IIB receptor (ActRIIB) and
+  triggering the Smad2/3 signaling cascade that normally restrains muscle growth. FS-344 is
+  the 344-amino-acid precursor form; after administration it is processed into shorter FS-315
+  (circulating, systemic myostatin-binding) and FS-288 (tissue-bound, activin-binding,
+  concentrated in reproductive tissue) forms. Because activin also regulates reproductive and
+  other tissue, non-selective follistatin activity (blocking activin as well as myostatin) is
+  the reason some newer myostatin-inhibitor research has moved toward more selective molecules.
+
+quick_start_guide:
+  typical_dose: "Not established for human use outside gene-therapy trial delivery; no legally marketed injectable protein product exists"
+  frequency: "Not established"
+  injection_site_ids:
+    - thigh-subq
+    - glute-im
+  best_timing: "Not established"
+  effects_timeline: "The published gene-therapy trial measured six-minute walk distance and muscle histology at fixed follow-up visits over roughly 6 months to a year; this reflects a one-time gene-therapy dose, not a repeatable protein injection schedule"
+  storage: "Not established for a standardized recombinant protein product"
+  cycle_length: "Not established for human use"
+  break_between: "Not established for human use"
+
+pharmacokinetics:
+  peak: "Not established for the injectable recombinant protein in humans"
+  half_life: "Not established for the injectable recombinant protein in humans; the gene-therapy delivery route studied in trials is not comparable to a protein injection's pharmacokinetics"
+  cleared: "Not established for the injectable recombinant protein in humans"
+
+research_indications:
+  - Myostatin-pathway muscle-growth research (preclinical and gene-therapy contexts)
+  - Becker muscular dystrophy and sporadic inclusion body myositis (gene-therapy trials, not the injectable protein)
+
+reconstitution_steps:
+  - "Not applicable to the studied gene-therapy delivery route; injectable protein reconstitution protocols are not backed by published human safety/efficacy data"
+
+quality_indicators:
+  - "No injectable follistatin product is FDA-regulated or legally marketed for human use as of this writing"
+  - "Any vial marketed as 'Follistatin 344' is a research-chemical product without independent clinical validation of that exact formulation"
+
+what_to_expect: >
+  There is no established effect profile for injectable recombinant FS-344 protein in healthy
+  humans. The only meaningful clinical data on this exact isoform comes from a small (6-patient)
+  gene-therapy trial in Becker muscular dystrophy patients, which reported improved six-minute
+  walk distance and favorable muscle histology (reduced fibrosis, larger fiber size) at higher
+  doses — a one-time localized gene-therapy delivery, not a repeatable injection protocol.
+
+side_effects_common:
+  - "Not established for the injectable protein form; the gene-therapy trial reported no adverse effects at the doses studied"
+
+safety_notes: >
+  Meaningful human data on FS-344 is limited to a small gene-therapy trial using direct
+  intramuscular AAV1.CMV.FS344 delivery in Becker muscular dystrophy patients — a fundamentally
+  different route and mechanism than the reconstituted-protein injections marketed by research
+  peptide vendors, for which no human safety or efficacy data exists. Because follistatin also
+  neutralizes activin (not just myostatin), and activin regulates reproductive and other tissue,
+  there is a theoretical concern about off-target hormonal effects with non-selective, repeated,
+  high-dose use. No injectable follistatin product is FDA-approved or legally marketed for human
+  use. This is a research compound, not an approved treatment for any condition. Consult a
+  healthcare provider.
+
+references:
+  - citation: "Mendell JR, Sahenk Z, Malik V, et al. A phase 1/2a follistatin gene therapy trial for Becker muscular dystrophy. Mol Ther. 2015;23(1):192-201."
+    url: "https://pubmed.ncbi.nlm.nih.gov/25322757/"
+
+research_protocols:
+  - goal: "Myostatin-Pathway Muscle Research Interest (no established human injectable-protein protocol)"
+    dose: "Not established for human use"
+    timing: "Not established"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Human clinical data is limited to a small gene-therapy trial using a different delivery route than injectable protein products."
+    sort_order: 0

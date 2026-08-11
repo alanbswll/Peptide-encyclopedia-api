@@ -1,0 +1,83 @@
+id: omberacetam
+name: Omberacetam (Noopept)
+status: draft
+
+category_ids:
+  - cognitive
+
+overview: >
+  A synthetic nootropic (INN: omberacetam; also known as Noopept or GVS-111) developed at the
+  Institute of Pharmacology of the Russian Academy of Medical Sciences by Tatyana Gudasheva and
+  colleagues. Chemically it is N-phenylacetyl-L-prolylglycine ethyl ester — a modified dipeptide
+  designed to reproduce the pharmacophore of piracetam in a smaller, more potent molecule. It is
+  taken orally (unlike most entries in this encyclopedia) and is registered as a
+  nootropic/neuroprotective medicine in Russia, though it is not FDA-approved.
+
+key_benefits:
+  - Registered in Russia as a nootropic/neuroprotective medicine for mild cognitive impairment
+  - Explored for upregulating hippocampal NGF and BDNF expression
+  - Structurally engineered to be more potent than piracetam, its pharmacological predecessor
+
+mechanism_of_action: >
+  Omberacetam (Noopept) is proposed to act through several converging mechanisms: it stimulates
+  hippocampal expression of nerve growth factor (NGF) and BDNF, has shown neuroprotective
+  effects in oxygen-glucose-deprivation and glutamate-toxicity models in vitro, and displays
+  antioxidant activity in serum lipoprotein models. Its acylprolyl-dipeptide structure was
+  specifically engineered to mimic the pharmacophore of piracetam while achieving activity at
+  much lower doses.
+
+quick_start_guide:
+  typical_dose: "10 mg per dose"
+  frequency: "2-3x daily (10 mg tablets), per Russian clinical dosing"
+  best_timing: "Morning and afternoon; the last daily dose is typically taken no later than early evening to avoid sleep disruption"
+  effects_timeline: "Russian clinical trials in mild cognitive impairment used courses of 1.5-3 months"
+  storage: "Store as an oral tablet/capsule per supplier instructions; does not require refrigeration or reconstitution"
+  cycle_length: "1.5-3 months, per Russian clinical protocol"
+  break_between: "Not formally established outside that clinical protocol"
+
+pharmacokinetics:
+  peak: "Rapidly absorbed orally per Russian pharmacokinetic studies; detailed Tmax not well established in English-language literature"
+  half_life: "Short; the compound is rapidly metabolized, including to a cycloprolylglycine metabolite proposed to retain some activity"
+  cleared: "Not well characterized in independently published English-language literature"
+
+research_indications:
+  - Mild cognitive impairment in vascular and traumatic brain disease (Russian clinical trial data)
+  - Neuroprotection in models of oxidative stress, hypoxia, and glutamate toxicity (preclinical)
+  - Memory/antiamnesic research (preclinical)
+
+reconstitution_steps:
+  - "Not applicable — dosed as an oral tablet/capsule, not reconstituted or injected"
+
+quality_indicators:
+  - "Sold as an oral tablet or capsule (10 mg is the standard unit dose); research-chemical vendor material should include a COA confirming identity and purity"
+  - "Not FDA-approved; no legitimate U.S. retail/pharmacy supply chain exists"
+
+what_to_expect: >
+  A published Russian clinical comparison against piracetam in patients with mild cognitive
+  disorders reported cognitive improvement over a multi-month course. Users commonly report
+  subjective effects on focus and mental clarity emerging gradually rather than acutely, similar
+  to other nootropic-class compounds rather than classic stimulants.
+
+side_effects_common:
+  - "Headache"
+  - "Irritability or overstimulation, particularly if dosed late in the day"
+
+safety_notes: >
+  Omberacetam/Noopept is registered and used clinically in Russia, but it is not FDA-approved,
+  and most of the supporting clinical literature is Russian-language and has not been
+  independently replicated in Western trials. Long-term safety data for research-chemical-grade
+  material in healthy, non-clinical populations is limited. Consult a healthcare provider,
+  especially if taking other psychoactive medications.
+
+references:
+  - citation: "Gudasheva TA, Voronina TA, Ostrovskaya RU, et al. Synthesis and antiamnesic activity of a series of N-acylprolyl-containing dipeptides. Eur J Med Chem. 1996;31(2):151-157."
+    url: "https://doi.org/10.1016/0223-5234(96)80448-X"
+  - citation: "Ostrovskaya RU, Gudasheva TA, Zaplina AP, et al. Noopept stimulates the expression of NGF and BDNF in rat hippocampus. Bull Exp Biol Med. 2008;146(3):334-337."
+    url: "https://pubmed.ncbi.nlm.nih.gov/19240853/"
+
+research_protocols:
+  - goal: "Cognitive / Focus Support"
+    dose: "10 mg 2x daily"
+    timing: "Morning and afternoon"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0

@@ -1,0 +1,83 @@
+id: livagen
+name: Livagen
+status: draft
+
+category_ids:
+  - longevity
+
+overview: >
+  A synthetic tetrapeptide (Lys-Glu-Asp-Ala) developed by Vladimir Khavinson's group at the St.
+  Petersburg Institute of Bioregulation and Gerontology as a tissue-specific "bioregulator"
+  targeting liver and immune tissue, part of the same research program that produced Thymalin,
+  Vilon, and Cardiogen. Livagen's supporting research comes almost entirely from
+  Khavinson-affiliated studies.
+
+key_benefits:
+  - Studied for restoring age-related declines in hepatocyte protein synthesis in rat cell culture
+  - Explored for chromatin decondensation in aging lymphocytes, a proposed marker of gene reactivation
+  - Investigated for effects on digestive enzyme activity in aging rats
+
+mechanism_of_action: >
+  Livagen is proposed to act as a short-peptide "bioregulator" affecting gene expression in
+  liver and immune tissue, similar in concept to other Khavinson-group tetrapeptides. In
+  hepatocyte cultures from rats of different ages, Livagen restored the normal rhythm of protein
+  synthesis that is otherwise blunted with age, with the largest effect seen in cells from old
+  animals. In lymphocytes from elderly human subjects, Livagen was reported to decondense
+  heterochromatin in cell nuclei, a change proposed to reflect reactivation of genes silenced by
+  age-related chromatin compaction. The precise molecular target and mechanism are not
+  well-characterized outside this research program.
+
+quick_start_guide:
+  typical_dose: "Not established for human use; not backed by human dosing studies"
+  frequency: "Not established"
+  injection_site_ids:
+    - abdomen-subq
+  best_timing: "Not established"
+  effects_timeline: "Not established in humans; published studies measured cell-culture and tissue endpoints over the study period, not a human treatment timeline"
+  storage: "Refrigerate after reconstitution"
+  cycle_length: "Not established for human use"
+  break_between: "Not established for human use"
+
+pharmacokinetics:
+  peak: "Not established"
+  half_life: "Not established"
+  cleared: "Not established"
+
+research_indications:
+  - Hepatocyte protein synthesis / liver-tissue bioregulation (rat cell culture)
+  - Chromatin activation in aging lymphocytes (human cell studies)
+  - Digestive enzyme activity in aging animal models
+
+reconstitution_steps:
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White to off-white lyophilized powder that fully dissolves into a clear solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate after reconstitution"
+
+what_to_expect: >
+  There is no established human effect profile for Livagen. Available evidence is from
+  cell-culture (hepatocyte, lymphocyte) and animal studies conducted by researchers affiliated
+  with Vladimir Khavinson's institute; no human clinical trials or independent replications by
+  research groups outside that program were found.
+
+safety_notes: >
+  Livagen's evidence base is limited almost entirely to cell-culture and animal studies
+  published by Vladimir Khavinson's research group and collaborators, largely in
+  lower-circulation or Russian-language journals. There is no independent human safety or
+  efficacy data. This is an experimental research compound with unverified relevance to humans,
+  not an approved treatment for any liver or other condition. Consult a healthcare provider.
+
+references:
+  - citation: "Khavinson VKh, Lezhava TA, Monaselidze JG, et al. Effects of Livagen peptide on chromatin activation in lymphocytes from old people. Bull Exp Biol Med. 2002;134(4):389-392."
+    url: "https://pubmed.ncbi.nlm.nih.gov/12533768/"
+  - citation: "Brodskiĭ VIa, Khavinson VKh, Zolotarev YuA, et al. [Rhythm of protein synthesis in cultures of hepatocytes from rats of different ages. Norm and effect of the peptide livagen]. Izv Akad Nauk Ser Biol. 2001;(5):517-521."
+    url: "https://pubmed.ncbi.nlm.nih.gov/15926314/"
+
+research_protocols:
+  - goal: "Liver / Immune Tissue Bioregulation Research Interest (animal/cell-culture data only, no human protocol established)"
+    dose: "Not established for human use"
+    timing: "Not established"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Evidence is limited to cell-culture and animal studies from a single research group."
+    sort_order: 0

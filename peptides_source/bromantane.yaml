@@ -1,0 +1,82 @@
+id: bromantane
+name: Bromantane
+status: draft
+
+category_ids:
+  - cognitive
+
+overview: >
+  A synthetic adamantane-derivative stimulant/anxiolytic developed in Russia and approved there
+  (brand name Ladasten) for asthenia — persistent fatigue combined with anxiety. Unlike most
+  entries in this encyclopedia, it is not a peptide; it belongs to the "actoprotector" class of
+  Russian-developed compounds intended to improve physical/mental performance and stress
+  resilience without classic stimulant overstimulation. It is not FDA-approved.
+
+key_benefits:
+  - Classified as an actoprotector — combines stimulant and anxiolytic effects, an unusual pairing
+  - Approved in Russia (Ladasten) for asthenia/neurasthenia based on a large multi-center trial
+  - Proposed to work through dopamine-synthesis-enzyme upregulation rather than direct dopamine release
+
+mechanism_of_action: >
+  Bromantane is proposed to act by upregulating expression of tyrosine hydroxylase and aromatic
+  L-amino acid decarboxylase, key enzymes in dopamine synthesis, increasing dopaminergic tone
+  through enhanced production rather than direct receptor agonism or reuptake blockade. It is
+  also proposed to modulate GABAergic signaling and central serotonin activity. As an
+  actoprotector, it is described as improving physical and mental performance and stress
+  tolerance without the classic stimulant profile (e.g. tachyphylaxis, marked sympathetic
+  overstimulation) associated with amphetamine-type compounds.
+
+quick_start_guide:
+  typical_dose: "50-100 mg per dose, per the Russian clinical dosing used for Ladasten"
+  frequency: "1-2x daily (morning and afternoon), per Russian clinical protocol"
+  best_timing: "Morning and early afternoon; avoid late-day dosing due to stimulating effects"
+  effects_timeline: "The published multi-center trial assessed outcomes over a 28-day course"
+  storage: "Store as an oral tablet per supplier instructions; does not require refrigeration or reconstitution"
+  cycle_length: "2-4 weeks, per the Russian clinical protocol for asthenia"
+  break_between: "Not formally established outside that clinical protocol"
+
+pharmacokinetics:
+  peak: "Not established in independently published English-language literature"
+  half_life: "Not established in independently published English-language literature"
+  cleared: "Not established in independently published English-language literature"
+
+research_indications:
+  - Asthenia / neurasthenia (approved use in Russia, based on a large clinical trial)
+  - Physical and mental performance/endurance support (actoprotector research)
+  - Stress resilience research
+
+reconstitution_steps:
+  - "Not applicable — dosed as an oral tablet, not reconstituted or injected"
+
+quality_indicators:
+  - "Sold as an oral tablet (brand name Ladasten in Russia); research-chemical vendor material should include a COA confirming identity and purity"
+  - "Not FDA-approved; no legitimate U.S. retail/pharmacy supply chain exists"
+
+what_to_expect: >
+  In the Russian multi-center trial of 728 patients with asthenia, a 28-day course of
+  bromantane (50 mg or 100 mg daily) produced favorable clinician-rated improvement scores.
+  Users report subjective effects consistent with a combined mild stimulant/anxiolytic profile
+  rather than a classic stimulant "high."
+
+side_effects_common:
+  - "Insomnia or overstimulation if dosed late in the day"
+  - "Headache"
+
+safety_notes: >
+  Bromantane is approved and used clinically in Russia for asthenia but is not FDA-approved, and
+  most of the supporting clinical literature is Russian-language and has not been independently
+  replicated in Western trials. It is banned by the World Anti-Doping Agency as a prohibited
+  stimulant, which is relevant for competitive athletes. Long-term safety data outside the
+  Russian clinical context is limited. Consult a healthcare provider, particularly if taking
+  other stimulant or psychoactive medications.
+
+references:
+  - citation: "Oliynyk S, Oh S. The Pharmacology of Actoprotectors: Practical Application for Improvement of Mental and Physical Performance. Biomol Ther (Seoul). 2012;20(5):446-456."
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3762282/"
+
+research_protocols:
+  - goal: "Stress Resilience / Performance Support (research interest, based on Russian clinical dosing)"
+    dose: "50 mg 1-2x daily"
+    timing: "Morning and early afternoon"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Banned by WADA for competitive athletes."
+    sort_order: 0

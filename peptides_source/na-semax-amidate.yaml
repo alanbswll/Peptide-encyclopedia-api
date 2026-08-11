@@ -1,0 +1,74 @@
+id: na-semax-amidate
+name: NA Semax Amidate (N-Acetyl Semax Amidate)
+status: draft
+
+category_ids:
+  - cognitive
+
+overview: >
+  A dual-modified analog of Semax, bearing an N-terminal acetyl group and a C-terminal amide,
+  intended to resist enzymatic degradation longer than unmodified Semax. It is marketed under
+  names including "NA Semax Amidate" and "N-Acetyl Semax Amidate." No studies of this specific
+  modified molecule have been published — all available pharmacology is extrapolated from
+  research on its parent compound, Semax.
+
+key_benefits:
+  - Marketed as a longer-acting, more stable analog of Semax
+  - Intended pharmacology (focus/cognitive support) is extrapolated entirely from Semax research, not from studies of this molecule itself
+
+mechanism_of_action: >
+  NA Semax Amidate is structurally Semax with an added N-terminal acetyl group and C-terminal
+  amide, modifications intended to slow degradation by aminopeptidases and other plasma
+  peptidases and thereby extend the molecule's activity relative to unmodified Semax — vendor
+  material describes it as remaining intact roughly 30 minutes longer than unmodified Semax in
+  stability testing. Semax itself is thought to act primarily by upregulating BDNF and its
+  receptor TrkB in the hippocampus and by modulating dopaminergic and serotonergic signaling —
+  see the Semax entry in this encyclopedia for that underlying research. No published study has
+  directly tested whether this analog retains the same mechanism, potency, or receptor
+  engagement as Semax; this is a structural rationale, not a demonstrated equivalence.
+
+quick_start_guide:
+  typical_dose: "Not established; no formal human or animal dosing study of this specific molecule has been published"
+  frequency: "Not established"
+  best_timing: "Not established"
+  effects_timeline: "Not established for this molecule; Semax's published research used courses of days to weeks, but that data does not directly apply to this analog"
+  storage: "Not established for a standardized product"
+  cycle_length: "Not established for human use"
+  break_between: "Not established for human use"
+
+pharmacokinetics:
+  peak: "Not established; no published pharmacokinetic study of this molecule exists"
+  half_life: "Proposed to be longer than Semax's based on in-vitro plasma stability testing, but no formal human or animal half-life has been published"
+  cleared: "Not established"
+
+research_indications:
+  - No published research indications specific to this molecule; interest is based entirely on extrapolation from Semax research
+
+reconstitution_steps:
+  - "No established reconstitution protocol backed by published data; vendor-supplied instructions are not independently verified"
+
+quality_indicators:
+  - "Not an FDA-approved product; not backed by any published clinical or preclinical study of this exact molecule"
+  - "Third-party COA confirming peptide identity and purity is the minimum indicator of a legitimate source, given the complete absence of independent safety data"
+
+what_to_expect: >
+  There is no published human or animal data for this specific molecule. Any expectations are
+  based entirely on extrapolation from Semax's published research and on anecdotal user
+  reports, neither of which confirms that this modified analog behaves the same way in the
+  body.
+
+safety_notes: >
+  This is an unstudied analog: no safety, efficacy, dosing, or pharmacokinetic data specific to
+  NA Semax Amidate has been published in any peer-reviewed source. Its pharmacology is assumed,
+  not demonstrated, based on structural similarity to Semax. As an ACTH-derived-peptide analog,
+  the same theoretical HPA-axis considerations noted for Semax may apply, though this too is
+  unconfirmed for this specific molecule. It is not FDA-approved, not evaluated for human use,
+  and long-term safety is entirely unknown. This is an experimental research compound, not an
+  approved treatment for any condition. Consult a healthcare provider.
+
+research_protocols:
+  - goal: "Cognitive / Focus Research Interest (no established protocol)"
+    dose: "Not established"
+    timing: "Not established"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. No published studies exist for this specific molecule; all reasoning is extrapolated from Semax research."
+    sort_order: 0

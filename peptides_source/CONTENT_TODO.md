@@ -141,3 +141,46 @@ flags below for where that happened most.
 ---
 
 **Progress: 75 / 75 drafted. 0 / 75 published to the live service.**
+
+## Batch 2 — added 2026-08-11
+
+12 new peptides, drafted following the same workflow and citation-verification rigor as the
+original 75 (schema-validated; every citation independently confirmed via WebSearch/WebFetch
+before inclusion; omitted rather than guessed where real evidence didn't exist). Not yet
+round-tripped through a local seed/load test or pushed to the live service — see the pending
+verification step below before publishing.
+
+- **Bioglutide (NA-931)** — [`bioglutide.yaml`](./bioglutide.yaml) — investigational, not a
+  peptide (small molecule); no peer-reviewed publication exists yet, only company conference
+  presentations — references deliberately omitted, see safety_notes.
+- **Eloralintide** — [`eloralintide.yaml`](./eloralintide.yaml) — investigational Lilly amylin
+  agonist; cited from its Molecular Metabolism discovery paper and the Lancet Phase 2 trial.
+- **Mazdutide** — [`mazdutide.yaml`](./mazdutide.yaml) — investigational GLP-1/glucagon dual
+  agonist; cited from its Phase 1b (eClinicalMedicine) and Phase 2 (Nature Communications) trials.
+- **Orforglipron** — [`orforglipron.yaml`](./orforglipron.yaml) — not a peptide (small molecule);
+  now FDA-approved (Foundayo, 2026) — the one entry in this batch describing an approved drug
+  rather than a research/investigational compound.
+- **Cyclic Glycine-Proline (cGP)** — [`cyclic-glycine-proline.yaml`](./cyclic-glycine-proline.yaml)
+  — sparse data, single New Zealand research group, no human dosing established.
+- **Follistatin 344** — [`follistatin-344.yaml`](./follistatin-344.yaml) — the only real clinical
+  data on this exact isoform is a small AAV gene-therapy trial in Becker muscular dystrophy, a
+  different route/mechanism than the injectable protein vendors sell; safety_notes is explicit
+  about that gap.
+- **Adalank (N-Acetyl Selank Amidate)** — [`adalank.yaml`](./adalank.yaml) — no published studies
+  of this analog itself exist; content is explicit that pharmacology is extrapolated from Selank.
+- **Bromantane** — [`bromantane.yaml`](./bromantane.yaml) — not a peptide (small molecule);
+  Russian-approved (Ladasten) actoprotector; WADA-banned, noted in safety_notes.
+- **NA Semax Amidate** — [`na-semax-amidate.yaml`](./na-semax-amidate.yaml) — no published
+  studies of this analog itself exist; content is explicit that pharmacology is extrapolated from
+  Semax (same treatment as Adalank/Selank above).
+- **Omberacetam (Noopept)** — [`omberacetam.yaml`](./omberacetam.yaml) — oral, not injected;
+  Russian-registered nootropic, cited from Gudasheva's original synthesis paper and Ostrovskaya's
+  NGF/BDNF mechanism paper.
+- **Cardiogen** — [`cardiogen.yaml`](./cardiogen.yaml) — Khavinson-school bioregulator, sparse
+  data (single tissue-culture study), same treatment as Vilon/Thymalin above.
+- **Livagen** — [`livagen.yaml`](./livagen.yaml) — Khavinson-school bioregulator, sparse data
+  (cell-culture and animal studies only), same treatment as Vilon/Thymalin above.
+
+**Batch 2 progress: 12 / 12 drafted. Pending: local schema/citation verification round-trip, then
+commit. Not yet published to the live service.**
+

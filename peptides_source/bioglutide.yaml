@@ -1,0 +1,78 @@
+id: bioglutide
+name: Bioglutide (NA-931)
+status: draft
+
+category_ids:
+  - fat-loss
+
+overview: >
+  An investigational, orally-dosed small molecule developed by Biomed Industries under the code
+  NA-931 (marketed in research-chemical circles as "Bioglutide"). Unlike most entries in this
+  encyclopedia, it is not a peptide — it is a small molecule engineered to activate four
+  metabolic receptors at once. As of this writing it has completed Phase 1 and Phase 2 trials,
+  with Phase 3 development beginning; results so far are from company-sponsored conference
+  presentations (ADA, ENDO, EASD) rather than a peer-reviewed journal publication.
+
+key_benefits:
+  - Investigational oral quadruple-receptor agonist for obesity/overweight
+  - Phase 2 data presented at ADA 2025 reported dose-dependent weight loss without muscle loss
+  - Being advanced into Phase 3 trials as monotherapy and combined with semaglutide/tirzepatide
+
+mechanism_of_action: >
+  NA-931 is described as a first-in-class oral small molecule that simultaneously agonizes the
+  IGF-1, GLP-1, GIP, and glucagon receptors — three incretin-axis targets shared with other
+  metabolic agents (similar in concept to tirzepatide and retatrutide) plus IGF-1 receptor
+  activity, which the developer has presented as the basis for weight loss without the lean-mass
+  loss often seen with incretin-only agents. The full mechanistic detail behind the IGF-1R
+  component's role in preserving muscle has not yet appeared in an independently peer-reviewed
+  paper.
+
+quick_start_guide:
+  typical_dose: "Not established outside company trials; the Phase 2 study used up to 150 mg once daily (oral)"
+  frequency: "1x daily (oral capsule) in trials to date"
+  best_timing: "Not established outside company trials"
+  effects_timeline: "Phase 1 (28 days) and Phase 2 (13 weeks) trial data show dose-dependent weight loss within those windows; longer-term timelines are not yet published"
+  storage: "Not established; this is an investigational compound with no finalized commercial storage label"
+  cycle_length: "Not established"
+  break_between: "Not established"
+
+pharmacokinetics:
+  peak: "Not published in independently reviewed literature"
+  half_life: "Not published in independently reviewed literature"
+  cleared: "Not published in independently reviewed literature"
+
+research_indications:
+  - Investigational treatment for obesity/overweight (Phase 3 trials starting as of publication)
+  - Type 2 diabetes (stated development target alongside obesity)
+
+reconstitution_steps:
+  - "Not applicable — dosed as an oral capsule in trials, not reconstituted or injected"
+
+quality_indicators:
+  - "Not an FDA-approved commercial product; no legitimate retail/pharmacy supply chain exists"
+  - "Not widely available through mainstream research-chemical vendors as of this writing; sourcing is inconsistent and unverified"
+
+what_to_expect: >
+  Only company-reported, conference-presented data exists. The Phase 2 study (NCT06564753, 125
+  participants, 13 weeks) reported mean weight loss up to 13.8% from baseline at the 150 mg daily
+  dose (11.9% relative to placebo), with up to 72% of treated participants achieving at least 12%
+  weight loss versus 1.9% on placebo, and no observed muscle loss. These results have not yet
+  been published in a peer-reviewed journal or independently replicated.
+
+side_effects_common:
+  - "Gastrointestinal adverse events (reported as mostly mild in company-presented data)"
+
+safety_notes: >
+  Bioglutide/NA-931 is an early-stage investigational compound. All efficacy and safety data
+  currently available comes from the developer's own conference presentations (American Diabetes
+  Association, Endocrine Society meetings) rather than a peer-reviewed journal article, and has
+  not been independently replicated. It is not FDA-approved, not available through a legitimate
+  pharmacy supply chain, and long-term human safety data does not yet exist. This is a research
+  compound only, not an approved treatment for any condition. Consult a healthcare provider.
+
+research_protocols:
+  - goal: "Weight Management (Investigational, not established outside company trials)"
+    dose: "Not established; company Phase 2 trial used up to 150 mg once daily, oral"
+    timing: "Not established"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Investigational compound; efficacy/safety data is limited to the developer's own conference presentations, not yet independently peer-reviewed or replicated."
+    sort_order: 0

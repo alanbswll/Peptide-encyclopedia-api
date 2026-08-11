@@ -1,0 +1,78 @@
+id: cardiogen
+name: Cardiogen
+status: draft
+
+category_ids:
+  - longevity
+
+overview: >
+  A synthetic tetrapeptide (Ala-Glu-Asp-Arg) developed by Vladimir Khavinson's group at the St.
+  Petersburg Institute of Bioregulation and Gerontology as a tissue-specific "bioregulator"
+  targeting cardiac tissue, part of the same research program that produced Thymalin and Vilon.
+  Cardiogen's supporting research comes almost entirely from Khavinson-affiliated studies.
+
+key_benefits:
+  - Studied for cardiomyocyte proliferation in aged tissue culture
+  - Explored alongside other Khavinson-group tetrapeptides for tissue-specific bioregulation research
+
+mechanism_of_action: >
+  Cardiogen is proposed to act as a short-peptide "bioregulator" affecting gene expression in
+  cardiac tissue, similar in concept to other Khavinson-group tetrapeptides. In organotypic
+  tissue culture of myocardial explants from young and old rats, picomolar concentrations of
+  Cardiogen stimulated cardiomyocyte proliferation and were associated with decreased expression
+  of the p53 protein — an effect not reproduced by any of the 20 individual amino acids tested
+  in the same study, suggesting the activity depends on the intact tetrapeptide sequence. The
+  precise molecular target and mechanism are not well-characterized outside this research
+  program, and no human clinical trial data was found.
+
+quick_start_guide:
+  typical_dose: "Not established for human use; not backed by human dosing studies"
+  frequency: "Not established"
+  injection_site_ids:
+    - abdomen-subq
+  best_timing: "Not established"
+  effects_timeline: "Not established in humans; the published tissue-culture study measured proliferation and apoptosis markers over the culture period, not a human treatment timeline"
+  storage: "Refrigerate after reconstitution"
+  cycle_length: "Not established for human use"
+  break_between: "Not established for human use"
+
+pharmacokinetics:
+  peak: "Not established"
+  half_life: "Not established"
+  cleared: "Not established"
+
+research_indications:
+  - Cardiomyocyte proliferation and apoptosis regulation (organotypic tissue culture)
+  - Tissue-specific bioregulation / gene expression research (animal and in vitro models)
+
+reconstitution_steps:
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White to off-white lyophilized powder that fully dissolves into a clear solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate after reconstitution"
+
+what_to_expect: >
+  There is no established human effect profile for Cardiogen. Virtually all available evidence
+  is from organotypic tissue-culture studies of rat myocardium conducted by researchers
+  affiliated with Vladimir Khavinson's institute; no human trials or independent replications by
+  research groups outside that program were found.
+
+safety_notes: >
+  Cardiogen's evidence base is limited almost entirely to tissue-culture and animal studies
+  published by Vladimir Khavinson's research group and collaborators, largely in
+  lower-circulation or Russian-language journals. There is no independent human safety or
+  efficacy data. This is an experimental research compound with unverified relevance to humans,
+  not an approved treatment for any cardiac or other condition. Consult a healthcare provider.
+
+references:
+  - citation: "Chalisova NI, Lesniak VV, Balykina NA, et al. [The effect of the amino acids and cardiogen on the development of myocard tissue culture from young and old rats]. Adv Gerontol. 2009;22(3):409-413."
+    url: "https://pubmed.ncbi.nlm.nih.gov/20210190/"
+
+research_protocols:
+  - goal: "Cardiac Tissue Bioregulation Research Interest (animal/tissue-culture data only, no human protocol established)"
+    dose: "Not established for human use"
+    timing: "Not established"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Evidence is limited to tissue-culture and animal studies from a single research group."
+    sort_order: 0

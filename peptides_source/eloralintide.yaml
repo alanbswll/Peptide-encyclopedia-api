@@ -1,0 +1,84 @@
+id: eloralintide
+name: Eloralintide
+status: draft
+
+category_ids:
+  - fat-loss
+
+overview: >
+  An investigational, once-weekly selective amylin receptor agonist (LY3841136) developed by Eli
+  Lilly for obesity/overweight. It works through a different hormonal pathway than GLP-1 agonists
+  (amylin rather than incretin signaling) and has completed a 48-week Phase 2 trial, with Phase 3
+  development planned. It is not FDA-approved.
+
+key_benefits:
+  - Investigational once-weekly amylin-pathway agent, mechanistically distinct from GLP-1 agonists
+  - Phase 2 trial reported mean weight reductions of 9.5-20.1% at 48 weeks depending on dose/arm
+  - Engineered for low immunogenicity and low self-aggregation risk relative to native human amylin
+
+mechanism_of_action: >
+  Eloralintide selectively activates the amylin 1 receptor (AMY1R), reported to be roughly
+  12-fold more potent at AMY1R than at the calcitonin receptor. Amylin is a pancreatic hormone
+  co-secreted with insulin that slows gastric emptying and promotes satiety via the area
+  postrema/hypothalamus. Eloralintide was engineered to reduce the immunogenicity and
+  self-aggregation (fibril formation) risk seen with native human amylin, and to extend its
+  plasma half-life enough to support once-weekly subcutaneous dosing.
+
+quick_start_guide:
+  typical_dose: "1-9 mg per published Phase 2 dose arms, with some regimens using stepwise escalation up to 9 mg to improve tolerability"
+  frequency: "1x weekly"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+    - deltoid-im
+  best_timing: "Same day each week, any time of day, per trial dosing"
+  effects_timeline: "Weight loss in the Phase 2 trial had not clearly plateaued by 48 weeks, the longest reported timepoint"
+  storage: "Not established; this is an investigational compound with no finalized commercial storage label"
+  cycle_length: "Studied as continuous therapy through 48 weeks in trials to date"
+  break_between: "Not established; this is investigational, unapproved therapy"
+
+pharmacokinetics:
+  peak: "Not established in independently published human pharmacokinetic data at time of writing"
+  half_life: "Engineered to be long enough to support once-weekly subcutaneous dosing; exact published half-life not established here"
+  cleared: "Not established in independently published literature"
+
+research_indications:
+  - Investigational treatment for obesity/overweight (Phase 3 development planned as of publication)
+  - Being evaluated by the developer as a potential complementary treatment alongside incretin (GLP-1) therapy
+
+reconstitution_steps:
+  - Reconstitute per manufacturer/trial protocol instructions; refrigerate.
+
+quality_indicators:
+  - "Not an FDA-approved commercial product; no legitimate retail/pharmacy supply chain exists yet"
+  - "Research-chemical vendor material should include a third-party COA confirming identity and purity"
+  - "Clear, colorless solution with no particulate matter after reconstitution"
+
+what_to_expect: >
+  In the published 48-week Phase 2 trial, all eloralintide dose arms met the primary endpoint,
+  with mean weight reductions ranging from about 9.5% to 20.1% versus 0.4% with placebo,
+  depending on dose and whether a dose-escalation schedule was used. Escalating the dose
+  gradually reduced gastrointestinal adverse events while largely preserving weight-loss benefit.
+
+side_effects_common:
+  - "Gastrointestinal adverse events (nausea and related symptoms), reduced by gradual dose escalation"
+
+safety_notes: >
+  Eloralintide is investigational and not FDA-approved as of this writing. The most complete
+  published human data is a single 48-week Phase 2 trial; longer-term safety data and independent
+  replication outside the sponsor's own trial program are not yet available, and Phase 3 results
+  have not been reported. Any use outside of a clinical trial is off-label and unsupervised by
+  regulatory review. Consult a healthcare provider.
+
+references:
+  - citation: "Briere DA, Qu H, Lansu K, et al. Eloralintide (LY3841136), a novel amylin receptor agonist for the treatment of obesity: From discovery to clinical proof of concept. Mol Metab. 2025;102:102271."
+    url: "https://pubmed.ncbi.nlm.nih.gov/41109426/"
+  - citation: "Billings LK, Hsia S, Bays H, et al. Eloralintide, a selective amylin receptor agonist for the treatment of obesity: a 48-week phase 2, multicentre, double-blind, randomised, placebo-controlled trial. Lancet. 2025."
+    url: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)02155-5/abstract"
+
+research_protocols:
+  - goal: "Weight Management (Investigational)"
+    dose: "Not established for unsupervised use; published Phase 2 dose arms ranged 1-9 mg weekly, some with stepwise escalation"
+    timing: "Same day each week"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Investigational compound, not an approved medication."
+    sort_order: 0
