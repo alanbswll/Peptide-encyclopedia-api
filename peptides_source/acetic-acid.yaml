@@ -1,0 +1,54 @@
+# Reconstitution mixer, not a peptide/therapeutic compound — see Trello card "Add Mixers".
+# Dosing/PK/research-protocol fields are intentionally omitted (not guessed): a diluent has no
+# dose, half-life, or research indication of its own. Unlike bacteriostatic-water.yaml, there is
+# no independent peer-reviewed literature on dilute acetic acid specifically as a peptide
+# reconstitution mixer -- it's a widely repeated vendor/community practice for a handful of
+# harder-to-dissolve peptides, not an FDA-labeled product, so no references are included
+# (would misleadingly imply the practice was independently studied).
+id: acetic-acid
+name: Acetic Acid
+status: draft
+
+category_ids:
+  - reconstitution-mixers
+
+overview: >
+  Dilute acetic acid water (commonly ~0.6% acetic acid in water) is a secondary reconstitution
+  mixer used for a small number of peptides that don't fully dissolve in plain bacteriostatic
+  water — most notably Melanotan I and Melanotan II. It is not an FDA-labeled pharmaceutical
+  product; it's a compounding practice that originated in the research-peptide community. Sold
+  in vial sizes of 3 mL, 10 mL, and 12 mL.
+
+key_benefits:
+  - Improves initial dissolution for peptides that are sparingly soluble or aggregation-prone in plain water
+
+mechanism_of_action: >
+  Mild acidity protonates basic side chains (arginine, histidine, lysine) on certain peptides,
+  increasing their net positive charge and improving electrostatic interaction with the
+  surrounding water. This is a general peptide-chemistry solubility principle rather than
+  something validated in a clinical or pharmacokinetic study for any specific research peptide.
+
+reconstitution_steps:
+  - "Wipe the peptide vial's rubber stopper with an alcohol swab."
+  - "Draw the desired volume of dilute acetic acid water into a syringe."
+  - "Inject it slowly down the inside wall of the vial to fully dissolve the powder."
+  - "Once fully dissolved, some protocols top up the remaining volume with bacteriostatic water rather than using acetic acid water alone."
+
+quality_indicators:
+  - "Clear, colorless liquid with no particulate matter"
+  - "Concentration (commonly ~0.6% acetic acid) stated on the vial"
+
+what_to_expect: >
+  Acetic acid water is used specifically to get a hard-to-dissolve peptide into solution — it
+  isn't a general-purpose substitute for bacteriostatic water, and most peptides don't need it.
+
+side_effects_common:
+  - "Injection-site stinging or irritation, more pronounced than with bacteriostatic water"
+
+safety_notes: >
+  This is a community/vendor reconstitution convention, not an FDA-approved or independently
+  studied pharmaceutical practice — there is no standardized concentration, and vendors vary in
+  what they sell as "acetic acid water." Because it's more irritating at the injection site than
+  bacteriostatic water, it's generally used only for the specific peptides that need it for
+  solubility, not as a default diluent. Consult a healthcare provider with questions about a
+  specific peptide's reconstitution requirements.

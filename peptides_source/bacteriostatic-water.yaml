@@ -1,0 +1,60 @@
+# Reconstitution mixer, not a peptide/therapeutic compound — see Trello card "Add Mixers".
+# Dosing/PK/research-protocol fields are intentionally omitted (not guessed): a diluent has no
+# dose, half-life, or research indication of its own.
+id: bacteriostatic-water
+name: Bacteriostatic Water
+status: draft
+
+category_ids:
+  - reconstitution-mixers
+
+overview: >
+  Bacteriostatic Water for Injection, USP is sterile water containing 0.9% benzyl alcohol
+  (9 mg/mL) as a bacteriostatic preservative, added specifically so a multi-dose vial can be
+  punctured repeatedly over days or weeks without the water itself growing bacteria. It is the
+  most commonly used diluent for reconstituting lyophilized (freeze-dried) peptides. Sold in
+  standard vial sizes of 3 mL, 10 mL, and 30 mL.
+
+key_benefits:
+  - Multi-dose safe — the benzyl alcohol preservative inhibits bacterial growth across repeated needle draws, unlike plain sterile water
+  - The standard, widely-available diluent most lyophilized peptides are formulated to dissolve in
+
+mechanism_of_action: >
+  The 0.9% benzyl alcohol acts as an antimicrobial preservative, denaturing bacterial cell
+  membranes and proteins to keep a multi-dose vial from growing pathogens between draws. It
+  plays no role in dissolving the peptide itself — that's a function of the peptide's own
+  solubility once diluted to working concentration.
+
+reconstitution_steps:
+  - "Wipe the peptide vial's rubber stopper with an alcohol swab."
+  - "Draw the desired volume of bacteriostatic water into a syringe."
+  - "Inject it slowly down the inside wall of the vial — do not spray directly onto the lyophilized powder, which can damage the peptide."
+  - "Gently swirl or roll the vial; do not shake, which can denature the peptide."
+
+quality_indicators:
+  - "Clear, colorless liquid with no particulate matter or cloudiness"
+  - "USP-labeled, 0.9% benzyl alcohol concentration stated on the vial"
+  - "Sourced from a pharmacy or reputable supplier, not repackaged from an unlabeled container"
+
+what_to_expect: >
+  Once a peptide is reconstituted with bacteriostatic water, the benzyl alcohol preservative
+  extends the vial's practical multi-dose usable life versus plain sterile water, but it does not
+  make the peptide itself stable indefinitely — most reconstituted peptides still need
+  refrigeration and use within the peptide's own stated shelf life.
+
+side_effects_common:
+  - "Mild injection-site stinging, attributable to the benzyl alcohol rather than the peptide"
+
+safety_notes: >
+  Not for use in neonates — benzyl alcohol has been linked to serious toxicity ("gasping
+  syndrome") in newborns, per FDA labeling, so only preservative-free sterile water should be
+  used when neonatal dosing is a concern. Animal data cited on the FDA label suggest roughly
+  30 mL can be safely given intravenously to an adult, well above the volumes used for peptide
+  reconstitution, but cumulative benzyl alcohol exposure is still worth being mindful of with
+  frequent multi-vial use. Indicated only for diluting/dissolving drugs for IV, IM, or
+  subcutaneous injection per manufacturer instructions — not for epidural/spinal use or bulk
+  fluid replacement.
+
+references:
+  - citation: "FDA-approved drug label, Bacteriostatic Water for Injection, USP (0.9% benzyl alcohol) — DailyMed"
+    url: "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=ccadcf46-6a6f-436b-9bbc-17e2983a335f"

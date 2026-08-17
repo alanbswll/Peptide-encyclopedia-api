@@ -24,6 +24,7 @@ CATEGORIES = [
     ("sleep", "Sleep & Relaxation"),
     ("skin", "Skin & Anti-Aging"),
     ("bone", "Bone & Structural Health"),
+    ("reconstitution-mixers", "Reconstitution Mixers"),
 ]
 
 INJECTION_SITES = [

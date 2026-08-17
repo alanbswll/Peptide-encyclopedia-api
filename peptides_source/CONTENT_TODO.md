@@ -183,3 +183,21 @@ service.
 
 **Batch 2 progress: 12 / 12 drafted and published to the live service.**
 
+## Batch 3 — reconstitution mixers, added 2026-08-17
+
+Not peptides — added per Trello card "Add Mixers" so the app's Encyclopedia/Mixology screens
+have a real backing entry for the two diluents peptide protocols actually call for. Dosing/PK/
+research-protocol fields intentionally omitted throughout (a diluent has no dose or half-life of
+its own). New category `reconstitution-mixers` added to `seed.py` — must be created live via
+`POST /categories` before these can be pushed with `add_peptide.py` (category_ids are validated
+against the lookup table). **Drafted only — not yet pushed/published; needs `ADMIN_API_KEY`.**
+
+- [ ] **Bacteriostatic Water** — [`bacteriostatic-water.yaml`](./bacteriostatic-water.yaml) —
+  FDA DailyMed label cited (0.9% benzyl alcohol, USP). Vial sizes 3/10/30 mL per the Trello card.
+- [ ] **Acetic Acid** — [`acetic-acid.yaml`](./acetic-acid.yaml) — no independent literature on
+  this as a peptide-reconstitution mixer specifically (it's a vendor/community convention, mainly
+  for Melanotan I/II solubility); no references included, same treatment as the vendor-blend
+  entries above. Vial sizes 3/10/12 mL per the Trello card.
+- Per the card: Saline and Sterile Water exist on the market but no peptide protocol found calls
+  for them specifically as a reconstitution mixer, so they were deliberately not added here.
+
