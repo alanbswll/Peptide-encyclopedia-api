@@ -80,6 +80,17 @@ CREATE TABLE peptide_injection_sites (
     PRIMARY KEY (peptide_id, injection_site_id)
 );
 
+-- Controlled vocabulary: hormones (for the app's HRT/hormone-tracking feature). Standalone --
+-- not referenced by peptides, so no join table. The app stores the user's own hormone level
+-- entries locally on-device (never synced here); this table only carries which hormones exist,
+-- their unit, and a loose grouping -- no gender-specific "normal range" data, deliberately.
+CREATE TABLE hormones (
+    id      TEXT PRIMARY KEY,   -- e.g. "testosterone-total"
+    name    TEXT NOT NULL UNIQUE, -- e.g. "Testosterone (Total)"
+    unit    TEXT NOT NULL,        -- e.g. "ng/dL"
+    "group" TEXT NOT NULL         -- e.g. "androgen", "estrogen", "pituitary"
+);
+
 CREATE TABLE research_protocols (
     id              TEXT PRIMARY KEY,
     peptide_id      TEXT NOT NULL REFERENCES peptides(id) ON DELETE CASCADE,

@@ -20,6 +20,23 @@ class LookupCreate(BaseModel):
     name: str
 
 
+class HormoneOut(BaseModel):
+    id: str
+    name: str
+    unit: str
+    group: str
+
+    class Config:
+        from_attributes = True
+
+
+class HormoneCreate(BaseModel):
+    id: str
+    name: str
+    unit: str
+    group: str
+
+
 # --- Nested pieces -----------------------------------------------------------
 
 class QuickStartGuide(BaseModel):

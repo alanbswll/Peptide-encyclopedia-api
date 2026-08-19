@@ -31,6 +31,14 @@ class InjectionSite(Base):
     name = Column(String, nullable=False, unique=True)
 
 
+class Hormone(Base):
+    __tablename__ = "hormones"
+    id = Column(String, primary_key=True)
+    name = Column(String, nullable=False, unique=True)
+    unit = Column(String, nullable=False)
+    group = Column(String, nullable=False)  # e.g. "androgen", "estrogen", "pituitary"
+
+
 peptide_categories = Table(
     "peptide_categories",
     Base.metadata,
