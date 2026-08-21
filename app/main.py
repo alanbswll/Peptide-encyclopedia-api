@@ -1,11 +1,12 @@
 from fastapi import FastAPI
 
-from .database import Base, engine
+from .database import Base, engine, ensure_additive_columns
 from .routers import peptides
 from .routers.lookups import categories_router, injection_sites_router
 from .routers.hormones import router as hormones_router
 
 Base.metadata.create_all(bind=engine)
+ensure_additive_columns()
 
 app = FastAPI(
     title="Peptide Encyclopedia API",
