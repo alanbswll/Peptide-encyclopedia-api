@@ -65,6 +65,7 @@ class Peptide(Base):
 
     overview = Column(Text)
     key_benefits = Column(Text, default="[]")  # JSON array of strings
+    aliases = Column(Text, default="[]")       # JSON array of strings (vendor label name variants)
     mechanism_of_action = Column(Text)
 
     # Quick start guide

@@ -99,6 +99,7 @@ class PeptideCreate(BaseModel):
 
     overview: Optional[str] = None
     key_benefits: List[str] = Field(default_factory=list)
+    aliases: List[str] = Field(default_factory=list)
     mechanism_of_action: Optional[str] = None
 
     quick_start_guide: QuickStartGuide = Field(default_factory=QuickStartGuide)
@@ -124,6 +125,7 @@ class PeptideUpdate(BaseModel):
 
     overview: Optional[str] = None
     key_benefits: Optional[List[str]] = None
+    aliases: Optional[List[str]] = None
     mechanism_of_action: Optional[str] = None
 
     quick_start_guide: Optional[QuickStartGuide] = None
@@ -153,6 +155,7 @@ class PeptideOut(BaseModel):
 
     overview: Optional[str] = None
     key_benefits: List[str] = Field(default_factory=list)
+    aliases: List[str] = Field(default_factory=list)
     mechanism_of_action: Optional[str] = None
 
     quick_start_guide: QuickStartGuide
@@ -183,3 +186,4 @@ class PeptideListItem(BaseModel):
     status: Status
     categories: List[LookupOut]
     overview: Optional[str] = None
+    aliases: List[str] = Field(default_factory=list)

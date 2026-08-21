@@ -53,6 +53,7 @@ def build_peptide_out(db: Session, p: models.Peptide) -> schemas.PeptideOut:
         categories=[schemas.LookupOut(id=c.id, name=c.name) for c in p.categories],
         overview=p.overview,
         key_benefits=_loads(p.key_benefits),
+        aliases=_loads(p.aliases),
         mechanism_of_action=p.mechanism_of_action,
         quick_start_guide=schemas.QuickStartGuide(
             typical_dose=p.qsg_typical_dose,
@@ -104,6 +105,7 @@ def apply_scalar_fields(peptide: models.Peptide, data: dict) -> None:
 
     json_map = {
         "key_benefits": "key_benefits",
+        "aliases": "aliases",
         "research_indications": "research_indications",
         "reconstitution_steps": "reconstitution_steps",
         "quality_indicators": "quality_indicators",

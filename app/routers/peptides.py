@@ -53,6 +53,7 @@ def list_peptides(
             status=p.status,
             categories=[schemas.LookupOut(id=c.id, name=c.name) for c in p.categories],
             overview=p.overview,
+            aliases=crud._loads(p.aliases),
         )
         for p in peptides
     ]

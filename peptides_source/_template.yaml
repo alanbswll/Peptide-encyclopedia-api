@@ -20,6 +20,10 @@ key_benefits:
   - Benefit one
   - Benefit two
 
+aliases:
+  - "Vendor label variant one"   # e.g. spacing/hyphenation differences vendors print on vial labels
+  - "Vendor label variant two"   # used by the vial scanner's fuzzy match against OCR text -- leave empty [] if none known
+
 mechanism_of_action: >
   How it's believed to work, in plain language.
 

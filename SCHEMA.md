@@ -8,6 +8,7 @@
 - **`peptide_interactions`** — many-to-many via join table, self-referencing on `peptides`. A peptide can have any number of interactions. Directionality is handled at query time: when rendering a peptide's page, query interactions where it appears as *either* `peptide_id` or `related_peptide_id`, and merge the results. You only enter BPC-157 ↔ TB-500 once; it shows on both pages automatically.
 - **`severity`** is now a locked enum — `synergistic`, `caution`, `avoid` — enforced with a `CHECK` constraint at the database level so bad values can't be inserted even by a buggy admin call.
 - **`references`** stays as a simple JSON array — no relational value in normalizing citations.
+- **`aliases`** is a simple JSON array of strings, same pattern as `key_benefits` — vendor label name variants (e.g. "BPC157", "BPC 157" for "BPC-157") used by the vial scanner's fuzzy match against OCR text, and reusable by the app's manual encyclopedia search. Not a controlled vocabulary — freeform, per-peptide.
 
 ---
 
@@ -21,6 +22,7 @@ CREATE TABLE peptides (
 
     overview                TEXT,
     key_benefits            TEXT DEFAULT '[]',          -- JSON array of strings
+    aliases                 TEXT DEFAULT '[]',          -- JSON array of strings (vendor label name variants)
     mechanism_of_action     TEXT,
 
     -- Quick start guide
