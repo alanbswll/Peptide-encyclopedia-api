@@ -16,6 +16,10 @@ overview: >
 key_benefits:
   - "Complex dosing and timing: the DAC and no-DAC forms differ substantially in half-life and injection frequency"
 
+aliases:
+  - "Mod GRF 1-29"
+  - "Modified GRF (1-29)"
+
 mechanism_of_action: >
   Binds the GHRH receptor on pituitary somatotrophs, prompting them to secrete growth hormone.
   The DAC-conjugated version covalently attaches to circulating albumin after injection, which

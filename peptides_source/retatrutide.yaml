@@ -16,6 +16,9 @@ key_benefits:
   - Phase 2 trial reported up to ~24% average body weight loss at 48 weeks at the highest dose
   - Still in active Phase 3 development, not yet an approved medication
 
+aliases:
+  - "LY3437943"
+
 mechanism_of_action: >
   Retatrutide activates three receptors in one molecule: GIP and GLP-1 (shared with tirzepatide),
   plus the glucagon receptor. Glucagon receptor activity increases hepatic glucose output and
