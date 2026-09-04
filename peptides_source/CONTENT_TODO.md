@@ -40,6 +40,51 @@ flags below for where that happened most.
   ara-290.yaml** (Khavinson-school bioregulators, or otherwise very early-stage compounds) —
   little to no human data exists; dosing/PK fields are explicitly marked "not established"
   rather than filled with vendor-forum numbers.
+- **ovagen.yaml** — the Trello source list assumed this was an ovarian/reproductive bioregulator
+  based on the name; every independent source instead describes it as a liver/GI compound
+  ("для печени и ЖКТ"). The actual Khavinson ovarian-targeted product is a separately named
+  preparation ("Zhenoluten") not on the list at all. Filed under its real (liver/GI) target;
+  overview and safety_notes call out the naming trap directly.
+- **cartalax.yaml** — marketed for cartilage/joint support, but none of its indexed studies test
+  a cartilage endpoint at all (kidney, skin, thymus, and stem-cell studies only) — the gap
+  between the marketing claim and the actual evidence base is stated plainly rather than
+  glossed over.
+- **gdf-8-myostatin.yaml** — GDF-8 is Myostatin itself, the muscle-growth-*limiting* factor, not
+  a booster. Written honestly as such (cross-referencing `follistatin-344.yaml`, which covers
+  the inhibitor side); no `research_protocols` section, since no legitimate human dosing
+  protocol exists for administering more of it.
+- **pnc-27.yaml** — early-stage anticancer research peptide with essentially no human safety
+  data. safety_notes includes a real reported fatality from off-protocol use, included
+  deliberately rather than downplayed given how consequential that is.
+- **ibutamoren.yaml** (MK-677) — the pivotal elderly-population trial (Adunsky et al. 2011) was
+  halted early over a congestive-heart-failure safety signal (6.5% vs. 1.7% placebo); flagged
+  prominently in safety_notes rather than buried under the growth-hormone benefits.
+- **tesofensine.yaml** — not FDA-approved anywhere; the foundational 2008 trial carries an
+  unresolved 2013 Lancet Expression of Concern over under-reported adverse events at 2 of 5
+  study sites. Stated plainly, cited from Retraction Watch and The Lancet directly.
+- **os-01-face-peptide.yaml / atx-304.yaml** — the Trello card listed these as one item
+  ("OS-01 (O-304/ATX-304)"), but they're two unrelated compounds (OneSkin's cosmetic peptide
+  vs. an unrelated AMPK-activator small molecule) accidentally conflated by at least one vendor
+  page. Split into two separate entries; each notes why.
+- **rapamycin.yaml** — FDA-approved prescription immunosuppressant used off-label for
+  longevity research; safety_notes separates the well-characterized transplant-dose risk
+  profile from the much thinner low-dose/off-label longevity safety data, and states the
+  prescription-only status directly (same treatment as Semaglutide/Tirzepatide).
+- **ptd-dbm.yaml, pnc-27.yaml, bronchogen.yaml, chonluten.yaml, vesugen.yaml, cartalax.yaml,
+  ovagen.yaml, pancragen.yaml** — no existing category fits cleanly (no hair, oncology,
+  respiratory, cardiovascular, or pancreas/liver category exists in the lookup table); each was
+  filed under the closest available category with the mismatch noted in-file as a comment.
+- **"Formula N-69/N-111/N-259/N-2331/N-5550/RG-5555/WL-6250" and "Glow Core/Plus/Ultra"** —
+  investigated, not drafted. The seven "Formula" codes traced to a single site whose own
+  about-page describes its content as AI-generated, with zero independent corroboration from
+  any real vendor — treated as unverifiable rather than fabricated into entries. The three
+  "Glow" tiers turned out to be the same or non-novel-dosage variants of the existing
+  `glow-blend.yaml`/`klow-blend.yaml` recipes, per the same single unreliable source — no new
+  entries needed.
+- **EPO, Dermorphin** — deliberately not researched or drafted. Both are qualitatively riskier
+  than anything else in the encyclopedia (EPO: banned blood-doping agent; Dermorphin: a
+  frog-venom-derived opioid ~30–40x morphine's potency, banned in horse racing) — held back
+  pending the same Play policy review already gating GLP-1 inclusion elsewhere in this project.
 
 ## Peptides (grouped by category)
 
@@ -200,4 +245,82 @@ against the lookup table). **Drafted only — not yet pushed/published; needs `A
   entries above. Vial sizes 3/10/12 mL per the Trello card.
 - Per the card: Saline and Sterile Water exist on the market but no peptide protocol found calls
   for them specifically as a reconstitution mixer, so they were deliberately not added here.
+
+## Batch 4 — Trello "new peptides to add" card, added 2026-09-05
+
+34 new entries, researched and drafted by five parallel agents against the same citation-
+verification rigor as prior batches (every reference confirmed to a real, findable source before
+inclusion; omitted rather than guessed where evidence didn't exist). Two existing entries
+(`omberacetam.yaml`, `dsip.yaml`) got `aliases` added instead of duplicate files — see below.
+Pushed to the live service as `status: draft` — **not yet published**. See "Priority review
+items" above for the most consequential per-entry flags.
+
+- [x] **Fisetin** — [`fisetin.yaml`](./fisetin.yaml)
+- [x] **N-Acetyl Cysteine (NAC)** — [`n-acetyl-cysteine.yaml`](./n-acetyl-cysteine.yaml)
+- [x] **NMN** — [`nmn.yaml`](./nmn.yaml)
+- [x] **Pterostilbene** — [`pterostilbene.yaml`](./pterostilbene.yaml)
+- [x] **Quercetin** — [`quercetin.yaml`](./quercetin.yaml)
+- [x] **Resveratrol** — [`resveratrol.yaml`](./resveratrol.yaml)
+- [x] **Spermidine** — [`spermidine.yaml`](./spermidine.yaml)
+- [x] **Rapamycin** — [`rapamycin.yaml`](./rapamycin.yaml) — prescription drug, flagged above
+- [x] **Alpha-GPC** — [`alpha-gpc.yaml`](./alpha-gpc.yaml) — cites a 2021 JAMA Network Open
+  cohort study linking use to higher stroke risk via gut-derived TMAO
+- [x] **GDF-11** — [`gdf-11.yaml`](./gdf-11.yaml) — contested field (2014 *Science* rejuvenation
+  claim directly contradicted by a 2015 *Cell Metabolism* paper); both sides cited
+- [x] **GDF-8 (Myostatin)** — [`gdf-8-myostatin.yaml`](./gdf-8-myostatin.yaml) — flagged above
+- [x] **OS-01 (OneSkin Peptide)** — [`os-01-face-peptide.yaml`](./os-01-face-peptide.yaml) — split
+  from ATX-304, flagged above
+- [x] **ATX-304 (O-304)** — [`atx-304.yaml`](./atx-304.yaml) — split from OS-01, flagged above
+- [x] **SLU-PP-332** — [`slu-pp-332.yaml`](./slu-pp-332.yaml) — animal-only evidence, no human data
+- [x] **N-Acetyl Epitalon Amidate** — [`na-epitalon-amidate.yaml`](./na-epitalon-amidate.yaml) —
+  no independent study of the analog itself exists; pharmacology extrapolated from base
+  Epithalon, same treatment as Adalank/NA-Semax-Amidate
+- [x] **Ibutamoren (MK-677)** — [`ibutamoren.yaml`](./ibutamoren.yaml) — the source list had this
+  twice under two different names; one entry, flagged above
+- [x] **Des(1-3)IGF-1** — [`des-1-3-igf-1.yaml`](./des-1-3-igf-1.yaml) — the source list's
+  "IDF-DES" shorthand resolved to this compound; filed under its real name
+- [x] **Bronchogen** — [`bronchogen.yaml`](./bronchogen.yaml) — Khavinson bioregulator, sparse
+  data, category mismatch flagged above
+- [x] **Cartalax** — [`cartalax.yaml`](./cartalax.yaml) — Khavinson bioregulator, evidence gap
+  flagged above
+- [x] **Chonluten** — [`chonluten.yaml`](./chonluten.yaml) — Khavinson bioregulator, sparse data,
+  category mismatch flagged above
+- [x] **Cortagen** — [`cortagen.yaml`](./cortagen.yaml) — Khavinson bioregulator, sparse data
+- [x] **Crystagen** — [`crystagen.yaml`](./crystagen.yaml) — Khavinson bioregulator, sparse data
+- [x] **Ovagen** — [`ovagen.yaml`](./ovagen.yaml) — Khavinson bioregulator, mislabeled-target
+  correction flagged above
+- [x] **Pancragen** — [`pancragen.yaml`](./pancragen.yaml) — Khavinson bioregulator, category
+  mismatch flagged above
+- [x] **Prostamax** — [`prostamax.yaml`](./prostamax.yaml) — Khavinson bioregulator, sparse data
+- [x] **Testagen** — [`testagen.yaml`](./testagen.yaml) — Khavinson bioregulator; its one human
+  trial used oral capsules, not an injectable — noted in-file
+- [x] **Vesugen** — [`vesugen.yaml`](./vesugen.yaml) — Khavinson bioregulator, category mismatch
+  flagged above
+- [x] **Cortexin** — [`cortexin.yaml`](./cortexin.yaml) — Khavinson bioregulator, sparse Western
+  data
+- [x] **Ptd-DBM** — [`ptd-dbm.yaml`](./ptd-dbm.yaml) — real preclinical compound (Choi lab,
+  Yonsei University), no human data, category mismatch flagged above
+- [x] **Oxytocin** — [`oxytocin.yaml`](./oxytocin.yaml) — distinguishes FDA-approved injectable
+  (obstetric) from unapproved intranasal research use
+- [x] **Zinc-Thymulin** — [`zinc-thymulin.yaml`](./zinc-thymulin.yaml) — human dosing not
+  established
+- [x] **Tesofensine** — [`tesofensine.yaml`](./tesofensine.yaml) — unresolved trial concern
+  flagged above
+- [x] **PNC-27** — [`pnc-27.yaml`](./pnc-27.yaml) — fatality case report, category mismatch,
+  both flagged above
+- [x] **Semaglutide + BPC-157** — [`semaglutide-plus-bpc-157.yaml`](./semaglutide-plus-bpc-157.yaml)
+  — new combo blend, same treatment as GLOW/KLOW Blend (combination unstudied as a unit, no
+  references section)
+
+**Aliased into existing entries, not duplicated:**
+- **Noopept** → added as an alias on [`omberacetam.yaml`](./omberacetam.yaml) (same compound;
+  Omberacetam is the INN, Noopept the trade name)
+- **Emideltide** → added as an alias on [`dsip.yaml`](./dsip.yaml) (same compound, same CAS
+  number, alternate INN-style name)
+
+**Not drafted — see "Priority review items" above for why:** the seven "Formula N-XX/RG-5555/
+WL-6250" codes (unverifiable, sole source an AI-content site), Glow Core/Plus/Ultra (non-novel
+variants of existing GLOW/KLOW), EPO, and Dermorphin (both held for a Play policy decision).
+
+**Batch 4 progress: 34 / 34 drafted and pushed as draft. 0 / 34 published to the live service.**
 
