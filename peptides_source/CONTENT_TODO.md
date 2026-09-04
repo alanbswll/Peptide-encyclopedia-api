@@ -252,8 +252,8 @@ against the lookup table). **Drafted only — not yet pushed/published; needs `A
 verification rigor as prior batches (every reference confirmed to a real, findable source before
 inclusion; omitted rather than guessed where evidence didn't exist). Two existing entries
 (`omberacetam.yaml`, `dsip.yaml`) got `aliases` added instead of duplicate files — see below.
-Pushed to the live service as `status: draft` — **not yet published**. See "Priority review
-items" above for the most consequential per-entry flags.
+Pushed to the live service and published 2026-09-05. See "Priority review items" above for the
+most consequential per-entry flags.
 
 - [x] **Fisetin** — [`fisetin.yaml`](./fisetin.yaml)
 - [x] **N-Acetyl Cysteine (NAC)** — [`n-acetyl-cysteine.yaml`](./n-acetyl-cysteine.yaml)
@@ -322,5 +322,5 @@ items" above for the most consequential per-entry flags.
 WL-6250" codes (unverifiable, sole source an AI-content site), Glow Core/Plus/Ultra (non-novel
 variants of existing GLOW/KLOW), EPO, and Dermorphin (both held for a Play policy decision).
 
-**Batch 4 progress: 34 / 34 drafted and pushed as draft. 0 / 34 published to the live service.**
+**Batch 4 progress: 34 / 34 drafted and published to the live service.**
 
