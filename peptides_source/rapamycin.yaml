@@ -1,0 +1,126 @@
+id: rapamycin
+name: Rapamycin
+status: draft
+
+category_ids:
+  - longevity
+
+overview: >
+  Rapamycin (sirolimus) is an FDA-approved prescription immunosuppressant, originally discovered as
+  a fermentation product of a soil bacterium (Streptomyces hygroscopicus) found on Easter Island
+  (Rapa Nui, the source of its name). It is approved for preventing organ transplant rejection at
+  continuous immunosuppressive doses. Separately, it is the prototype mTOR inhibitor studied in
+  geroscience for lifespan extension across every model organism it has been tested in (yeast to
+  mice), which has driven substantial off-label interest in low-dose, intermittent regimens for
+  longevity. Unlike most entries in this batch, rapamycin is a prescription-only drug, not a
+  dietary supplement — its longevity use is entirely off-label and should be treated with the same
+  seriousness as other prescription drugs in this encyclopedia (see the Semaglutide entry for a
+  comparable treatment of an FDA-approved drug used off-label/adjacent to its approved indication).
+
+key_benefits:
+  - The most consistently reproduced lifespan-extending pharmacological intervention across model
+    organisms, including the NIA Interventions Testing Program's finding that it extends median
+    lifespan in genetically heterogeneous mice, even when started later in life
+  - FDA-approved prescription drug with decades of clinical safety data at continuous
+    immunosuppressive (transplant) doses
+  - A placebo-controlled human trial (PEARL) of low-dose, intermittent rapamycin in normal aging
+    adults found adverse-event rates similar to placebo over 48 weeks, with a signal for improved
+    lean tissue mass and reported pain in women at the higher studied dose
+  - Distinct, well-characterized mechanism (mTOR inhibition) compared to antioxidant/polyphenol
+    supplements elsewhere in this encyclopedia
+
+aliases:
+  - "Sirolimus"
+  - "Rapamune"
+
+mechanism_of_action: >
+  Rapamycin binds intracellularly to the protein FKBP-12; the resulting complex binds to and
+  inhibits mTOR (mechanistic/mammalian target of rapamycin), a central nutrient- and
+  growth-factor-sensing kinase that, when chronically overactive, is proposed (per the
+  "hyperfunction theory" of aging) to drive cells from healthy quiescence toward a senescent,
+  pro-inflammatory state — a process termed geroconversion. By suppressing mTOR signaling, rapamycin
+  is believed to promote autophagy, reduce anabolic/proliferative signaling, and slow this
+  geroconversion process, which is the mechanistic basis for its lifespan effects in model organisms.
+  At the immunosuppressive doses used in organ transplantation, this same mTOR-inhibition mechanism
+  suppresses cytokine-driven T-lymphocyte activation and proliferation — the FDA-approved use. The
+  off-label longevity interest specifically involves much lower, often weekly/intermittent dosing
+  intended to partially inhibit mTOR without the sustained, fuller immunosuppression of continuous
+  transplant-level dosing, though the optimal dose/schedule for longevity purposes (as distinct from
+  transplant immunosuppression) is still an open research question.
+
+quick_start_guide:
+  typical_dose: "Transplant (FDA-approved) dosing is individualized and monitored via blood levels — not a self-directed dose. The off-label, intermittent longevity protocol most directly supported by controlled human trial data (PEARL) used 5 mg or 10 mg (compounded) weekly, roughly equivalent to 1.4-2.9 mg of standard generic tablets"
+  frequency: "Weekly (intermittent longevity dosing, per PEARL trial protocol) vs. daily (FDA-approved transplant immunosuppression) — these are fundamentally different regimens for different purposes"
+  best_timing: "Not specifically established for the off-label longevity use case; transplant dosing timing/monitoring is set by the prescribing physician"
+  effects_timeline: "The PEARL trial measured biomarker and safety outcomes over 48 weeks; no human trial has yet run long enough to measure an actual lifespan or hard clinical-outcome effect from low-dose longevity use"
+  storage: "Per pharmacy/manufacturer labeling for the prescribed formulation"
+  cycle_length: "The PEARL trial protocol ran continuous weekly dosing for 48 weeks rather than short pulsed cycles; no consensus long-term longevity cycling protocol exists"
+  break_between: "Not established for off-label longevity use"
+
+pharmacokinetics:
+  peak: "Oral bioavailability of the approved formulation is low (roughly 14%) and highly variable between individuals; peak levels are reached within a few hours of dosing"
+  half_life: "Long — roughly 57-63 hours (about 2.5 days) at steady state, which is part of the pharmacological basis for once-weekly, rather than daily, dosing in low-dose longevity protocols"
+  cleared: "Extensively metabolized by hepatic CYP3A4, with substantial drug-interaction potential (grapefruit juice, azole antifungals, and many other CYP3A4-interacting drugs can significantly raise blood levels)"
+
+research_indications:
+  - Organ transplant rejection prevention (FDA-approved indication, continuous immunosuppressive dosing)
+  - Lifespan/healthspan extension research in model organisms, the most reproducible pharmacological longevity intervention identified to date
+  - Off-label, low-dose intermittent use in normal (non-transplant) aging adults — an active, still-early clinical research area (PEARL trial and others)
+  - Lymphangioleiomyomatosis (LAM) and certain other FDA-approved rare-disease indications for mTOR-pathway-related conditions (via sirolimus/everolimus)
+
+reconstitution_steps:
+  - "Not applicable — dosed as an oral tablet/solution per prescription, not reconstituted or injected"
+
+quality_indicators:
+  - "Rapamycin/sirolimus is prescription-only in the United States (brand name Rapamune, plus generic sirolimus); there is no legitimate over-the-counter or unregulated research-chemical-vendor supply chain for a genuine, correctly-dosed product"
+  - "Compounded formulations (as used in the PEARL trial) should come from a licensed compounding pharmacy operating under a physician's prescription, with documented quality control"
+
+what_to_expect: >
+  This is one of the most mechanistically well-supported longevity interventions in animal models,
+  but human outcome data remains early. The PEARL trial — the first placebo-controlled randomized
+  trial of intermittent low-dose rapamycin in normal-aging healthy adults — found the regimen well
+  tolerated over one year, with adverse-event rates similar to placebo, and a notable signal of
+  increased lean tissue mass and reduced reported pain in women at the higher (10 mg weekly) dose;
+  other measured healthspan metrics showed more modest changes. No published human trial has
+  demonstrated actual lifespan extension, and no trial has used all-cause mortality or another hard
+  clinical endpoint as a primary outcome in a healthy-aging population — a 2024 systematic review of
+  human rapamycin/derivative trials found improvements mainly in physiological parameters in the
+  immune, cardiovascular, and integumentary (skin) systems, not confirmed longevity outcomes.
+
+side_effects_common:
+  - "At continuous, transplant-level immunosuppressive doses: mouth sores/mucositis, diarrhea, nausea, acneiform rash, elevated cholesterol/triglycerides, and increased infection risk are common"
+  - "At low, intermittent, off-label longevity doses: the PEARL trial found adverse-event rates similar to placebo, though mouth sores and other mild effects are still reported by some users at these lower doses"
+  - "Impaired or delayed wound healing has been reported with rapamycin/sirolimus use"
+
+safety_notes: >
+  Rapamycin (sirolimus) is an FDA-approved prescription drug, not a dietary supplement or research
+  chemical — it requires a physician's prescription and, for its FDA-approved transplant indication,
+  ongoing blood-level monitoring. At the continuous doses used for transplant immunosuppression, it
+  carries serious risks including increased susceptibility to infection, a boxed-warning-level
+  association with lymphoma and other malignancies from sustained immunosuppression, impaired wound
+  healing, and adverse effects on cholesterol/triglycerides and kidney function; these risks are
+  specific to that continuous, higher-dose immunosuppressive use case. Off-label use of low,
+  intermittent doses for longevity purposes — the use case of most interest to this encyclopedia's
+  audience — has much more limited safety data: the PEARL trial (48 weeks, n=114) found no
+  significant difference in adverse events versus placebo at 5-10 mg weekly, but this is one modest
+  trial, not the decades of data behind the transplant indication, and no long-term (multi-year)
+  human safety data exists for intermittent off-label longevity dosing specifically. Rapamycin has
+  major CYP3A4-mediated drug-interaction potential (including with grapefruit juice) and should never
+  be started, adjusted, or combined with other medications without a physician actively managing the
+  prescription and monitoring for interactions and side effects. This is a prescription medication
+  requiring direct medical supervision, not a self-directed supplement.
+
+references:
+  - citation: "Moel M, Harinath G, Lee V, Nyquist A, Morgan SL, Isman A, Zalzala S. Influence of rapamycin on safety and healthspan metrics after one year: PEARL trial results. Aging (Albany NY). 2025."
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12074816/"
+  - citation: "Lee DJW, Hodzic Kuerec A, Maier AB. Targeting ageing with rapamycin and its derivatives in humans: a systematic review. Lancet Healthy Longev. 2024;5(2):e152-e162."
+    url: "https://pubmed.ncbi.nlm.nih.gov/38310895/"
+  - citation: "Rapamune (sirolimus) Highlights of Prescribing Information. U.S. Food and Drug Administration."
+    url: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/021083s069s070,021110s087s088lbl.pdf"
+
+research_protocols:
+  - goal: "Off-Label Longevity Research Protocol (as studied in the PEARL trial)"
+    dose: "5-10 mg weekly (compounded), under physician supervision"
+    timing: "Once weekly"
+    disclaimer: "Prescription-only medication. For research purposes only; not FDA-approved for this use. Requires an active prescription and monitoring by a physician familiar with rapamycin/mTOR-inhibitor therapy. Not evaluated by the FDA for longevity use."
+    sort_order: 0

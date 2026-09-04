@@ -1,0 +1,96 @@
+id: vesugen
+name: Vesugen
+status: draft
+
+category_ids:
+  - longevity                 # no cardiovascular/vascular category exists in the lookup table;
+                               # closest available fit, matching the sibling Cardiogen entry (heart).
+
+overview: >
+  A synthetic tripeptide (Lys-Glu-Asp) from the Khavinson-school family of short "bioregulator"
+  peptides, developed at the St. Petersburg Institute of Bioregulation and Gerontology as a
+  tissue-specific preparation targeting the vascular system (blood vessel walls and endothelium),
+  part of the same research program that produced Thymalin, Vilon, Cardiogen, and Livagen.
+  Vesugen's supporting research comes almost entirely from Khavinson-affiliated studies, including
+  one small human clinical study in elderly patients with peripheral arterial disease.
+
+key_benefits:
+  - Studied for stimulating expression of the proliferation marker Ki-67 in aging vascular
+    endothelial cell cultures
+  - Investigated in a small human clinical study of elderly and older patients with chronic lower-
+    limb arterial insufficiency
+
+aliases:
+  - "Vezugen"                  # alternate transliteration used in the peptide's own PubMed-indexed
+                                # English-language abstracts (from the Cyrillic "Везуджен")
+
+mechanism_of_action: >
+  Vesugen is proposed to act as a short-peptide "bioregulator" affecting gene expression in
+  vascular endothelial and smooth muscle tissue, similar in concept to other Khavinson-group
+  tripeptides. In a 2014 in vitro study, Vesugen (alongside a related peptide designated D-7)
+  stimulated expression of the proliferation-associated protein Ki-67 in tissue-specific and
+  vascular endothelial cell cultures that had declined with age; molecular docking modeling
+  suggested the peptide could contact the promoter region of the MKI67 gene, proposed as an
+  epigenetic mechanism for the observed effect. In a separate small clinical study of 41 older and
+  elderly patients with lower-limb chronic arterial insufficiency (a form of peripheral vascular
+  disease often linked to atherosclerosis), peptide bioregulator treatment was reported to
+  significantly improve blood-flow parameters. The precise molecular target and mechanism are not
+  well-characterized outside this research program.
+
+quick_start_guide:
+  typical_dose: "Not established for human use; not backed by dose-ranging human studies"
+  frequency: "Not established"
+  injection_site_ids:
+    - abdomen-subq
+  best_timing: "Not established"
+  effects_timeline: "Not established; the clinical arterial-insufficiency study assessed blood-flow parameters over an unspecified treatment course, not a defined human dosing timeline"
+  storage: "Refrigerate after reconstitution"
+  cycle_length: "Not established for human use"
+  break_between: "Not established for human use"
+
+pharmacokinetics:
+  peak: "Not established"
+  half_life: "Not established"
+  cleared: "Not established"
+
+research_indications:
+  - Vascular endothelial cell proliferation-marker (Ki-67) support in aging cell culture
+  - Blood-flow parameters in elderly patients with chronic lower-limb arterial insufficiency
+    (small, non-blinded clinical study)
+
+reconstitution_steps:
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White to off-white lyophilized powder that fully dissolves into a clear solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate after reconstitution"
+
+what_to_expect: >
+  There is no well-characterized human effect profile for Vesugen outside of one small, apparently
+  non-blinded clinical study in elderly patients with peripheral arterial disease, conducted by
+  researchers affiliated with Vladimir Khavinson's institute. That study and the supporting
+  endothelial cell-culture work have not been independently replicated by research groups outside
+  that program.
+
+safety_notes: >
+  Vesugen's evidence base is limited to one in vitro endothelial cell-culture study and one small,
+  apparently non-blinded human clinical study in elderly patients with arterial disease, both
+  published by Vladimir Khavinson's research group and collaborators in a lower-circulation
+  Russian gerontology journal. There is no independent, blinded, or placebo-controlled human trial
+  data, and no independent replication. This is an experimental research compound with unverified
+  relevance to humans, not an approved treatment for peripheral artery disease, atherosclerosis,
+  or any other vascular condition. Consult a healthcare provider.
+
+references:
+  - citation: "Kitachev KV, Sazonov AB, Kozlov KL, Petrov KIu, Sliusarev AS, Khavinson VKh. [The efficacy of peptide bioregulators of vessels in lower limbs chronic arterial insufficiency treatment in old and elderly people]. Adv Gerontol. 2014;27(1):156-159."
+    url: "https://pubmed.ncbi.nlm.nih.gov/25051774/"
+  - citation: "Khavinson VKh, Tarnovskaia SI, Lin'kova NS, Guton EO, Elashkina EV. [Epigenetic aspects of peptidergic regulation of vascular endothelial cell proliferation during aging]. Adv Gerontol. 2014;27(1):108-114."
+    url: "https://pubmed.ncbi.nlm.nih.gov/25051766/"
+
+research_protocols:
+  - goal: "Vascular Tissue Bioregulation Research Interest (small non-blinded clinical study only, no established injectable protocol)"
+    dose: "Not established for human use"
+    timing: "Not established"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. The one clinical study was small and apparently non-blinded, from a single research group; no independent replication exists."
+    sort_order: 0

@@ -1,0 +1,101 @@
+id: nmn
+name: NMN (Nicotinamide Mononucleotide)
+status: draft
+
+category_ids:
+  - longevity
+
+overview: >
+  Nicotinamide mononucleotide (NMN) is a naturally occurring nucleotide and a direct metabolic
+  precursor to NAD+ (nicotinamide adenine dinucleotide), the coenzyme central to cellular energy
+  metabolism, sirtuin activity, and DNA repair (see the separate NAD+ entry in this encyclopedia for
+  that broader mechanism). NMN itself is orally consumed as a dietary supplement — unlike direct
+  injectable NAD+, it is intended to raise cellular NAD+ levels indirectly by supplying the
+  penultimate biosynthetic building block. It is one of the more recently and actively studied
+  longevity supplements, with a growing number of human trials published in the last several years.
+
+key_benefits:
+  - Direct metabolic precursor to NAD+, one step closer in the biosynthetic pathway than nicotinamide riboside (NR)
+  - Multiple placebo-controlled human trials have measured dose-dependent increases in blood NAD+ metabolome
+  - Generally well tolerated in trials to date, including at doses well above typical commercial supplement serving sizes
+  - Distinct oral route from injectable/IV NAD+, without the infusion-related discomfort sometimes reported with rapid IV NAD+ administration
+
+aliases:
+  - "β-Nicotinamide Mononucleotide"
+  - "beta-NMN"
+  - "NMN"
+
+mechanism_of_action: >
+  NMN is converted to NAD+ via the enzyme NMNAT (nicotinamide mononucleotide adenylyltransferase),
+  making it a direct, one-step precursor in the NAD+ salvage pathway (dietary/supplemental NMN is
+  generally believed to first be broken down to nicotinamide riboside for cellular uptake via
+  transporters, then reconverted to NMN and NAD+ intracellularly, though the exact absorption and
+  cellular-uptake pathway in humans is still being characterized). Once converted, NAD+ serves as a
+  required substrate for sirtuins (metabolic/stress-response regulators), PARP enzymes (DNA repair),
+  and CD38 (an NAD+-consuming immune enzyme whose activity rises with age) — see the NAD+ entry for
+  detail on that shared downstream biology. NMN supplementation is intended to counteract the
+  well-documented age-related decline in tissue NAD+ levels by increasing precursor availability.
+
+quick_start_guide:
+  typical_dose: "250 mg-1,250 mg/day; controlled human trials have tested a dose-response range of 300, 600, and 900 mg/day, and separately established 1,250 mg/day as tolerated for up to 4 weeks"
+  frequency: "1x daily"
+  best_timing: "Morning; some users report mild stimulating effects that some prefer to avoid dosing close to bedtime, though this is not systematically studied"
+  effects_timeline: "Blood NAD+ metabolome elevation has been measured within the trial periods studied (as short as a few weeks); evidence for downstream functional/longevity benefits in healthy humans is still developing"
+  storage: "Room temperature or refrigerated per manufacturer labeling; protect from moisture"
+  cycle_length: "Studied and typically used as continuous daily supplementation rather than in defined cycles"
+  break_between: "Not standardized"
+
+pharmacokinetics:
+  peak: "Oral human pharmacokinetics are not yet fully characterized in independently published literature; NMN is rapidly absorbed and converted along the NAD+ salvage pathway based on trial-measured rises in blood NAD+ metabolites"
+  half_life: "Not well established for oral NMN itself in humans (distinct from NAD+'s own turnover, which is separately characterized)"
+  cleared: "Not well established for oral NMN in humans"
+
+research_indications:
+  - Age-related decline in cellular NAD+ levels
+  - Mitochondrial function and cellular energy metabolism (via the NAD+ pathway)
+  - Physical performance and healthy-aging biomarkers in middle-aged and older adults (studied in placebo-controlled human trials)
+  - Metabolic health research (glucose/lipid metabolism), an active but still-developing area with mixed meta-analytic findings across small trials
+
+reconstitution_steps:
+  - "Not applicable — dosed as an oral capsule/tablet/powder, not reconstituted or injected"
+
+quality_indicators:
+  - "Sold as an oral capsule, tablet, or powder; look for a third-party COA confirming NMN content and purity, since NMN degrades over time and with heat/moisture exposure"
+  - "Sublingual and other delivery-enhanced formats are marketed on the premise of avoiding first-pass degradation, though comparative human bioavailability data across formats is limited"
+
+what_to_expect: >
+  Placebo-controlled human trials have consistently shown that oral NMN raises blood NAD+-related
+  metabolite levels in a dose-dependent way and is generally well tolerated over trial periods of
+  4-12 weeks. What remains less settled is whether that biomarker change reliably translates into
+  functional benefits (energy, physical performance, metabolic markers) in healthy adults — trial
+  results on functional outcomes have been more mixed and are based on smaller, shorter studies than
+  the safety/pharmacodynamic data. Users should expect NMN to behave like other precursor supplements
+  in this encyclopedia (subtle, cumulative effects) rather than an acute stimulant.
+
+side_effects_common:
+  - "Generally well tolerated in trials to date, including doses up to 1,250 mg/day for 4 weeks with no severe adverse events reported"
+  - "Mild gastrointestinal discomfort in some users"
+  - "Occasional reports of headache or mild flushing"
+
+safety_notes: >
+  Multiple randomized, placebo-controlled human trials (ranging from single-dose escalation studies
+  to dose-ranging trials of 300-1,250 mg/day over 4-8 weeks) have found oral NMN safe and well
+  tolerated in the populations studied, with no serious adverse events attributed to NMN. That said,
+  these trials are still relatively short in duration (weeks, not years) and modest in size, so
+  long-term safety data — and the regulatory picture, which has been unsettled at times regarding
+  NMN's status as a dietary ingredient in some jurisdictions — should be understood as still evolving.
+  Consult a healthcare provider before use, particularly if you have an underlying health condition
+  or take other medications.
+
+references:
+  - citation: "Yi L, Maier AB, Tao R, et al. The efficacy and safety of β-nicotinamide mononucleotide (NMN) supplementation in healthy middle-aged adults: a randomized, multicenter, double-blind, placebo-controlled, parallel-group, dose-dependent clinical trial. Geroscience. 2023;45(1):29-43."
+    url: "https://pubmed.ncbi.nlm.nih.gov/36482258/"
+  - citation: "Fukamizu Y, Uchida Y, Shigekawa A, Sato T, Kosaka H, Sakurai T. Safety evaluation of β-nicotinamide mononucleotide oral administration in healthy adult men and women. Sci Rep. 2022;12:14442."
+    url: "https://www.nature.com/articles/s41598-022-18272-y"
+
+research_protocols:
+  - goal: "Cellular Energy / Healthy Aging Support"
+    dose: "250-600 mg once daily"
+    timing: "Morning"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0

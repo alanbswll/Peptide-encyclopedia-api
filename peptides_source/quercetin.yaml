@@ -1,0 +1,105 @@
+id: quercetin
+name: Quercetin
+status: draft
+
+category_ids:
+  - longevity
+
+overview: >
+  Quercetin is a plant flavonoid widely distributed in foods (onions, apples, berries, capers, tea)
+  and one of the most-consumed dietary flavonoids in the human diet. In the longevity field it is
+  best known as the companion drug to dasatinib in "D+Q," one of the first senolytic combinations
+  tested in human clinical trials; it is also studied independently as a general antioxidant and
+  anti-inflammatory compound. As with the other entries in this batch, it is a mainstream oral
+  supplement/dietary compound rather than an experimental research chemical.
+
+key_benefits:
+  - Half of the "D+Q" (dasatinib + quercetin) senolytic combination, one of the more clinically
+    advanced senolytic approaches, with published pilot human trials in diabetic kidney disease and
+    mild cognitive impairment
+  - One of the most-consumed flavonoids in the general human diet, with a long history of food-level exposure
+  - Studied independently for cardiovascular and anti-inflammatory effects at higher supplemental doses
+  - High interindividual variability in absorption is itself well characterized, which helps set realistic expectations for supplement users
+
+mechanism_of_action: >
+  As a senolytic, quercetin is believed to act partly through inhibition of PI3K/AKT pathway
+  signaling and other anti-apoptotic ("senescent cell anti-apoptotic pathway") defenses that
+  senescent cells rely on, similar in concept to fisetin; in the D+Q combination, dasatinib (a
+  tyrosine kinase inhibitor) and quercetin are believed to target different anti-apoptotic pathways,
+  giving a broader senolytic effect together than either alone in preclinical models. Independent of
+  the senolytic mechanism, quercetin has broad flavonoid antioxidant activity (direct free-radical
+  scavenging) and anti-inflammatory effects via modulation of NF-kB signaling and mast-cell histamine
+  release, which underlie its separate, longer-standing research use for allergy/inflammation and
+  cardiovascular markers.
+
+quick_start_guide:
+  typical_dose: "500-1,000 mg/day for general supplement use; the D+Q senolytic protocol used in pilot human trials has used roughly 1,000-1,250 mg quercetin alongside 100 mg dasatinib"
+  frequency: "1x daily to divided doses for general use; D+Q senolytic trials have used short intermittent pulse schedules (e.g., 2 consecutive days, repeated periodically) rather than continuous daily dosing"
+  best_timing: "With a meal containing some fat — like other flavonoids, quercetin's absorption is enhanced by co-ingested dietary fat"
+  effects_timeline: "Cardiovascular/inflammatory marker studies typically measure effects over 4-8+ weeks; senolytic D+Q pilot trials have measured senescent-cell-burden and functional outcomes within weeks of a short pulsed protocol"
+  storage: "Room temperature, protect from light and moisture (oral capsule)"
+  cycle_length: "General supplement use is often continuous; D+Q senolytic protocols use short, intermittent pulses rather than continuous dosing"
+  break_between: "Not standardized for general use; D+Q trial protocols have used multi-week gaps between pulsed dosing days"
+
+pharmacokinetics:
+  peak: "Highly variable oral absorption between individuals, ranging from roughly 0% to over 50% of a given dose depending on the quercetin source/form; glucoside-conjugated forms (as found in onions) show notably higher bioavailability than the aglycone form found in most supplements, and a high-fat meal has been shown to further increase absorption"
+  half_life: "Reported human elimination half-life estimates vary widely across studies (commonly cited in the range of roughly 11-28 hours), reflecting extensive enterohepatic recirculation and conjugate metabolism"
+  cleared: "Extensively metabolized to glucuronide, sulfate, and methylated conjugates in the gut and liver before urinary excretion"
+
+research_indications:
+  - Senolytic combination therapy research (as "D+Q," with dasatinib) — diabetic kidney disease, mild cognitive impairment, and other pilot human trials
+  - General antioxidant and anti-inflammatory flavonoid research
+  - Cardiovascular marker research (blood pressure, endothelial function) at higher supplemental intake
+  - Seasonal allergy/mast-cell research (historic, longer-standing use case, via effects on histamine release)
+
+reconstitution_steps:
+  - "Not applicable — dosed as an oral capsule, not reconstituted or injected"
+
+quality_indicators:
+  - "Sold as an oral capsule or powder, usually as quercetin dihydrate or quercetin aglycone; look for a third-party COA confirming content and purity"
+  - "Because oral bioavailability of the plain aglycone form is inconsistent, some products use enhanced-absorption forms (e.g., phytosome/lecithin-complexed formulations); comparative human bioavailability data across these forms is limited"
+
+what_to_expect: >
+  For general antioxidant/cardiovascular supplement use, effects are subtle, cumulative, and
+  modest — consistent with quercetin's status as a well-studied but ordinary dietary flavonoid rather
+  than a potent acute agent. The D+Q senolytic combination has more clinically advanced human data
+  than quercetin used alone: small pilot trials in diabetic kidney disease and mild cognitive
+  impairment have reported reductions in senescent-cell markers and some functional improvements
+  after short pulsed courses, though these remain early-phase, small-sample findings rather than
+  confirmed clinical benefits, and quercetin's contribution independent of dasatinib in that
+  combination has not been isolated in human trials.
+
+side_effects_common:
+  - "Generally well tolerated at typical supplemental doses; headache and mild GI upset have been reported occasionally"
+  - "Dasatinib (the companion drug in D+Q senolytic protocols) has its own, more significant side-effect profile at chemotherapy doses, though short-term pulsed senolytic dosing has generally shown a more favorable short-term tolerability profile in pilot trials than sustained chemotherapy-style dosing"
+
+safety_notes: >
+  Quercetin itself, taken alone as an oral supplement, has a long history of dietary exposure and a
+  generally favorable safety profile at typical supplemental doses (500 mg-1 g/day) in the trials
+  conducted to date. It can inhibit certain CYP450 enzymes and P-glycoprotein transport, creating a
+  realistic potential for interactions with a range of medications (including some anticoagulants,
+  certain chemotherapy agents, and cyclosporine); this matters more at the higher, sustained doses
+  used in some research protocols than at food-level intake. The D+Q senolytic combination
+  specifically pairs quercetin with dasatinib, a prescription tyrosine kinase inhibitor with its own
+  distinct, more significant safety profile (including cytopenias and fluid retention risks at
+  higher/sustained doses) — that combination should only be used under medical supervision as part of
+  a research protocol, not self-directed. Consult a healthcare provider before use, especially if
+  taking other medications.
+
+references:
+  - citation: "Hickson LJ, Prata LGPL, Bobart SA, et al. Senolytics decrease senescent cells in humans: Preliminary report from a clinical trial of Dasatinib plus Quercetin in individuals with diabetic kidney disease. EBioMedicine. 2019;47:446-456."
+    url: "https://pubmed.ncbi.nlm.nih.gov/31542391/"
+  - citation: "Almeida AF, Borge GIA, Piskula M, et al. Bioavailability of Quercetin in Humans with a Focus on Interindividual Variation. Compr Rev Food Sci Food Saf. 2018;17(3):714-731."
+    url: "https://pubmed.ncbi.nlm.nih.gov/33350133/"
+
+research_protocols:
+  - goal: "General Antioxidant / Cardiovascular Support"
+    dose: "500 mg once or twice daily"
+    timing: "With a meal"
+    disclaimer: "For research purposes only. Not evaluated by the FDA."
+    sort_order: 0
+  - goal: "Senolytic Combination Research (D+Q protocol, requires physician-supervised dasatinib)"
+    dose: "~1,000 mg quercetin with 100 mg dasatinib, 2 consecutive days per pulse"
+    timing: "With food; pulsed schedule per research protocol"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Requires a dasatinib prescription and medical supervision — not a self-directed supplement protocol."
+    sort_order: 1

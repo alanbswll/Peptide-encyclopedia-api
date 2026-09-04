@@ -1,0 +1,92 @@
+id: zinc-thymulin
+name: Zinc-Thymulin
+status: draft
+
+category_ids:
+  - immune
+
+overview: >
+  The zinc-bound, biologically active form of thymulin (originally called FTS, "Facteur Thymique
+  Serique"), a nonapeptide hormone secreted exclusively by thymic epithelial cells. Discovered by
+  Jean-Francois Bach and Mireille Dardenne in 1977, thymulin is unusual among peptide hormones in
+  that it requires an equimolar zinc ion bound to its structure to be biologically active — the
+  zinc-free peptide (apo-thymulin) is inactive. Research vendors market it as "Zinc-Thymulin" to
+  emphasize that the metal-bound form is the one with immunological activity.
+
+key_benefits:
+  - Studied for T-cell differentiation and broader thymic/immune signaling
+  - Serum thymulin activity is used in research as a sensitive marker of zinc nutritional status
+  - Explored in aging research, since thymulin production declines with age alongside thymic involution
+
+aliases:
+  - "Thymulin"
+  - "FTS"
+  - "Facteur Thymique Serique"
+
+mechanism_of_action: >
+  Thymulin's nonapeptide sequence (pGlu-Ala-Lys-Ser-Gln-Gly-Gly-Ser-Asn) only adopts its
+  biologically active conformation when bound to a zinc ion in an equimolar ratio; the zinc-free
+  apopeptide does not induce the same T-cell effects. In its active, zinc-bound form, thymulin
+  promotes intra- and extra-thymic T-cell differentiation and modulates markers of T-cell
+  maturation. Because zinc availability directly gates thymulin's activity, serum thymulin
+  bioactivity falls with zinc deficiency and can be restored with zinc repletion — a relationship
+  used experimentally as a functional readout of zinc status. Thymulin/thymic output declines with
+  age, and this decline has been linked in animal and human studies to reduced peripheral immune
+  competence, which zinc supplementation has been explored as a way to partially reverse.
+
+quick_start_guide:
+  typical_dose: "No standardized human self-administration dose is established; research-vendor material is commonly sold for research use at microgram-range doses, often alongside zinc supplementation to support cofactor availability"
+  frequency: "Not established for repeated human self-administration"
+  injection_site_ids:
+    - abdomen-subq
+  best_timing: "Not established outside controlled research settings"
+  effects_timeline: "Not established in humans outside of laboratory serum-marker studies"
+  storage: "Refrigerate after reconstitution"
+  cycle_length: "Not established for human use"
+  break_between: "Not established"
+
+pharmacokinetics:
+  peak: "Not well established in human pharmacokinetic literature"
+  half_life: "Not well established in human pharmacokinetic literature"
+  cleared: "Not well established in human pharmacokinetic literature"
+
+research_indications:
+  - T-cell differentiation and thymic/immune signaling research
+  - Zinc-status research (serum thymulin bioactivity as a functional zinc-deficiency marker)
+  - Immunosenescence / age-related decline in thymic output (preclinical and observational human research)
+
+reconstitution_steps:
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White lyophilized powder in a sealed vial"
+  - "Clear, colorless solution after reconstitution with no visible particulate"
+  - "Third-party COA available confirming peptide identity and purity, including confirmation of zinc content for the zinc-bound form"
+
+what_to_expect: >
+  Essentially all of thymulin's well-characterized effects come from laboratory immunology
+  (T-cell marker) studies and zinc-status research, not from a self-administration model with a
+  documented subjective effect profile. There is no established "what it feels like" timeline for
+  at-home use.
+
+safety_notes: >
+  Zinc-thymulin/thymulin has a long research history (since the 1970s) but has never been
+  developed into an FDA-approved drug, and there is no standardized human dosing or long-term
+  safety data for self-administered use. Most available data comes from in vitro immunology
+  assays, animal studies, and human serum-marker (not therapeutic-outcome) research. Because its
+  activity is zinc-dependent, indiscriminate additional zinc supplementation alongside it carries
+  the usual risks of zinc excess (copper deficiency, GI upset) if not dosed carefully. This is a
+  research compound, not an approved treatment for any condition. Consult a healthcare provider.
+
+references:
+  - citation: "Bach JF, Dardenne M, Pleau JM, Rosa J. Biochemical characterisation of a serum thymic factor. Nature. 1977;266(5597):55-57."
+    url: "https://pubmed.ncbi.nlm.nih.gov/402572/"
+  - citation: "Mocchegiani E, Malavolta M. Interactions between zinc and thymulin. Metal-Based Drugs. 2008;2008:781215."
+    url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2364880/"
+
+research_protocols:
+  - goal: "Immune / Thymic Signaling Research Interest"
+    dose: "Not established for standardized human self-administration"
+    timing: "Not established"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. No standardized human dosing protocol exists in the published literature."
+    sort_order: 0

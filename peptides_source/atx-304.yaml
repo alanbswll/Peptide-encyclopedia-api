@@ -1,0 +1,110 @@
+# NOTE on identity: see the note at the top of os-01-face-peptide.yaml. ATX-304/O-304 (this
+# file) and OS-01 the OneSkin skincare peptide are two unrelated compounds that the source
+# checklist's "OS-01 (O-304/ATX-304)" line item accidentally conflated -- likely because at
+# least one research-chemical vendor page literally titles its ATX-304 listing "OS-01
+# (O-304/ATX-304)." Split into two files: this one covers the oral AMPK-activator small
+# molecule; os-01-face-peptide.yaml covers the topical skincare peptide.
+id: atx-304
+name: ATX-304 (O-304)
+status: draft
+
+category_ids:
+  - longevity
+
+overview: >
+  ATX-304 (formerly designated O304) is an oral, small-molecule "pan-AMPK activator" — it is
+  not a peptide. Originally developed by academic groups in Sweden and now advanced by Amplifier
+  Therapeutics (a Cambrian Bio pipeline company), it activates AMP-activated protein kinase, the
+  cell's central energy-sensing enzyme, and has been studied as an exercise-mimetic metabolic
+  compound with published mouse data and an early human Phase IIa trial in type 2 diabetes.
+
+key_benefits:
+  - Direct pan-AMPK activator studied for glucose homeostasis, microvascular perfusion, and cardiometabolic outcomes
+  - One of the few compounds on this list with a completed human Phase IIa trial (in type 2 diabetes patients on background metformin)
+  - Exercise-mimetic effects (improved exercise capacity, cardiac and metabolic function) reported in aged-mouse studies
+
+aliases:
+  - "O304"
+  - "O-304"
+  - "ATX304"
+
+mechanism_of_action: >
+  ATX-304 directly and broadly activates AMP-activated protein kinase (AMPK) across its multiple
+  tissue-specific complexes (a "pan-AMPK" activator), independent of the mitochondrial-stress
+  pathway that indirect activators like metformin rely on. AMPK is the cell's master
+  energy-sensing switch, normally activated by a rising AMP:ATP ratio (such as during exercise);
+  activating it pharmacologically increases glucose uptake in skeletal muscle, promotes fatty
+  acid oxidation, and reduces stress signaling in pancreatic beta cells. In diet-induced obese
+  mice, O304 increased skeletal muscle glucose uptake, reduced beta-cell stress markers, lowered
+  fasting glucose, and improved insulin resistance measures; in aged mice it also activated
+  cardiac AMPK, increased cardiac glucose uptake, and improved exercise capacity and left
+  ventricular stroke volume without increasing heart weight. In a proof-of-concept, randomized,
+  double-blind, placebo-controlled Phase IIa trial (the "TELLUS" study) in type 2 diabetes
+  patients already on metformin, ATX-304/O304 (1000 mg/day for 28 days) produced a statistically
+  significant reduction in fasting plasma glucose, improved HOMA-IR, reduced systolic blood
+  pressure, and improved microvascular perfusion.
+
+quick_start_guide:
+  typical_dose: "Studied at 1000 mg/day (oral) in the published Phase IIa human trial; not a self-administered injectable research peptide"
+  frequency: "1x daily (oral), per the published trial protocol"
+  best_timing: "Not specifically established; trial dosing was daily oral administration"
+  effects_timeline: "The Phase IIa trial measured fasting glucose and blood-pressure changes over a 28-day course; longer-term human timelines are not established"
+  storage: "Not applicable in the reconstituted-peptide sense — an oral small molecule, not a lyophilized injectable"
+  cycle_length: "Not established beyond the 28-day trial window; no long-term human dosing regimen has been published"
+  break_between: "Not established"
+
+pharmacokinetics:
+  peak: "Not published in detail in the available literature summaries; administered as a once-daily oral dose in trials"
+  half_life: "Not established in publicly available human pharmacokinetic detail"
+  cleared: "Not established in publicly available human pharmacokinetic detail"
+
+research_indications:
+  - Type 2 diabetes / glucose homeostasis (published human Phase IIa data)
+  - Microvascular perfusion and blood pressure (animal and human trial data)
+  - Cardiac metabolic function and exercise capacity in aging (mouse studies)
+  - Cisplatin-induced acute kidney injury protection (mouse/cell-culture studies)
+  - Exercise-mimetic / longevity-adjacent AMPK research more broadly
+
+reconstitution_steps:
+  - "Not applicable — an oral small molecule, not a lyophilized peptide requiring reconstitution"
+
+quality_indicators:
+  - "Not FDA-approved or legally marketed as a human drug or supplement; still an investigational compound in company-sponsored trials"
+  - "Any 'ATX-304' or 'O-304' product sold by a research-chemical vendor for personal use is not the same as the pharmaceutical-grade material used in the published clinical trial, and has not been independently verified for identity or purity by the trial sponsors"
+
+what_to_expect: >
+  The only human data available comes from a short (28-day), company-sponsored Phase IIa trial
+  in type 2 diabetes patients already on metformin, which reported modest but statistically
+  significant improvements in fasting glucose, insulin resistance markers, blood pressure, and
+  microvascular perfusion. Notably, human weight loss was not demonstrated in this trial. Broader
+  claims about exercise-mimetic or longevity benefits in humans are extrapolated from mouse
+  studies and have not been directly tested in people.
+
+side_effects_common:
+  - "Not comprehensively published for the general population; the Phase IIa trial was short-duration and company-reported"
+
+safety_notes: >
+  ATX-304/O304 is an investigational compound still in company-sponsored clinical development
+  (Amplifier Therapeutics / Cambrian Bio) — it is not FDA-approved for any indication and is not
+  legally marketed as a supplement. Human evidence is limited to one short (28-day) Phase IIa
+  trial in a narrow patient population (type 2 diabetics stable on metformin); long-term human
+  safety, appropriate dosing outside that trial context, and effects in healthy (non-diabetic)
+  individuals are not established. Preclinical work in mice showed favorable cardiac and renal
+  signals (no increase in heart weight; protection in a cisplatin acute-kidney-injury model), but
+  this does not substitute for long-term human safety data. This is a research/investigational
+  compound, not an approved treatment for any condition. Consult a healthcare provider.
+
+references:
+  - citation: "Steneberg P, Bernardo L, Fex M, et al. PAN-AMPK activator O304 improves glucose homeostasis and microvascular perfusion in mice and type 2 diabetes patients. JCI Insight. 2018;3(12):e99114."
+    url: "https://pubmed.ncbi.nlm.nih.gov/29925691/"
+  - citation: "Ahlqvist E, Osmark P, Rosengren AH, et al. AMPK activator O304 improves metabolic and cardiac function, and exercise capacity in aged mice. Commun Biol. 2021;4(1):1310."
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8602430/"
+  - citation: "Ferm K, et al. The AMPK activator ATX-304 alters cellular metabolism to protect against cisplatin-induced acute kidney injury. Biomed Pharmacother. 2024."
+    url: "https://pubmed.ncbi.nlm.nih.gov/38749175/"
+
+research_protocols:
+  - goal: "Metabolic / Glucose Homeostasis Research Interest (Phase IIa human data exists)"
+    dose: "1000 mg/day, oral, per published Phase IIa trial protocol"
+    timing: "1x daily"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Human data is limited to a short, company-sponsored Phase IIa trial in type 2 diabetes patients on background metformin."
+    sort_order: 0

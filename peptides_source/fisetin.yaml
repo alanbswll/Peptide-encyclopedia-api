@@ -1,0 +1,106 @@
+id: fisetin
+name: Fisetin
+status: draft
+
+category_ids:
+  - longevity
+
+overview: >
+  Fisetin is a naturally occurring flavonoid found in strawberries, apples, persimmons, onions, and
+  cucumbers. It gained prominence in the longevity field after a 2018 Mayo Clinic-led screen
+  identified it as one of the most potent "senolytics" tested — compounds that selectively clear
+  senescent ("zombie") cells — extending healthspan and lifespan in aged mice. Like the other
+  entries in this batch, it is a mainstream, orally-consumed dietary compound rather than an
+  injectable research peptide, and human evidence remains earlier-stage than the mouse data that
+  made it popular.
+
+key_benefits:
+  - Identified as the most potent natural senolytic in a broad compound screen, extending median and
+    maximum lifespan in aged mice
+  - Naturally occurring dietary flavonoid with a long history of food-level human exposure
+  - Multiple early-phase human trials (osteoarthritis, diabetic kidney disease, post-COVID, sepsis,
+    healthy aging) are underway or recently reported testing senolytic and anti-inflammatory effects
+  - Also studied more broadly as an antioxidant/anti-inflammatory flavonoid, independent of its
+    senolytic mechanism
+
+mechanism_of_action: >
+  Fisetin is proposed to act as a senolytic by selectively inducing apoptosis in senescent cells:
+  senescent cells upregulate anti-apoptotic ("senescent cell anti-apoptotic pathway," SCAP) defenses
+  such as BCL-2 family proteins and PI3K/AKT signaling to resist their own death despite being
+  metabolically dysfunctional and pro-inflammatory (the "senescence-associated secretory phenotype,"
+  SASP); fisetin is believed to transiently disable enough of these defenses to tip senescent cells
+  into apoptosis while sparing healthy cells. Separately from this senolytic mechanism, fisetin has
+  broader flavonoid antioxidant and anti-inflammatory activity (e.g., NF-kB pathway modulation) that
+  is not specific to senescent cells. Both mechanisms are drawn mainly from cell-culture and animal
+  data; the degree to which the senolytic mechanism translates to meaningful clinical effects in
+  humans is still being tested in ongoing trials.
+
+quick_start_guide:
+  typical_dose: "Senolytic research-trial protocol: 20 mg/kg/day (roughly 1.4 g/day for a 70 kg adult); commercial supplement capsules are typically sold at much lower doses (often 100-500 mg), a distinct, non-clinical-trial dosing paradigm intended for general antioxidant use rather than senolysis"
+  frequency: "Trial protocols use short, intermittent 'hit-and-run' pulses (e.g., 2 consecutive days), based on the idea that senolytics only need to be present briefly to clear senescent cells, not continuously; general-antioxidant supplement use is typically daily"
+  best_timing: "With a fat-containing meal — fisetin is poorly water-soluble and oral absorption is enhanced by co-ingested fat"
+  effects_timeline: "Not established for senolytic effects in humans; most registered trials are still enrolling, recently completed, or reporting only safety/pharmacodynamic (senescence marker) endpoints rather than long-term clinical outcomes"
+  storage: "Room temperature, protect from light and moisture (oral capsule/powder)"
+  cycle_length: "Senolytic trial protocols use short 1-2 day pulses spaced weeks to months apart rather than continuous dosing; this is fundamentally different from typical daily-supplement cycling"
+  break_between: "Not standardized outside formal trial protocols"
+
+pharmacokinetics:
+  peak: "Very poor and variable oral bioavailability. The first published human pharmacokinetic study measured a mean Cmax of only ~10 ng/mL for unformulated fisetin, versus ~238 ng/mL (a 23-fold increase) using a bioavailability-enhancing hybrid-hydrogel formulation, illustrating how much oral absorption depends on formulation"
+  half_life: "Very short — free fisetin's serum half-life was measured at roughly 2.7 minutes after intravenous administration in early human pharmacokinetic work; oral fisetin undergoes rapid first-pass metabolism and P-glycoprotein-mediated intestinal efflux"
+  cleared: "Rapidly metabolized via glucuronidation and sulfation; detailed human clearance data for oral dosing is limited"
+
+research_indications:
+  - Senescent cell ("zombie cell") clearance / senolytic research
+  - Osteoarthritis-related joint tissue senescence (registered clinical trial)
+  - Diabetic kidney disease and general aging-related inflammation (registered trials)
+  - Post-acute COVID-19 recovery and skeletal-muscle senescence in older adults (registered pilot trials)
+  - General dietary antioxidant/anti-inflammatory flavonoid research (separate from senolytic use)
+
+reconstitution_steps:
+  - "Not applicable — dosed as an oral capsule/powder, not reconstituted or injected"
+
+quality_indicators:
+  - "Sold as an oral capsule or powder; look for a third-party Certificate of Analysis (COA) confirming fisetin content and purity, since potency in low-cost bulk powder can vary"
+  - "Because oral bioavailability is inherently poor, some products use bioavailability-enhancing delivery forms (e.g., phytosome, liposomal, or hydrogel formulations, or co-formulation with piperine/black pepper extract) — check labeling for which form is used and be aware dosing equivalence across forms is not established"
+
+what_to_expect: >
+  Fisetin's reputation rests heavily on striking mouse lifespan/healthspan data; human evidence is
+  still catching up. A number of early-phase and pilot human trials (osteoarthritis, diabetic kidney
+  disease, sepsis, post-COVID recovery, and general aging in older multimorbid adults) have been
+  registered or recently reported, most with safety and senescence-biomarker endpoints rather than
+  long-term functional outcomes, and no large trial has yet confirmed a senolytic clinical benefit in
+  humans. Commercial fisetin supplements sold for daily general-antioxidant use are dosed very
+  differently (lower dose, continuous) from the intermittent, high-dose "senolytic pulse" protocol
+  used in research, and users should not assume the two are functionally equivalent.
+
+side_effects_common:
+  - "No severe or serious adverse events have been reported at the intermittent senolytic-trial dose (20 mg/kg/day for 2 days) in trials to date"
+  - "Mild gastrointestinal upset possible at high oral doses (limited systematic data)"
+
+safety_notes: >
+  Fisetin is a naturally occurring dietary flavonoid with a long history of food-level human exposure
+  (strawberries, apples, onions) and is generally regarded as safe at those levels. The much higher,
+  intermittent "senolytic pulse" doses used in ongoing Mayo Clinic-affiliated and other academic
+  trials have not shown severe or serious adverse events so far, but long-term human safety data at
+  that dose, and for repeated dosing cycles, is not yet established — this is still an active area of
+  research rather than settled clinical practice. As a flavonoid, fisetin may theoretically interact
+  with CYP450-metabolized medications and other drugs affecting platelet function; consult a
+  healthcare provider before use, especially at senolytic-protocol doses or if taking other
+  medications.
+
+references:
+  - citation: "Yousefzadeh MJ, Zhu Y, McGowan SJ, et al. Fisetin is a senotherapeutic that extends health and lifespan. EBioMedicine. 2018;36:18-28."
+    url: "https://pubmed.ncbi.nlm.nih.gov/30279143/"
+  - citation: "Tavenier J, Nehlin JO, Houlind MB, Rasmussen LJ, Tchkonia T, Kirkland JL. Fisetin as a senotherapeutic agent: Evidence and perspectives for age-related diseases. Mech Ageing Dev. 2024;222:111995."
+    url: "https://pubmed.ncbi.nlm.nih.gov/39384074/"
+  - citation: "Human pharmacokinetic study of a bioavailability-enhanced fisetin formulation vs. unformulated fisetin in healthy individuals (randomised double-blinded comparative crossover study). J Nutr Sci. 2022;11:e92."
+    url: "https://pubmed.ncbi.nlm.nih.gov/36304817/"
+  - citation: "Pilot Trial of Fisetin in Healthy Volunteers and Older Patients With Multimorbidity. ClinicalTrials.gov registry entry, NCT06431932."
+    url: "https://clinicaltrials.gov/study/NCT06431932"
+
+research_protocols:
+  - goal: "Senolytic Research Protocol (as used in registered clinical trials)"
+    dose: "20 mg/kg/day, 2 consecutive days"
+    timing: "With a fat-containing meal; repeated as an intermittent pulse rather than daily"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. This is an experimental, intermittent high-dose protocol distinct from standard commercial supplement dosing; consult a healthcare provider before use."
+    sort_order: 0

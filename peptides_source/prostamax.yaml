@@ -1,0 +1,97 @@
+id: prostamax
+name: Prostamax
+status: draft
+
+category_ids:
+  - sexual-health
+
+overview: >
+  A synthetic tetrapeptide (Lys-Glu-Asp-Pro) from the Khavinson-school family of short
+  "bioregulator" peptides, developed at the St. Petersburg Institute of Bioregulation and
+  Gerontology as a tissue-specific preparation targeting the prostate gland, part of the same
+  research program that produced Thymalin, Vilon, Cardiogen, and Livagen. Prostamax's supporting
+  research comes almost entirely from Khavinson-affiliated studies.
+
+key_benefits:
+  - Studied in organotypic prostate-tissue culture for stimulating reparative activity in
+    explants from aged rats
+  - Investigated in a small human chromatin study in elderly subjects for reactivating gene
+    regions repressed with age
+
+aliases:
+  - "Prostamaks"                # direct transliteration of the Cyrillic "Простамакс" seen on some vendor labels
+
+mechanism_of_action: >
+  Prostamax is proposed to act as a short-peptide "bioregulator" affecting gene expression in
+  prostate tissue, similar in concept to other Khavinson-group tetrapeptides. In an organotypic
+  tissue-culture study that also examined Cardiogen, Bronchogen, and Pancragen in their
+  respective matched tissues, Prostamax stimulated reparative activity in prostate-gland explants
+  from young and aged rats at an effective concentration of roughly 0.05 ng/mL. In a separate
+  human study of leukocytes from subjects aged 75-88, Prostamax (alongside Vilon, Epithalon,
+  Livagen, and Cortagen) was reported to activate ribosomal genes and decondense densely packed
+  heterochromatin — a proposed mechanism of releasing genes silenced by age-related chromatin
+  compaction — with Prostamax specifically associated (alongside Epithalon and Livagen) with
+  decondensation of chromosome 1 pericentromeric structural chromatin. This chromatin study is a
+  general cellular-aging assay in blood leukocytes, not a prostate-tissue-specific human study.
+  Vendor claims of reduced inflammation in chronic prostatitis rat models and improved urinary
+  function were not corroborated by an independently verifiable primary source. The precise
+  molecular target and mechanism are not well-characterized outside this research program.
+
+quick_start_guide:
+  typical_dose: "Not established for human use; not backed by human dosing studies"
+  frequency: "Not established"
+  injection_site_ids:
+    - abdomen-subq
+  best_timing: "Not established"
+  effects_timeline: "Not established in humans; the chromatin study measured leukocyte markers at a single timepoint and the tissue-culture study measured explant endpoints, neither reflecting a human treatment timeline"
+  storage: "Refrigerate after reconstitution"
+  cycle_length: "Not established for human use"
+  break_between: "Not established for human use"
+
+pharmacokinetics:
+  peak: "Not established"
+  half_life: "Not established"
+  cleared: "Not established"
+
+research_indications:
+  - Prostate-tissue reparative activity (organotypic tissue culture, young and aged rats)
+  - Chromatin decondensation / ribosomal gene activation in leukocytes from elderly human
+    subjects (general cellular-aging marker, not prostate-specific)
+
+reconstitution_steps:
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White to off-white lyophilized powder that fully dissolves into a clear solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate after reconstitution"
+
+what_to_expect: >
+  There is no established human effect profile for Prostamax specific to prostate function or
+  symptoms. Available human data is limited to a chromatin-decondensation assay in leukocytes from
+  elderly subjects (a general cellular-aging marker, not a prostate or urinary outcome), and
+  prostate-tissue-specific data comes only from a rat organotypic tissue-culture study. No
+  randomized human trials targeting prostate outcomes, and no independent replications by research
+  groups outside the Khavinson institute, were found.
+
+safety_notes: >
+  Prostamax's evidence base is limited to one animal tissue-culture study and one human leukocyte
+  chromatin study (not a prostate-outcome trial), published by Vladimir Khavinson's research group
+  and collaborators in lower-circulation Russian gerontology journals. There is no independent
+  human safety or efficacy data on prostate symptoms, urinary function, or prostatitis. This is an
+  experimental research compound with unverified relevance to humans, not an approved treatment
+  for prostatitis, benign prostatic hyperplasia, or any other condition. Consult a healthcare
+  provider.
+
+references:
+  - citation: "Zakutskii AN, Chalisova NI, Ryzhak GA, et al. [The tissue-specific effect of synthetic peptides-biologic regulators in organotypic tissues culture in young and old rats]. Adv Gerontol. 2006;19:93-96."
+    url: "https://pubmed.ncbi.nlm.nih.gov/17152728/"
+  - citation: "Khavinson VKh, Lezhava TA, Malinin VV. Effects of short peptides on lymphocyte chromatin in senile subjects. Bull Exp Biol Med. 2004;137(1):78-81."
+    url: "https://pubmed.ncbi.nlm.nih.gov/15085253/"
+
+research_protocols:
+  - goal: "Prostate Tissue Bioregulation Research Interest (animal/cell-marker data only, no human protocol established)"
+    dose: "Not established for human use"
+    timing: "Not established"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Evidence is limited to one animal tissue-culture study and one human blood-chromatin study from a single research group; specific prostatitis/urinary-symptom claims are unverified vendor marketing, not established findings."
+    sort_order: 0

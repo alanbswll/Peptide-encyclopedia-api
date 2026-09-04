@@ -1,0 +1,90 @@
+# Category note: PTD-DBM doesn't fit any existing category well -- it's a hair-follicle/
+# Wnt-signaling research peptide, and this schema has no "hair" category. Filed under `skin`
+# (dermatology-adjacent) as the closest available fit; flagged for review.
+id: ptd-dbm
+name: PTD-DBM
+status: draft
+
+category_ids:
+  - skin
+
+overview: >
+  A synthetic research peptide that fuses a protein transduction domain (PTD, derived from HIV-1
+  TAT) to a short Dishevelled-binding motif (DBM), designed to disrupt the interaction between
+  CXXC5 and Dishevelled (Dvl) and reactivate Wnt/beta-catenin signaling. It was developed by Kang-
+  Yell Choi's laboratory at Yonsei University in South Korea, building on their 2015 discovery
+  that CXXC5 acts as a negative-feedback regulator of Wnt/beta-catenin signaling. PTD-DBM is an
+  early-stage, preclinical (animal-model) research compound studied mainly for hair regrowth and
+  wound-induced hair follicle regeneration — it is not an FDA-approved or clinically tested human
+  therapy.
+
+key_benefits:
+  - Studied preclinically for stimulating hair regrowth and wound-induced hair follicle neogenesis
+  - Mechanistically distinct from minoxidil/finasteride — targets the CXXC5-Dishevelled brake on Wnt/beta-catenin signaling rather than androgen or vasodilation pathways
+  - CXXC5 was shown to be upregulated in miniaturized follicles from human balding scalp, providing a rationale (though not yet human trial evidence) for this target
+
+mechanism_of_action: >
+  CXXC5 is a negative-feedback regulator of the Wnt/beta-catenin pathway that binds directly to
+  Dishevelled (Dvl), a key scaffolding protein in canonical Wnt signaling, suppressing downstream
+  Wnt activity needed for hair follicle cycling and regeneration. PTD-DBM is a fusion peptide — a
+  TAT-derived protein transduction domain (to cross the cell membrane) attached to a short peptide
+  motif that competes with Dvl for binding to CXXC5. By disrupting the CXXC5-Dvl interaction,
+  PTD-DBM disinhibits Wnt/beta-catenin signaling. In mouse studies, this accelerated hair
+  regrowth and wound-induced hair follicle neogenesis, and CXXC5-knockout mice showed accelerated
+  hair regrowth consistent with this mechanism.
+
+quick_start_guide:
+  typical_dose: "Not established for human use; published work is limited to topical/local application in mouse models"
+  frequency: "Not established for human use"
+  best_timing: "Not established"
+  effects_timeline: "Not established in humans; mouse studies assessed hair regrowth and follicle neogenesis over several weeks"
+  storage: "Not established for a human-use product; research-vendor material is typically supplied lyophilized and refrigerated"
+  cycle_length: "Not established for human use"
+  break_between: "Not established for human use"
+
+pharmacokinetics:
+  peak: "Not established in humans"
+  half_life: "Not established in humans"
+  cleared: "Not established in humans"
+
+research_indications:
+  - Hair regrowth and wound-induced hair follicle neogenesis (mouse models)
+  - CXXC5/Dishevelled and Wnt/beta-catenin pathway research more broadly
+  - Proposed as a candidate mechanism relevant to androgenetic alopecia, based on CXXC5 upregulation found in human balding-scalp tissue (correlational, not interventional, human data)
+
+reconstitution_steps:
+  - "Not established for human use; research use to date has been topical/local application in animal models, not systemic reconstitution and injection"
+
+quality_indicators:
+  - "No established human-product quality standard exists; this is a laboratory research peptide, not a formulated consumer product"
+  - "Third-party COA confirming peptide identity and purity is the only meaningful quality check available for research-vendor material"
+
+what_to_expect: >
+  There is no human effect data at all for PTD-DBM. Everything published to date is mouse-model
+  and human-tissue (ex vivo dermal papilla cell) work from a single research group; no completed,
+  peer-reviewed human trial has evaluated it, and there is no established human dosing, timeline,
+  or safety profile to describe.
+
+side_effects_common:
+  - "Not established — no published human dosing or side-effect data exists"
+
+safety_notes: >
+  PTD-DBM is an early-stage, preclinical research peptide. All published efficacy data comes from
+  mouse models and in vitro/ex vivo human cell studies from one research group (the Choi lab at
+  Yonsei University); no human clinical trial of PTD-DBM has been completed or published, and no
+  IND or equivalent regulatory filing for human testing is documented. It is not FDA-approved, not
+  clinically tested in humans, and has no established human safety profile. Any product marketed
+  as "PTD-DBM" for topical or injectable human use is being sold well ahead of the underlying
+  science. This is a laboratory research compound, not a consumer product. Consult a healthcare
+  provider before considering any unapproved compound.
+
+references:
+  - citation: "Kim SE, Lee WJ, Choi KY, et al. Targeting of CXXC5 by a Competing Peptide Stimulates Hair Regrowth and Wound-Induced Hair Neogenesis. J Invest Dermatol. 2017;137(11):2260-2269."
+    url: "https://pubmed.ncbi.nlm.nih.gov/28595998/"
+
+research_protocols:
+  - goal: "Hair Follicle / Wnt Signaling Research (animal-data only, no human protocol established)"
+    dose: "Not established for human use"
+    timing: "Not established"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. No human trials exist; evidence is limited to mouse models and ex vivo human cell studies from a single research group."
+    sort_order: 0

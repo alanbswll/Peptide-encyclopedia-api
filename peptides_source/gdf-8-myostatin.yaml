@@ -1,0 +1,103 @@
+id: gdf-8-myostatin
+name: GDF-8 (Myostatin)
+status: draft
+
+category_ids:
+  - growth-hormone
+
+overview: >
+  GDF-8 is myostatin itself — the endogenous TGF-beta superfamily protein that acts as the
+  primary molecular brake on skeletal muscle growth. Note the important distinction: this is
+  not a muscle-building compound. It is the naturally occurring growth-LIMITING factor that
+  other research compounds (most notably Follistatin — see `follistatin-344.yaml`) are studied
+  for their ability to neutralize. Animals and rare humans genetically deficient in myostatin
+  develop dramatically increased muscle mass, which is why the pathway draws research interest —
+  but administering more myostatin would be expected to suppress muscle growth, not promote it.
+
+key_benefits:
+  - "Not a muscle-building compound — myostatin's biological role is to restrain skeletal muscle growth"
+  - Serves as the reference target protein for myostatin-inhibitor research (follistatin, antibody inhibitors, ACVR2B-Fc traps, and other approaches aimed at blocking it)
+  - Loss-of-function research (myostatin knockout/deficient animals and rare human cases) is the primary source of muscle-mass evidence for this pathway
+
+aliases:
+  - "GDF-8"
+  - "GDF8"
+  - "Growth/Differentiation Factor 8"
+  - "Myostatin"
+
+mechanism_of_action: >
+  Myostatin is secreted by skeletal muscle as a latent (inactive) complex and, once proteolytically
+  activated, binds the activin type IIB receptor (ActRIIB) along with a type I co-receptor
+  (ALK4/ALK5), triggering SMAD2/3 phosphorylation. This signaling cascade suppresses satellite
+  cell proliferation and differentiation and promotes muscle protein degradation pathways —
+  in short, it restrains both hyperplasia (fiber number) and hypertrophy (fiber size). The
+  foundational 1997 knockout-mouse study found that mice lacking a functional myostatin gene had
+  skeletal muscle 2-3x larger than normal littermates, from a combination of more muscle fibers
+  and larger individual fibers, establishing myostatin as a dominant negative regulator of muscle
+  mass. Because of this, research interest in the myostatin/GDF-8 pathway is almost entirely
+  focused on ways to INHIBIT it (antibodies, the natural antagonist follistatin, soluble ActRIIB
+  decoy receptors, and small-molecule signaling blockers) rather than on administering more of
+  the protein itself, which would be expected to have the opposite of a muscle-building effect.
+
+quick_start_guide:
+  typical_dose: "Not applicable — administering exogenous myostatin/GDF-8 is not a muscle-growth protocol; it is used in laboratory research as a signaling ligand (e.g., in cell-culture assays) rather than dosed for anabolic purposes"
+  frequency: "Not applicable"
+  injection_site_ids:
+    - abdomen-subq
+  best_timing: "Not applicable"
+  effects_timeline: "Not applicable to human use; research use is confined to in vitro and animal signaling studies"
+  storage: "Refrigerate/freeze per standard recombinant protein handling for laboratory reagent use"
+  cycle_length: "Not applicable"
+  break_between: "Not applicable"
+
+pharmacokinetics:
+  peak: "Not established/not applicable for human administration"
+  half_life: "Not established for human administration; endogenous myostatin circulates at low latent-complex concentrations that are tightly regulated"
+  cleared: "Not established for human administration"
+
+research_indications:
+  - "Reference/control ligand in muscle-signaling and myostatin-pathway laboratory research"
+  - "Genetic myostatin-deficiency models (animal and rare human cases) used to characterize the upper bound of muscle growth achievable by removing this pathway"
+  - "Target validation for myostatin-INHIBITOR development (antibodies, follistatin, ACVR2B traps) — see follistatin-344.yaml for the inhibitor side of this research"
+
+reconstitution_steps:
+  - "Not applicable to human use; recombinant myostatin/GDF-8 sold by life-science suppliers is a laboratory reagent for in vitro research, reconstituted per the supplier's technical data sheet"
+
+quality_indicators:
+  - "Legitimate suppliers (e.g., R&D Systems, Bio-Techne, Novus Biologicals, Phoenix Pharmaceuticals) sell recombinant myostatin explicitly as a cell-culture/laboratory research reagent, not as a human-use product"
+  - "Any vendor marketing 'GDF-8' as a muscle-building injectable for human use is describing the product in a way that contradicts its known biology"
+
+what_to_expect: >
+  There is no legitimate human-use protocol for exogenous myostatin/GDF-8 because its known
+  biological effect — suppressing muscle protein synthesis and satellite cell activity — runs
+  opposite to what muscle-focused users typically want. Anyone encountering "GDF-8" marketed as a
+  muscle-growth supplement should treat that framing as a mislabeling: the compound with that
+  name and mechanism is the one other research peptides (like Follistatin) are studied to block.
+
+side_effects_common:
+  - "Not established for human administration; theoretical effects based on mechanism would include reduced muscle protein synthesis and increased muscle protein breakdown, i.e., the opposite of a desired anabolic effect"
+
+safety_notes: >
+  This entry exists primarily to document what GDF-8 actually is, because the name is sometimes
+  encountered in research-peptide marketing alongside genuinely anabolic compounds, which can
+  create a misleading impression. GDF-8 is myostatin: the endogenous signaling protein whose job
+  is to limit skeletal muscle growth. The well-established human and animal evidence for this
+  pathway comes from myostatin LOSS-of-function (genetic knockout animals, and rare human case
+  reports of myostatin-related muscle hypertrophy), not from administering additional myostatin.
+  No legitimate research or clinical program administers exogenous myostatin/GDF-8 to build
+  muscle; recombinant myostatin is sold by life-science suppliers strictly as an in vitro
+  signaling reagent for laboratory research (e.g., studying muscle cell biology or validating
+  myostatin-inhibitor compounds), not as an injectable product. This is not an approved treatment
+  for any condition, and there is no scenario in current research literature where administering
+  more of it would be expected to help build muscle. Consult a healthcare provider with any
+  questions about muscle-growth research compounds.
+
+references:
+  - citation: "McPherron AC, Lawler AM, Lee SJ. Regulation of skeletal muscle mass in mice by a new TGF-beta superfamily member. Nature. 1997;387(6628):83-90."
+    url: "https://doi.org/10.1038/387083a0"
+  - citation: "Mendell JR, Sahenk Z, Malik V, et al. A phase 1/2a follistatin gene therapy trial for Becker muscular dystrophy. Mol Ther. 2015;23(1):192-201. (Cited here as the clinical evidence base for a myostatin-INHIBITOR, not for myostatin itself — see follistatin-344.yaml)"
+    url: "https://pubmed.ncbi.nlm.nih.gov/25322757/"
+
+# research_protocols intentionally omitted: there is no legitimate human research-dosing
+# protocol for exogenous myostatin/GDF-8, since its known mechanism suppresses rather than
+# promotes muscle growth. See safety_notes.

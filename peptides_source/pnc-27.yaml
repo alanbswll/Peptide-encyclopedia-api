@@ -1,0 +1,105 @@
+# Category note: PNC-27 is an experimental anticancer peptide -- this schema has no
+# "oncology"/cancer category. Filed under `longevity` (the closest existing bucket used for
+# cellular-health / experimental biology compounds in this repo) as the nearest available fit;
+# flagged for review, since it is not a longevity compound in the usual sense.
+id: pnc-27
+name: PNC-27
+status: draft
+
+category_ids:
+  - longevity
+
+overview: >
+  An experimental, laboratory-stage anticancer peptide that fuses a fragment of the p53 tumor-
+  suppressor protein's HDM-2-binding domain (residues 12-26) to a cell-penetrating peptide
+  derived from the Drosophila antennapedia homeodomain. It was developed by researchers led by
+  Matthew Pincus and colleagues (including work published from SUNY Downstate and Johns Hopkins)
+  to selectively kill cancer cells that overexpress HDM-2 (the human analog of MDM2) in their
+  plasma membranes. PNC-27 has not been tested in any completed, peer-reviewed human clinical
+  trial and has essentially no human safety data — it is a preclinical/laboratory research
+  compound, not a general-use supplement.
+
+key_benefits:
+  - Studied preclinically for selective cancer-cell cytotoxicity via membrane-bound HDM-2 binding
+  - Reported in cell-culture and ex vivo tumor studies to spare normal, non-transformed cells and hematopoiesis
+  - Proposed dual mechanism: plasma-membrane pore formation (necrosis) plus mitochondrial membrane disruption
+
+mechanism_of_action: >
+  PNC-27 contains the p53 peptide sequence that normally binds HDM-2 (the cellular protein that
+  targets p53 for degradation), fused to a transmembrane-penetrating peptide. Structural studies
+  show PNC-27 adopts an HDM-2-binding conformation matching the native p53-HDM-2 interface. Many
+  cancer cell types — but not normal, untransformed cells — express HDM-2 in their plasma
+  membrane rather than only intracellularly. PNC-27 binds this membrane-bound HDM-2 and inserts
+  into the cancer cell membrane, forming pores that cause cell lysis and necrosis; more recent
+  work also reports that PNC-27 enters cancer cells and binds mitochondrial membranes, disrupting
+  them as a second cytotoxic mechanism. Because this mechanism depends on HDM-2 being present in
+  the plasma membrane — a feature reported in various cancer cell lines and patient-derived tumor
+  samples but not in normal cell membranes — researchers have proposed cancer-selective killing
+  without direct testing in a controlled human trial.
+
+quick_start_guide:
+  typical_dose: "No clinically established human dose exists; research-vendor material is commonly sold in 5-30 mg vials, but any specific dosing figures come from vendor/community sources, not published human trials"
+  frequency: "Not established in any published human protocol"
+  injection_site_ids:
+    - abdomen-subq
+  best_timing: "Not established"
+  effects_timeline: "Not established in humans"
+  storage: "Refrigerate reconstituted solution and use within about 7 days, or aliquot and freeze for longer storage, per general peptide-handling practice"
+  cycle_length: "Not established for human use"
+  break_between: "Not established"
+
+pharmacokinetics:
+  peak: "Not established in humans"
+  half_life: "Not established in humans"
+  cleared: "Not established in humans"
+
+research_indications:
+  - Selective cancer-cell cytotoxicity via membrane-bound HDM-2 targeting (cell-culture and ex vivo tumor studies)
+  - Leukemia and epithelial ovarian cancer models (published ex vivo / cell-line studies)
+  - Basic research into p53/HDM-2 membrane biology
+
+reconstitution_steps:
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White lyophilized powder in a sealed vial"
+  - "Clear, colorless solution after reconstitution with no visible particulate"
+  - "Third-party COA available confirming peptide identity and purity — the only meaningful quality check available, since there is no regulatory-grade reference standard"
+
+what_to_expect: >
+  There is no legitimate answer to "what to expect" for PNC-27 in humans: it has not completed
+  any published human clinical trial, and there is no controlled human dosing, efficacy, or
+  tolerability data. All available evidence is from cultured cancer cell lines, patient-derived
+  tumor samples studied outside the body (ex vivo), and animal xenograft-type work. Treat this
+  compound as a laboratory research tool, not something with a known human experience.
+
+side_effects_common:
+  - "Not established in any controlled human study"
+
+safety_notes: >
+  PNC-27 is an early-stage, preclinical experimental cancer research peptide with essentially no
+  controlled human safety data. It is not FDA-approved, is not registered in any completed human
+  clinical trial, and has no established human dosing or tolerability profile. A published case
+  report describes a patient who received experimental PNC-27 therapy outside a formal, regulated
+  clinical trial and subsequently developed a massive, ultimately fatal gastrointestinal
+  hemorrhage; the case report's authors could not determine whether PNC-27 caused the bleed or
+  whether it was coincidental, but it illustrates that this compound has been administered to at
+  least one human outside any monitored trial framework, with a serious adverse outcome. This is
+  not a general-use supplement or wellness compound — it is a laboratory research tool being
+  investigated for a serious disease, self-administration of an untested cancer-targeting agent
+  carries unknown and potentially serious risks, and it should not be used outside a properly
+  regulated clinical research setting. Consult an oncologist and do not substitute this for
+  evidence-based cancer treatment.
+
+references:
+  - citation: "Sarafraz-Yazdi E, Bowne WB, Adler V, et al. Anticancer peptide PNC-27 adopts an HDM-2-binding conformation and kills cancer cells by binding to HDM-2 in their membranes. Proc Natl Acad Sci U S A. 2010;107(5):1918-1923."
+    url: "https://pubmed.ncbi.nlm.nih.gov/20080680/"
+  - citation: "Experimental PNC-27 Therapy and Massive GI Hemorrhage: A Complication or Coincidence? Am J Gastroenterol. 2017;112(Suppl 1):S1035-S1036."
+    url: "https://journals.lww.com/ajg/fulltext/2017/10001/experimental_pnc_27_therapy_and_massive_gi.1880.aspx"
+
+research_protocols:
+  - goal: "Preclinical Cancer-Cell Cytotoxicity Research Interest"
+    dose: "Not established for human use"
+    timing: "Not established"
+    disclaimer: "For laboratory research purposes only. Not evaluated by the FDA. No human clinical trial data exists; not a substitute for evidence-based cancer treatment."
+    sort_order: 0

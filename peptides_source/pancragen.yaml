@@ -1,0 +1,96 @@
+id: pancragen
+name: Pancragen
+status: draft
+
+category_ids:
+  - gut-health                 # no dedicated pancreas/metabolic category exists; "gut-health" is
+                                # the closest available fit for a digestive-organ bioregulator.
+
+overview: >
+  A synthetic tetrapeptide (Lys-Glu-Asp-Trp) from the Khavinson-school family of short
+  "bioregulator" peptides, developed at the St. Petersburg Institute of Bioregulation and
+  Gerontology as a tissue-specific preparation targeting the pancreas, part of the same research
+  program that produced Thymalin, Vilon, Cardiogen, and Livagen. Pancragen is one of the
+  better-documented compounds in this batch, with published cell-culture and organotypic
+  tissue-culture data, though still entirely from Khavinson-affiliated sources.
+
+key_benefits:
+  - Studied for restoring expression of pancreatic differentiation markers in aging pancreatic
+    cell culture
+  - Explored in organotypic tissue culture for stimulating reparative activity in pancreas
+    explants from aged rats
+
+aliases:
+  - "Pankragen"                # direct transliteration of the Cyrillic "Панкраген" seen on some vendor labels
+
+mechanism_of_action: >
+  Pancragen is proposed to act as a short-peptide "bioregulator" affecting gene expression in
+  pancreatic tissue, similar in concept to other Khavinson-group tetrapeptides. In a 2013 study,
+  Pancragen was reported to enhance expression of differentiation markers in both acinar and
+  islet-of-Langerhans pancreatic cells that had declined with age, in cell culture from young and
+  aged animals. A separate organotypic tissue-culture study, which also examined Cardiogen,
+  Bronchogen, and Prostamax in their respective matched tissues, reported that Pancragen
+  stimulated reparative activity in pancreas explants from young and aged rats at an effective
+  concentration of roughly 0.05 ng/mL. Vendor materials describing effects on specific
+  transcription factors (Pdx1, Pax6, Ptf1a, Foxa2, Nkx2.2, Pax4), streptozotocin-diabetic rat
+  models, primate studies, or a human diabetes trial were not corroborated in the primary
+  literature reviewed and should be treated as unverified marketing claims. The precise molecular
+  target and mechanism are not well-characterized outside this research program, and no
+  independently verifiable human clinical trial data was found.
+
+quick_start_guide:
+  typical_dose: "Not established for human use; not backed by human dosing studies"
+  frequency: "Not established"
+  injection_site_ids:
+    - abdomen-subq
+  best_timing: "Not established"
+  effects_timeline: "Not established in humans; published studies measured cell-culture and tissue-explant endpoints over the study period, not a human treatment timeline"
+  storage: "Refrigerate after reconstitution"
+  cycle_length: "Not established for human use"
+  break_between: "Not established for human use"
+
+pharmacokinetics:
+  peak: "Not established"
+  half_life: "Not established"
+  cleared: "Not established"
+
+research_indications:
+  - Pancreatic cell differentiation-marker restoration in aging cell culture
+  - Pancreatic tissue reparative activity (organotypic tissue culture, young and aged rats)
+
+reconstitution_steps:
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White to off-white lyophilized powder that fully dissolves into a clear solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate after reconstitution"
+
+what_to_expect: >
+  There is no established human effect profile for Pancragen. Available evidence is from cell-
+  culture and organotypic tissue-culture studies conducted by researchers affiliated with Vladimir
+  Khavinson's institute; no human clinical trials or independent replications by research groups
+  outside that program were found, despite vendor claims of diabetes- and pancreatitis-related
+  benefits.
+
+safety_notes: >
+  Pancragen's evidence base is limited to cell-culture and tissue-culture studies published by
+  Vladimir Khavinson's research group and collaborators in lower-circulation Russian and
+  Bull Exp Biol Med publications. There is no independent human safety or efficacy data, and
+  claims of effects on blood glucose, insulin resistance, or diabetic outcomes in humans were not
+  corroborated by any verifiable primary source. This is an experimental research compound with
+  unverified relevance to humans, not an approved treatment for diabetes, pancreatitis, or any
+  other condition. Consult a healthcare provider.
+
+references:
+  - citation: "Khavinson VKh, Durnova AO, Polyakova VO, Tolibova GH, Linkova NS, Kvetnoy IM, Kvetnaia TV, Tarnovskaya SI. Effects of pancragen on the differentiation of pancreatic cells during their ageing. Bull Exp Biol Med. 2013;154(4):501-504."
+    url: "https://pubmed.ncbi.nlm.nih.gov/23486591/"
+  - citation: "Zakutskii AN, Chalisova NI, Ryzhak GA, et al. [The tissue-specific effect of synthetic peptides-biologic regulators in organotypic tissues culture in young and old rats]. Adv Gerontol. 2006;19:93-96."
+    url: "https://pubmed.ncbi.nlm.nih.gov/17152728/"
+
+research_protocols:
+  - goal: "Pancreatic Tissue Bioregulation Research Interest (animal/cell-culture data only, no human protocol established)"
+    dose: "Not established for human use"
+    timing: "Not established"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Evidence is limited to cell-culture and tissue-culture studies from a single research group; specific diabetes/pancreatitis claims are unverified vendor marketing, not established findings."
+    sort_order: 0

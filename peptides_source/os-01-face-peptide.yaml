@@ -1,0 +1,117 @@
+# NOTE on identity: the source checklist listed "OS-01 (O-304/ATX-304)" as if it were one
+# compound. Research confirms these are two unrelated things that some vendor pages have
+# conflated (one AMPK-activator vendor page literally titles its product "OS-01
+# (O-304/ATX-304)"):
+#   - OS-01 (this file) is OneSkin's topical cosmetic peptide, "OS-01 FACE" / Decapeptide-52,
+#     studied for skin senescence/cosmetic effects. It is NOT injected and has nothing to do
+#     with AMPK or metabolic pathways.
+#   - O-304 / ATX-304 is a distinct, unrelated oral small-molecule pan-AMPK activator with
+#     its own separate human Phase IIa data — see atx-304.yaml.
+# Two separate files were created accordingly.
+id: os-01-face-peptide
+name: OS-01 (OneSkin Peptide)
+status: draft
+
+category_ids:
+  - skin
+
+overview: >
+  A patented topical cosmetic peptide developed by OneSkin (marketed under product names like
+  "OS-01 FACE" and "OS-01 EYE"), also listed on ingredient labels as Decapeptide-52. It was
+  identified through a phenotypic screen of roughly 900 candidate peptides for compounds that
+  reduce markers of cellular senescence in skin, and is unrelated to the AMPK-activator compound
+  "O-304/ATX-304," which some vendor listings have confusingly grouped under the same "OS-01"
+  name (see note above).
+
+key_benefits:
+  - Reduced senescent ("zombie") cell burden and senescence-associated secretory phenotype (SASP) markers in skin-model studies
+  - Published double-blind, vehicle-controlled human studies reporting improved skin hydration, firmness, and reduced fine lines
+  - A pilot clinical trial reported reduced systemic inflammatory markers (IL-8, TNF-alpha, IFN-gamma) alongside topical use
+
+aliases:
+  - "OS-01"
+  - "OS-01 FACE"
+  - "OS-01 EYE"
+  - "Decapeptide-52"
+  - "Peptide 14 / Pep 14"
+  - "OneSkin peptide"
+
+mechanism_of_action: >
+  OS-01 (internally referred to during discovery as "Peptide 14") was identified through a
+  two-step phenotypic screen of skin-cell and 3D skin-equivalent models for compounds that
+  reduce senescence markers, rather than being designed against a single pre-specified
+  molecular target. It functions as a senomorphic (modulating the harmful behavior of senescent
+  cells) rather than a senolytic (destroying senescent cells outright): in human skin models it
+  reduced senescent cell counts by up to roughly 50% and lowered secretion of SASP factors —
+  the pro-inflammatory cytokines and matrix-degrading enzymes senescent cells release that
+  damage surrounding tissue. Treated skin models showed increased expression of Collagen I and
+  Hyaluronan Synthase 2, consistent with a younger extracellular matrix profile, and a measured
+  reduction in a DNA-methylation-based "skin biological age" clock. As a topical product it acts
+  locally at the skin barrier and does not have a systemic injectable use.
+
+quick_start_guide:
+  typical_dose: "Topical: applied per product instructions (OneSkin markets OS-01 FACE at roughly 12% concentration in its topical formulation, and OS-01 EYE as a lower-concentration eye-area formulation)"
+  frequency: "1-2x daily, per product label"
+  best_timing: "Applied to clean skin, morning and/or evening"
+  effects_timeline: "Company/clinical-trial data report measurable inflammatory-marker and skin-elasticity changes within a 12-week course of twice-daily topical use; a cell-culture skin-age reduction was reported after 5 days in ex vivo tissue"
+  storage: "Store the topical product at room temperature per label instructions; not reconstituted or injected"
+  cycle_length: "Continuous daily use, per cosmetic-product convention"
+  break_between: "Not applicable — used continuously as a topical skincare product"
+
+pharmacokinetics:
+  peak: "Acts locally at the skin barrier as a topical cosmetic ingredient; not designed for or studied via systemic absorption/injection"
+  half_life: "Not established/not applicable for a topical-use peptide"
+  cleared: "Not applicable — topical, non-systemic use"
+
+research_indications:
+  - Skin cellular senescence and senescence-associated secretory phenotype (SASP) reduction
+  - Cosmetic skin aging markers: fine lines, firmness, elasticity, hydration
+  - Periorbital (under-eye) skin aging
+  - Skin barrier function and topical anti-inflammatory markers
+
+reconstitution_steps:
+  - "Not applicable — sold as a finished topical cosmetic product, not a lyophilized peptide requiring reconstitution"
+
+quality_indicators:
+  - "Purchased as a finished, labeled cosmetic product from OneSkin or an authorized retailer, not as raw lyophilized peptide powder from a research-chemical vendor"
+  - "Ingredient list shows Decapeptide-52 (the INCI name for OS-01)"
+
+what_to_expect: >
+  As a cosmetic topical product, expected effects are gradual improvements in skin hydration,
+  firmness, and the appearance of fine lines over weeks of consistent use, per the published
+  12-week clinical studies — not a dramatic or immediate change. This is a skincare ingredient
+  with real peer-reviewed human clinical data behind it (unusual among many "research peptides"
+  covered elsewhere in this app), but the studies to date are relatively small and several
+  include OneSkin-affiliated authors, so independent replication is still limited.
+
+side_effects_common:
+  - "Generally well tolerated in published studies; formal formulation studies report no significant adverse reactions"
+  - "As with any topical active, localized irritation is possible in sensitive skin, particularly when combined with other actives"
+
+safety_notes: >
+  Unlike most entries in this app, OS-01 has actual peer-reviewed, published human clinical data
+  supporting its cosmetic use — a double-blind, vehicle-controlled trial and a separate pilot
+  12-week trial reporting improved skin barrier function and reduced inflammatory markers, plus a
+  periorbital-specific efficacy study. That said, sample sizes are modest (on the order of
+  dozens of participants), some studies used a competing commercial product rather than a true
+  placebo as the comparator, and several publications include co-authors affiliated with OneSkin,
+  the company that developed and sells the product — a source of potential bias worth being aware
+  of. This is a cosmetic ingredient, not a drug: it is not FDA-evaluated to diagnose, treat, cure,
+  or prevent any disease, and its category placement here ("skin") is a closer fit than any
+  category tied to injectable research peptides — this entry does not describe an injectable
+  compound.
+
+references:
+  - citation: "Zonari A, Brace LE, Al-Katib K, et al. Senotherapeutic peptide treatment reduces biological age and senescence burden in human skin models. NPJ Aging. 2023;9(1):5."
+    url: "https://www.nature.com/articles/s41514-023-00109-1"
+  - citation: "Zonari A, Brace LE, Al-Katib K, et al. Double-blind, vehicle-controlled clinical investigation of peptide OS-01 for skin rejuvenation. J Cosmet Dermatol. 2024;23(6):2020-2029."
+    url: "https://pubmed.ncbi.nlm.nih.gov/38400612/"
+  - citation: "Zonari A, et al. Clinical efficacy of OS-01 peptide formulation in reducing the signs of periorbital skin aging. Int J Cosmet Sci. 2025."
+    url: "https://onlinelibrary.wiley.com/doi/10.1111/ics.13042"
+
+research_protocols:
+  - goal: "Cosmetic Skin Senescence / Anti-Aging Support (topical)"
+    dose: "Per product label (e.g., OS-01 FACE or OS-01 EYE formulation)"
+    timing: "Morning and/or evening, applied to clean skin"
+    disclaimer: "Cosmetic product. Not evaluated by the FDA to diagnose, treat, cure, or prevent any disease."
+    sort_order: 0

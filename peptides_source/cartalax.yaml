@@ -1,0 +1,93 @@
+id: cartalax
+name: Cartalax
+status: draft
+
+category_ids:
+  - bone                      # no dedicated cartilage/joint category exists; "bone" is the closest
+                               # available fit for a connective-tissue/musculoskeletal bioregulator.
+
+overview: >
+  A synthetic tripeptide from the Khavinson-school family of short "bioregulator" peptides,
+  developed at the St. Petersburg Institute of Bioregulation and Gerontology and marketed as a
+  cartilage/joint-tissue bioregulator, part of the same research program that produced Thymalin,
+  Vilon, Cardiogen, and Livagen. Cartalax's supporting research comes almost entirely from
+  Khavinson-affiliated studies, and — notably — none of the PubMed-indexed studies of this exact
+  sequence measured a cartilage-specific endpoint (see safety_notes).
+
+key_benefits:
+  - Marketed by the originating institute as a cartilage-tissue and musculoskeletal bioregulator
+  - The Ala-Glu-Asp sequence has been studied (under laboratory code names, not the trade name
+    "Cartalax") for effects on cell proliferation and apoptosis markers in other tissue types
+
+aliases:
+  - "Kartalaks"                # direct transliteration of the Cyrillic "Карталакс" seen on some vendor labels
+
+mechanism_of_action: >
+  Cartalax is proposed to act as a short-peptide "bioregulator" affecting gene expression in
+  cartilage and connective tissue, similar in concept to other Khavinson-group tripeptides.
+  Vendor and manufacturer materials describe it as the tripeptide Ala-Glu-Asp (AED), and Russian
+  commercial listings describe clinical use in osteochondrosis, osteoarthritis, and osteoporosis
+  prevention, developed and patented by the St. Petersburg Institute of Bioregulation and
+  Gerontology. However, the AED sequence's PubMed-indexed research (published under laboratory
+  codes such as "T-31" rather than the trade name Cartalax) has tested it in kidney explant
+  cultures, skin fibroblasts, thymocytes, mesenchymal stem cells, and neuronal differentiation
+  models — not in chondrocyte or cartilage-specific assays. In those other-tissue studies, AED
+  increased markers of cell proliferation (e.g., Ki-67) and reduced apoptosis/senescence markers
+  (e.g., p53, p16, p21) to a lesser degree than tissue-matched polypeptide complexes tested
+  alongside it. Whether these effects generalize to cartilage or joint tissue specifically has not
+  been independently demonstrated in the literature reviewed.
+
+quick_start_guide:
+  typical_dose: "Not established for human use; not backed by human dosing studies"
+  frequency: "Not established"
+  injection_site_ids:
+    - abdomen-subq
+  best_timing: "Not established"
+  effects_timeline: "Not established in humans; published studies measured cell-culture endpoints in tissues other than cartilage"
+  storage: "Refrigerate after reconstitution"
+  cycle_length: "Not established for human use"
+  break_between: "Not established for human use"
+
+pharmacokinetics:
+  peak: "Not established"
+  half_life: "Not established"
+  cleared: "Not established"
+
+research_indications:
+  - Marketed for cartilage/joint tissue support (manufacturer claim; not independently verified)
+  - Cell proliferation and senescence-marker effects in non-cartilage tissue cultures (kidney,
+    skin, thymus, stem cells)
+
+reconstitution_steps:
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White to off-white lyophilized powder that fully dissolves into a clear solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate after reconstitution"
+
+what_to_expect: >
+  There is no established human effect profile for Cartalax, and there is no cartilage-specific
+  laboratory or animal data under this trade name in the PubMed-indexed literature reviewed —
+  despite being marketed specifically for joint and cartilage support. Available data on the
+  underlying Ala-Glu-Asp sequence comes from cell-culture studies of other tissue types conducted
+  by researchers affiliated with Vladimir Khavinson's institute; no human trials or independent
+  replications by research groups outside that program were found.
+
+safety_notes: >
+  Cartalax is marketed as a cartilage/joint bioregulator, but the PubMed-indexed studies of its
+  Ala-Glu-Asp sequence that were found test kidney, skin, thymus, and stem-cell tissue — not
+  cartilage or chondrocytes — and refer to it by laboratory code ("T-31") rather than the trade
+  name. This is a notable gap between the marketing claim and the verifiable evidence base. There
+  is no independent human safety or efficacy data of any kind. This is an experimental research
+  compound with unverified relevance to humans, not an approved treatment for any joint or other
+  condition. Consult a healthcare provider.
+
+references: []
+
+research_protocols:
+  - goal: "Cartilage / Joint Tissue Bioregulation Research Interest (no cartilage-specific data found; no human protocol established)"
+    dose: "Not established for human use"
+    timing: "Not established"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. No cartilage-specific study of this compound was found in the literature reviewed; available cell-culture evidence is in unrelated tissue types from a single research group."
+    sort_order: 0

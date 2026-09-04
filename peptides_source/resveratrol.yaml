@@ -1,0 +1,101 @@
+id: resveratrol
+name: Resveratrol
+status: draft
+
+category_ids:
+  - longevity
+
+overview: >
+  Resveratrol is a polyphenol (stilbenoid) produced by plants in response to stress, injury, or
+  fungal infection, found in the skin of red grapes, red wine, blueberries, and peanuts. It became
+  one of the most famous "longevity molecules" after early-2000s research linked it to sirtuin
+  activation and lifespan extension in yeast and simple organisms — attention that helped launch the
+  entire modern longevity-supplement category, including the NAD+/sirtuin science covered elsewhere
+  in this encyclopedia. It is an extensively studied, mainstream oral supplement rather than an
+  experimental research chemical, though — notably — its human longevity evidence has not kept pace
+  with its early hype.
+
+key_benefits:
+  - One of the most extensively studied polyphenols in aging research, with dozens of human trials since 2010
+  - Naturally occurring in red grapes/wine and several berries, with a long history of dietary exposure
+  - Shown in randomized trials to increase circulating SIRT1 (a sirtuin implicated in metabolic/stress-response regulation), though the magnitude and consistency of this effect varies by trial
+  - Studied for cardiovascular and metabolic markers, with generally more consistent evidence than for longevity-specific outcomes
+
+mechanism_of_action: >
+  Resveratrol was first proposed to directly activate SIRT1 (a sirtuin deacetylase implicated in
+  metabolic regulation, mitochondrial biogenesis, and stress resistance), based on early cell-free
+  enzymatic assays; subsequent research found that much of that original in-vitro activation signal
+  was an assay artifact of the fluorescent substrate used, complicating the simple "resveratrol =
+  direct sirtuin activator" narrative. More recent human trial data still shows resveratrol
+  supplementation can raise circulating SIRT1 levels and activity, but the mechanism is now
+  understood as more indirect and multifactorial — potentially involving AMPK activation, effects
+  on mitochondrial function, and broader antioxidant/anti-inflammatory polyphenol activity (NF-kB
+  modulation) rather than a single clean sirtuin-activation pathway. This mechanistic uncertainty is
+  part of why the compound's early "activates the same pathway as calorie restriction" framing has
+  become more qualified over time.
+
+quick_start_guide:
+  typical_dose: "150-500 mg/day is a commonly studied range in human trials, though doses used across the literature vary widely (from under 100 mg to multi-gram doses in some short-term studies)"
+  frequency: "1x daily to divided doses"
+  best_timing: "With a meal containing some fat — resveratrol is fat-soluble and absorption is improved with dietary fat"
+  effects_timeline: "SIRT1 and metabolic-marker changes have been measured over roughly 4-12 weeks in controlled trials; no human study has run long enough to assess whether these intermediate biomarker changes translate into an actual lifespan or healthspan benefit"
+  storage: "Room temperature, protect from light and moisture (resveratrol is light-sensitive)"
+  cycle_length: "Often used continuously rather than in defined cycles"
+  break_between: "Not standardized"
+
+pharmacokinetics:
+  peak: "Rapidly absorbed after oral intake, but absolute bioavailability is very low (estimated well under 1% in some human studies) due to extensive and rapid first-pass metabolism"
+  half_life: "Native resveratrol itself has a short apparent half-life in plasma, though its glucuronide and sulfate metabolites circulate considerably longer, which complicates simple half-life estimates"
+  cleared: "Extensively and rapidly conjugated (glucuronidation, sulfation) in the intestine and liver; this low bioavailability is one of the most consistently cited obstacles to translating resveratrol's potent effects in cell/animal models into equivalent human results"
+
+research_indications:
+  - Sirtuin (SIRT1) activity and metabolic/stress-response regulation research
+  - Cardiovascular marker research (endothelial/vascular function, lipid markers)
+  - General polyphenol antioxidant and anti-inflammatory research
+  - Longevity/aging-biomarker research — an area where human trial evidence remains preliminary and has not confirmed a lifespan-extension effect
+
+reconstitution_steps:
+  - "Not applicable — dosed as an oral capsule, not reconstituted or injected"
+
+quality_indicators:
+  - "Sold as an oral capsule, typically as trans-resveratrol (the biologically active isomer studied in most research) — check that the label specifies trans- rather than an unspecified or cis- form"
+  - "Third-party COA available confirming resveratrol content and purity, since bulk-powder potency has been found inconsistent across low-cost sources in independent testing"
+
+what_to_expect: >
+  As of recent reviews, human evidence does not convincingly show that resveratrol extends human
+  lifespan, and clinical trials report mixed effects on intermediate aging biomarkers rather than
+  robust, replicated outcomes — despite many small human trials since 2010, none has been large or
+  long enough to measure a true lifespan-extension effect, and low bioavailability is repeatedly
+  cited as a central practical obstacle. Where resveratrol does show more consistent human trial
+  signal is on specific intermediate markers (e.g., SIRT1 levels, some cardiovascular/metabolic
+  measures) over weeks to months of use — real but modest effects, not the dramatic outcomes
+  suggested by early rodent-calorie-restriction-mimetic framing.
+
+side_effects_common:
+  - "Generally well tolerated at typical supplemental doses (up to a few hundred mg/day)"
+  - "Gastrointestinal upset (nausea, diarrhea), more common at higher gram-level doses used in some short-term studies"
+
+safety_notes: >
+  Resveratrol has a reasonably favorable short-term safety profile at commonly studied doses (up to
+  roughly 1 g/day in some trials), though rigorous long-term (multi-year) human safety data is
+  limited given how short most trials have been. Because it can affect platelet aggregation and has
+  some structural/mechanistic overlap with estrogenic compounds (it is a phytoestrogen), it carries a
+  theoretical interaction risk with anticoagulant/antiplatelet medications and with hormone-sensitive
+  conditions; this has not been extensively confirmed in human trials but is a reasonable basis for
+  caution. Given its low, formulation-dependent bioavailability, comparing doses across different
+  commercial products (plain vs. micronized vs. phytosome-complexed resveratrol) is not
+  straightforward. Consult a healthcare provider before use, particularly if taking anticoagulant
+  medication or if you have a hormone-sensitive condition.
+
+references:
+  - citation: "Rogina B, Tissenbaum HA. SIRT1, resveratrol and aging. Front Genet. 2024;15:1393181."
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11112063/"
+  - citation: "Gonçalinho GHF, Kuwabara KL, Faria NFO, et al. Sirtuin 1 and Vascular Function in Healthy Women and Men: A Randomized Clinical Trial Comparing the Effects of Energy Restriction and Resveratrol. Nutrients. 2023;15(13):2949."
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10346321/"
+
+research_protocols:
+  - goal: "General Antioxidant / Metabolic Support"
+    dose: "150-500 mg once daily"
+    timing: "With a meal containing fat"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Human evidence for longevity-specific benefits remains preliminary; consult a healthcare provider, especially if taking anticoagulant medication."
+    sort_order: 0

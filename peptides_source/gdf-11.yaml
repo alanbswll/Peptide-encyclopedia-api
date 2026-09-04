@@ -1,0 +1,110 @@
+id: gdf-11
+name: GDF-11
+status: draft
+
+category_ids:
+  - longevity
+
+overview: >
+  Growth Differentiation Factor 11 (GDF11) is a circulating member of the TGF-beta superfamily,
+  roughly 90% identical in amino acid sequence to myostatin (GDF-8). It became a high-profile
+  longevity research target after 2014 parabiosis studies reported that restoring "youthful"
+  GDF11 levels in old mice reversed age-related muscle, heart, and brain decline. That claim has
+  since become one of the most contested findings in aging biology, with multiple independent
+  labs failing to replicate the benefit and some reporting the opposite effect.
+
+key_benefits:
+  - Early-stage longevity/rejuvenation research interest following high-profile 2014 parabiosis studies
+  - Explored in animal models for cardiac, neurogenic, and skin effects
+  - "Note: the foundational muscle-regeneration and cardiac-hypertrophy claims have been directly disputed by independent replication studies (see safety_notes) — this is an unusually contested compound even by early-stage research-peptide standards"
+
+aliases:
+  - "GDF11"
+  - "Growth Differentiation Factor 11"
+  - "BMP-11"
+
+mechanism_of_action: >
+  GDF11 signals by binding activin type I/II receptors (predominantly ALK4/ALK5 with ActRIIB) and
+  activating SMAD2/3 signaling, the same core pathway used by its close relative myostatin
+  (GDF-8). In 2014, parabiosis experiments (surgically joining the circulation of young and old
+  mice) and injection of recombinant GDF11 into old mice were reported to reverse age-related
+  cardiac hypertrophy, restore muscle stem cell (satellite cell) function, and improve neurogenesis
+  and vascular density in the brain, framing declining GDF11 as a driver of age-related decline.
+  This was quickly challenged: follow-up work from other groups reported that circulating GDF11
+  actually increases, not decreases, with age in some cohorts, that recombinant GDF11 administration
+  inhibits rather than promotes skeletal muscle regeneration, and that GDF11 did not reverse
+  age-related cardiac hypertrophy in independent hands. Because GDF11 and myostatin are so similar
+  in sequence, many older immunoassays could not reliably distinguish the two proteins, which is
+  now understood to have contributed to some of the conflicting age-trend data. The field has not
+  reached consensus on whether GDF11 is net beneficial, net harmful, or dose/context-dependent in
+  aging tissue.
+
+quick_start_guide:
+  typical_dose: "Not established in humans; no standardized research dosing protocol exists"
+  frequency: "Not established"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "Not established"
+  effects_timeline: "Not established in humans; rodent studies used repeated dosing over days to weeks, with contradictory outcomes between labs"
+  storage: "Refrigerate after reconstitution; use within 2–4 weeks, consistent with other unmodified recombinant protein products"
+  cycle_length: "Not established"
+  break_between: "Not established"
+
+pharmacokinetics:
+  peak: "Not established in humans"
+  half_life: "Not established in humans; reported to be short in rodent studies, consistent with other unmodified TGF-beta superfamily proteins"
+  cleared: "Not established in humans"
+
+research_indications:
+  - Age-related cardiac hypertrophy (animal models — disputed, see safety_notes)
+  - Skeletal muscle stem cell (satellite cell) function and regeneration (animal models — directly contested findings)
+  - Neurogenesis and cerebrovascular health (animal models)
+  - Skin collagen/hyaluronic acid production (in vitro / early animal work)
+
+reconstitution_steps:
+  - "Not established for human research use; treat as an unmodified recombinant protein product — reconstitute with bacteriostatic water and refrigerate if used for laboratory research"
+
+quality_indicators:
+  - "No standardized human-use product exists; anything marketed for human injection should be treated with particular skepticism given the unresolved, contested basic science"
+  - "Third-party COA available confirming peptide identity and purity, for any product sold as a laboratory research reagent"
+
+what_to_expect: >
+  There is no established human effect profile. Even the animal literature this compound is best
+  known for is actively disputed within the field — the original 2014 papers reporting GDF11 as a
+  "rejuvenation factor" for muscle, heart, and brain have been directly contradicted by later
+  independent studies reporting no benefit, or harm, from GDF11 administration in comparable
+  models. Anyone encountering vendor or forum claims that GDF11 is a straightforward
+  muscle-building or anti-aging agent should treat those claims skeptically.
+
+side_effects_common:
+  - "Not established in humans"
+
+safety_notes: >
+  GDF11 is one of the more scientifically contested compounds in longevity research. The
+  foundational 2014 work (Sinha et al., Science) reported that restoring youthful GDF11 levels
+  reversed age-related muscle stem cell dysfunction in mice. A subsequent, differently-designed
+  study (Egerman et al., Cell Metabolism, 2015) reported the opposite: that GDF11 levels rise,
+  not fall, with age, and that GDF11 administration inhibited rather than promoted skeletal
+  muscle regeneration in comparable mouse models. Other groups have similarly failed to
+  reproduce the original cardiac-hypertrophy reversal claim. Cross-reactivity between GDF11 and
+  its close relative myostatin (GDF-8) in older antibody-based assays is a recognized confounder
+  in this literature. No human clinical trials of GDF11 administration exist, and given the
+  unresolved preclinical controversy, extrapolating any therapeutic benefit to humans would be
+  premature. This is a research compound only, not an approved treatment for any condition.
+  Consult a healthcare provider.
+
+references:
+  - citation: "Sinha M, Jang YC, Oh J, et al. Restoring systemic GDF11 levels reverses age-related dysfunction in mouse skeletal muscle. Science. 2014;344(6184):649-652."
+    url: "https://pubmed.ncbi.nlm.nih.gov/24797481/"
+  - citation: "Egerman MA, Cadena SM, Gilbert JA, et al. GDF11 Increases with Age and Inhibits Skeletal Muscle Regeneration. Cell Metab. 2015;22(1):164-174."
+    url: "https://www.cell.com/cell-metabolism/fulltext/S1550-4131(15)00222-3"
+  - citation: "Ma Y, Liu Y, Han F, et al. Growth differentiation factor 11: a \"rejuvenation factor\" involved in regulation of age-related diseases? Aging (Albany NY). 2021;13(8):12258-12272."
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8109099/"
+
+research_protocols:
+  - goal: "Longevity / Muscle-Aging Research Interest (unresolved evidence base)"
+    dose: "Not established for human use"
+    timing: "Not established"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. The underlying animal science is actively disputed between independent research groups — see safety_notes before drawing any conclusions about expected effects."
+    sort_order: 0

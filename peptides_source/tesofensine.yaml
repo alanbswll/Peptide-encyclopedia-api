@@ -1,0 +1,109 @@
+id: tesofensine
+name: Tesofensine
+status: draft
+
+category_ids:
+  - fat-loss
+
+overview: >
+  A small-molecule triple monoamine reuptake inhibitor (not a peptide) originally developed by
+  NeuroSearch as a potential treatment for Parkinson's disease and Alzheimer's disease, where
+  incidental appetite-suppressing and weight-loss effects in trial participants redirected its
+  development toward obesity. It blocks reuptake of norepinephrine, dopamine, and serotonin
+  simultaneously. Tesofensine is investigational — it is not FDA-approved in the United States,
+  and as of this writing full market authorization has not been finalized in any major market,
+  including Mexico, where a combination product with the beta-blocker metoprolol has been under
+  regulatory review.
+
+key_benefits:
+  - Studied for appetite suppression and weight loss via triple monoamine (norepinephrine/dopamine/serotonin) reuptake inhibition
+  - Phase 2 data suggested weight loss comparable to or exceeding some GLP-1 agonists at the time
+  - Oral small molecule with high (>90%) reported oral bioavailability
+
+aliases:
+  - "NS 2330"
+  - "NS2330"
+
+mechanism_of_action: >
+  Tesofensine inhibits presynaptic reuptake transporters for norepinephrine (NET), dopamine (DAT),
+  and serotonin (SERT), increasing synaptic availability of all three monoamines. In diet-induced
+  obese rat models, its appetite-suppressing effect has been linked to indirect stimulation of
+  alpha-1 adrenoceptor and dopamine D1 receptor pathways. Unlike GLP-1 receptor agonists, it does
+  not act on incretin signaling; its anorectic effect is thought to act through central
+  catecholaminergic and serotonergic appetite-regulating circuits, similar in concept to older
+  monoamine-based anti-obesity drugs but with a broader (triple) reuptake-inhibition profile.
+
+quick_start_guide:
+  typical_dose: "Studied clinically at 0.25-1.0 mg once daily, taken orally (not injected); the 0.5 mg dose was carried forward as the leading candidate given cardiovascular tolerability concerns at the 1.0 mg dose"
+  frequency: "1x daily, oral"
+  best_timing: "Not established outside clinical trial protocols"
+  effects_timeline: "Phase 2 data showed dose-dependent weight loss building over a 24-week trial period"
+  storage: "Store as an oral tablet/capsule per supplier instructions; does not require refrigeration or reconstitution"
+  cycle_length: "Studied as a continuous daily therapy over 24+ weeks rather than a short cycle"
+  break_between: "Not established"
+
+pharmacokinetics:
+  peak: "~6-8 hours after oral dosing (Tmax)"
+  half_life: "~9 days (approximately 220 hours) for the parent compound; its major metabolite has a longer half-life of roughly 16 days"
+  cleared: "Absolute oral bioavailability estimated at >90%; metabolized primarily by CYP3A4 to a desalkyl metabolite, with a long elimination profile consistent with its long half-life"
+
+research_indications:
+  - Obesity / chronic weight management (investigational; not FDA-approved)
+  - Originally studied for Parkinson's disease and Alzheimer's disease (discontinued for those indications)
+  - Studied in combination with metoprolol (as "Tesomet") to offset cardiovascular side effects
+
+reconstitution_steps:
+  - "Not applicable — dosed as an oral tablet/capsule, not reconstituted or injected"
+
+quality_indicators:
+  - "Sold as an oral tablet or capsule by research-chemical vendors; no legitimate FDA-regulated retail/pharmacy supply chain exists in the US"
+  - "Third-party COA confirming identity and purity is the only meaningful quality check available for vendor material"
+
+what_to_expect: >
+  In the pivotal Phase 2 trial, participants on the 0.5 mg dose lost an average of roughly 9% of
+  body weight over 24 weeks versus about 2% on placebo, with weight loss and appetite suppression
+  building gradually over the trial period rather than appearing immediately. Because it is not an
+  approved product, there is no standardized, regulator-reviewed dosing or outcomes data to point
+  to outside that trial program.
+
+side_effects_common:
+  - "Dry mouth"
+  - "Nausea"
+  - "Constipation"
+  - "Insomnia"
+  - "Increased heart rate and blood pressure (the central safety concern driving its development history — see safety_notes)"
+
+safety_notes: >
+  Tesofensine is an investigational drug and is not FDA-approved, nor approved by the EMA or any
+  other major regulator, for weight loss or any other indication as of this writing. Its
+  development as a standalone anti-obesity therapy stalled specifically because of a
+  cardiovascular safety signal — dose-dependent increases in heart rate and blood pressure — that
+  its manufacturer judged unacceptable without mitigation; this is why later development shifted
+  to a combination product with the beta-blocker metoprolol (branded Tesomet/Nupenta), which as of
+  the most recent public reporting had received a favorable technical opinion from Mexico's
+  COFEPRIS but had not completed full market authorization even in Mexico. Separately, the
+  foundational 2008 Lancet Phase 2 trial that established tesofensine's weight-loss efficacy was
+  the subject of a formal, unresolved Lancet Expression of Concern (published 2013) after a
+  regulatory audit found that adverse-event reporting from two of the five trial sites did not
+  accurately reflect the actual course of the trial — a material caveat on the primary human
+  efficacy/safety data most vendors cite. Long-term human safety data outside clinical trials does
+  not exist. This is not an approved treatment anywhere in the world at full commercial scale, and
+  is not appropriate for self-directed use, especially by anyone with hypertension, arrhythmia, or
+  other cardiovascular disease. Consult a healthcare provider.
+
+references:
+  - citation: "Astrup A, Breum L, Jensen TJ, Kroustrup JP, Larsen TM. Effect of tesofensine on bodyweight loss, body composition, and quality of life in obese patients: a randomised, double-blind, placebo-controlled trial. Lancet. 2008;372(9653):1906-1913."
+    url: "https://pubmed.ncbi.nlm.nih.gov/18950853/"
+  - citation: "The Lancet Editors. Under-reporting of adverse effects of tesofensine. Lancet. 2013;381(9878):1618."
+    url: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(13)61563-9/fulltext"
+  - citation: "Sjodin A, Astrup A, Ivarsson M, et al. The effect of the triple monoamine reuptake inhibitor tesofensine on energy metabolism and appetite in overweight and moderately obese men. Int J Obes. 2010;34(11):1634-1643."
+    url: "https://www.nature.com/articles/ijo201087"
+  - citation: "Retraction Watch. Trial irregularities earn Lancet study of potential weight loss drug tesofensine Expression of Concern. 2013."
+    url: "https://retractionwatch.com/2013/04/09/trial-irregularities-earn-lancet-study-of-potential-weight-loss-drug-tesofensine-expression-of-concern/"
+
+research_protocols:
+  - goal: "Investigational Weight-Management Research Interest"
+    dose: "0.25-0.5 mg once daily, oral"
+    timing: "Morning"
+    disclaimer: "For research purposes only. Not evaluated or approved by the FDA. Not an approved treatment in any major market; the primary supporting trial carries an unresolved Lancet Expression of Concern regarding under-reported adverse events."
+    sort_order: 0

@@ -1,0 +1,98 @@
+id: slu-pp-332
+name: SLU-PP-332
+status: draft
+
+category_ids:
+  - fat-loss
+
+overview: >
+  SLU-PP-332 is a synthetic small-molecule "exercise mimetic" developed at Saint Louis
+  University's Burris laboratory — not a peptide, despite the naming convention. It is a
+  pan-agonist of the estrogen-related receptors (ERRalpha, ERRbeta, ERRgamma), a family of
+  orphan nuclear receptors that control mitochondrial biogenesis and the metabolic gene program
+  normally switched on by aerobic exercise. It is an early-stage research tool compound, not a
+  clinically developed drug.
+
+key_benefits:
+  - Explored as a compound that reproduces parts of the exercise transcriptional program without physical activity
+  - Increased type IIa oxidative muscle fiber content and treadmill exercise capacity in mouse studies
+  - Increased energy expenditure and fatty acid oxidation with reduced fat mass accumulation in mouse studies
+
+aliases:
+  - "SLU PP 332"
+  - "SLU-PP332"
+  - "TBI3948"
+  - "Pan-ERR agonist"
+
+mechanism_of_action: >
+  SLU-PP-332 binds and activates all three estrogen-related receptor subtypes (ERRalpha, ERRbeta,
+  ERRgamma), with somewhat higher potency at ERRalpha. These nuclear receptors act as master
+  regulators of mitochondrial biogenesis, oxidative phosphorylation, and fatty acid oxidation
+  gene programs — the same transcriptional circuitry that PGC-1alpha activates in response to
+  aerobic exercise. In mice, SLU-PP-332 administration induced an acute transcriptional signature
+  resembling an aerobic exercise bout, increased mitochondrial gene expression and oxygen
+  consumption, shifted skeletal muscle fiber composition toward oxidative type IIa fibers, and
+  enhanced treadmill running capacity. It also increased whole-body energy expenditure and fatty
+  acid oxidation while reducing fat mass accumulation on a high-fat diet, without requiring the
+  animals to actually exercise more. The compound's effects are described as ERRalpha-dependent
+  based on studies in ERRalpha-knockout animals.
+
+quick_start_guide:
+  typical_dose: "Not established in humans; published work is entirely rodent dosing (administered by injection in mouse studies), with no human trial or established human-equivalent dose"
+  frequency: "Not established in humans"
+  injection_site_ids:
+    - abdomen-subq
+  best_timing: "Not established"
+  effects_timeline: "Mouse studies observed acute exercise-gene-program activation within hours and measurable exercise-capacity/body-composition changes over days to weeks of repeated dosing; no human timeline exists"
+  storage: "Not established for a standardized human-use product; treat as an unmodified research compound requiring careful storage per supplier instructions if used in laboratory research"
+  cycle_length: "Not established"
+  break_between: "Not established"
+
+pharmacokinetics:
+  peak: "Not established in humans"
+  half_life: "Not established in humans"
+  cleared: "Not established in humans"
+
+research_indications:
+  - Exercise-mimetic / sedentary metabolic research (mouse models)
+  - Skeletal muscle fiber-type switching and mitochondrial biogenesis (preclinical)
+  - Diet-induced obesity and fat oxidation (mouse models)
+  - Heart failure / cardiac fatty-acid metabolism (early preclinical pan-ERR agonist research)
+
+reconstitution_steps:
+  - "Not established for human research use; published animal studies used solutions prepared for injection or oral gavage per standard rodent pharmacology practice"
+
+quality_indicators:
+  - "Sold by life-science chemical suppliers (e.g., MedKoo, Tribioscience) explicitly as a research chemical (CAS 303760-60-3), not as a human-use product"
+  - "No human clinical trial or regulatory filing currently exists for this compound"
+
+what_to_expect: >
+  There is no established human effect profile — SLU-PP-332 has not been studied in people. All
+  published efficacy data (exercise capacity, fiber-type switching, fat oxidation) comes from
+  mouse studies using research-grade compound and controlled dosing; any anecdotal human use is
+  unsupervised, off-label experimentation with a compound whose human pharmacokinetics, dosing,
+  and safety profile are undefined.
+
+side_effects_common:
+  - "Not established in humans"
+
+safety_notes: >
+  SLU-PP-332 is an early-stage academic research tool compound, not a drug candidate that has
+  entered human clinical trials. All available efficacy and safety data comes from mouse studies;
+  no human pharmacokinetic, dosing, or safety data exists. As a pan-agonist of nuclear hormone
+  receptors that also play roles outside skeletal muscle (including cardiac and potentially
+  reproductive/endocrine tissue via ERR signaling), broad systemic activation carries
+  theoretical off-target risk that has not been characterized in long-term or human studies.
+  This is a research chemical only, not an approved treatment for any condition, and is not
+  legally marketed for human consumption. Consult a healthcare provider.
+
+references:
+  - citation: "Billon C, Sitaula S, Banerjee S, et al. Synthetic ERRalpha/beta/gamma Agonist Induces an ERRalpha-Dependent Acute Aerobic Exercise Response and Enhances Exercise Capacity. ACS Chem Biol. 2023;18(4):756-771."
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11584170/"
+
+research_protocols:
+  - goal: "Exercise-Mimetic / Metabolic Research Interest (animal evidence only)"
+    dose: "Not established for human use"
+    timing: "Not established"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. No human trial data exists; all efficacy data is from mouse studies."
+    sort_order: 0

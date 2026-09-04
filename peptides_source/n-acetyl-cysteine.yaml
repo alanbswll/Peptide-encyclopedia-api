@@ -1,0 +1,116 @@
+id: n-acetyl-cysteine
+name: N-Acetyl Cysteine (NAC)
+status: draft
+
+category_ids:
+  - longevity
+
+overview: >
+  N-Acetyl Cysteine (NAC) is the acetylated form of the amino acid L-cysteine, and one of the most
+  extensively studied antioxidant-adjacent compounds in medicine — it is an FDA-approved prescription
+  drug (inhaled/IV Mucomyst/Acetadote) for acetaminophen overdose and as a mucolytic, and is also
+  sold as an oral dietary supplement. Like L-Carnitine and Glutathione elsewhere in this encyclopedia,
+  it is a mainstream, well-characterized compound rather than an experimental research chemical. Its
+  primary supplement-world appeal is as the rate-limiting precursor for the body's own glutathione
+  synthesis.
+
+key_benefits:
+  - FDA-approved prescription drug (IV/oral) for acetaminophen (paracetamol) overdose, one of the
+    best-established antidote uses in all of medicine
+  - Serves as the precursor amino acid for endogenous glutathione synthesis, the body's primary
+    intracellular antioxidant
+  - FDA-approved inhaled mucolytic for thick mucus in chronic respiratory conditions
+  - Studied for psychiatric and neurological applications (e.g., adjunctive use in some mood and
+    substance-use disorder research) via modulation of glutamatergic and inflammatory pathways
+
+aliases:
+  - "NAC"
+  - "N-Acetylcysteine"
+  - "N-Acetyl-L-Cysteine"
+  - "Acetylcysteine"
+
+mechanism_of_action: >
+  NAC is deacetylated intracellularly to release cysteine, which is combined with glutamate (via
+  glutamate-cysteine ligase, the rate-limiting enzyme) and glycine to synthesize glutathione (GSH) —
+  NAC supplementation is intended to relieve this rate-limiting cysteine supply bottleneck. NAC also
+  has direct antioxidant activity independent of glutathione, via its own free thiol (-SH) group,
+  and can directly bind and neutralize reactive toxic metabolites (the mechanism behind its
+  acetaminophen-overdose antidote use: it helps regenerate hepatic glutathione stores depleted by the
+  toxic acetaminophen metabolite NAPQI). Separately, NAC modulates the cystine/glutamate antiporter
+  system and glutamatergic signaling in the brain, and has anti-inflammatory activity via inhibition
+  of NF-kB and modulation of pro-inflammatory cytokine production — mechanisms proposed to underlie
+  its research use in psychiatric and neurological conditions. As a mucolytic, its free thiol group
+  directly breaks disulfide bonds in mucus glycoproteins, reducing mucus viscosity.
+
+quick_start_guide:
+  typical_dose: "600 mg-1,800 mg/day (oral, divided doses), commonly 600 mg 1-3x daily for general antioxidant/supplement use; the acetaminophen-overdose antidote protocol uses a specific, much higher weight-based IV/oral loading-dose regimen administered under medical supervision, not a self-directed supplement dose"
+  frequency: "1-3x daily (oral supplement use)"
+  best_timing: "With food to reduce the chance of GI upset; no strong evidence for a specific optimal time of day"
+  effects_timeline: "Antioxidant/glutathione-repletion effects on lab markers have been measured over days to weeks of supplementation; effects on subjective outcomes (e.g., psychiatric symptom research) are typically assessed over 8-12+ weeks in trials"
+  storage: "Room temperature, in original packaging; oral NAC tablets/capsules have a characteristic sulfurous smell, which is normal"
+  cycle_length: "Often used continuously for general antioxidant support rather than in defined cycles"
+  break_between: "Not standardized for general oral supplement use"
+
+pharmacokinetics:
+  peak: "Well absorbed orally, but bioavailability is reduced by extensive first-pass hepatic metabolism (estimated oral bioavailability roughly 6-10%, though NAC still reliably raises plasma cysteine and glutathione precursor availability)"
+  half_life: "Approximately 2-6 hours, though estimates vary by dose, route, and study"
+  cleared: "Primarily hepatic metabolism with renal excretion of metabolites"
+
+research_indications:
+  - Acetaminophen (paracetamol) overdose / hepatotoxicity prevention (FDA-approved use)
+  - Mucolytic for thick, viscous mucus in chronic bronchitis/COPD and other respiratory conditions (FDA-approved use)
+  - Glutathione repletion and general oxidative-stress support
+  - Adjunctive psychiatric and substance-use-disorder research (e.g., studied alongside standard care in some mood-disorder, OCD-spectrum, and addiction research contexts)
+  - Contrast-induced nephropathy prevention research (mixed evidence; not a settled indication)
+
+reconstitution_steps:
+  - "Not applicable for oral supplement use — dosed as an oral capsule/tablet, not reconstituted or injected. Prescription IV/inhaled NAC (for acetaminophen overdose or as a mucolytic) is a separate, medically-administered product with its own preparation protocol."
+
+quality_indicators:
+  - "Sold as an oral capsule or tablet; a characteristic sulfur ('rotten egg') smell is normal and expected for genuine NAC, not a sign of spoilage"
+  - "Third-party testing/COA available confirming identity and purity"
+  - "As of 2022 the FDA exercises enforcement discretion allowing NAC to continue being sold as a dietary supplement while a formal rulemaking process continues, following a dispute over its regulatory classification — reputable brands should reflect current, compliant labeling"
+
+what_to_expect: >
+  As an established compound rather than an experimental one, NAC's supplement-level effects are
+  generally subtle and supportive rather than acute — most users will not feel a noticeable effect
+  from a single dose. Its strongest, best-established use case (acetaminophen overdose antidote,
+  administered as a specific medical protocol) is unrelated to typical self-directed antioxidant
+  supplementation. Evidence for other popular uses (general antioxidant support, adjunctive
+  psychiatric use) is real but more mixed and dose/context-dependent than the overdose-antidote and
+  mucolytic uses.
+
+side_effects_common:
+  - "Nausea, vomiting, or diarrhea, especially at higher doses"
+  - "Sulfurous odor/taste, which is expected and not a quality defect"
+  - "Rare hypersensitivity-type reactions, more commonly reported with IV administration than oral use"
+
+safety_notes: >
+  NAC has one of the most extensive safety databases of any compound in this encyclopedia, given its
+  decades of use as an FDA-approved prescription antidote and mucolytic. At typical oral supplement
+  doses (up to roughly 1,800 mg/day, and studied up to 3,000 mg/day in trials) it is generally well
+  tolerated, with GI upset being the most common complaint. NAC's regulatory status specifically as a
+  dietary supplement was disputed by the FDA starting in 2020-2021 (on the basis that NAC was first
+  approved as a drug before being marketed as a supplement); the FDA issued final guidance in 2022
+  exercising enforcement discretion to allow continued supplement sales while a rulemaking process
+  proceeds — this is a labeling/regulatory-classification issue, not a new safety finding. NAC can
+  cause severe hypotension and headache when combined with nitroglycerin, and may have additive
+  effects with other medications affecting bleeding/platelet function. Consult a healthcare provider,
+  particularly if you take other medications or have a bleeding disorder.
+
+references:
+  - citation: "Sahasrabudhe SA, Terluk MR, Kartha RV. N-acetylcysteine Pharmacology and Applications in Rare Diseases-Repurposing an Old Antioxidant. Antioxidants (Basel). 2023;12(7):1316."
+    url: "https://pubmed.ncbi.nlm.nih.gov/37507857/"
+  - citation: "Bavarsad Shahripour R, Harrigan MR, Alexandrov AV. N-acetylcysteine (NAC) in neurological disorders: mechanisms of action and therapeutic opportunities. Brain Behav. 2014;4(2):108-122."
+    url: "https://pubmed.ncbi.nlm.nih.gov/24683506/"
+  - citation: "N-Acetylcysteine. StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing."
+    url: "https://www.ncbi.nlm.nih.gov/books/NBK537183/"
+  - citation: "FDA Releases Final Guidance on Enforcement Discretion for Certain NAC Products. U.S. Food and Drug Administration, 2022."
+    url: "https://www.fda.gov/food/hfp-constituent-updates/fda-releases-final-guidance-enforcement-discretion-certain-nac-products"
+
+research_protocols:
+  - goal: "General Antioxidant / Glutathione Support"
+    dose: "600 mg, 1-3x daily"
+    timing: "With food"
+    disclaimer: "For research purposes only. Not evaluated by the FDA for this use. NAC is separately FDA-approved for acetaminophen overdose and as a mucolytic under specific medical protocols distinct from general supplement dosing."
+    sort_order: 0

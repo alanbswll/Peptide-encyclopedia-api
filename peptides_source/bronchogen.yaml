@@ -1,0 +1,97 @@
+id: bronchogen
+name: Bronchogen
+status: draft
+
+category_ids:
+  - longevity                 # no respiratory/lung category exists in the lookup table; this is the
+                               # closest available fit, matching how sibling organ-specific
+                               # bioregulators (Cardiogen, Livagen) were categorized. Flagged as an
+                               # imperfect mapping.
+
+overview: >
+  A synthetic tetrapeptide from the Khavinson-school family of short "bioregulator" peptides,
+  developed at the St. Petersburg Institute of Bioregulation and Gerontology as a tissue-specific
+  preparation targeting bronchial and lung tissue, part of the same research program that produced
+  Thymalin, Vilon, Cardiogen, and Livagen. Bronchogen's supporting research comes almost entirely
+  from Khavinson-affiliated studies, with one notable rat model study of obstructive lung disease.
+
+key_benefits:
+  - Studied in a rat model of nitrogen-dioxide-induced obstructive lung pathology for restoring
+    bronchial epithelial structure
+  - Explored in organotypic lung tissue culture for stimulating reparative activity in explants
+    from aged animals
+  - Investigated (alongside Chonluten, a related bronchial bioregulator) as part of the broader
+    Khavinson respiratory-bioregulator research line
+
+aliases: []
+
+mechanism_of_action: >
+  Bronchogen is proposed to act as a short-peptide "bioregulator" affecting gene expression in
+  bronchial and lung tissue, similar in concept to other Khavinson-group tetrapeptides. In a rat
+  model of chronic obstructive lung pathology induced by nitrogen dioxide exposure, one month of
+  peptide therapy was reported to reverse markers of bronchial epithelial remodeling — including
+  goblet cell hyperplasia, squamous metaplasia, lymphocytic infiltration, and emphysema-like
+  change — restore ciliated cells, increase secretory IgA (a marker of local mucosal immunity),
+  and normalize the inflammatory cell profile in bronchoalveolar lavage fluid. A separate
+  organotypic tissue-culture study reported that Bronchogen stimulated reparative activity in lung
+  explants from both young and aged rats at picomolar-range concentrations. Vendor materials
+  commonly cite the sequence Ala-Glu-Asp-Leu (AEDL), though this exact sequence was not
+  independently confirmed in the primary literature reviewed. The precise molecular target and
+  mechanism are not well-characterized outside this research program, and no human clinical trial
+  data was found.
+
+quick_start_guide:
+  typical_dose: "Not established for human use; not backed by human dosing studies"
+  frequency: "Not established"
+  injection_site_ids:
+    - abdomen-subq
+  best_timing: "Not established"
+  effects_timeline: "Not established in humans; the rat COPD-model study assessed bronchial tissue endpoints after one month of therapy"
+  storage: "Refrigerate after reconstitution"
+  cycle_length: "Not established for human use"
+  break_between: "Not established for human use"
+
+pharmacokinetics:
+  peak: "Not established"
+  half_life: "Not established"
+  cleared: "Not established"
+
+research_indications:
+  - Bronchial epithelial repair in a rat model of obstructive lung disease
+  - Lung tissue reparative activity (organotypic tissue culture, young and aged rats)
+
+reconstitution_steps:
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White to off-white lyophilized powder that fully dissolves into a clear solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate after reconstitution"
+
+what_to_expect: >
+  There is no established human effect profile for Bronchogen. Available evidence is limited to
+  one rat model of nitrogen-dioxide-induced obstructive lung disease and one organotypic
+  tissue-culture study of lung explants, both conducted by researchers affiliated with Vladimir
+  Khavinson's institute; no human clinical trials or independent replications by research groups
+  outside that program were found.
+
+safety_notes: >
+  Bronchogen's evidence base is limited almost entirely to one animal disease-model study and one
+  tissue-culture study, published by Vladimir Khavinson's research group and collaborators in
+  lower-circulation Russian gerontology journals. There is no independent human safety or efficacy
+  data, and no pharmacokinetic data of any kind was found. This is an experimental research
+  compound with unverified relevance to humans, not an approved treatment for any respiratory or
+  other condition. Consult a healthcare provider.
+
+references:
+  - citation: "Kuzubova NA, Lebedeva ES, Dvorakovskaya IV, Surkova EA, Platonova IS, Titova ON. Modulating Effect of Peptide Therapy on the Morphofunctional State of Bronchial Epithelium in Rats with Obstructive Lung Pathology. Bull Exp Biol Med. 2015;159(5):685-688."
+    url: "https://pubmed.ncbi.nlm.nih.gov/26468022/"
+  - citation: "Zakutskii AN, Chalisova NI, Ryzhak GA, et al. [The tissue-specific effect of synthetic peptides-biologic regulators in organotypic tissues culture in young and old rats]. Adv Gerontol. 2006;19:93-96."
+    url: "https://pubmed.ncbi.nlm.nih.gov/17152728/"
+
+research_protocols:
+  - goal: "Respiratory / Bronchial Tissue Bioregulation Research Interest (animal-data only, no human protocol established)"
+    dose: "Not established for human use"
+    timing: "Not established"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Evidence is limited to one rat disease-model study and one tissue-culture study from a single research group."
+    sort_order: 0

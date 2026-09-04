@@ -1,0 +1,123 @@
+id: alpha-gpc
+name: Alpha-GPC
+status: draft
+
+category_ids:
+  - cognitive
+
+overview: >
+  Alpha-GPC (L-alpha-glycerylphosphorylcholine, also called choline alfoscerate) is a
+  choline-containing phospholipid metabolite found naturally in the brain and in small amounts in
+  the diet (organ meats, dairy, some seafood). It is used clinically in several countries (marketed
+  as Gliatilin, Delecit, and others) as a prescription cognitive-support treatment, and sold in the
+  U.S. as an over-the-counter nootropic supplement. It is a mainstream, well-studied choline-delivery
+  compound rather than an experimental research chemical, though — notably — a large 2021 cohort
+  study raised a real stroke-risk signal that meaningfully changes the safety picture and is
+  discussed in detail below.
+
+key_benefits:
+  - Efficiently crosses the blood-brain barrier and raises brain choline availability more directly
+    than many other choline sources
+  - Studied in multiple randomized, placebo-controlled human trials for cognitive support in mild
+    cognitive impairment and post-stroke/vascular cognitive recovery
+  - Used clinically (prescription) in Italy, South Korea, and other countries for cognitive
+    impairment associated with Alzheimer's disease and cerebrovascular conditions
+  - A 2024 randomized trial found improved cognitive test scores (ADAS-cog) versus placebo in adults
+    with amnestic mild cognitive impairment over 12 weeks
+
+aliases:
+  - "Choline Alfoscerate"
+  - "Choline Alphoscerate"
+  - "L-Alpha-Glycerylphosphorylcholine"
+  - "GPC"
+  - "α-GPC"
+
+mechanism_of_action: >
+  Alpha-GPC is hydrolyzed in the body to release free choline and glycerophosphate; the released
+  choline crosses the blood-brain barrier and serves as a direct precursor for synthesis of
+  acetylcholine, the neurotransmitter most centrally implicated in memory and learning circuits (the
+  same target as cholinesterase-inhibitor Alzheimer's drugs, though via a different, precursor-supply
+  mechanism rather than blocking acetylcholine breakdown). The glycerophosphate component is also
+  proposed to support membrane phospholipid synthesis and repair. This combination — efficient
+  choline delivery to the brain plus a membrane-phospholipid precursor — is the basis for its
+  clinical use in cognitive-impairment and post-stroke recovery contexts, and its popularity as a
+  pre-workout/nootropic "choline source" supplement.
+
+quick_start_guide:
+  typical_dose: "300-1,200 mg/day; most cognitive-impairment trials have used 1,200 mg/day (typically as 400 mg 3x daily), while acute cognitive/performance studies in healthy adults have tested single doses in the 300-600 mg range"
+  frequency: "1-3x daily, depending on total dose and product"
+  best_timing: "With food to reduce the chance of GI upset (heartburn/nausea are the most commonly reported side effects); no strong evidence for a specific optimal time of day"
+  effects_timeline: "Acute cognitive-performance effects have been measured within hours of a single dose in some studies; clinical trials in mild cognitive impairment measured meaningful score changes over 12 weeks of continued use"
+  storage: "Room temperature, protect from moisture (oral capsule)"
+  cycle_length: "Clinical trials have used continuous daily dosing over 12 weeks to 6 months; not typically cycled"
+  break_between: "Not standardized"
+
+pharmacokinetics:
+  peak: "Well absorbed orally; a substantial fraction is metabolized in the gut/liver before reaching systemic circulation, with the choline component crossing the blood-brain barrier"
+  half_life: "Not precisely established in independently published human literature for the intact compound; choline itself (the key downstream metabolite) has its own separate, better-characterized turnover"
+  cleared: "Metabolized via choline and glycerophosphate metabolic pathways rather than excreted as an intact molecule"
+
+research_indications:
+  - Mild cognitive impairment and age-related cognitive decline (studied in randomized, placebo-controlled trials)
+  - Post-stroke and transient ischemic attack cognitive recovery (studied in a large Italian multicenter trial and used clinically in some countries for this indication)
+  - Acute cognitive/psychomotor performance in healthy adults (smaller acute-dosing studies)
+  - General "choline source" nootropic/pre-workout supplement use (widely marketed use with less specific supporting trial data than the clinical cognitive-impairment indication)
+
+reconstitution_steps:
+  - "Not applicable — dosed as an oral capsule, not reconstituted or injected"
+
+quality_indicators:
+  - "Sold as an oral capsule, typically standardized to 99%+ alpha-GPC content; look for a third-party COA confirming identity and purity, since choline-supplement adulteration/underdosing has been documented in independent testing of some products"
+  - "Prescription formulations (Gliatilin, Delecit, and similar) used clinically outside the U.S. are a different regulatory category from U.S. over-the-counter supplement products"
+
+what_to_expect: >
+  In cognitive-impairment trial populations, alpha-GPC has shown measurable, statistically
+  significant improvements on standardized cognitive test scores over a 12-week course compared to
+  placebo, and a large earlier Italian multicenter trial supported its use in post-stroke cognitive
+  recovery. In healthy adults using it as a general nootropic, acute effects on focus/cognitive
+  performance are reported in some smaller studies, though this is a less robust evidence base than
+  the clinical-impairment trials. What has materially changed the overall picture in recent years is
+  a large 2021 cohort study (discussed under Safety) linking alpha-GPC use to increased 10-year
+  stroke risk — a finding that means the compound's benefit/risk balance should be weighed
+  differently for long-term healthy-adult supplement use than for its studied clinical use in
+  cognitive-impairment populations.
+
+side_effects_common:
+  - "Heartburn and nausea (most common)"
+  - "Insomnia or overstimulation, particularly if dosed later in the day"
+  - "Headache"
+
+safety_notes: >
+  In clinical trials for cognitive impairment, alpha-GPC has generally shown a favorable short-term
+  tolerability profile, with no significant difference in adverse-event rates versus placebo and mild
+  GI complaints being the most common issue. However, a 2021 large cohort study (over 12 million
+  adults aged 50+ without prior stroke) found alpha-GPC use associated with a 46% higher 10-year
+  stroke risk in a dose-responsive manner, and separate mechanistic research (including work from
+  Cleveland Clinic) found that alpha-GPC can be metabolized by gut bacteria into trimethylamine
+  N-oxide (TMAO) — a metabolite independently linked to atherosclerosis and cardiovascular risk in a
+  manner conceptually similar to the TMAO pathway discussed in this encyclopedia's L-Carnitine entry
+  — and that GPC promoted atherosclerosis in an animal model. This is an association from
+  observational data, not proof of causation, and the studied clinical-trial populations (shorter,
+  supervised use in cognitive-impairment patients) did not show this signal; but given the size and
+  dose-response pattern of the cohort finding, long-term or high-dose use — especially in older
+  adults or anyone with existing cardiovascular risk factors — should not be treated as risk-free, and
+  is a meaningfully different safety picture than most other cognitive supplements in this
+  encyclopedia. Consult a healthcare provider before use, particularly for sustained daily use or if
+  you have cardiovascular risk factors.
+
+references:
+  - citation: "De Jesus Moreno Moreno M. Cognitive improvement in mild to moderate Alzheimer's dementia after treatment with the acetylcholine precursor choline alfoscerate: a multicenter, double-blind, randomized, placebo-controlled trial. Clin Ther. 2003;25(1):178-193."
+    url: "https://pubmed.ncbi.nlm.nih.gov/12637119/"
+  - citation: "Jeon J, Lee SY, Lee S, et al. Efficacy and safety of choline alphoscerate for amnestic mild cognitive impairment: a randomized double-blind placebo-controlled trial. BMC Geriatr. 2024;24:774."
+    url: "https://pubmed.ncbi.nlm.nih.gov/39300341/"
+  - citation: "Lee G, Choi S, Chang J, et al. Association of L-α Glycerylphosphorylcholine With Subsequent Stroke Risk After 10 Years. JAMA Netw Open. 2021;4(11):e2136008."
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8613599/"
+  - citation: "Nemet I, et al. The Nutritional Supplement L-Alpha Glycerylphosphorylcholine Promotes Atherosclerosis. Int J Mol Sci. 2021."
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8708068/"
+
+research_protocols:
+  - goal: "Cognitive Support Research"
+    dose: "400 mg, 3x daily (1,200 mg/day total)"
+    timing: "With meals"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. A large cohort study has linked sustained use to increased stroke risk; consult a healthcare provider, particularly for long-term use or if you have cardiovascular risk factors."
+    sort_order: 0

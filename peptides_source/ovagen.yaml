@@ -1,0 +1,90 @@
+id: ovagen
+name: Ovagen
+status: draft
+
+category_ids:
+  - gut-health                 # no liver-specific category exists; "gut-health" is the closest
+                                # available fit for a hepatic/gastrointestinal bioregulator.
+
+overview: >
+  A synthetic tripeptide from the Khavinson-school family of short "bioregulator" peptides,
+  developed at the St. Petersburg Institute of Bioregulation and Gerontology and marketed as a
+  liver and gastrointestinal-tract bioregulator, part of the same research program that produced
+  Thymalin, Vilon, Cardiogen, and Livagen (Livagen itself is also targeted at liver/immune
+  tissue — Ovagen is a separate, distinct product in the same commercial line). IMPORTANT: despite
+  the name suggesting an ovarian/reproductive target, every Russian-language manufacturer and
+  retail source found describes Ovagen as a liver/GI product ("для печени и ЖКТ"); the
+  Khavinson-line product for ovarian and female reproductive tissue is a different, separately
+  named preparation ("Zhenoluten"/Женолутен), not Ovagen. This encyclopedia entry documents
+  Ovagen's actual, verified target (liver/GI), not the ovarian target implied by the compound
+  name alone.
+
+key_benefits:
+  - Marketed by the originating institute as a liver and gastrointestinal-tract bioregulator
+  - Part of the broader Khavinson "Cytogen" short-peptide product line alongside Vesugen,
+    Crystagen, Cartalax, and Chonluten
+
+aliases: []
+
+mechanism_of_action: >
+  Ovagen is proposed to act as a short-peptide "bioregulator" affecting gene expression in liver
+  and gastrointestinal tissue, similar in concept to other Khavinson-group tripeptides. Vendor
+  materials commonly cite the sequence Glu-Asp-Leu (EDL), though this was not independently
+  confirmed against a peer-reviewed structural source, and no PubMed-indexed study using the trade
+  name "Ovagen" was found (a search returned only unrelated results — a company name and street
+  addresses that happen to contain the word "Ovagen"). A structurally identical or closely related
+  tripeptide, tested under the laboratory code "T-35" rather than a trade name, has been reported
+  in kidney tissue-culture studies to increase cell proliferation markers and reduce senescence
+  markers, but that work does not establish a liver- or gut-specific effect. The precise molecular
+  target and mechanism specific to Ovagen are not characterized in the independently verifiable
+  literature.
+
+quick_start_guide:
+  typical_dose: "Not established for human use; not backed by human dosing studies"
+  frequency: "Not established"
+  injection_site_ids:
+    - abdomen-subq
+  best_timing: "Not established"
+  effects_timeline: "Not established"
+  storage: "Refrigerate after reconstitution"
+  cycle_length: "Not established for human use"
+  break_between: "Not established for human use"
+
+pharmacokinetics:
+  peak: "Not established"
+  half_life: "Not established"
+  cleared: "Not established"
+
+research_indications:
+  - Marketed for liver and gastrointestinal-tract support (manufacturer claim; no independent
+    peer-reviewed study of this compound under this trade name was found)
+
+reconstitution_steps:
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White to off-white lyophilized powder that fully dissolves into a clear solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate after reconstitution"
+
+what_to_expect: >
+  There is no established human effect profile for Ovagen, and no peer-reviewed study of this
+  compound under this trade name was located in PubMed or other academic literature searches —
+  its evidence base is limited to Russian commercial/manufacturer product descriptions. No human
+  trials, animal studies, or independent replications specific to Ovagen were found.
+
+safety_notes: >
+  Ovagen's marketed liver/GI benefits are not supported by any independently verifiable
+  peer-reviewed study found under this trade name; the available material is manufacturer/vendor
+  product description rather than published research. There is no independent human safety or
+  efficacy data of any kind. This is an unproven research/commercial compound, not an approved
+  treatment for any liver, digestive, or other condition. Consult a healthcare provider.
+
+references: []
+
+research_protocols:
+  - goal: "Liver / GI Tissue Bioregulation Research Interest (no independently verifiable study found; no human protocol established)"
+    dose: "Not established for human use"
+    timing: "Not established"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. No peer-reviewed study of this compound under this trade name was found; evidence is limited to manufacturer product descriptions."
+    sort_order: 0

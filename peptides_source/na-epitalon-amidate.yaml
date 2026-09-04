@@ -1,0 +1,103 @@
+id: na-epitalon-amidate
+name: N-Acetyl Epitalon Amidate
+status: draft
+
+category_ids:
+  - longevity
+
+overview: >
+  A chemically modified version of Epitalon (Epithalon), the synthetic AEDG tetrapeptide studied
+  by Vladimir Khavinson's group — see `epithalon.yaml` for the base peptide. This variant adds
+  N-terminal acetylation and C-terminal amidation to the same four-amino-acid AEDG sequence,
+  modifications intended to slow enzymatic degradation and extend the molecule's stability. As
+  with other "N-acetyl / amidate" analogs in this app (see Adalank / N-Acetyl Selank Amidate and
+  NA Semax Amidate), no independent studies of this specific modified molecule were found —
+  everything known about its expected biology is extrapolated from the parent peptide.
+
+key_benefits:
+  - Marketed as a longer-acting, more stable variant of Epitalon via N-terminal acetylation and C-terminal amidation
+  - Any expected biological effects (telomerase activation, circadian/melatonin normalization) are extrapolated from Epitalon research, not independently established for this modified molecule
+  - Typically used in the same short-cycle pattern as base Epitalon
+
+aliases:
+  - "NA-Epitalon Amidate"
+  - "N-Acetyl Epithalon Amidate"
+  - "Ac-Epitalon Amide"
+  - "Ac-AEDG-NH2"
+
+mechanism_of_action: >
+  The parent peptide, Epitalon (Ala-Glu-Asp-Gly, "AEDG"), is studied primarily for two effects:
+  in telomerase-negative human fetal fibroblast cultures it induced hTERT expression and
+  telomerase activity associated with telomere elongation, and in aging-animal studies it (and
+  the pineal extract it is modeled on) has been reported to normalize age-related melatonin and
+  cortisol rhythms. N-Acetyl Epitalon Amidate modifies both ends of this same four-amino-acid
+  sequence: acetylation of the N-terminus and amidation of the C-terminus are standard
+  peptide-chemistry modifications that block the exposed amine and carboxyl groups aminopeptidases
+  and carboxypeptidases normally use to degrade short peptides, which is expected to slow plasma
+  clearance and extend the molecule's half-life relative to unmodified Epitalon. Critically, no
+  published pharmacological studies (cell-culture, animal, or human) of this specific modified
+  molecule were located — its mechanism of action is inferred entirely from the base AEDG
+  sequence's known biology, on the assumption that the core telomerase/circadian activity is
+  preserved. Whether the modification meaningfully changes potency, tissue distribution, or
+  off-target effects relative to Epitalon itself has not been independently tested.
+
+quick_start_guide:
+  typical_dose: "5-10 mg/day, mirroring vendor dosing conventions for base Epitalon — not derived from any independent study of this analog"
+  frequency: "1x daily, per vendor convention"
+  injection_site_ids:
+    - abdomen-subq
+  best_timing: "No specific timing requirement established in the literature (for either the parent or this analog)"
+  effects_timeline: "Not established for this analog specifically; base Epitalon's cell-culture telomerase effects were measured over weeks of continuous culture, with no established human timeline for either molecule"
+  storage: "Refrigerate after reconstitution; use within 2-4 weeks, consistent with other short peptide products"
+  cycle_length: "10-20 days, mirroring traditional Khavinson-protocol dosing schedules used for base Epitalon"
+  break_between: "Several months, per the same traditional dosing convention used for base Epitalon (2-3x per year)"
+
+pharmacokinetics:
+  peak: "Not established for this analog"
+  half_life: "Not established for this analog; the acetylation/amidation modifications are expected — but not independently confirmed — to extend half-life relative to unmodified Epitalon, which itself is expected to be cleared rapidly as an unprotected tetrapeptide"
+  cleared: "Not established for this analog"
+
+research_indications:
+  - Cellular senescence and telomere biology (extrapolated from base Epitalon in vitro data — not independently studied for this analog)
+  - Circadian rhythm and melatonin regulation (extrapolated from base Epitalon animal data)
+  - General longevity/anti-aging research interest, marketed as an enhanced-stability alternative to Epitalon
+
+reconstitution_steps:
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White lyophilized powder that fully dissolves into a clear, colorless solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate after reconstitution"
+
+what_to_expect: >
+  There is no published human or animal data on this specific modified molecule, so any
+  expectations are borrowed from base Epitalon research, which itself has no well-characterized
+  subjective human effect profile (see epithalon.yaml). Vendor claims that the acetylated/amidated
+  form is measurably "stronger" or "longer-lasting" than base Epitalon in vivo are a reasonable
+  chemical hypothesis but are not backed by independent comparative data.
+
+side_effects_common:
+  - "Not independently established for this analog; assumed similar to base Epitalon, which has limited human safety data (see epithalon.yaml)"
+
+safety_notes: >
+  No independent published studies (in vitro, animal, or human) of N-Acetyl Epitalon Amidate
+  specifically were found. All information above is extrapolated from research on the parent
+  peptide, Epitalon/Epithalon, whose own foundational research comes almost entirely from Vladimir
+  Khavinson's laboratory in Russia and has limited independent replication (see epithalon.yaml for
+  detail, including the important distinction between the synthetic AEDG tetrapeptide and the
+  older Epithalamin pineal extract used in longer human mortality studies). Because this analog
+  has not itself been studied, its actual potency, degradation profile, and safety relative to
+  base Epitalon are unverified assumptions rather than established facts. This is a research
+  compound only, not an approved treatment for any condition. Consult a healthcare provider.
+
+references:
+  - citation: "Khavinson VK, Bondarev IE, Butyugov AA. Epithalon peptide induces telomerase activity and telomere elongation in human somatic cells. Bull Exp Biol Med. 2003;135(6):590-592. (Base-peptide reference; no independent study of this N-acetyl/amidate analog exists — see safety_notes)"
+    url: "https://pubmed.ncbi.nlm.nih.gov/12937682/"
+
+research_protocols:
+  - goal: "General Longevity / Telomere Support (research interest, extrapolated from base Epitalon)"
+    dose: "5-10 mg once daily"
+    timing: "Any time of day; keep the schedule consistent"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. No independent studies of this specific analog exist; pharmacology is extrapolated from base Epitalon research."
+    sort_order: 0

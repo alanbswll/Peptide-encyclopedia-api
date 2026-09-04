@@ -1,0 +1,105 @@
+id: spermidine
+name: Spermidine
+status: draft
+
+category_ids:
+  - longevity
+
+overview: >
+  Spermidine is a naturally occurring polyamine, present in every human cell and obtained from both
+  endogenous synthesis and dietary sources (wheat germ, soybeans, aged cheese, mushrooms, and other
+  foods). It rose to prominence in the longevity field as one of the best-characterized natural
+  inducers of autophagy — the cell's process for clearing damaged components — and has extended
+  lifespan across yeast, worms, flies, and mice in research settings. As with the other entries in
+  this batch, it is a mainstream, orally-consumed dietary compound rather than an injectable research
+  peptide, with a growing but still-mixed human trial record.
+
+key_benefits:
+  - One of the best-characterized natural inducers of autophagy, a cellular "clean-up" process implicated in aging biology
+  - Extends lifespan across multiple model organisms (yeast, worms, flies, mice) in a manner that
+    depends on intact autophagy machinery, supporting a causal mechanism rather than just correlation
+  - Naturally occurring in the diet (wheat germ, aged cheese, mushrooms, soybeans) with a long history of food-level exposure
+  - Shown safe and well tolerated across the human trials conducted so far, including in older adults
+
+mechanism_of_action: >
+  Spermidine is proposed to promote longevity primarily by inducing autophagy — genetic inactivation
+  of genes essential for autophagy abolishes spermidine's life-span-extending effect in yeast,
+  nematodes, and flies, indicating the mechanism is causally dependent on autophagy rather than
+  incidental to it. Mechanistically, spermidine is believed to act partly by inhibiting histone
+  acetyltransferases (affecting chromatin and autophagy-gene expression) and by direct effects on
+  autophagy-related (ATG) protein function. Endogenous spermidine synthesis and tissue levels
+  decline with age in several species (including some human tissue data), which is part of the
+  rationale for supplementation as a way to counteract that decline; spermidine is also essential to
+  fasting-induced autophagy in more recent mechanistic work, tying it to the broader
+  fasting/caloric-restriction longevity literature.
+
+quick_start_guide:
+  typical_dose: "1-3 mg/day has been used across most human clinical trials to date, though a novel high-purity formulation has more recently been tested up to 40 mg/day"
+  frequency: "1x daily"
+  best_timing: "No specific timing requirement established in human trials"
+  effects_timeline: "Human trials assessing cognitive/biomarker outcomes have run 3-12 months; a 40 mg/day, 28-day safety/tolerability trial is the longest duration tested at that higher dose so far"
+  storage: "Room temperature, protect from moisture (oral capsule/extract)"
+  cycle_length: "Studied and typically used as continuous daily supplementation rather than in defined cycles"
+  break_between: "Not standardized"
+
+pharmacokinetics:
+  peak: "Human oral pharmacokinetics of supplemental spermidine are not well characterized in independently published literature; most human trials report downstream effects (circulating polyamine levels, safety markers) rather than classic PK parameters"
+  half_life: "Not well established for oral supplemental spermidine in humans"
+  cleared: "Endogenous spermidine is metabolized via polyamine oxidase pathways and interconverted with related polyamines (putrescine, spermine); clearance specifically for supplemental/exogenous spermidine is not well characterized in humans"
+
+research_indications:
+  - Autophagy induction and cellular "clean-up" research
+  - Cognitive aging / subjective cognitive decline (mixed results across trials — see What to Expect)
+  - Cardiovascular aging biomarker research (observational and early clinical interest)
+  - General healthy-aging and longevity biomarker research
+
+reconstitution_steps:
+  - "Not applicable — dosed as an oral capsule/extract, not reconstituted or injected"
+
+quality_indicators:
+  - "Most commercial products are wheat-germ extract standardized to a specific spermidine content, or newer high-purity spermidine trihydrochloride formulations — check which form and confirmed spermidine content (mg) is on the label, since 'extract' weight and actual spermidine content are not the same thing"
+  - "Third-party COA available confirming actual spermidine content, given variability in wheat-germ extract potency"
+
+what_to_expect: >
+  Human evidence for spermidine is a genuine mixed picture rather than a clean success story. The
+  largest and longest cognitive-decline trial to date (SmartAge, 12 months, spermidine-rich wheat
+  germ extract at a low ~0.9 mg/day dose in older adults with subjective cognitive decline) did not
+  modify memory or biomarkers compared with placebo — a null result on its primary endpoint. Smaller
+  and shorter human trials have found spermidine safe and well tolerated, including at newer,
+  higher-purity, higher-dose formulations. The strongest evidence for spermidine remains preclinical
+  (yeast/worm/fly/mouse) and mechanistic (autophagy induction); large-scale randomized human trials
+  with hard longevity or functional endpoints are not yet available, and users should treat the
+  human cognitive-benefit claim in particular with real caution given the SmartAge null result.
+
+side_effects_common:
+  - "Generally well tolerated across trials to date, including a 3-month trial at low dose and a 28-day trial at 40 mg/day"
+  - "No significant differences from placebo in vital signs, weight, or standard blood chemistry/hematology safety markers in controlled trials"
+
+safety_notes: >
+  Spermidine has shown a consistently favorable short-term safety profile across the human trials
+  conducted so far, including in older adults, with high (>85%) compliance and no significant safety
+  signal versus placebo on standard clinical chemistry and hematology panels. That said, most human
+  trials have used low doses (1-3 mg/day) and shorter durations; the highest-dose human safety trial
+  to date (40 mg/day of a high-purity formulation) ran only 28 days, so this is not the same depth of
+  long-term human safety record as more established supplements like NAC or L-Carnitine elsewhere in
+  this encyclopedia. As a polyamine, spermidine is mechanistically implicated in cell proliferation
+  pathways, which has prompted theoretical (not clinically confirmed) caution in people with a
+  history of certain cancers; discuss with a physician if this applies to you. Consult a healthcare
+  provider before use.
+
+references:
+  - citation: "Eisenberg T, Knauer H, Schauer A, et al. Induction of autophagy by spermidine promotes longevity. Nat Cell Biol. 2009;11(11):1305-1314."
+    url: "https://pubmed.ncbi.nlm.nih.gov/19801973/"
+  - citation: "Schwarz C, Benson GS, Horn N, et al. Effects of Spermidine Supplementation on Cognition and Biomarkers in Older Adults With Subjective Cognitive Decline: A Randomized Clinical Trial (SmartAge). JAMA Netw Open. 2022;5(5):e2213875."
+    url: "https://pubmed.ncbi.nlm.nih.gov/35616942/"
+  - citation: "Supplementation of spermidine at 40 mg/day has minimal effects on circulating polyamines: An exploratory double-blind randomized controlled trial in older men. Nutr Res. 2024."
+    url: "https://pubmed.ncbi.nlm.nih.gov/39405978/"
+  - citation: "Wirth M, Benson G, Schwarz C, et al. Safety and tolerability of spermidine supplementation in mice and older adults with subjective cognitive decline. Cogn Neurosci. 2018."
+    url: "https://pubmed.ncbi.nlm.nih.gov/29315079/"
+
+research_protocols:
+  - goal: "General Autophagy / Healthy Aging Support"
+    dose: "1-3 mg once daily"
+    timing: "Any time of day"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. The largest long-term human trial to date did not confirm a cognitive benefit at this dose."
+    sort_order: 0

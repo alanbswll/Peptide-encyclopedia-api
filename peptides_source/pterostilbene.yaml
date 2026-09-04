@@ -1,0 +1,95 @@
+id: pterostilbene
+name: Pterostilbene
+status: draft
+
+category_ids:
+  - longevity
+
+overview: >
+  Pterostilbene is a naturally occurring stilbenoid, structurally related to resveratrol (its two
+  methoxy groups in place of resveratrol's hydroxyl groups), found mainly in blueberries and grapes.
+  It is often marketed as a "better-absorbed cousin" of resveratrol, and — like resveratrol,
+  quercetin, and NMN elsewhere in this encyclopedia — is a mainstream oral dietary supplement with a
+  real, if still-developing, human trial record, not an experimental research chemical.
+
+key_benefits:
+  - Structurally similar to resveratrol with reportedly better oral bioavailability in animal studies
+  - A dedicated human safety trial (up to 250 mg/day) found no adverse effects on hepatic, renal, or
+    glucose markers
+  - Studied in combination with nicotinamide riboside (as "NRPT") in a randomized, placebo-controlled
+    human trial that measured sustained NAD+ elevation
+  - Naturally occurring compound found in blueberries and grapes, with a food-level history of human exposure
+
+mechanism_of_action: >
+  Pterostilbene's most-cited proposed mechanism is agonism of PPAR-alpha (peroxisome
+  proliferator-activated receptor alpha), a nuclear receptor involved in lipid metabolism — this
+  mechanism is proposed to underlie its studied effects on cholesterol markers. Like other stilbenoid
+  polyphenols, it also has direct antioxidant activity and has been studied preclinically for
+  activity on sirtuin/AMPK signaling pathways associated with cellular energy metabolism, similar in
+  concept to (but mechanistically distinct in specifics from) resveratrol. Its two methoxy
+  substitutions (vs. resveratrol's hydroxyl groups) are believed to reduce first-pass metabolic
+  clearance, which is the basis for claims of improved oral bioavailability relative to resveratrol,
+  though head-to-head human comparative data is limited.
+
+quick_start_guide:
+  typical_dose: "50-250 mg/day; a randomized controlled trial in adults with hypercholesterolemia tested 50-125 mg twice daily (100-250 mg/day total), and a dedicated safety analysis established 250 mg/day as the upper dose without adverse effects on measured safety markers"
+  frequency: "1-2x daily"
+  best_timing: "With a meal containing some fat, consistent with other poorly water-soluble polyphenols"
+  effects_timeline: "Cholesterol-marker effects in the pivotal RCT were measured over 6-8 weeks; NAD+-elevation effects (in the NRPT combination trial) were measured over 8 weeks"
+  storage: "Room temperature, protect from light and moisture (oral capsule)"
+  cycle_length: "Typically used continuously rather than in defined cycles"
+  break_between: "Not standardized"
+
+pharmacokinetics:
+  peak: "Human oral pharmacokinetic data is limited; animal (rat) studies show oral bioavailability ranging widely by formulation — roughly 12-16% in simple oral suspension, but up to ~59% with a cyclodextrin-solubilized formulation, illustrating strong formulation-dependence"
+  half_life: "Estimated at roughly 60-95 minutes in animal pharmacokinetic studies; expected to be somewhat longer than resveratrol's, but rigorous human half-life data has not been independently established"
+  cleared: "Undergoes extensive phase II metabolism (methylation, glucuronidation, sulfation) in the intestine and liver, similar to other stilbenoids; detailed human clearance data is limited"
+
+research_indications:
+  - Cholesterol and lipid-marker support (studied in a placebo-controlled human trial in hypercholesterolemic adults)
+  - NAD+ elevation, in combination with nicotinamide riboside (studied as "NRPT")
+  - General antioxidant/polyphenol research, extrapolating substantially from resveratrol's more extensive literature given structural similarity
+
+reconstitution_steps:
+  - "Not applicable — dosed as an oral capsule, not reconstituted or injected"
+
+quality_indicators:
+  - "Sold as an oral capsule; look for a third-party COA confirming pterostilbene content and purity"
+  - "Trans-pterostilbene is the naturally occurring, studied form; confirm the product specifies trans- form rather than an unspecified isomer mixture"
+
+what_to_expect: >
+  Pterostilbene's human evidence base is smaller than resveratrol's but points in a similar
+  direction: a dedicated safety trial found no adverse effects on liver, kidney, or glucose markers
+  at doses up to 250 mg/day, and a separate RCT in people with high cholesterol found modest
+  favorable changes in lipid markers at 100-250 mg/day over 6-8 weeks. As with other polyphenols in
+  this encyclopedia, effects are gradual and modest rather than acute, and much of the "better than
+  resveratrol" marketing claim rests on animal bioavailability data and mechanistic reasoning about
+  its methoxy groups rather than head-to-head human comparative trials.
+
+side_effects_common:
+  - "No statistically significant adverse effects reported in the dedicated human safety trial at doses up to 250 mg/day"
+  - "Mild increase in LDL cholesterol was observed at the highest tested dose (250 mg/day) in the hypercholesterolemia RCT, a finding worth noting for anyone already managing cholesterol"
+
+safety_notes: >
+  The best available human safety data for pterostilbene — a randomized, placebo-controlled trial in
+  adults with hypercholesterolemia — found no statistically significant adverse effects on hepatic,
+  renal, or glucose safety markers at doses up to 250 mg/day, though it also noted a mild increase in
+  LDL cholesterol at that highest dose, which is worth discussing with a physician if you have
+  elevated cholesterol. Because it shares structural and mechanistic similarity with resveratrol,
+  some of the same theoretical caution around anticoagulant/antiplatelet drug interactions (via
+  effects on platelet function) applies, though this is extrapolated rather than independently
+  studied for pterostilbene specifically. Long-term human safety data beyond the ~2-month trial
+  periods studied so far is not established. Consult a healthcare provider before use.
+
+references:
+  - citation: "Riche DM, McEwen CL, Riche KD, et al. Analysis of safety from a human clinical trial with pterostilbene. J Toxicol. 2013;2013:463595."
+    url: "https://pubmed.ncbi.nlm.nih.gov/23431291/"
+  - citation: "Dellinger RW, Santos SR, Morris M, et al. Repeat dose NRPT (nicotinamide riboside and pterostilbene) increases NAD+ levels in humans safely and sustainably: a randomized, double-blind, placebo-controlled study. NPJ Aging Mech Dis. 2017;3:17."
+    url: "https://pubmed.ncbi.nlm.nih.gov/29184669/"
+
+research_protocols:
+  - goal: "Lipid / Cholesterol Marker Support"
+    dose: "100-125 mg twice daily"
+    timing: "With meals"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Consult a healthcare provider, particularly if you have elevated cholesterol."
+    sort_order: 0

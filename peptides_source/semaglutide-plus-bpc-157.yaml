@@ -1,0 +1,96 @@
+id: semaglutide-plus-bpc-157
+name: Semaglutide + BPC-157
+status: draft
+
+category_ids:
+  - fat-loss
+  - healing
+
+overview: >
+  A commercial blend combining the GLP-1 receptor agonist Semaglutide with the healing peptide
+  BPC-157 into a single vial, marketed by compounding pharmacies and telehealth weight-loss
+  clinics as a way to pair Semaglutide's appetite-suppression/weight-loss effect with BPC-157's
+  gut-lining and tissue-repair support — positioned in part to offset the gastrointestinal side
+  effects (nausea, gut irritation) that are common during GLP-1 dose escalation.
+
+key_benefits:
+  - Marketed for weight loss with added gut/tissue-support during GLP-1 therapy
+  - Combines Semaglutide's well-established, FDA-approved appetite-suppression mechanism with BPC-157's angiogenesis/growth-factor-driven gut and tissue repair
+  - Rationale cited by compounders is that BPC-157 may help offset GI side effects common during Semaglutide dose escalation, though this specific rationale has not been tested in a trial
+
+mechanism_of_action: >
+  This is a commercial combination of two separately researched compounds, not a single studied
+  peptide. Semaglutide mimics the incretin hormone GLP-1, activating GLP-1 receptors in the
+  pancreas, brain, and gut to stimulate glucose-dependent insulin secretion, suppress glucagon,
+  slow gastric emptying, and reduce hunger via hypothalamic appetite centers — this is the
+  FDA-approved mechanism behind its use in Ozempic/Wegovy. BPC-157 is a synthetic peptide derived
+  from a protective protein found in gastric juice; it promotes angiogenesis and modulates growth
+  factor pathways associated with gut-lining integrity and tissue repair. The blend's marketed
+  rationale is that pairing appetite suppression with gut-protective/healing support may make
+  GLP-1 therapy more tolerable, but the combination itself — including this specific rationale —
+  has not been studied as a unit in any published trial. All efficacy and safety data available
+  applies to each compound individually, not to the combined formulation or the doses/ratios sold
+  by any given compounder.
+
+quick_start_guide:
+  typical_dose: "Formulations vary by compounder; commonly combines a standard weekly Semaglutide dose (titrated from 0.25 mg up to a 1-2.4 mg maintenance range) with a daily or twice-daily BPC-157 dose (commonly 250-500 mcg) in the same or a co-prescribed vial"
+  frequency: "Semaglutide component: 1x weekly; BPC-157 component: 1-2x daily"
+  injection_site_ids:
+    - abdomen-subq
+    - thigh-subq
+  best_timing: "Semaglutide: same day each week, any time of day; BPC-157: commonly dosed on an empty stomach"
+  effects_timeline: "Follows individual-component timelines: appetite suppression often noticeable within 1-2 weeks (Semaglutide), gut/healing effects described as gradual over weeks (BPC-157); no trial has established a timeline for the combined product"
+  storage: "Refrigerate; do not freeze; follow the compounding pharmacy's specific stability/beyond-use-date labeling, since combined-vial stability has not been independently studied"
+  cycle_length: "Semaglutide is typically used as a long-term, continuous therapy; BPC-157 is more commonly cycled (e.g. 4-6 weeks on, several weeks off) — compounders vary in how they reconcile these two different use patterns in one product"
+  break_between: "Not standardized for the combined product; varies by compounder/prescriber"
+
+research_indications:
+  - Chronic weight management (from the Semaglutide component; FDA-approved as a standalone drug, Wegovy)
+  - Type 2 diabetes glycemic control (from the Semaglutide component; FDA-approved as a standalone drug, Ozempic)
+  - Gut lining and general tissue repair (from the BPC-157 component; preclinical/limited human data)
+  - No trials have evaluated the combined Semaglutide + BPC-157 product itself, including the marketed claim that BPC-157 improves GI tolerability of Semaglutide
+
+reconstitution_steps:
+  - Follow the compounding pharmacy's specific instructions for the supplied formulation (pre-mixed liquid or lyophilized powder requiring reconstitution); refrigerate.
+
+quality_indicators:
+  - "Sourced from a licensed compounding pharmacy, not a research-chemical vendor, given this is intended for human dosing"
+  - "Clear, colorless to slightly yellow solution with no visible particulate after any required reconstitution"
+  - "Third-party COA or compounding-pharmacy certificate confirming the identity and quantity of both components in the vial"
+
+what_to_expect: >
+  As with the individual components, the Semaglutide portion's appetite-suppression and weight
+  effects are gradual, building over weeks to months as the dose is titrated upward, with common
+  early nausea/GI side effects. Any gut-protective or healing benefit attributed to the BPC-157
+  component is described as gradual and cumulative rather than immediate, consistent with
+  BPC-157's own research timelines. There is no published data on whether the combination changes
+  the tolerability or side-effect profile of Semaglutide alone.
+
+side_effects_common:
+  - "Nausea, vomiting, and diarrhea (most common, especially during Semaglutide dose escalation)"
+  - "Constipation"
+  - "Injection site reactions"
+  - "Fatigue"
+
+safety_notes: >
+  "Semaglutide + BPC-157" is a commercial combination product, not a peptide that has been
+  independently studied as a unit — no clinical or preclinical trials have evaluated this specific
+  two-peptide formulation, ratio, or the marketed claim that BPC-157 improves GI tolerability
+  during Semaglutide therapy. All available rigorous safety and efficacy data applies to
+  Semaglutide and BPC-157 individually. Semaglutide carries an FDA boxed warning for thyroid
+  C-cell tumors observed in rodent studies and is contraindicated in people with a personal or
+  family history of medullary thyroid carcinoma or Multiple Endocrine Neoplasia syndrome type 2;
+  it is also associated with rare but serious risks including pancreatitis, gallbladder disease,
+  and acute kidney injury. BPC-157 has limited long-term human safety data, with most evidence
+  coming from animal studies. Compounded combination products are not FDA-approved as fixed-dose
+  combinations and are not held to the same manufacturing and testing standards as an
+  FDA-approved drug like Wegovy or Ozempic. This is a research/compounded product, not an
+  FDA-approved treatment for any condition. Consult a healthcare provider, particularly given
+  Semaglutide's boxed warning and contraindications.
+
+research_protocols:
+  - goal: "Weight Management with Gut/Tissue Support"
+    dose: "Semaglutide 0.25 mg weekly (titrated per standard escalation schedule) plus BPC-157 250-500 mcg daily"
+    timing: "Semaglutide: same day each week; BPC-157: morning, empty stomach"
+    disclaimer: "For research purposes only. Not evaluated by the FDA as a combined product. Semaglutide and BPC-157 have not been studied together in any published trial."
+    sort_order: 0

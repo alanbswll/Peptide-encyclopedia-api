@@ -1,0 +1,87 @@
+id: crystagen
+name: Crystagen
+status: draft
+
+category_ids:
+  - immune
+
+overview: >
+  A synthetic tripeptide from the Khavinson-school family of short "bioregulator" peptides,
+  developed at the St. Petersburg Institute of Bioregulation and Gerontology as a tissue-specific
+  preparation targeting the thymus and immune system, part of the same research program that
+  produced Thymalin, Vilon, Cardiogen, and Livagen. Crystagen's supporting research comes almost
+  entirely from Khavinson-affiliated studies.
+
+key_benefits:
+  - Studied alongside Vilon, Thymogen, and a related peptide (R-1) for immunoprotective effects
+    in aging spleen tissue
+  - Marketed by the originating institute as an immune-system bioregulator derived from thymus
+    tissue analysis
+
+aliases:
+  - "Kristagen"                # direct transliteration of the Cyrillic "Кристаген" seen on some vendor labels
+
+mechanism_of_action: >
+  Crystagen is proposed to act as a short-peptide "bioregulator" affecting gene expression in
+  thymic and immune tissue, similar in concept to other Khavinson-group tripeptides. Russian
+  manufacturer materials describe its composition as glutamic acid, aspartic acid, and proline
+  (Glu-Asp-Pro), though this was not independently confirmed against a peer-reviewed structural
+  source. In a 2014 study of spleen tissue from aging animals, Crystagen was one of four short
+  peptides (alongside Vilon, Thymogen, and a peptide designated R-1) examined for molecular
+  mechanisms of immunoprotective activity, each reported to affect distinct aspects of
+  T-helper-cell and B-cell activation, proliferation, or apoptosis during splenic aging. The
+  precise molecular target and mechanism specific to Crystagen are not well-characterized outside
+  this research program, and no human clinical trial data was found.
+
+quick_start_guide:
+  typical_dose: "Not established for human use; not backed by human dosing studies"
+  frequency: "Not established"
+  injection_site_ids:
+    - abdomen-subq
+  best_timing: "Not established"
+  effects_timeline: "Not established in humans; the published spleen-aging study measured cell-population and molecular markers over the study period, not a human treatment timeline"
+  storage: "Refrigerate after reconstitution"
+  cycle_length: "Not established for human use"
+  break_between: "Not established for human use"
+
+pharmacokinetics:
+  peak: "Not established"
+  half_life: "Not established"
+  cleared: "Not established"
+
+research_indications:
+  - Immunoprotective activity in aging spleen tissue (animal study, alongside Vilon and Thymogen)
+  - Marketed for general immune-system bioregulation (manufacturer claim)
+
+reconstitution_steps:
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White to off-white lyophilized powder that fully dissolves into a clear solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate after reconstitution"
+
+what_to_expect: >
+  There is no established human effect profile for Crystagen. Available evidence is from one
+  animal study of splenic immune aging, conducted by researchers affiliated with Vladimir
+  Khavinson's institute; no human clinical trials or independent replications by research groups
+  outside that program were found.
+
+safety_notes: >
+  Crystagen's evidence base is limited almost entirely to one animal study, published by Vladimir
+  Khavinson's research group and collaborators in a lower-circulation Russian gerontology journal,
+  alongside manufacturer marketing claims. There is no independent human safety or efficacy data.
+  This is an experimental research compound with unverified relevance to humans, not an approved
+  treatment for any immune or other condition. It should not be used as infection prevention or
+  treatment for any immune disorder. Consult a healthcare provider.
+
+references:
+  - citation: "Chervyakova NA, Linkova NS, Chalisova NI, Koncevaya EA, Trofimova SV, Khavinson VK. [Molecular aspects of immunoprotective activity of peptides in spleen during the ageing process]. Adv Gerontol. 2014;27(1):224-228."
+    url: "https://pubmed.ncbi.nlm.nih.gov/28976144/"
+
+research_protocols:
+  - goal: "Immune / Thymic Tissue Bioregulation Research Interest (animal-data only, no human protocol established)"
+    dose: "Not established for human use"
+    timing: "Not established"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Evidence is limited to a single animal study from a single research group."
+    sort_order: 0

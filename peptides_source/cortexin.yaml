@@ -1,0 +1,94 @@
+id: cortexin
+name: Cortexin
+status: draft
+
+category_ids:
+  - cognitive
+
+overview: >
+  A polypeptide complex extracted from the cerebral cortex of cattle or pigs, developed by
+  Vladimir Khavinson's group at the St. Petersburg Institute of Bioregulation and Gerontology.
+  Like Thymalin (thymus-derived), Cortexin is not a single defined peptide but a mixture of
+  low-molecular-weight polypeptides (roughly 1,000–10,000 Da) pulled from brain tissue. It has
+  been a registered pharmaceutical in Russia and other CIS countries for decades, mainly for
+  ischemic stroke, traumatic brain injury, and other neurological conditions, though it is not
+  FDA-approved and most of the supporting trial literature is Russian-language.
+
+key_benefits:
+  - Studied for cognitive and neurological recovery after brain injury
+  - Registered in Russia as a neuroprotective treatment for ischemic stroke and traumatic brain injury (not FDA-evaluated)
+  - Explored in animal models for antioxidant and neuroprotective effects during brain ischemia
+
+mechanism_of_action: >
+  Cortexin is proposed to act as a tissue-specific "bioregulator," similar in concept to other
+  Khavinson-group extracts such as Thymalin: as a mixture of small, blood-brain-barrier-crossing
+  polypeptides, it is described as modulating neuronal metabolism, rebalancing neurotransmitter
+  levels (serotonin, dopamine, amino acids), and reducing oxidative stress in neural tissue. A
+  2021 peer-reviewed rat study comparing Cortexin, Cerebrolysin, and Actovegin found neuroprotective
+  effects across acute and chronic brain-ischemia models. Because Cortexin is a complex mixture
+  rather than a single defined sequence, its precise molecular target(s) are not as well
+  characterized as those of single-peptide drugs.
+
+quick_start_guide:
+  typical_dose: "5–10 mg, per Russian clinical protocols"
+  frequency: "1x daily"
+  injection_site_ids:
+    - glute-im
+    - deltoid-im
+  best_timing: "Morning, per traditional Russian clinical bioregulator protocols"
+  effects_timeline: "Not established outside the Russian-language clinical literature; published courses typically run 10 days"
+  storage: "Refrigerate after reconstitution"
+  cycle_length: "10 days, per Russian clinical course dosing"
+  break_between: "Several months, with courses sometimes repeated periodically per Russian clinical practice"
+
+pharmacokinetics:
+  peak: "Not established in independently replicated, English-language literature"
+  half_life: "Not established in independently replicated, English-language literature"
+  cleared: "Not established in independently replicated, English-language literature"
+
+research_indications:
+  - Post-stroke cognitive and motor recovery (registered use in Russia; not FDA-evaluated)
+  - Traumatic brain injury and age-related cognitive decline (Russian clinical literature)
+  - Neuroprotection and reduced oxidative stress in brain-ischemia models (preclinical, rat)
+
+reconstitution_steps:
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White to off-white lyophilized powder that fully dissolves into a clear solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate after reconstitution"
+
+what_to_expect: >
+  There is no well-characterized subjective effect profile outside of Russian clinical practice.
+  Available data centers on cognitive/motor outcome scores in Russian stroke-recovery trials and
+  on antioxidant/neuroprotective markers in rodent ischemia studies; this evidence has not been
+  independently replicated by research groups outside Russia and the broader CIS region.
+
+side_effects_common:
+  - "Injection site soreness or redness"
+  - "Allergic reaction risk given the compound's animal-tissue origin"
+
+safety_notes: >
+  Nearly all clinical research on Cortexin comes from Russian and CIS institutions, published
+  mainly in Russian-language journals with limited independent replication in Western,
+  English-language trials. It is a registered pharmaceutical in Russia but has never been
+  reviewed or approved by the FDA, EMA, or other major Western regulators, and Russian regulatory
+  approval has no bearing on US legal status. As a biological extract derived from animal (bovine
+  or porcine) brain tissue, there are theoretical concerns about batch-to-batch variability,
+  immunogenicity, and (in principle) prion-related risk, though no such events have been reported
+  in the literature reviewed. This is a research compound, not an approved treatment for any
+  condition in the US. Consult a healthcare provider.
+
+references:
+  - citation: "Mashin VV, Belova LA, Chaplanova OI, Khusnullina AF, Manasian AM. [An open clinical trial of cortexin in treatment of brain ischemia]. Zh Nevrol Psikhiatr Im S S Korsakova. 2014;114(9):49-52."
+    url: "https://pubmed.ncbi.nlm.nih.gov/25403301/"
+  - citation: "Kurkin DV, Bakulin DA, Morkovin EI, et al. Neuroprotective action of Cortexin, Cerebrolysin and Actovegin in acute or chronic brain ischemia in rats. PLoS ONE. 2021;16(7):e0254493."
+    url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8279368/"
+
+research_protocols:
+  - goal: "Post-Injury Cognitive Recovery Support (research interest)"
+    dose: "5–10 mg once daily for a 10-day course"
+    timing: "Morning"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Supporting evidence is concentrated in Russian-language clinical literature."
+    sort_order: 0

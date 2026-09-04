@@ -1,0 +1,117 @@
+# NOTE on identity: "IDF-DES" does not match any documented compound name. The closest real,
+# documented match by mechanism and by common vendor naming is Des(1-3)IGF-1 (also written
+# "IGF-1 DES" or "des-IGF-1"), a truncated IGF-1 analog missing its first three N-terminal amino
+# acids. "IDF-DES" is treated here as a likely transposition/typo of "IGF-DES" (a vendor
+# shorthand for IGF-1 DES). Filed under its correct scientific name, with the shorthand listed
+# as an alias.
+id: des-1-3-igf-1
+name: Des(1-3)IGF-1
+status: draft
+
+category_ids:
+  - growth-hormone
+
+overview: >
+  Des(1-3)IGF-1 (commonly sold as "IGF-1 DES") is a naturally occurring, truncated form of
+  insulin-like growth factor 1, missing the first three N-terminal amino acids (Gly-Pro-Glu) of
+  full-length IGF-1, produced endogenously in the brain and other tissues by proteolytic
+  processing of mature IGF-1. Like its better-known sibling IGF-1 LR3 (see `igf-1-lr3.yaml`),
+  the modification is designed around evading IGF-binding proteins (IGFBPs) to increase the
+  freely active fraction — but where LR3 achieves that with an N-terminal extension and a point
+  substitution, DES achieves it by simple truncation, which comes with a markedly shorter
+  half-life than LR3's.
+
+key_benefits:
+  - Substantially reduced IGF-binding-protein affinity increases the freely active fraction relative to native IGF-1
+  - Foundational rodent studies report roughly 4-10x greater potency than native IGF-1 in IGFBP-rich assay systems
+  - Very short half-life relative to IGF-1 LR3, which some research interest frames as useful for a narrow window of localized activity
+
+aliases:
+  - "IGF-1 DES"
+  - "IGF-DES"
+  - "IDF-DES"
+  - "Des-IGF-1"
+  - "Des(1-3)IGF-1"
+  - "DES(1-3)IGF-I"
+  - "Truncated IGF-1"
+
+mechanism_of_action: >
+  Des(1-3)IGF-1 retains full agonist activity at the type 1 IGF receptor (IGF-1R), but the
+  missing N-terminal tripeptide (Gly-Pro-Glu) is specifically recognized by IGF-binding proteins,
+  so its removal produces roughly a 10-fold reduction in IGFBP binding affinity. Because IGFBPs
+  normally sequester the large majority of circulating IGF-1 and limit its bioavailability, this
+  reduced binding leaves substantially more of the molecule freely active in IGFBP-rich
+  environments — foundational rodent studies (Gillespie et al., 1990) found enhanced potency of
+  roughly 4-10x relative to native IGF-1 depending on the assay system, with the effect being
+  mostly a "free fraction" phenomenon rather than a change in receptor affinity itself (in pure
+  IGF-1R binding assays without IGFBPs present, the potency difference compresses to roughly
+  2-4x). Unlike IGF-1 LR3, which pairs reduced IGFBP binding with an N-terminal extension that
+  also slows clearance, DES's simple truncation does not protect it from rapid degradation — it
+  is cleared far faster than LR3, with a reported half-life on the order of only ~20 minutes.
+
+quick_start_guide:
+  typical_dose: "Not established in controlled human trials; vendor/community conventions commonly cite the low tens of micrograms, localized post-workout, echoing IGF-1 LR3 protocols, but with no equivalent human dosing study behind it"
+  frequency: "Multiple times daily in common informal use patterns, owing to its very short half-life relative to IGF-1 LR3 — not derived from a published human dosing study"
+  injection_site_ids:
+    - abdomen-subq
+    - near-injury
+  best_timing: "Post-workout, taken with food or a carbohydrate source to offset hypoglycemia risk, mirroring IGF-1 LR3 practice"
+  effects_timeline: "Acute hypoglycemic-type effects can appear within an hour of dosing if not paired with food; any longer-term anabolic effects are drawn from animal research and are not established in controlled human studies"
+  storage: "Refrigerate immediately after reconstitution; given its very short half-life and rapid degradation profile, stability after mixing is limited even relative to IGF-1 LR3"
+  cycle_length: "4-6 weeks, mirroring IGF-1 LR3 convention, kept short given hypoglycemia risk"
+  break_between: "4-6 weeks"
+
+pharmacokinetics:
+  peak: "Not established in controlled human studies; expected to be rapid given its small size and lack of IGFBP protection"
+  half_life: "~20 minutes in animal studies — markedly shorter than IGF-1 LR3's ~20-30 hours, because DES lacks LR3's additional modifications that slow clearance"
+  cleared: "Rapidly, within a few hours, consistent with its short half-life"
+
+research_indications:
+  - Anabolic and nitrogen-retention research in animal models (foundational rat studies)
+  - Used as a tool compound for probing IGF-1 receptor signaling independent of IGFBP sequestration, alongside IGF-1 LR3
+  - Localized, short-window muscle growth research (preclinical)
+
+reconstitution_steps:
+  - Reconstitute carefully; use within the recommended window — its short half-life and rapid degradation give an even narrower usable window than IGF-1 LR3.
+
+quality_indicators:
+  - "White, lyophilized powder that fully dissolves into a clear, colorless solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "Precise, accurate dosing at reconstitution matters more than with less potent peptides given the narrow margin between research and hypoglycemia-inducing doses"
+
+what_to_expect: >
+  There is typically no acute local sensation at the injection site; the main acute concern, as
+  with IGF-1 LR3, is systemic — a drop in blood sugar (hypoglycemia) within the first hour or so
+  if not paired with food. Any anabolic or muscle-growth effects are drawn from animal research
+  rather than established human trials. Because of its very short half-life, effects (and the
+  hypoglycemia risk window) would be expected to resolve faster than with IGF-1 LR3, but this has
+  not been formally studied in humans.
+
+side_effects_common:
+  - "Hypoglycemia (shakiness, sweating, confusion) — the most significant acute risk"
+  - "Injection site discomfort"
+  - "Fluid retention"
+  - "Headache"
+
+safety_notes: >
+  Des(1-3)IGF-1's evidence base, like IGF-1 LR3's, comes from foundational animal research
+  (Gillespie et al., 1990, in lit/lit dwarf mice) rather than controlled human trials, and it is
+  not approved for human use by any regulatory agency. Its very short half-life means less is
+  known about its sustained systemic exposure profile compared to IGF-1 LR3, but its reduced
+  IGFBP binding still creates a meaningful acute hypoglycemia risk, and its activation of the
+  IGF-1 receptor raises the same theoretical concern about promoting proliferation of
+  IGF-1-receptor-expressing tissue — including some tumor types — with repeated exposure. This is
+  a research compound only. Consult a healthcare provider.
+
+references:
+  - citation: "Gillespie C, Read LC, Bagley CJ, Ballard FJ. Enhanced potency of truncated insulin-like growth factor-I (des(1-3)IGF-I) relative to IGF-I in lit/lit mice. J Endocrinol. 1990;127(3):401-405."
+    url: "https://pubmed.ncbi.nlm.nih.gov/2280209/"
+  - citation: "Tomas FM, Knowles SE, Chandler CS, Francis GL, Owens PC, Ballard FJ. Anabolic effects of insulin-like growth factor-I (IGF-I) and an IGF-I variant in normal female rats. J Endocrinol. 1993;137(3):413-421. (Sibling IGF-1 LR3 study, cited for comparison — see igf-1-lr3.yaml)"
+    url: "https://pubmed.ncbi.nlm.nih.gov/8371075/"
+
+research_protocols:
+  - goal: "Localized Growth / Anabolic Signaling Research"
+    dose: "Not established in controlled human trials; informal protocols echo IGF-1 LR3 dosing at a higher frequency given the shorter half-life"
+    timing: "Post-workout"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Evidence base is primarily animal research, and is more limited than for IGF-1 LR3."
+    sort_order: 0

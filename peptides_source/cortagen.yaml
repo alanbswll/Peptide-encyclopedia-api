@@ -1,0 +1,94 @@
+id: cortagen
+name: Cortagen
+status: draft
+
+category_ids:
+  - cognitive
+
+overview: >
+  A synthetic tetrapeptide (Ala-Glu-Asp-Pro) from the Khavinson-school family of short
+  "bioregulator" peptides, developed at the St. Petersburg Institute of Bioregulation and
+  Gerontology as the synthesized short-peptide counterpart to Cortexin, an older natural
+  cattle-brain-cortex extract used in Russian clinical practice since the 1980s. Cortagen is part
+  of the same research program that produced Thymalin, Vilon, Cardiogen, and Livagen; its
+  supporting research comes almost entirely from Khavinson-affiliated studies.
+
+key_benefits:
+  - Studied in ischemic rats for accelerating recovery of disturbed behavior and limiting
+    oxidative stress in brain tissue
+  - Explored via microarray for effects on gene expression in mouse heart tissue, identifying
+    over 100 genes with altered expression after treatment
+  - Investigated alongside Cortexin as a combination approach for chronic cerebral ischemia in
+    Russian clinical pharmacology literature
+
+aliases: []
+
+mechanism_of_action: >
+  Cortagen is proposed to act as a short-peptide "bioregulator" affecting gene expression in
+  cerebral cortex tissue, similar in concept to other Khavinson-group tetrapeptides. In rat
+  models of cerebral ischemia with varying resistance to hypoxia, Cortagen (alongside the related
+  natural extract Cortexin) accelerated recovery of disturbed individual behavior and prevented
+  excessive lipid peroxidation while preserving antioxidant activity in brain tissue. A separate
+  microarray study in mice found that five days of Cortagen administration altered expression of
+  234 gene probes (corresponding to 110 known genes) in heart tissue — a cross-tissue gene
+  expression effect rather than a brain-specific one, illustrating the broad, not strictly
+  organ-limited, transcriptional effects reported for these short peptides. The precise molecular
+  target and mechanism are not well-characterized outside this research program, and no human
+  clinical trial data specific to Cortagen was found.
+
+quick_start_guide:
+  typical_dose: "Not established for human use; not backed by human dosing studies"
+  frequency: "Not established"
+  injection_site_ids:
+    - abdomen-subq
+  best_timing: "Not established"
+  effects_timeline: "Not established in humans; the ischemic-rat study assessed behavioral recovery over the post-ischemia observation period, not a human treatment timeline"
+  storage: "Refrigerate after reconstitution"
+  cycle_length: "Not established for human use"
+  break_between: "Not established for human use"
+
+pharmacokinetics:
+  peak: "Not established"
+  half_life: "Not established"
+  cleared: "Not established"
+
+research_indications:
+  - Behavioral recovery and antioxidant support after cerebral ischemia (rat models)
+  - Gene expression changes in cardiac tissue (mouse microarray study)
+
+reconstitution_steps:
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White to off-white lyophilized powder that fully dissolves into a clear solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate after reconstitution"
+
+what_to_expect: >
+  There is no established human effect profile for Cortagen. Available evidence is from rodent
+  ischemia and gene-expression studies conducted by researchers affiliated with Vladimir
+  Khavinson's institute; Cortagen's older natural-extract relative, Cortexin, has broader Russian
+  clinical use, but that clinical experience does not directly transfer to the synthetic
+  tetrapeptide. No human clinical trials of Cortagen itself or independent replications by
+  research groups outside this program were found.
+
+safety_notes: >
+  Cortagen's evidence base is limited almost entirely to rodent studies published by Vladimir
+  Khavinson's research group and collaborators, largely in lower-circulation Russian
+  pharmacology and neuroendocrinology journals. There is no independent human safety or efficacy
+  data for the synthetic tetrapeptide itself. This is an experimental research compound with
+  unverified relevance to humans, not an approved treatment for any neurological or other
+  condition. Consult a healthcare provider.
+
+references:
+  - citation: "Zarubina IV, Shabanov PD. [Cortexin and cortagen as correcting agents in functional and metabolic disorders in the brain in chronic ischemia]. Eksp Klin Farmakol. 2011;74(2):8-15."
+    url: "https://pubmed.ncbi.nlm.nih.gov/21476278/"
+  - citation: "Anisimov SV, Khavinson VKh, Anisimov VN. Elucidation of the effect of brain cortex tetrapeptide Cortagen on gene expression in mouse heart by microarray. Neuro Endocrinol Lett. 2004;25(1-2):87-93."
+    url: "https://pubmed.ncbi.nlm.nih.gov/15159690/"
+
+research_protocols:
+  - goal: "Cerebral Cortex Bioregulation Research Interest (animal-data only, no human protocol established)"
+    dose: "Not established for human use"
+    timing: "Not established"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Evidence is limited to rodent studies from a single research group; do not conflate with the separate clinical experience for Cortexin."
+    sort_order: 0

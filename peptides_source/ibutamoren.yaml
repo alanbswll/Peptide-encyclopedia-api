@@ -1,0 +1,112 @@
+# NOTE: the source checklist listed this compound twice, as separate line items
+# ("ibutamoren (mk-677)" and "mk-677"). They are the same compound (ibutamoren mesylate / MK-677
+# is a growth-hormone secretagogue small molecule) and are covered by this single file, with
+# MK-677 included in the aliases list below.
+id: ibutamoren
+name: Ibutamoren (MK-677)
+status: draft
+
+category_ids:
+  - growth-hormone
+
+overview: >
+  Ibutamoren (MK-677) is an orally active, non-peptide growth hormone secretagogue that mimics
+  ghrelin. Unlike the injectable GH-releasing peptides covered elsewhere in this app, it is a
+  small molecule taken by mouth, once daily, and produces sustained elevations in growth hormone
+  and IGF-1. It has a substantial human clinical trial history — more than most compounds in this
+  category — including a notable safety signal for congestive heart failure in an elderly trial
+  population.
+
+key_benefits:
+  - Oral dosing, once daily, unlike injectable GH secretagogues
+  - Restored GH and IGF-1 to young-adult levels and increased fat-free mass by ~1.1 kg over 2 years in a randomized trial of healthy older adults
+  - Amplifies the body's own pulsatile GH release rather than producing a flat, non-physiological elevation
+
+aliases:
+  - "MK-677"
+  - "MK 677"
+  - "Ibutamoren Mesylate"
+  - "Nutrobal"
+
+mechanism_of_action: >
+  MK-677 binds the growth hormone secretagogue receptor (GHS-R1a) — the same receptor ghrelin
+  activates — in the pituitary and hypothalamus, stimulating pulsatile GH release without
+  suppressing somatostatin the way some other secretagogues do. Because it amplifies the body's
+  natural GH pulses (which occur mainly during sleep and after exercise) rather than producing a
+  continuous elevation, its GH/IGF-1 profile is more physiological than direct exogenous GH
+  administration, though sustained daily dosing still keeps IGF-1 chronically elevated above
+  baseline. In the pivotal 2-year randomized trial in healthy older adults, MK-677 restored GH
+  and IGF-1 to young-adult levels and increased fat-free mass, but also increased fasting glucose
+  and reduced insulin sensitivity — a metabolic tradeoff consistent with GH axis activation more
+  broadly.
+
+quick_start_guide:
+  typical_dose: "10-25 mg/day, oral (25 mg/day was the dose used in the pivotal 2-year trial in healthy older adults)"
+  frequency: "1x daily, oral"
+  best_timing: "Typically taken at night, to align with the body's natural nocturnal GH pulse"
+  effects_timeline: "The pivotal trial measured body-composition changes over a full 2 years; subjective appetite and sleep changes are commonly reported within days to weeks, though that is not the trial's formal endpoint"
+  storage: "Oral capsule/liquid; store per product label at room temperature — not a lyophilized peptide requiring reconstitution"
+  cycle_length: "8-12 weeks in common informal use patterns; the pivotal clinical trial used continuous daily dosing for 2 years"
+  break_between: "4-8 weeks, per common informal use patterns — not derived from a specific published cycling study"
+
+pharmacokinetics:
+  peak: "Oral bioavailability is high; peak plasma concentration reached within a few hours of dosing"
+  half_life: "Approximately 24 hours, supporting the once-daily oral dosing schedule"
+  cleared: "Consistent with its ~24-hour half-life, largely cleared within about 2-3 days after stopping"
+
+research_indications:
+  - Growth hormone / IGF-1 axis restoration in aging adults (randomized human trial data)
+  - Body composition (fat-free mass) in older adults (randomized human trial data)
+  - Functional recovery after hip fracture in elderly patients (randomized human trial — safety signal found, see below)
+  - Sleep quality and appetite stimulation (secondary findings in trial and observational data)
+
+reconstitution_steps:
+  - "Not applicable — an oral capsule or liquid, not a lyophilized peptide requiring reconstitution"
+
+quality_indicators:
+  - "Sold as an oral capsule or liquid by research-chemical vendors; not FDA-approved or legally marketed as a human drug or dietary supplement"
+  - "Third-party COA available confirming identity and purity for any product purchased"
+
+what_to_expect: >
+  Commonly reported effects (increased appetite, more vivid dreams/deeper sleep, mild fluid
+  retention) tend to appear within the first 1-2 weeks. Meaningful body-composition change (the
+  ~1.1 kg fat-free mass increase seen in the pivotal trial) took a full 2 years to accrue in that
+  study population and should not be expected quickly. Because MK-677 chronically elevates GH and
+  IGF-1, fasting blood glucose commonly rises and insulin sensitivity commonly falls during use,
+  which is a consistent finding across its clinical trial history, not an idiosyncratic side effect.
+
+side_effects_common:
+  - "Increased appetite"
+  - "Transient mild lower-extremity edema (fluid retention)"
+  - "Muscle and joint pain"
+  - "Elevated fasting blood glucose and reduced insulin sensitivity"
+  - "Modest prolactin elevation, generally within the normal range at studied doses"
+
+safety_notes: >
+  MK-677 has one of the more substantial human clinical trial records among growth-hormone
+  secretagogues, and that record includes a real safety concern: a Phase IIb trial of elderly
+  hip-fracture patients (Adunsky et al., 2011) was terminated early after congestive heart
+  failure developed in 6.5% of the MK-677 group versus 1.7% of placebo, and the trial's primary
+  functional-recovery endpoint was not met. The pivotal 2-year trial in healthy older adults
+  (Nass et al., 2008) found consistent increases in fasting glucose and reduced insulin
+  sensitivity, meaning individuals with diabetes, prediabetes, or existing insulin resistance are
+  at elevated risk. Because sustained IGF-1 elevation promotes cell proliferation broadly, there
+  is a theoretical long-term cancer-risk concern that has not been resolved — MK-677's clinical
+  development program did not run long enough to characterize oncological risk with statistical
+  power. MK-677 (ibutamoren mesylate) is not FDA-approved for any indication and is not legal for
+  use as a dietary supplement ingredient. This is a research compound only, not an approved
+  treatment for any condition. Consult a healthcare provider, especially with any history of heart
+  failure, diabetes, or insulin resistance.
+
+references:
+  - citation: "Nass R, Pezzoli SS, Oliveri MC, et al. Effects of an oral ghrelin mimetic on body composition and clinical outcomes in healthy older adults: a randomized trial. Ann Intern Med. 2008;149(9):601-611."
+    url: "https://pubmed.ncbi.nlm.nih.gov/18981485/"
+  - citation: "Adunsky A, Chandler J, Heyden N, et al. MK-0677 (ibutamoren mesylate) for the treatment of patients recovering from hip fracture: a multicenter, randomized, placebo-controlled phase IIb study. Arch Gerontol Geriatr. 2011;53(2):183-189."
+    url: "https://doi.org/10.1016/j.archger.2010.10.004"
+
+research_protocols:
+  - goal: "GH/IGF-1 Axis and Body Composition Research (research interest)"
+    dose: "10-25 mg/day, oral"
+    timing: "Nightly, before sleep"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Human trial data includes a documented congestive heart failure safety signal in an elderly population — see safety_notes."
+    sort_order: 0

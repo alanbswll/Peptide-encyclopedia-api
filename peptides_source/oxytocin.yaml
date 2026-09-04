@@ -1,0 +1,110 @@
+id: oxytocin
+name: Oxytocin
+status: draft
+
+category_ids:
+  - sexual-health
+
+overview: >
+  A naturally occurring mammalian nonapeptide hormone and neurotransmitter, produced in the
+  hypothalamus and released by the posterior pituitary. It is best known physiologically for
+  triggering uterine contractions during labor and milk ejection during breastfeeding, and is
+  FDA-approved in injectable form (Pitocin) for those obstetric uses. More recently it has drawn
+  research and consumer interest — largely off-label and via compounding pharmacies or research
+  vendors — as an intranasal spray studied for social bonding, trust, anxiety, and sexual
+  response, though no intranasal oxytocin product currently holds FDA approval for any indication.
+
+key_benefits:
+  - FDA-approved (as Pitocin) for labor induction/augmentation and control of postpartum hemorrhage
+  - Widely studied off-label, intranasally, for social bonding, trust, and emotional connection
+  - Explored for sexual arousal, orgasm intensity, and pair-bonding effects
+
+aliases:
+  - "Pitocin"
+  - "Syntocinon"
+  - "OT"
+
+mechanism_of_action: >
+  Oxytocin acts on the G-protein-coupled oxytocin receptor (OXTR), which is densely expressed in
+  the uterine myometrium (driving contraction), mammary myoepithelial cells (driving milk
+  ejection), and numerous brain regions including the amygdala, hypothalamus, and nucleus
+  accumbens. Centrally, oxytocin signaling is implicated in social recognition, trust, pair
+  bonding, and stress/anxiety modulation; peripherally it also participates in sexual arousal and
+  is released during orgasm. Injectable (IV/IM) oxytocin acts primarily peripherally on the
+  uterus and breast. Intranasal formulations are studied as a route intended to reach the CNS
+  more directly, though human pharmacokinetic and neuroimaging studies show highly variable, dose-
+  dependent, and sometimes non-linear central effects.
+
+quick_start_guide:
+  typical_dose: "Research studies of intranasal oxytocin have most commonly used 24–40 IU per dose"
+  frequency: "Studied predominantly as single-dose or short-course research protocols rather than chronic daily self-administration"
+  best_timing: "Not established outside controlled research protocols; when studied for a specific social or sexual context, doses are typically given 30-45 minutes beforehand"
+  effects_timeline: "Salivary/plasma levels rise within minutes of intranasal dosing; behavioral/neuroimaging effects have been reported within 30-60 minutes in research settings"
+  storage: "Refrigerate; protect from light"
+  cycle_length: "Not established for repeated self-administration; most human studies use single or short-term dosing"
+  break_between: "Not established"
+
+pharmacokinetics:
+  peak: "Plasma levels peak roughly 15-45 minutes after intranasal dosing"
+  half_life: "Very short in peripheral circulation (~10-15 minutes IV; ~2 minutes reported for intranasal plasma exposure); central (CSF) presence has been reported for 20 minutes or more, and salivary oxytocin remains elevated for several hours"
+  cleared: "Rapidly degraded by circulating oxytocinases/peptidases; renal and hepatic clearance of intact peptide is minor relative to enzymatic breakdown"
+
+research_indications:
+  - Labor induction/augmentation and postpartum hemorrhage control (FDA-approved, injectable Pitocin)
+  - Historically approved for milk-letdown support via intranasal Syntocinon (US approval lapsed in 1997; not currently FDA-approved for this or any other intranasal indication)
+  - Social bonding, trust, and emotional/interpersonal research (autism spectrum disorder social impairment, PTSD, postpartum depression — studied, not FDA-approved)
+  - Sexual arousal, orgasm, and pair-bonding research
+
+reconstitution_steps:
+  - "Not applicable for the FDA-approved injectable (supplied ready-to-use); intranasal research-vendor sprays are typically supplied pre-mixed, not reconstituted from powder"
+
+quality_indicators:
+  - "FDA-approved injectable Pitocin should be sourced from a licensed pharmacy with intact, tamper-evident packaging"
+  - "Research-vendor or compounded intranasal sprays should include a third-party COA confirming peptide identity and concentration"
+  - "Clear, colorless solution with no visible particulate"
+
+what_to_expect: >
+  In its FDA-approved obstetric use, effects (uterine contraction, milk ejection) are rapid and
+  well characterized under clinical monitoring. For the off-label intranasal research uses that
+  generate most consumer interest, published results are mixed: some studies report improved
+  trust, empathy, or social-cue reading, while others find null or even opposite effects depending
+  on dose, sex, and context — a body of work sometimes summarized as "less is more," since higher
+  intranasal doses have not consistently outperformed lower ones and can produce paradoxical
+  effects on brain activity. There is no reliably established, dose-dependent subjective effect
+  profile for self-directed intranasal use.
+
+side_effects_common:
+  - "Nasal irritation (intranasal use)"
+  - "Headache"
+  - "Flushing"
+  - "Nausea"
+  - "Uterine hyperstimulation, water intoxication/hyponatremia, and cardiovascular effects (documented with the FDA-approved injectable obstetric use, under clinical monitoring)"
+
+safety_notes: >
+  Injectable oxytocin (Pitocin) is FDA-approved and has decades of clinical use, but strictly for
+  labor induction/augmentation and postpartum hemorrhage control under medical supervision — it
+  carries well-documented risks in that context, including uterine hyperstimulation/rupture, fetal
+  distress, and water intoxication with high-dose or prolonged IV use. Intranasal oxytocin, the
+  form most used in social/sexual/psychiatric research and by research-chemical vendors, is not
+  FDA-approved for any indication; the only US-approved intranasal product (Syntocinon, for
+  breastfeeding letdown) had its approval lapse in 1997 and is no longer marketed. Human research
+  on intranasal oxytocin's psychological and social effects is extensive but inconsistent, with
+  effects that vary by dose, sex, and individual differences, and no consensus optimal dosing
+  regimen. Long-term safety data for repeated self-administered intranasal use outside of a
+  supervised trial is limited. Consult a healthcare provider, particularly during pregnancy or if
+  taking other medications that affect blood pressure or fluid balance.
+
+references:
+  - citation: "U.S. FDA. Pitocin (oxytocin injection, USP) Prescribing Information."
+    url: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2018/018261s033lbl.pdf"
+  - citation: "Quintana DS, Rokicki J, van der Meer D, et al. Oxytocin pathway gene networks in the human brain. Nat Commun. 2019;10:668."
+    url: "https://www.nature.com/articles/s41467-019-08503-8"
+  - citation: "Spengler FB, Schultz J, Scheele D, et al. Kinetics and Dose Dependency of Intranasal Oxytocin Effects on Amygdala Reactivity. Biol Psychiatry. 2017;82(12):885-894."
+    url: "https://pubmed.ncbi.nlm.nih.gov/28216302/"
+
+research_protocols:
+  - goal: "Social/Emotional Research Interest (research-protocol dosing only)"
+    dose: "24-40 IU intranasal, single dose"
+    timing: "30-45 minutes before the relevant social or experimental context"
+    disclaimer: "For research purposes only. Not evaluated by the FDA outside the approved Pitocin injectable and its obstetric indications."
+    sort_order: 0

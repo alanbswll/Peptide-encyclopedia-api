@@ -9,6 +9,9 @@ status: published
 category_ids:
   - sleep
 
+aliases:
+  - "Emideltide"
+
 overview: >
   A short neuropeptide first isolated from rabbit cerebral venous blood in 1977 during a search
   for a natural sleep-promoting substance. It generated decades of research interest, but later

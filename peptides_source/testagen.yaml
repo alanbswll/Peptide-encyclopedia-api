@@ -1,0 +1,106 @@
+id: testagen
+name: Testagen
+status: draft
+
+category_ids:
+  - sexual-health
+
+overview: >
+  A synthetic tetrapeptide (Lys-Glu-Asp-Gly) from the Khavinson-school family of short
+  "bioregulator" peptides, developed at the St. Petersburg Institute of Bioregulation and
+  Gerontology as a tissue-specific preparation targeting testicular tissue, part of the same
+  research program that produced Thymalin, Vilon, Cardiogen, and Livagen. Testagen has one of the
+  more substantial evidence bases in this batch — including toxicology screening, a rodent
+  radiation-injury fertility model, and a small open-label human clinical study — though it
+  remains entirely from Khavinson-affiliated sources and was studied as an oral capsule, not an
+  injectable.
+
+key_benefits:
+  - Reported tissue-specific action on testicular tissue in toxicology screening, with no
+    significant effect on other organs tested (thymus, brain, heart, liver, pancreas, thyroid,
+    prostate, bladder, skin, kidneys, blood vessels, ovaries, retina)
+  - Studied in irradiated male rats for restoring fertility (pregnancy rate in mated females) after
+    radiation-induced testicular injury
+  - Investigated in a small open-label study of men aged 54-68 with age-related androgen decline
+    for effects on testosterone and semen parameters
+
+aliases: []
+
+mechanism_of_action: >
+  Testagen is proposed to act as a short-peptide "bioregulator" affecting gene expression in
+  testicular tissue (Leydig and Sertoli cells), similar in concept to other Khavinson-group
+  tetrapeptides. A DNA-interaction study found that fluorescently labeled Testagen (Lys-Glu-Asp-
+  Gly) penetrates the nucleus of HeLa cells and showed preferential in vitro binding to
+  CAG-containing DNA oligonucleotide sequences, consistent with the general Khavinson-group
+  hypothesis that these short peptides act by binding regulatory DNA regions rather than through
+  receptor-mediated signaling. In acute and chronic toxicity studies, Testagen showed no general
+  toxic, allergenic, immunotoxic, embryotoxic, teratogenic, or local-irritant effects even at
+  doses 10,000-15,000 times the proposed therapeutic dose. In a rat model of radiation-induced
+  testicular injury, Testagen given either preventively or starting 15 days post-irradiation
+  increased the pregnancy rate of mated females compared to untreated irradiated controls,
+  reported as tissue-specific action on testicular function. The precise molecular target and
+  mechanism are not well-characterized outside this research program.
+
+quick_start_guide:
+  typical_dose: "Not established for injectable/research use. The one human clinical study used oral capsules (1-2 capsules twice daily with meals for 20 days), not an injectable formulation"
+  frequency: "Not established for injectable use"
+  injection_site_ids:
+    - abdomen-subq
+  best_timing: "Not established for injectable use"
+  effects_timeline: "Not established for injectable use; the oral human study assessed testosterone and semen parameters after a 20-day course"
+  storage: "Refrigerate after reconstitution"
+  cycle_length: "Not established for injectable use; the human study used a 20-day oral course"
+  break_between: "Not established"
+
+pharmacokinetics:
+  peak: "Not established"
+  half_life: "Not established"
+  cleared: "Not established"
+
+research_indications:
+  - Tissue-specific action on testicular (Leydig/Sertoli cell) tissue (toxicology/DNA-binding
+    studies)
+  - Fertility restoration after radiation-induced testicular injury (rat model)
+  - Testosterone and semen-parameter changes in men aged 54-68 with age-related androgen decline
+    (small open-label human study, oral capsule)
+
+reconstitution_steps:
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White to off-white lyophilized powder that fully dissolves into a clear solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate after reconstitution"
+
+what_to_expect: >
+  The only human data found is a small, open-label (not placebo-controlled or blinded) study of
+  48 men aged 54-68 with age-related androgen decline, using an oral capsule formulation for 20
+  days. Reported changes included an increase in mean serum testosterone (from roughly 6.1 to 7.3
+  ng/mL), an increase in sperm count (roughly 16 to 22 million/mL), and improved sperm motility,
+  with no adverse effects reported in that study. This was not a randomized controlled trial, was
+  conducted entirely by the Khavinson-affiliated institute, has not been independently replicated,
+  and used an oral rather than injectable route — none of which supports any specific expectation
+  for an injectable research use of this peptide.
+
+safety_notes: >
+  Testagen's only human clinical data is a small, open-label, non-randomized study (48 men) from
+  the originating Russian institute, published in a specialty urology reference resource rather
+  than an independently reviewed journal indexed in PubMed, and using an oral capsule rather than
+  an injectable formulation. Toxicology and DNA-binding data come from the same research program.
+  There is no independent replication, no blinded controlled trial, and no injectable-route human
+  safety or dosing data of any kind. This is an experimental research compound with unverified
+  relevance to injectable human use, not an approved treatment for hypogonadism, infertility, or
+  any other condition. Consult a healthcare provider.
+
+references:
+  - citation: "Khavinson VKh, Ryzhak GA. [Clinical-experimental study of the peptide bioregulator Testagen]. Registr lekarstvennykh sredstv Rossii - Doktor Urologiya."
+    url: "https://www.rlsnet.ru/library/articles/urologiya/kliniko-eksperimentalnoe-izucenie-peptidnogo-bioregulyatora-testagena-96"
+  - citation: "Fedoreyeva LI, Kireev II, Khavinson VKh, Vanyushin BF. Penetration of short fluorescence-labeled peptides into the nucleus in HeLa cells and in vitro specific interaction of the peptides with deoxyribooligonucleotides and DNA. Biochemistry (Mosc). 2011;76(11):1210-1219."
+    url: "https://pubmed.ncbi.nlm.nih.gov/22117547/"
+
+research_protocols:
+  - goal: "Testicular Tissue / Age-Related Androgen Decline Research Interest (oral human study only; no injectable protocol established)"
+    dose: "Not established for injectable use"
+    timing: "Not established for injectable use"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. The only human data used an oral capsule formulation in a small, non-blinded, single-institute study; no injectable human data exists."
+    sort_order: 0

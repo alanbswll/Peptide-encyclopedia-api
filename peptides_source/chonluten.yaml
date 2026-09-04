@@ -1,0 +1,89 @@
+id: chonluten
+name: Chonluten
+status: draft
+
+category_ids:
+  - longevity                 # no respiratory/lung category exists in the lookup table; closest
+                               # available fit, matching sibling organ-specific bioregulators.
+
+overview: >
+  A synthetic tripeptide from the Khavinson-school family of short "bioregulator" peptides,
+  developed at the St. Petersburg Institute of Bioregulation and Gerontology and derived from
+  analysis of bronchial epithelial cells, part of the same research program that produced
+  Thymalin, Vilon, Cardiogen, and Livagen. It is closely related to — but marketed as a distinct
+  product from — Bronchogen, the other Khavinson bronchial/lung bioregulator in this batch.
+  Chonluten's supporting research comes almost entirely from Khavinson-affiliated studies.
+
+key_benefits:
+  - Studied in a human monocyte/macrophage cell line (THP-1) for inhibiting TNF production
+  - Marketed by the originating institute for bronchial mucosa and lung support, alongside
+    Bronchogen
+
+aliases:
+  - "Honluten"                 # direct transliteration of the Cyrillic "Хонлутен" seen on some vendor labels
+
+mechanism_of_action: >
+  Chonluten is proposed to act as a short-peptide "bioregulator" affecting gene expression in
+  bronchial mucosal tissue, similar in concept to other Khavinson-group tripeptides. Russian
+  manufacturer materials describe its composition as glutamic acid, aspartic acid, and glycine
+  (Glu-Asp-Gly), though this was not independently confirmed against a peer-reviewed structural
+  source. In a 2022 in vitro study of the human THP-1 monocyte/macrophage cell line, Chonluten was
+  one of five Khavinson-group peptides tested and was reported to inhibit tumor necrosis factor
+  (TNF) production and reduce cell adhesion to activated endothelial cells, alongside increased
+  tyrosine phosphorylation of mitogen-activated proliferation pathways shared across the peptides
+  tested. This is an immune-cell/inflammation assay rather than a bronchial-tissue-specific study.
+  The precise molecular target and mechanism are not well-characterized outside this research
+  program, and no human clinical trial data was found.
+
+quick_start_guide:
+  typical_dose: "Not established for human use; not backed by human dosing studies"
+  frequency: "Not established"
+  injection_site_ids:
+    - abdomen-subq
+  best_timing: "Not established"
+  effects_timeline: "Not established in humans; the published cell-line study measured cytokine and adhesion markers over the culture period, not a human treatment timeline"
+  storage: "Refrigerate after reconstitution"
+  cycle_length: "Not established for human use"
+  break_between: "Not established for human use"
+
+pharmacokinetics:
+  peak: "Not established"
+  half_life: "Not established"
+  cleared: "Not established"
+
+research_indications:
+  - TNF inhibition and reduced endothelial cell adhesion (human THP-1 monocyte/macrophage cell
+    line)
+  - Marketed for bronchial mucosa / lung support (manufacturer claim, alongside Bronchogen)
+
+reconstitution_steps:
+  - Reconstitute with bacteriostatic water; refrigerate.
+
+quality_indicators:
+  - "White to off-white lyophilized powder that fully dissolves into a clear solution"
+  - "Third-party COA available confirming peptide identity and purity"
+  - "No visible discoloration, clumping, or particulate after reconstitution"
+
+what_to_expect: >
+  There is no established human effect profile for Chonluten. Available evidence is limited to one
+  in vitro human monocyte/macrophage cell-line study conducted by researchers affiliated with
+  Vladimir Khavinson's institute (and co-authors at other European institutions); no human
+  clinical trials or independent replications specific to bronchial tissue were found.
+
+safety_notes: >
+  Chonluten's evidence base is limited to a single in vitro cell-line study and manufacturer
+  marketing claims; there is no bronchial-tissue-specific animal or human data, and no independent
+  human safety or efficacy data of any kind. This is an experimental research compound with
+  unverified relevance to humans, not an approved treatment for any respiratory or other
+  condition. Consult a healthcare provider.
+
+references:
+  - citation: "Avolio F, Martinotti S, Khavinson VK, et al. Peptides Regulating Proliferative Activity and Inflammatory Pathways in the Monocyte/Macrophage THP-1 Cell Line. Int J Mol Sci. 2022;23(7):3607."
+    url: "https://pubmed.ncbi.nlm.nih.gov/35408963/"
+
+research_protocols:
+  - goal: "Bronchial Mucosa Bioregulation Research Interest (single in vitro cell-line study only, no human protocol established)"
+    dose: "Not established for human use"
+    timing: "Not established"
+    disclaimer: "For research purposes only. Not evaluated by the FDA. Evidence is limited to a single in vitro cell-line study; no bronchial-tissue-specific data was found."
+    sort_order: 0
